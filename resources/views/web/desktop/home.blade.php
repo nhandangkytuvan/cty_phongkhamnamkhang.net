@@ -14,14 +14,14 @@
 	<div class="baner">
 		<div class="slick-home">
 			<div><img src="{{ asset('public/images/desktop/slide-1.png') }}" alt="" class="center-block"></div>
-			<div><img src="{{ asset('public/images/desktop/slide-1.png') }}" alt="" class="center-block"></div>
+			<div><img src="{{ asset('public/images/desktop/slide-2.png') }}" alt="" class="center-block"></div>
 		</div>
 		<script>
 			$('.slick-home').slick({
 			  	slidesToShow: 1,
 			  	slidesToScroll: 1,
-			  	// autoplay: true,
-			  	// autoplaySpeed: 2000,
+			  	autoplay: true,
+			  	autoplaySpeed: 2000,
 			});	
 		</script>
 	</div>
