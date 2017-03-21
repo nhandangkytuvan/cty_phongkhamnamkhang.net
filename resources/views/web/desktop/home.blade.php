@@ -13,8 +13,8 @@
 @section('content')
 	<div class="baner">
 		<div class="slick-home">
-			<div><img src="{{ asset('public/images/desktop/slide-1.png') }}" alt="" class="center-block"></div>
 			<div><img src="{{ asset('public/images/desktop/slide-2.png') }}" alt="" class="center-block"></div>
+			<div><img src="{{ asset('public/images/desktop/slide-1.png') }}" alt="" class="center-block"></div>
 		</div>
 		<script>
 			$('.slick-home').slick({
@@ -92,7 +92,7 @@
 			<div class="groups-btn">
 				<div class="flex flex1 justify-content-between">
 					<div class="flex1col1">
-						<button class="active"><i class="fa fa-caret-right" aria-hidden="true"></i> Bệnh lây truyền qua<br>đường tình dục</button>
+						<button class="active"><i class="fa fa-caret-right" aria-hidden="true"></i> Bệnh xã hội</button>
 					</div>
 					<div class="flex1col1">
 						<button><i class="fa fa-caret-right" aria-hidden="true"></i> Rối loạn chức năng<br>sinh dục</button>
