@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     @yield('title')
-    <meta name="author" content="xuongkhophn.net">
-    <meta property="og:site_name" content="xuongkhophn.net">
+    <meta name="author" content="phongkhamnamkhang.net">
+    <meta property="og:site_name" content="phongkhamnamkhang.net">
     <meta property="og:type" content="website">
     @yield('keyword')
     <link rel="shortcut icon" href="{{ asset('public/img/'.$setting->web_icon) }}" type="image/x-icon">
@@ -22,8 +22,6 @@
 	<script type="text/javascript" src="{{ asset('public/js/global/jquery-1.12.3.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/jquery-scrolltofixed-min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/slick/slick.js') }}"></script>
-	<script type="text/javascript" src="{{ asset('public/js/desktop/right.js') }}"></script>
-	<script type="text/javascript" src="{{ asset('public/js/desktop/swt.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/desktop/desktop.js') }}"></script>
 	@yield('js')
 </head>
@@ -60,7 +58,7 @@
 		<div class="container">
 			<div class="flex flex1">
 				<div class="flex1col1 chidanbenh">
-					<h3 class="text-container-center"><a class="text-container-center" href="#">Chỉ dẫn bệnh</a></h3>
+					<h3 class="text-container-center"><a class="text-container-center" href="#">Danh mục bệnh</a></h3>
 					<div class="menu-items">
 						<div class="menu-item">
 							<h4>Khoa nam khoa</h4>
