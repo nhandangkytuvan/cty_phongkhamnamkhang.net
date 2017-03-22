@@ -146,6 +146,8 @@
 } 
 .home .row5 .groups-btn button.active{
 	border-color: #117982;
+	background-color: #117982;
+	color: #fff;
 }
 /**/
 .home .row6{
@@ -174,6 +176,10 @@
 .home .row6 .flex1col2 >div >div p a{
 	color: #0191a7;
 } 
+.home .row6 .flex1col2 >div >div p a:hover{
+	text-decoration: underline;
+	color: red;
+}
 .home .row6 .flex1col2 >div >div:last-child a{
 	width: 165px;
 	height: 38px;
@@ -327,13 +333,16 @@
 }
 .home .row11 .tb p{
 	position: absolute;
-	width: 326px;
-	background-color: #7cc7d2;
+	width: 326px;overflow: hidden;
+	background-image: url('../../images/desktop/icon-9.png');
 	color: #fff;
-	opacity: 0.8;
 	padding:5px;
 	bottom: 0;
 	left: 3px;
+}
+.home .row11 .tb p a:hover{
+	text-decoration: underline;
+	color: red;
 }
 .home .row11 >div:last-child{
 	margin-top: 33px;

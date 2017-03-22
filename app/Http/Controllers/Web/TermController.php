@@ -27,11 +27,7 @@ class TermController extends Controller{
         $data['term'] = $term;
         $data['setting'] = $setting;
         if(BrowserDetect::isDesktop()){
-            if(count($term->children)){
-            	return view('web.desktop.term',['data'=>$data]); 
-            }else{
-            	return view('web.desktop.term2',['data'=>$data]); 
-            }
+            return view('web.desktop.term',['data'=>$data]); 
         }else{
             return view('web.mobile.term',['data'=>$data]); 
         }
