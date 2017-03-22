@@ -151,18 +151,30 @@
 .home .row6{
 	margin-top: 37px;
 }
+.home .row6 .flex1col1>div{
+	display: none;
+}
+.home .row6 .flex1col1>div.active{
+	display: block;
+}
 .home .row6 .flex1col2{
 	width: 493px;
 	line-height: normal;
 }
-.home .row6 .flex1col2 >div p{
+.home .row6 .flex1col2 >div{
+	display: none;
+}
+.home .row6 .flex1col2 >div.active{
+	display: block;
+}
+.home .row6 .flex1col2 >div >div p{
 	font-size: 18px;
 	margin-top: 37px;
 }
-.home .row6 .flex1col2 >div p a{
+.home .row6 .flex1col2 >div >div p a{
 	color: #0191a7;
 } 
-.home .row6 .flex1col2 >div:last-child a{
+.home .row6 .flex1col2 >div >div:last-child a{
 	width: 165px;
 	height: 38px;
 	line-height: 38px;

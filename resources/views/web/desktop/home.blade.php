@@ -115,17 +115,122 @@
 		<div class="row6">
 			<div class="flex1 flex justify-content-between">
 				<div class="flex1col1">
-					<img src="{{ asset('public/images/desktop/home-5.png') }}" class="center-block">
-				</div>
-				<div class="flex1col2">
-					<p class="text-justify">
-						Bệnh lây truyền qua đường tình dục là một trong những bệnh điều trị trọng điểm của phòng khám chúng tôi, kết hợp chặt chẽ giữa nghiên cứu khoa học lâm sàng và nghiên cứu giảng dạy, nhập thiết bị y tế và kĩ thuật điều trị tiên tiến trong và ngoài nước, như máy xét nghiệm sinh hóa tự động Abbott Hoa Kỳ, hệ thống kiểm tra DNA vi sinh vật, máy huỳnh quang hóa học miễn dịch, máy ELISA, hình thành mô hình khám chữa bệnh cột sống bằng điều trị xâm lấn tối thiểu đặc biệt, hội tụ nhiều chuyên gia về bệnh lây truyền qua đường tình dục trong và ngoài nước, mang đến cho bệnh nhân dịch vụ hiện đại hóa, chuyên nghiệp hóa, nhân văn hóa.
-					</p>
-					<div>
-						<p>Hạng mục khai thác điều trị: <a href="">Sùi mào gà</a>, <a href="">lậu</a>, <a href="">giang mang</a>, <a href="">mụn rộp sinh dục</a></p>
+					<div class="active">
+						<img src="{{ asset('public/images/desktop/home-5.png') }}" class="center-block">
 					</div>
 					<div>
-						<a href="" class="dis-inline-block">Tư vấn trực tuyến</a>
+						<img src="{{ asset('public/images/desktop/benh-2.png') }}" class="center-block">
+					</div>
+					<div>
+						<img src="{{ asset('public/images/desktop/benh-3.png') }}" class="center-block">
+					</div>
+					<div>
+						<img src="{{ asset('public/images/desktop/benh-4.png') }}" class="center-block">
+					</div>
+					<div>
+						<img src="{{ asset('public/images/desktop/benh-5.png') }}" class="center-block">
+					</div>
+					<div>
+						<img src="{{ asset('public/images/desktop/benh-6.png') }}" class="center-block">
+					</div>
+				</div>
+				<div class="flex1col2">
+					<div class="active">
+						<p class="text-justify">
+							&nbsp;&nbsp;&nbsp;&nbsp;Bệnh lây truyền qua đường tình dục là một trong những bệnh điều trị trọng điểm của phòng khám chúng tôi, kết hợp chặt chẽ giữa nghiên cứu khoa học lâm sàng và nghiên cứu giảng dạy, nhập thiết bị y tế và kĩ thuật điều trị tiên tiến trong và ngoài nước, như máy xét nghiệm sinh hóa tự động Abbott Hoa Kỳ, hệ thống kiểm tra DNA vi sinh vật, máy huỳnh quang hóa học miễn dịch, máy ELISA, hình thành mô hình khám chữa bệnh cột sống bằng điều trị xâm lấn tối thiểu đặc biệt, hội tụ nhiều chuyên gia về bệnh lây truyền qua đường tình dục trong và ngoài nước, mang đến cho bệnh nhân dịch vụ hiện đại hóa, chuyên nghiệp hóa, nhân văn hóa.
+						</p>
+						<div>
+							<p>Mở rộng hạng mục điều trị:
+								<a href="">Sùi mào gà</a>,
+								<a href="">lậu</a>,
+								<a href="">giang mang</a>,
+								<a href="">mụn rộp sinh dục</a>
+							</p>
+						</div>
+						<div>
+							<a href="" class="dis-inline-block">Tư vấn trực tuyến</a>
+						</div>
+					</div>
+					<div>
+						<p class="text-justify">
+							&nbsp;&nbsp;&nbsp;&nbsp;Trung tâm chẩn đoán điều trị rối loạn chức năng sinh dục của Phòng khám Nam Khang Hà Nội chuyên điều trị các bệnh thường gặp như liệt dương, xuất tinh sớm, rối loạn chức năng cương dương và các bệnh thường gặp khác. Thiết bị kiểm tra chính xác, kĩ thuật điều trị và dịch vụ y tế ưu việt giúp cho nhiều bệnh nhân trong và ngoại tỉnh loại bỏ được những đau đớn do bệnh tật nhiều năm gây ra. Sử dụng kĩ thuật điều trị tiên tiến quốc tế, đồng thời tiến hành khám và điều trị, rút ngắn thời gian điều trị, nâng cao hiệu suất khám và điều trị, hiệu quả nhanh, độ an toàn cao, hiệu quả điều trị tốt và các ưu thế khác.
+						</p>
+						<div>
+							<p>Mở rộng hạng mục điều trị: 
+								<a href="">Xuất tinh sớm</a>,
+								<a href="">liệt dương</a>,
+								<a href="">rối loạn cương dương</a>,
+								<a href="">di tinh</a>
+							</p>
+						</div>
+						<div>
+							<a href="" class="dis-inline-block">Tư vấn trực tuyến</a>
+						</div>
+					</div>
+					<div>
+						<p class="text-justify">
+							&nbsp;&nbsp;&nbsp;&nbsp;Khoa tuyến tiền liệt chủ yếu điều trị các chứng nan y về tuyến tiền liệt như viêm tuyến tiền liệt, u nang tuyến tiền liệt…Sử dụng kĩ thuật đặc biệt kĩ thuật làm tan can thiệp tuyến tiền liệt, kĩ thuật này chủ yếu dùng điều trị các bệnh về tuyến tiền liệt như viêm tuyến tiền liệt cấp- mãn tính, tăng sinh tuyến tiền liệt, đau tuyến tiền liệt, phì đại tuyến tiền liệt, u nang tuyến tiền liệt…Căn cứ vào số liệu lâm sàng năm 2004 cho thấy: 20 triệu bệnh nhân mắc bệnh về tuyến tiền liệt sau khi được điều trị bằng liệu pháp làm tan can thiệp tuyến tiền liệt đã có 18,51 triệu bệnh nhân hồi phục và không tái phát.
+						</p>
+						<div>
+							<p>Mở rộng hạng mục điều trị: 
+								<a href="">Viêm tuyến tiền liệt</a>, 
+								<a href="">u nang tuyến tiền liệt</a>,
+								<a href="">tăng sinh tuyến tiền liệt</a>,
+								<a href="">đau tuyến tiền liệt</a>,
+								<a href="">vôi hóa tuyến tiền liệt</a>
+							</p>
+						</div>
+						<div>
+							<a href="" class="dis-inline-block" style="margin-top: 25px;">Tư vấn trực tuyến</a>
+						</div>
+					</div>
+					<div>
+						<p class="text-justify">
+							&nbsp;&nbsp;&nbsp;&nbsp;Để nâng cao hiệu quả điều trị và tỷ lệ hồi phục trong điều trị các bệnh viêm nhiễm sinh dục nam giới, phòng khám Nam Khang Hà Nội đã sử dụng hệ thống sóng siêu dẫn CRS, nghiên cứu nâng cấp lên thành “kĩ thuật miễn dịch nhiễm trùng đường niệu CRS”. Kĩ thuật này sử dụng sóng đa dẫn được sinh ra từ hệ thống sóng siêu dẫn nhiễm trùng đường niệu, sóng đa dẫn là tổ hợp hữu cơ sóng viba, hình thành chùm photon mạnh, từ đó tập trung tác dụng tại bề mặt và bên trong tổ chức bệnh, tiêu viêm diệt khuẩn. Có thể đạt được hiệu quả điều trị các chứng viêm nhiễm sinh dục nam giới.
+						</p>
+						<div>
+							<p>Mở rộng hạng mục điều trị: 
+								<a href="">Viêm niệu đạo</a>, 
+								<a href="">viêm túi tinh,</a>,
+								<a href="">viêm tinh hoàn</a>,
+								<a href="">viêm quy đầu</a>
+							</p>
+						</div>
+						<div>
+							<a href="" class="dis-inline-block">Tư vấn trực tuyến</a>
+						</div>
+					</div>
+					<div>
+						<p class="text-justify">
+							&nbsp;&nbsp;&nbsp;&nbsp; Vô sinh nam là một trong những hạng mục điều trị trọng điểm của phòng khám Nam Khang Hà Nội, chủ yếu điều trị các bệnh về tinh trùng như chết tinh trùng, ít tinh trùng, yếu tinh trùng….. Các phòng ban hội tụ đội ngũ chuyên gia và đội ngũ y tá về bệnh vô sinh nam trong và ngoài nước, có hơn 10 năm kinh nghiệm lâm sàng, sử dụng liệu pháp khám và điều trị bệnh khoa học, cá thể hóa, với cơ sở nghiên cứu lâm sàng nhiều năm đã xây dựng “liệu pháp đa chiều 4 trong 1”, mang lại niềm vui có con cho nhiều gia đình bệnh nhân mắc vô sinh, trở thành chuyên khoa chữa vô sinh nổi tiếng.
+						</p>
+						<div>
+							<p>Mở rộng hạng mục điều trị: 
+								<a href="">Chết tinh trùng</a>, 
+								<a href="">ít tinh trùng</a>,
+								<a href="">yếu tinh trùng</a>,
+								<a href="">vô tinh</a>
+							</p>
+						</div>
+						<div>
+							<a href="" class="dis-inline-block">Tư vấn trực tuyến</a>
+						</div>
+					</div>
+					<div>
+						<p class="text-justify">
+							&nbsp;&nbsp;&nbsp;&nbsp;Chỉnh hình bộ phận sinh dục là hạng mục điều trị đặc biệt của phòng khám Nam Khang Hà Nội, chủ yếu điều trị cắt bao quy đầu, tăng kích thước, kéo dài dương vật. Đưa vào sử sụng các kĩ thuật tiên tiến trên thế giới như “thủ thuật cắt bao quy đầu xâm lấn tối thiểu Hàn Quốc”, “kĩ thuật kéo dài dương vật định vị CF”….Phòng khám kế thừa tôn chỉ “tất cả vì bệnh nhân”, lấy “an toàn trong khám và điều trị” làm mục đích, có các chuyên gia trong và ngoài nước trực tiếp thăm khám điều trị, mang đến cho bệnh nhân muốn tiến hành chỉnh hình bộ phận sinh dục dịch vụ khám và điều trị chất lượng cao.
+						</p>
+						<div>
+							<p>Mở rộng hạng mục điều trị: 
+								<a href="">Dài bao quy đầu</a>, 
+								<a href="">hẹp bao quy đầu</a>,
+								<a href="">tăng độ dài</a>,
+								<a href="">kích thước dương vật</a>
+							</p>
+						</div>
+						<div>
+							<a href="" class="dis-inline-block">Tư vấn trực tuyến</a>
+						</div>
 					</div>
 				</div>
 			</div>

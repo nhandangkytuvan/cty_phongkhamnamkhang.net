@@ -251,7 +251,7 @@
 				</div>
 				<div class="flex1col3">
 					<h4 class="text-center text-uppercase">Phòng khám của nam giới</h4>
-					<h4 class="text-center text-uppercase">Việt Nam - Hà Nội - Nam Khang</h4>
+					<h4 class="text-center text-uppercase">Nam Khang - Hà Nội - Việt Nam</h4>
 				</div>
 			</div>
 		</div>
