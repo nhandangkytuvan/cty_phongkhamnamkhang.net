@@ -26,98 +26,65 @@ menu .chidanbenh .menu-items{
 	display: none;
 	position: absolute;
 	z-index: 1;
+	background-image: url('../../images/desktop/icon-8.png');
+	background-repeat: no-repeat;
+	width: 326px;
+	height: 600px;
+	padding-left:15px;
 }
+menu .chidanbenh .menu-items h4.bg2{
+	background-position: 0px -100px;
+}
+menu .chidanbenh .menu-items h4.bg3{
+	background-position: 0px -199px;
+}
+menu .chidanbenh .menu-items h4.bg4{
+	background-position: 0px -294px;
+}
+menu .chidanbenh .menu-items h4.bg5{
+	background-position: 0px -390px;
+}
+menu .chidanbenh .menu-items h4.bg6{
+	background-position: 0px -492px;
+}
+
 menu .chidanbenh:hover .menu-items{
 	display: block;
 }
-menu .chidanbenh .menu-items >.menu-item{
-	position: relative;
+menu .chidanbenh .menu-items>div{
+	padding: 10px 0px;
+	padding-bottom: 6px;
+	border-bottom: 2px solid #000;
+	margin-right: 6px;
 }
-menu .chidanbenh .menu-items >.menu-item >.item{
-	display: none;
-	position: absolute;
-	z-index: 1;
-	top:0;
-	left: 100%;
-}
-menu .chidanbenh .menu-items >.menu-item:hover >.item{
-	display: block;
-}
-menu .chidanbenh .menu-items >.menu-item >h4{
-	margin:0;
-	padding:15px 20px;
-	text-transform: uppercase;
-	color: #fff;
-	text-align: center;
-	background-color: #04bbbe;
-	font-size: 14px;
-	line-height: 16px;
-}
-menu .chidanbenh .menu-items >.menu-item >.item >.khung{
-	position: relative;
-}
-menu .chidanbenh .menu-items >.menu-item >.item >.khung >.khung-opacity{
-	width: 500px;
-	background-color: #000;
-	opacity: 0.7;height: 520px;
-}
-menu .chidanbenh .menu-items >.menu-item >.item >.khung >.khung-content{
-	position: absolute;
-	top:0;
-	width: 500px;
-	padding:0px 15px 15px 15px;
-}
-menu .chidanbenh .menu-items >.menu-item >.item >.khung >.khung-content{
-	color: #efefef;
-}
-menu .chidanbenh .menu-items >.menu-item >.item >.khung >.khung-content .flex5col1 a{
-	font-size: 18px;font-weight: bold;
-}
-menu .chidanbenh .menu-items >.menu-item >.item >.khung >.khung-content .flex5col2 *{
-	font-size: 12px;
-}
-menu .chidanbenh .menu-items >.menu-item >.item >.khung >.khung-content .flex5col2 span{
-	color: #ff0000;font-size: 12px;
-}
-menu .chidanbenh .menu-items >.menu-item >.item >.khung >.khung-content .flex5col2 a{
-	color: #fba100;font-size: 12px;
-}
-menu .chidanbenh .menu-items >.menu-item >.item >.khung >.khung-content .flex6{
-	margin-top: 10px;
-}
-menu .chidanbenh .menu-items >.menu-item >.item >.khung >.khung-content .flex6col1 a{
-	display: block;
-	font-size: 12px;
-}
-menu .chidanbenh .menu-items >.menu-item >.item >.khung >.khung-content .flex6col1 a:nth-child(1){
-	margin-bottom: 5px;
-}
-menu .chidanbenh .menu-items >.menu-item >.item >.khung >.khung-content .flex6col1{
-	flex-basis: 33.33%;
-}
-menu .chidanbenh .menu-items >.menu-item >.item >.khung >.khung-content .flex6col1 span{
-	position: relative;top:-6px;
-}
-menu .chidanbenh .menu-items >.menu-item >.item >.khung >.khung-content .khung-content-khoa{
-	padding:15px 0px;
-	border-bottom: 1px solid #6b6b6b;
-}
-menu .chidanbenh .menu-items >.menu-item >.item >.khung >.khung-content .khung-content-khoa:last-child{
+menu .chidanbenh .menu-items>div:last-child{
 	border-bottom: none;
 }
-menu .chidanbenh .menu-items >.menu-item >.item >.khung{
+menu .chidanbenh .menu-items h4{
+	font-size: 14px;
+	color: #79191b;
+	padding-left: 40px;
+	background-image: url('../../images/desktop/icon-7.png');
+	background-position: 0px 0px;
+	height: 27px;
+	line-height: 27px;
+	background-repeat: no-repeat;
 }
-menu .chidanbenh .menu-items >.menu-item >.item >.khung:after {
-	right: 100%;
-	top: 32px;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-	border-color: rgba(136, 183, 213, 0);
-	border-right-color: #013839;
-	border-width: 10px;
-	margin-top: -10px;
+menu .chidanbenh .menu-items .flex2{
+	margin-top: 12px;
+}
+menu .chidanbenh .menu-items .flex2 >div:first-child{
+	width: 140px;
+}
+menu .chidanbenh .menu-items .flex2 >div:last-child{
+	width: 172px;
+}
+menu .chidanbenh .menu-items .flex2col1 h5{
+	font-size: 12px;
+	color: #010101;
+	margin-bottom: 8px;
+}
+menu .chidanbenh .menu-items .flex2col1 h5 a:hover{
+	text-decoration: underline;
+	color: red;
 }

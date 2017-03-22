@@ -60,154 +60,81 @@
 				<div class="flex1col1 chidanbenh">
 					<h3 class="text-container-center"><a class="text-container-center" href="#">Danh mục bệnh</a></h3>
 					<div class="menu-items">
-						<div class="menu-item">
-							<h4>Khoa nam khoa</h4>
-							<div class="item">
-								<div class="khung">
-									<div class="khung-opacity">
-									</div>
-									<div class="khung-content">
-										<div class="khung-content-khoa">
-											<div class="flex flex5 justify-content-between">
-												<div class="flex5col1">
-													<div class="text-container-center" style="height: 100%;">
-														Khoa cột sống
-													</div>
-												</div>
-												<div class="flex5col2">
-													<div class="text-container-center" style="height: 100%;">
-														<div>
-															Đã thống kê có <span>5265</span><br> cuộc tư vấn với <a href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en">bác sĩ qua mạng</a>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="flex flex6 justify-content-between">
-												<div class="flex6col1">
-													<a href="{{ MyAPI::getUrlTerm(4) }}">Thoát vị đã đệm đốt sống lưng</a>
-													<a href="{{ MyAPI::getUrlTerm(5) }}">Hẹp ống ống</a>
-												</div>
-												<div class="flex6col1">
-													<a href="{{ MyAPI::getUrlTerm(2) }}">Bệnh đốt sống cổ</a>
-													<a href="{{ MyAPI::getUrlTerm(3) }}">Bệnh đốt sống lưng</a>
-												</div>
-												<div class="flex6col1">
-												</div>
-											</div>
-										</div>
-										<div class="khung-content-khoa">
-											<div class="flex flex5 justify-content-between">
-												<div class="flex5col1">
-													<div class="text-container-center" style="height: 100%;">
-														Khoa xương khớp
-													</div>
-												</div>
-												<div class="flex5col2">
-													<div class="text-container-center" style="height: 100%;">
-														<div>
-															Đã thống kê có <span>4985</span><br> cuộc tư vấn với <a href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en">bác sĩ qua mạng</a>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="flex flex6 justify-content-between">
-												<div class="flex6col1">
-													<a href="{{ MyAPI::getUrlTerm(7) }}">Viêm khớp gối </a>
-													<a href="{{ MyAPI::getUrlTerm(8) }}">Viêm quanh khớp vai </a>
-												</div>
-												<div class="flex6col1">
-													<a href="{{ MyAPI::getUrlTerm(10) }}">Viêm màng bao hoạt dịch</a>
-													<a href="{{ MyAPI::getUrlTerm(11) }}">Hoại tử chỏm xương đùi</a>
-												</div>
-												<div class="flex6col1">
-												</div>
-											</div>
-										</div>
-										<div class="khung-content-khoa">
-											<div class="flex flex5 justify-content-between">
-												<div class="flex5col1">
-													<div class="text-container-center" style="height: 100%;">
-														Khoa dây thần kinh cột sống
-													</div>
-												</div>
-												<div class="flex5col2">
-													<div class="text-container-center" style="height: 100%;">
-														<div>
-															Đã thống kê có <span>5865</span><br> cuộc tư vấn với <a href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en">bác sĩ qua mạng</a>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="flex flex6 justify-content-between">
-												<div class="flex6col1">
-													<a href="{{ MyAPI::getUrlTerm(14) }}">Đau cổ vai lưng chân</a>
-													<a href="{{ MyAPI::getUrlTerm(15) }}">Viêm cơ mạc</a>
-												</div>
-												<div class="flex6col1">
-													<a href="{{ MyAPI::getUrlTerm(16) }}">Đau thần kinh tọa</a>
-													<a href="{{ MyAPI::getUrlTerm(19) }}">Đau gót chân</a>
-												</div>
-												<div class="flex6col1">
-													<a href="{{ MyAPI::getUrlTerm(17) }}">Chứng loãng xương</a>
-													<a href="{{ MyAPI::getUrlTerm(18) }}">Gai xương</a>
-												</div>
-											</div>
-										</div>
-										<div class="khung-content-khoa">
-											<div class="flex flex5 justify-content-between">
-												<div class="flex5col1">
-													<div class="text-container-center" style="height: 100%;">
-														Ngoại khoa tay chân
-													</div>
-												</div>
-												<div class="flex5col2">
-													<div class="text-container-center" style="height: 100%;">
-														<div>
-															Đã thống kê có <span>7815</span><br> cuộc tư vấn với <a href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en">bác sĩ qua mạng</a>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="flex flex6 justify-content-between">
-												<div class="flex6col1">
-													<a href="{{ MyAPI::getUrlTerm(21) }}">Viêm bao gân</a>
-													<a href="{{ MyAPI::getUrlTerm(22) }}">Viêm gân gót chân</a>
-												</div>
-												<div class="flex6col1">
-												</div>
-												<div class="flex6col1">
-												</div>
-											</div>
-										</div>
-										<div class="khung-content-khoa">
-											<div class="flex flex5 justify-content-between">
-												<div class="flex5col1">
-													<div class="text-container-center" style="height: 100%;">
-														Khoa thấp khớp
-													</div>
-												</div>
-												<div class="flex5col2">
-													<div class="text-container-center" style="height: 100%;">
-														<div>
-															Đã thống kê có <span>6895</span><br> cuộc tư vấn với <a href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en">bác sĩ qua mạng</a>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="flex flex6 justify-content-between">
-												<div class="flex6col1">
-													<a href="{{ MyAPI::getUrlTerm(24) }}">Viêm khớp dạng thấp</a>
-													<a href="{{ MyAPI::getUrlTerm(25) }}">Viêm khớp phong thấp</a>
-												</div>
-												<div class="flex6col1">
-													<a href="{{ MyAPI::getUrlTerm(27) }}">Viêm cột sống dính khớp</a>
-													<a href="{{ MyAPI::getUrlTerm(26) }}">Gout</a>
-												</div>
-												<div class="flex6col1">
-												</div>
-											</div>
-										</div>
-									</div>
+						<div>
+							<h4 class="bg bg1"><a href="">Bệnh về tuyến tiền liệt</a></h4>
+							<div class="flex flex2 justify-content-between">
+								<div class="flex2col1">
+									<h5><a href="#">Viêm tuyến tiền liệt</a></h5>
+									<h5><a href="#">U nang tuyến tiền liệt</a></h5>
+								</div>
+								<div class="flex2col1">
+									<h5><a href="#">Tăng sinh tuyến tiền liệt</a></h5>
+									<h5><a href="#">Phì đại tuyến tiền liệt</a></h5>
+								</div>
+							</div>
+						</div>
+						<div>
+							<h4 class="bg bg2"><a href="">Rối loạn chức năng sinh dục</a></h4>
+							<div class="flex flex2 justify-content-between">
+								<div class="flex2col1">
+									<h5><a href="#">Liệt dương</a></h5>
+									<h5><a href="#">Rối loạn cương dương</a></h5>
+								</div>
+								<div class="flex2col1">
+									<h5><a href="#">Xuất tinh sớm</a></h5>
+									<h5><a href="#">Rối loạn xuất tinh</a></h5>
+								</div>
+							</div>
+						</div>
+						<div>
+							<h4 class="bg bg3"><a href="">Chỉnh hình bộ phận sinh dục</a></h4>
+							<div class="flex flex2 justify-content-between">
+								<div class="flex2col1">
+									<h5><a href="#">Dài bao quy đầu</a></h5>
+									<h5><a href="#">Kéo dài dương vật</a></h5>
+								</div>
+								<div class="flex2col1">
+									<h5><a href="#">Thủ thuật hẹp bao quy đầu</a></h5>
+									<h5><a href="#">Tăng kích thước dương vật</a></h5>
+								</div>
+							</div>
+						</div>
+						<div>
+							<h4 class="bg bg4"><a href="">Viêm nhiễm hệ thống sinh dục</a></h4>
+							<div class="flex flex2 justify-content-between">
+								<div class="flex2col1">
+									<h5><a href="#">Viêm quy đầu</a></h5>
+									<h5><a href="#">Viêm bàng quang</a></h5>
+								</div>
+								<div class="flex2col1">
+									<h5><a href="#">Viêm niệu đạo</a></h5>
+									<h5><a href="#">Viêm tinh hoàn</a></h5>
+								</div>
+							</div>
+						</div>
+						<div>
+							<h4 class="bg bg5"><a href="">Vô sinh nam</a></h4>
+							<div class="flex flex2 justify-content-between">
+								<div class="flex2col1">
+									<h5><a href="#">Ít tinh trùng</a></h5>
+									<h5><a href="#">Xuất tinh ra máu</a></h5>
+								</div>
+								<div class="flex2col1">
+									<h5><a href="#">Vô tinh</a></h5>
+									<h5><a href="#">Yếu tinh trùng</a></h5>
+								</div>
+							</div>
+						</div>
+						<div>
+							<h4 class="bg bg6"><a href="">Bệnh xã hội</a></h4>
+							<div class="flex flex2 justify-content-between">
+								<div class="flex2col1">
+									<h5><a href="#">Sùi mào gà</a></h5>
+									<h5><a href="#">Giang mai</a></h5>
+								</div>
+								<div class="flex2col1">
+									<h5><a href="#">Bệnh lậu</a></h5>
+									<h5><a href="#">Mụn rộp sinh dục</a></h5>
 								</div>
 							</div>
 						</div>
