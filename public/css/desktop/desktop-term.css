@@ -198,6 +198,13 @@ main.term .flex0col2 .row2{
 	border-bottom: 1px dashed #ececec;
 	margin-left: 5px;margin-right: 5px;
 }
+main.term .flex0col2 .row2 .flex1col1 h5:first-child:hover{
+	transform:rotateY(360deg);-ms-transform:rotateY(360deg);-webkit-transform:rotateY(360deg);-o-transform:rotateY(360deg);-moz-transform:rotateY(360deg);transition: all .5s ease-out;moz-transition: all .5s ease-out;-webkit-transition: all .5s ease-out;-o-transition: all .5s ease-out;
+}
+main.term .flex0col2 .row2 .flex1col1 h5:nth-child(2) a:hover{
+	color: red;
+	text-decoration: underline;
+}
 main.term .flex0col2 .row2 .flex1col1 i{
 	display: inline-block;
 	width: 60px;
@@ -339,6 +346,10 @@ main.term .flex0col2 .row5 h5{
 	font-size: 11px;
 	padding:0px 0px;
 }
+main.term .flex0col2 .row5 h5 a:hover{
+	color: red;
+	text-decoration: underline;
+}
 main.term .flex0col2 .row6{
 	margin-top: 23px;
 	padding:0px 5px;
@@ -378,3 +389,4 @@ main.term .flex0col2 .row6 h5 i{
 main.term .flex0col2 .row6 h5 i.active{
 	background-color: #bebebe;
 }
+/**/
