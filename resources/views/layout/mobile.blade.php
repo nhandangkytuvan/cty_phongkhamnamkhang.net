@@ -69,15 +69,12 @@
 	</div>
 	<menu class="container">
 		<div class="search">
-			<div class="flex flex1 justify-content-between flex-wrap-wrap">
+			<div class="">
 				<div class="flex1col1">
-					<form action="">
+					<form action="" method="post">
 						<input type="text" placeholder="Hãy nhập từ khóa">
 						<button type="submit">Tìm kiếm</button>
 					</form>
-				</div>
-				<div class="flex1col2">
-					<h4><a href="">Hỏi trực tiếp bác sĩ</a></h4>
 				</div>
 			</div>
 		</div>
@@ -143,7 +140,7 @@
 	@yield('content')	
 	<footer>
 		<div class="container">
-			<p>Điện thoại tư vấn đặt hẹn: <a href="tel:18006181">18006181</a></p>
+			<p>Điện thoại tư vấn đặt hẹn: <a href="tel:18006181">1800 6181</a></p>
 			<p>Thời gian mở cửa: <a href="tel:18006181">8:00 - 20:00</a></p>
 			<p>Địa chỉ phòng khám: <a href="tel:18006181">193C1 BÀ TRIỆU – HAI BÀ TRƯNG – HÀ NỘI</a></p>
 		</div>
@@ -151,8 +148,8 @@
 			<div class="flex flex1 justify-content-between">
 				<div class="flex1col1">
 					<div class="box-center">
-						<h3 class="text-center"><a href=""><i class="fa fa-home"></i></a></h3>
-						<h4 class="text-center"><a href="">Gọi điện</a></h4>
+						<h3 class="text-center"><a href="tel:18006181"><i class="fa fa-phone-square"></i></a></h3>
+						<h4 class="text-center"><a href="tel:18006181">Gọi điện</a></h4>
 					</div>
 				</div>
 				<div class="flex1col1">

@@ -48,7 +48,7 @@ menu .search .flex1col1 input{
 	padding-right: 5px;
 	border-top-left-radius:5px; 
 	border-bottom-left-radius:5px; 
-	min-width: 230px;
+	width: 70%;
 } 
 menu .search .flex1col1 button{
 	outline: none;
