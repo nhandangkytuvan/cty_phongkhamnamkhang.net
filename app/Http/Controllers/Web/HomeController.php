@@ -16,4 +16,22 @@ class HomeController extends Controller{
 			return view('web.mobile.home',['data'=>$data]);
 		}
 	}
+	public function about(Request $request){
+		$setting = Setting::first();
+		$data['setting'] = $setting;
+		if(BrowserDetect::isDesktop()){
+			return view('web.desktop.about',['data'=>$data]);
+		}else{
+			return view('web.mobile.about',['data'=>$data]);
+		}
+	}
+	public function address(Request $request){
+		$setting = Setting::first();
+		$data['setting'] = $setting;
+		if(BrowserDetect::isDesktop()){
+			return view('web.desktop.address',['data'=>$data]);
+		}else{
+			return view('web.mobile.address',['data'=>$data]);
+		}
+	}
 }

@@ -1,6 +1,8 @@
 <?php
 // web
 Route::get('/', 'Web\HomeController@show');
+Route::get('/ve-chung-toi', 'Web\HomeController@about');
+Route::get('/dia-chi-phong-kham', 'Web\HomeController@address');
 // Term
 Route::get('/{term_alias?}/{term_id?}', 'Web\TermController@show')->where(['term_alias'=>'[-a-z0-9]+','term_id'=>'[0-9]+']);
 // Post

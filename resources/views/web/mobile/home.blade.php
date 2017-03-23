@@ -11,119 +11,289 @@
     <link rel="stylesheet" href="{{ asset('public/css/mobile/mobile-home.css') }}">
 @endsection('css')
 @section('content')
-<div class="container">
-    <div class="row flex1">
-        <div class="col-xs-4 flex1col1">
-            <div class="box"><a href="{{ MyAPI::getUrlTerm(12) }}" class="text-container-center bg1">viêm xương khớp</a></div>
-        </div>
-        <div class="col-xs-4 flex1col1">
-            <div class="box"><a href="{{ MyAPI::getUrlTerm(7) }}" class="text-container-center bg2">viêm khớp gối</a></div>
-        </div>
-        <div class="col-xs-4 flex1col1">
-            <div class="box"><a href="{{ MyAPI::getUrlTerm(26) }}" class="text-container-center bg1">bệnh gút</a></div>
-        </div>
-        <div class="col-xs-4 flex1col1">
-            <div class="box"><a href="{{ MyAPI::getUrlTerm(24) }}" class="text-container-center bg2">viêm khớp dạng thấp</a></div>
-        </div>
-        <div class="col-xs-4 flex1col1">
-            <div class="box"><a href="{{ MyAPI::getUrlTerm(25) }}" class="text-container-center bg1">viêm khớp phong thấp</a></div>
-        </div>
-        <div class="col-xs-4 flex1col1">
-            <div class="box"><a href="{{ MyAPI::getUrlTerm(18) }}" class="text-container-center bg2">gai xương</a></div>
-        </div>
-        <div class="col-xs-4 flex1col1">
-            <div class="box"><a href="{{ MyAPI::getUrlTerm(17) }}" class="text-container-center bg3">chứng loãng xương</a></div>
-        </div>
-        <div class="col-xs-4 flex1col1">
-            <div class="box"><a href="{{ MyAPI::getUrlTerm(2) }}" class="text-container-center bg4">bệnh đốt sống cổ</a></div>
-        </div>
-        <div class="col-xs-4 flex1col1">
-            <div class="box"><a href="{{ MyAPI::getUrlTerm(3) }}" class="text-container-center bg3">bệnh đốt sống lưng</a></div>
-        </div>
-        <div class="col-xs-4 flex1col1">
-            <div class="box"><a href="{{ MyAPI::getUrlTerm(4) }}" class="text-container-center bg4">thoát vị đĩa đệm đốt sống lưng</a></div>
-        </div>
-        <div class="col-xs-4 flex1col1">
-            <div class="box"><a href="{{ MyAPI::getUrlTerm(14) }}" class="text-container-center bg3">đau cổ vai lưng chân</a></div>
-        </div>
-        <div class="col-xs-4 flex1col1">
-            <div class="box"><a href="{{ MyAPI::getUrlTerm(16) }}" class="text-container-center bg4">đau thần kinh tọa</a></div>
-        </div>
-        <div class="col-xs-4 flex1col1">
-            <div class="box"><a href="{{ MyAPI::getUrlTerm(8) }}" class="text-container-center bg5">viêm quanh khớp vai</a></div>
-        </div>
-        <div class="col-xs-4 flex1col1">
-            <div class="box"><a href="{{ MyAPI::getUrlTerm(11) }}" class="text-container-center bg6">hoại tử chỏm xương đùi</a></div>
-        </div>
-        <div class="col-xs-4 flex1col1">
-            <div class="box"><a href="{{ MyAPI::getUrlTerm(27) }}" class="text-container-center bg5">viêm cột sống dính khớp</a></div>
-        </div>
-        <div class="col-xs-4 flex1col1">
-            <div class="box"><a href="{{ MyAPI::getUrlTerm(10) }}" class="text-container-center bg6">viêm màng hoạt dịch</a></div>
-        </div>
-        <div class="col-xs-4 flex1col1">
-            <div class="box"><a href="{{ MyAPI::getUrlTerm(15) }}" class="text-container-center bg5">viêm cơ mạc</a></div>
-        </div>
-        <div class="col-xs-4 flex1col1">
-            <div class="box"><a href="{{ MyAPI::getUrlTerm(5) }}" class="text-container-center bg6">hẹp ống sống</a></div>
-        </div>
-        <div class="col-xs-4 flex1col1">
-            <div class="box"><a href="{{ MyAPI::getUrlTerm(21) }}" class="text-container-center bg7">viêm bao Gân</a></div>
-        </div>
-        <div class="col-xs-4 flex1col1">
-            <div class="box"><a href="{{ MyAPI::getUrlTerm(22) }}" class="text-container-center bg7">viêm gân gót chân</a></div>
-        </div>
-        <div class="col-xs-4 flex1col1">
-            <div class="box"><a href="{{ MyAPI::getUrlTerm(19) }}" class="text-container-center bg7">đau gót chân</a></div>
-        </div>
-    </div>
-    <div class="toico">
-        Tôi có các triệu chứng giống như dưới đây
-        <div class="arrow_box"></div>
-    </div>
-    <div class="lists">
-        <div class="row flex2 justify-content-between" style="margin-bottom: 4px;">
-            <div class="col-xs-3 flex2col1">
-                <div class="box">
-                    <a href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en" class="text-container-center">Đau đốt sống cổ</a>
-                </div>
-            </div>
-            <div class="col-xs-9 flex2col2">
-                <div class="flex flex3 justify-content-between" style="margin-bottom: 4px;">
-                    <div class="flex3col1">
-                        <div class="box"><a href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en" class="text-container-center">Đau lưng</a></div>
-                    </div>
-                    <div class="flex3col1">
-                        <div class="box"><a href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en" class="text-container-center">Tê khớp</a></div>
-                    </div>
-                    <div class="flex3col1">
-                        <div class="box"><a href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en" class="text-container-center">khó vận động</a></div>
-                    </div>
-                </div>
-                <div class="flex flex3 justify-content-between">
-                    <div class="flex3col1">
-                        <div class="box"><a href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en" class="text-container-center">Cứng khớp</a></div>
-                    </div>
-                    <div class="flex3col1">
-                        <div class="box"><a href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en" class="text-container-center">Hai chân tê bì</a></div>
-                    </div>
-                    <div class="flex3col1">
-                        <div class="box"><a href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en" class="text-container-center">Đau lưng</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row flex4">
-            <div class="col-xs-4 flex4col1">
-                <div class="box"><a href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en" class="text-container-center">Đau khớp do bị nhiễm lạnh</a></div>
-            </div>
-            <div class="col-xs-4 flex4col1">
-                <div class="box"><a href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en" class="text-container-center">Đau ở phía mặt bên của chân</a></div>
-            </div>
-            <div class="col-xs-4 flex4col1">
-                <div class="box"><a href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en" class="text-container-center">Đau khớp gối do đi bộ</a></div>
-            </div>
-        </div>
-    </div>
-</div>
+	<main class="container home">
+		<div class="row1">
+			<div class="headding">
+				<h2 class="text-center text-uppercase">Danh mục bệnh</h2>
+			</div>
+			<div class="flex flex1 justify-content-around">
+				<div class="flex flex1col1 order1 arrow_box">
+					<div class="box-center">
+						<h3 class="text-center text-uppercase">Rối loạn chức năng sinh dục</h3>
+					</div>
+				</div>
+				<div class="flex1col1 order2 flex flex-wrap-wrap align-content-between">
+					<div class="flex">
+						<div class="box-center">
+							<h4 class="text-center"><a href="">Liệt dương</a></h4>
+						</div>
+					</div>
+					<div class="flex">
+						<div class="box-center">
+							<h4 class="text-center"><a href="">Rối loạn cương dương</a></h4>
+						</div>
+					</div>
+				</div>
+				<div class="flex1col1 order2 flex flex-wrap-wrap align-content-between">
+					<div class="flex">
+						<div class="box-center">
+							<h4 class="text-center"><a href="">Xuất tinh sớm</a></h4>
+						</div>
+					</div>
+					<div class="flex">
+						<div class="box-center">
+							<h4 class="text-center"><a href="">Rối loạn xuất tinh</a></h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="flex flex1 justify-content-around">
+				<div class="flex flex1col1 order1 arrow_box">
+					<div class="box-center">
+						<h3 class="text-center text-uppercase">Chỉnh hình cơ quan sinh dục</h3>
+					</div>
+				</div>
+				<div class="flex1col1 order2 flex flex-wrap-wrap align-content-between">
+					<div class="flex">
+						<div class="box-center">
+							<h4 class="text-center"><a href="">Dài bao quy đầu</a></h4>
+						</div>
+					</div>
+					<div class="flex">
+						<div class="box-center">
+							<h4 class="text-center"><a href="">Thủ thuật hẹp bao quy đầu</a></h4>
+						</div>
+					</div>
+				</div>
+				<div class="flex1col1 order2 flex flex-wrap-wrap align-content-between">
+					<div class="flex">
+						<div class="box-center">
+							<h4 class="text-center"><a href="">Kéo dài dương vật</a></h4>
+						</div>
+					</div>
+					<div class="flex">
+						<div class="box-center">
+							<h4 class="text-center"><a href="">Tăng kích cỡ dương vật</a></h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="flex flex1 justify-content-around">
+				<div class="flex flex1col1 order1 arrow_box">
+					<div class="box-center">
+						<h3 class="text-center text-uppercase">Bệnh về tuyến tiền liệt</h3>
+					</div>
+				</div>
+				<div class="flex1col1 order2 flex flex-wrap-wrap align-content-between">
+					<div class="flex">
+						<div class="box-center">
+							<h4 class="text-center"><a href="">Viêm tuyến tiền liệt</a></h4>
+						</div>
+					</div>
+					<div class="flex">
+						<div class="box-center">
+							<h4 class="text-center"><a href="">Phì đại tuyến tiền liệt</a></h4>
+						</div>
+					</div>
+				</div>
+				<div class="flex1col1 order2 flex flex-wrap-wrap align-content-between">
+					<div class="flex">
+						<div class="box-center">
+							<h4 class="text-center"><a href="">Tăng sinh tuyến tiền liệt</a></h4>
+						</div>
+					</div>
+					<div class="flex">
+						<div class="box-center">
+							<h4 class="text-center"><a href="">U nang tuyến tiền liệt</a></h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="flex flex1 justify-content-around">
+				<div class="flex flex1col1 order1 arrow_box">
+					<div class="box-center">
+						<h3 class="text-center text-uppercase">Viêm nhiễm bộ phận sinh dục</h3>
+					</div>
+				</div>
+				<div class="flex1col1 order2 flex flex-wrap-wrap align-content-between">
+					<div class="flex">
+						<div class="box-center">
+							<h4 class="text-center"><a href="">Viêm quy đầu</a></h4>
+						</div>
+					</div>
+					<div class="flex">
+						<div class="box-center">
+							<h4 class="text-center"><a href="">Viêm bàng quang</a></h4>
+						</div>
+					</div>
+				</div>
+				<div class="flex1col1 order2 flex flex-wrap-wrap align-content-between">
+					<div class="flex">
+						<div class="box-center">
+							<h4 class="text-center"><a href="">Viêm niệu đạo</a></h4>
+						</div>
+					</div>
+					<div class="flex">
+						<div class="box-center">
+							<h4 class="text-center"><a href="">Viêm tinh hoàn</a></h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="flex flex1 justify-content-around">
+				<div class="flex flex1col1 order1 arrow_box">
+					<div class="box-center">
+						<h3 class="text-center text-uppercase">Vô sinh nam</h3>
+					</div>
+				</div>
+				<div class="flex1col1 order2 flex flex-wrap-wrap align-content-between">
+					<div class="flex">
+						<div class="box-center">
+							<h4 class="text-center"><a href="">Ít tinh trùng</a></h4>
+						</div>
+					</div>
+					<div class="flex">
+						<div class="box-center">
+							<h4 class="text-center"><a href="">Xuất tinh ra máu</a></h4>
+						</div>
+					</div>
+				</div>
+				<div class="flex1col1 order2 flex flex-wrap-wrap align-content-between">
+					<div class="flex">
+						<div class="box-center">
+							<h4 class="text-center"><a href="">Vô tinh</a></h4>
+						</div>
+					</div>
+					<div class="flex">
+						<div class="box-center">
+							<h4 class="text-center"><a href="">Tinh trùng yếu</a></h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="flex flex1 justify-content-around">
+				<div class="flex flex1col1 order1 arrow_box">
+					<div class="box-center">
+						<h3 class="text-center text-uppercase">Bệnh lây truyền qua đường tình dục</h3>
+					</div>
+				</div>
+				<div class="flex1col1 order2 flex flex-wrap-wrap align-content-between">
+					<div class="flex">
+						<div class="box-center">
+							<h4 class="text-center"><a href="">Sùi mào gà</a></h4>
+						</div>
+					</div>
+					<div class="flex">
+						<div class="box-center">
+							<h4 class="text-center"><a href="">Giang mai</a></h4>
+						</div>
+					</div>
+				</div>
+				<div class="flex1col1 order2 flex flex-wrap-wrap align-content-between">
+					<div class="flex">
+						<div class="box-center">
+							<h4 class="text-center"><a href="">Bệnh lậu</a></h4>
+						</div>
+					</div>
+					<div class="flex">
+						<div class="box-center">
+							<h4 class="text-center"><a href="">Mụn rộp sinh dục</a></h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row2">
+			<h3><a href=""><img src="{{ asset('public/images/mobile/home-1.png') }}" class="center-block img-responsive"></a></h3>
+		</div>
+		<div class="row3">
+			<div class="headding">
+				<h2 class="text-center text-uppercase">Phương pháp điều trị của Nam Khang</h2>
+			</div>
+			<div class="flex flex1">
+				<div class="flex flex1col1 active">
+					<div class="box-center">
+						<h3 class="text-center text-uppercase"><a href="javascript:;">xuất tinh sớm</a></h3>
+						<h5 class="text-center"><a href="javascript:;">Thời gian quan hệ ngắn</a></h5>
+					</div>
+				</div>
+				<div class="flex flex1col1">
+					<div class="box-center">
+						<h3 class="text-center text-uppercase"><a href="javascript:;">Cắt bao quy đầu</a></h3>
+						<h5 class="text-center"><a href="javascript:;">Dài bao quy đầu</a></h5>
+					</div>
+				</div>
+				<div class="flex flex1col1">
+					<div class="box-center">
+						<h3 class="text-center text-uppercase"><a href="javascript:;">Liệt dương</a></h3>
+						<h5 class="text-center"><a href="javascript:;">Dương vật không đủ cương cứng</a></h5>
+					</div>
+				</div>
+				<div class="flex flex1col1">
+					<div class="box-center">
+						<h3 class="text-center text-uppercase"><a href="javascript:;">Viêm tuyến tiền liệt</a></h3>
+						<h5 class="text-center"><a href="javascript:;">Tiểu nhiều, tiểu buốt</a></h5>
+					</div>
+				</div>
+			</div>
+			<div class="tab-contents-1">
+				<div class="active">
+					<h4><a href=""><img src="{{ asset('public/images/mobile/home-2.png') }}" class="img-responsive center-block"></a></h4>
+				</div>
+				<div>
+					<h4><a href=""><img src="{{ asset('public/images/mobile/home-3.png') }}" class="img-responsive center-block"></a></h4>
+				</div>
+				<div>
+					<h4><a href=""><img src="{{ asset('public/images/mobile/home-4.png') }}" class="img-responsive center-block"></a></h4>
+				</div>
+				<div>
+					<h4><a href=""><img src="{{ asset('public/images/mobile/home-5.png') }}" class="img-responsive center-block"></a></h4>
+				</div>
+			</div>
+		</div>
+		<div class="row4">
+			<div class="headding">
+				<h2 class="text-center text-uppercase">Khám nam khoa chọn Phòng khám Nam Khang Hà Nội</h2>
+				<h3 class="text-center">Chuyên chữa bệnh nam khoa khó điều trị, tái phát nhiều lần</h3>
+			</div>
+			<div class="flex flex1 flex-wrap-wrap">
+				<div class="flex1col1 flex">
+					<div class="box-center">
+						<h3>Nhiều năm</h3>
+						<h4>Thương hiệu chuyên nghiệp tại Hà Nội</h4>
+					</div>
+				</div>
+				<div class="flex1col1 flex">
+					<div class="box-center">
+						<h3>30 năm</h3>
+						<h4>Bác sĩ nhiều kinh nghiệm khám và điều trị</h4>
+					</div>
+				</div>
+				<div class="flex1col1 flex">
+					<div class="box-center">
+						<h3>10 điểm lớn</h3>
+						<h4>Hệ thống thăm khám điều trị tiên tiến</h4>
+					</div>
+				</div>
+				<div class="flex1col1 flex">
+					<div class="box-center">
+						<h3>100%</h3>
+						<h4>Cơ chế đảm bảo bảo mật</h4>
+					</div>
+				</div>
+				<div class="flex1col1 flex">
+					<div class="box-center">
+						<h3>365 ngày</h3>
+						<h4>Thăm khám cả năm không nghỉ ngày nào</h4>
+					</div>
+				</div>
+				<div class="flex1col1 flex">
+					<div class="box-center">
+						<h3>24 giờ</h3>
+						<h4>Đặt hẹn tư vấn trực tuyến</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
 @endsection('content')

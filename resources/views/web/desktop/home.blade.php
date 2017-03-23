@@ -46,21 +46,21 @@
 			</div>
 		</div>
 		<div class="row1">
-			<a href="">
+			<a href="{{ url('/ve-chung-toi') }}">
 				<img src="{{ asset('public/images/desktop/home-1.png') }}" class="center-block">
 			</a>
 		</div>
 		<div class="row2">
 			<div class="flex1 flex justify-content-between">
 				<div class="flex1col1">
-					<h1 class="text-center text-uppercase"><span>về chúng tôi</span><span>/</span><span>about us</span></h1>
+					<h1 class="text-center text-uppercase"><a href="{{ url('/ve-chung-toi') }}"><span>về chúng tôi</span><span>/</span><span>about us</span></a></h1>
 					<p class="text-justify">
 						Phòng khám Nam Khang Hà Nội là cơ sở y tế chuyên điều trị nam khoa hiếm có ở khu vực Hà Nội, phòng khám đạt tiêu chuẩn y tế JCI quốc tế, hội tụ đội ngũ chuyên gia cao cấp trong và ngoài nước, dịch vụ chất lượng cao, môi trường khám chữa bệnh ấm cúng đạt chất lượng 5 sao, vượt qua mô hình truyền thống của ngành y tế Hà Nội, mở ra thời đại mới về khám điều trị bệnh nam khoa đỉnh cao tại Hà Nội, kết hợp với dịch vụ đặc biệt chuyên khoa, chuyên bệnh, chuyên trị, xây dựng thương hiệu chuyên nghiệp về nam khoa trên toàn quốc.
 					</p>
-					<div class="text-center"><a href="">Xem chi tiết</a></div>
+					<div class="text-center"><a href="{{ url('/ve-chung-toi') }}">Xem chi tiết</a></div>
 				</div>
 				<div class="flex1col2">
-					<img src="{{ asset('public/images/desktop/home-2.png') }}" alt="">
+					<a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/images/desktop/home-2.png') }}" alt=""></a>
 				</div>
 			</div>
 		</div>

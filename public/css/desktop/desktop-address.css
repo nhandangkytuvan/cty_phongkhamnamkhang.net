@@ -1,0 +1,31 @@
+.address.term .flex0col1 >h3:nth-child(2){
+	margin:20px auto;
+	margin-right: 20px;
+}
+.address.term .flex0col1 >h2:nth-child(3){
+	font-size: 16px;
+	margin:10px auto;
+	font-weight: bold;
+	font-size: 12px;
+}
+.address.term .address-bus{
+	padding:20px 0px;
+	border-top: 1px solid #eaeaea;
+}
+.address.term .address-bus h3{
+	color: rgb(191,143,0);
+	font-size: 16px;
+	margin:10px auto;
+}
+.address.term .address-bus h4 a{
+	color: red;
+	font-size: 12px;
+}
+.address.term .address-bus h5{
+	margin:15px auto;
+	color: rgb(192,0,0);
+	font-size: 12px;
+}
+.address.term .address-bus .flex1col1{
+	width: 100px;
+}

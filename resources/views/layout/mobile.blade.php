@@ -8,7 +8,6 @@
     <meta name="author" content="xuongkhophn.net">
     @yield('keyword')
     <link rel="shortcut icon" href="{{ asset('public/img/'.$setting->web_icon) }}" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="{{ asset('public/css/global/flexboxgrid/css/flexboxgrid.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/global/font-awesome/css/font-awesome.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ asset('public/css/global/slick/slick.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ asset('public/css/global/slick/slick-theme.css') }}">
@@ -26,100 +25,169 @@
 </head>
 <body>
 	<header>
-		<div class="box box1">
-			<a href="{{ url('/') }}"><img src="{{ asset('public/images/mobile/header.png') }}" class="center-block img-responsive"></a>
-		</div>
-		<div class="box box2">
-			Phòng khám Nhân Việt chúc bạn sớm khỏi bệnh
+		<div class="container">
+			<div class="flex flex1 justify-content-between">
+				<div class="flex1col1">
+					<div class="flex flex2">
+						<div class="flex2col1">
+							<h2><a href=""><img src="{{ asset('public/images/mobile/logo.png') }}" class="center-block"></a></h2>
+						</div>
+						<div class="flex2col2">
+							<div class="flex height-100">
+								<div class="box-center">
+									<h3 class="text-uppercase">phòng khám chuyên khoa nam khang</h3>
+									<h4 class="text-uppercase">số 193C1 bà triệu - hai bà trưng - hà nội</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="flex1col2">
+					<div class="flex flex4 justify-content-between">
+						<div class="flex4col1">
+							<h4><a href=""><img src="{{ asset('public/images/mobile/icon-0.png') }}" class="center-block"></a></h5>
+						</div>
+						<div class="flex4col2">
+							<div class="flex height-100">
+								<div class="box-center">
+									<h6><a href="">Bác sĩ đang trực tuyến</a></h5>
+									<h5><a href="" class="text-uppercase">Tư vấn ngay</a></h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</header>
-	<menu class="container">
-		<div class="row flex1">
-			<div class="col-xs-4 flex1col1">
-				<div class="box"><a href="{{ url('/') }}">Trang chủ</a></div>
-			</div>
-			<div class="col-xs-4 flex1col1">
-				<div class="box border1"><a href="{{ MyAPI::getUrlTerm(28) }}">Kỹ thuật điều trị </a></div>
-			</div>
-			<div class="col-xs-4 flex1col1">
-				<div class="box"><a href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en">Đặt mã số khám</a></div>
-			</div>
-			<div class="col-xs-4 flex1col1">
-				<div class="box"><a href="{{ MyAPI::getUrlPost(3) }}">Giới thiệu phòng khám</a></div>
-			</div>
-			<div class="col-xs-4 flex1col1">
-				<div class="box border1"><a href="{{ MyAPI::getUrlPost(2) }}">Địa chỉ phòng khám</a></div>
-			</div>
-			<div class="col-xs-4 flex1col1">
-				<div class="box"><a href="{{ MyAPI::getUrlTerm(29) }}">Trường hợp hồi phục</a></div>
-			</div>
-		</div>
-	</menu>
 	<div class="banner container">
 		<div class="slick-home">
 			<div>
-				<a href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en">
-					<img src="{{ asset('public/images/mobile/banner0.png') }}" alt="" class="center-block img-responsive">
+				<a href="#">
+					<img src="{{ asset('public/images/mobile/slide-1.png') }}" alt="" class="center-block img-responsive">
 				</a>
 			</div>
 		</div>
 		<script>
 			$('.slick-home').slick({
 				autoplay: true,
-					autoplaySpeed: 5000,
+				autoplaySpeed: 5000,
 			});
 		</script>
 	</div>
-	<main>
-	@yield('content')	
-	</main>
-	<footer>
-		<div class="container">
-			<div class="flex flex1 justify-content-around">
+	<menu class="container">
+		<div class="search">
+			<div class="flex flex1 justify-content-between flex-wrap-wrap">
 				<div class="flex1col1">
-					<div class="box">
-						<a href="{{ url('/') }}"><img src="{{ asset('public/images/mobile/footer-logo.png') }}" class="center-block img-responsive"></a>
-						<h2>Phòng khám <br>Đa khoa Nhân Việt Hà Nội</h2>
-					</div>
+					<form action="">
+						<input type="text" placeholder="Hãy nhập từ khóa triệu chứng hoặc tên bệnh">
+						<button type="submit">Tìm kiếm</button>
+					</form>
 				</div>
 				<div class="flex1col2">
-					<div class="box">
-						<p>Thời gian làm việc của phòng khám</p> 
-						<p>( 8:00 - 20:00) bao gồm cả ngày lễ tết</p>  
-						<p><a href="{{ MyAPI::getUrlPost(2) }}">Địa chỉ : 708 Giải Phóng - Hoàng Mai - Hà Nội</a></p> 
-						<p>Điện thoại liên hệ : </p> 
-						<p style="font-size: 15px;"><a href="tel:0436.241.999">0436.241.999</a> - <a href="tel:0911.501.709">0911.501.709</a></p> 
-						<p><a href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en">[Tra cứu thông tin về lộ trình ]</a></p> 
+					<h4><a href="">Hỏi trực tiếp bác sĩ</a></h4>
+				</div>
+			</div>
+		</div>
+		<div class="menu">
+			<div class="flex flex2 flex-wrap-wrap justify-content-around align-content-around">
+				<div class="flex2col1">
+					<div class="flex">
+						<div class="box-center">
+							<h3 class="text-center"><a href=""><i class="bg bg1"></i></a></h3>
+							<h4 class="text-uppercase text-center"><a href="">Giới thiệu bác sĩ</a></h4>
+							<h5 class="text-center"><a href="">Năng lực, phẩm chất</a></h5>
+						</div>
+					</div>
+				</div>
+				<div class="flex2col1">
+					<div class="flex">
+						<div class="box-center">
+							<h3 class="text-center"><a href=""><i class="bg bg2"></i></a></h3>
+							<h4 class="text-uppercase text-center"><a href="">Đặt hẹn nhanh</a></h4>
+							<h5 class="text-center"><a href="">Mã số khám bệnh ưu tiên</a></h5>
+						</div>
+					</div>
+				</div>
+				<div class="flex2col1">
+					<div class="flex">
+						<div class="box-center">
+							<h3 class="text-center"><a href=""><i class="bg bg3"></i></a></h3>
+							<h4 class="text-uppercase text-center"><a href="">Bản đồ</a></h4>
+							<h5 class="text-center"><a href="">Ô tô xe máy, xe bus</a></h5>
+						</div>
+					</div>
+				</div>
+				<div class="flex2col1">
+					<div class="flex">
+						<div class="box-center">
+							<h3 class="text-center"><a href=""><i class="bg bg4"></i></a></h3>
+							<h4 class="text-uppercase text-center"><a href="">Hỏi bác sĩ</a></h4>
+							<h5 class="text-center"><a href="">Chi phí, điều trị</a></h5>
+						</div>
+					</div>
+				</div>
+				<div class="flex2col1">
+					<div class="flex">
+						<div class="box-center">
+							<h3 class="text-center"><a href=""><i class="bg bg5"></i></a></h3>
+							<h4 class="text-uppercase text-center"><a href="">Liệu pháp điều trị</a></h4>
+							<h5 class="text-center"><a href="">Tiên tiến, an toàn</a></h5>
+						</div>
+					</div>
+				</div>
+				<div class="flex2col1">
+					<div class="flex">
+						<div class="box-center">
+							<h3 class="text-center"><a href=""><i class="bg bg6"></i></a></h3>
+							<h4 class="text-uppercase text-center"><a href="">Trường hợp hồi phục</a></h4>
+							<h5 class="text-center"><a href="">Điển hình, thực tế</a></h5>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="row flex2">
-				<div class="col-xs-4 flex2col1">
-					<div class="flex flex3 justify-content-around">
-						<div class="flex3col1"><a href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en"><i class="bg1"></i></a></div>
-						<div class="flex3col2 text-container-center"><a href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en">Điện thoại tư vấn</a></div>
+		</div>
+	</menu>
+	@yield('content')	
+	<footer>
+		<div class="container">
+			<p>Điện thoại tư vấn đặt hẹn: <a href="tel:18006181">18006181</a></p>
+			<p>Thời gian mở cửa: <a href="tel:18006181">8:00 - 20:00</a></p>
+			<p>Địa chỉ phòng khám: <a href="tel:18006181">193C1 BÀ TRIỆU – HAI BÀ TRƯNG – HÀ NỘI</a></p>
+		</div>
+		<div class="container footer-toolbar">
+			<div class="flex flex1 justify-content-between">
+				<div class="flex1col1">
+					<div class="box-center">
+						<h3 class="text-center"><a href=""><i class="fa fa-home"></i></a></h3>
+						<h4 class="text-center"><a href="">Gọi điện</a></h4>
 					</div>
 				</div>
-				<div class="col-xs-4 flex2col1 bg2">
-					<div class="flex flex3 justify-content-around">
-						<div class="flex3col1"><a href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en"><i class="bg3"></i></a></div>
-						<div class="flex3col2 text-container-center"><a href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en">Tư vấn trực tuyến</a></div>
+				<div class="flex1col1">
+					<div class="box-center">
+						<h3 class="text-center"><a href=""><i class="fa fa-calendar"></i></a></h3>
+						<h4 class="text-center"><a href="">Đặt hẹn</a></h4>
 					</div>
 				</div>
-				<div class="col-xs-4 flex2col1">
-					<div class="flex flex3 justify-content-around">
-						<div class="flex3col1"><a href="{{ url('/') }}"><i class="bg4"></i></a></div>
-						<div class="flex3col2 text-container-center"><a href="{{ url('/') }}">Trở về trang chủ</a></div>
+				<div class="flex1col1">
+					<div class="box-center">
+						<h3 class="text-center"><a href=""><i class="fa fa-comment"></i></a></h3>
+						<h4 class="text-center"><a href="">Tư vấn</a></h4>
+					</div>
+				</div>
+				<div class="flex1col1">
+					<div class="box-center">
+						<h3 class="text-center"><a href=""><i class="fa fa-map-marker"></i></a></h3>
+						<h4 class="text-center"><a href="">Địa chỉ</a></h4>
 					</div>
 				</div>
 			</div>
 		</div>
 	</footer>
-	<script language="javascript" src="http://drt.zoosnet.net/JS/LsJS.aspx?siteid=DRT84001515&float=1&lng=en"></script>
-	<div id="my_popup">
+	<!-- <div id="my_popup">
 	    <p>Bác sỹ đang yêu cầu được chát với bạn</p>
 	    <a href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en">Đồng ý</a>
 	    <a class="my_popup_close">Từ chối</a>
-	</div>
+	</div> -->
 </body>
 </html>

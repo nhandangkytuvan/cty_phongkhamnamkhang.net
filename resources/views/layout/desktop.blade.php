@@ -153,7 +153,7 @@
 					<h3 class="text-container-center"><a class="text-container-center" href="{{ MyAPI::getUrlTerm(29) }}">Bệnh án<br>điển hình</a></h3>
 				</div>
 				<div class="flex1col1">
-					<h3 class="text-container-center"><a class="text-container-center" href="{{ MyAPI::getUrlPost(2) }}">Địa chỉ <br>phòng khám</a></h3>
+					<h3 class="text-container-center"><a class="text-container-center" href="{{ url('/dia-chi-phong-kham') }}">Địa chỉ <br>phòng khám</a></h3>
 				</div>
 				<div class="flex1col1">
 					<h3 class="text-container-center"><a class="text-container-center" href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en">Đặt hẹn <br>trực tuyến</a></h3>

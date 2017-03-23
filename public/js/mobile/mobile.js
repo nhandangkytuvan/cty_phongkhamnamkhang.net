@@ -14,21 +14,35 @@ $(document).ready(function() {
     if((7<gio&&gio<22)||(gio==22&&phut<=30)||(gio==7&&phut>=30)){
         setTimeout(showchat, 15000);
     }
+    // 
+
+    $('.home .row3 .flex1col1').hover(function() {
+        var index = $(this).index();
+        $(this).addClass('active');
+        $(this).siblings('div').removeClass('active');
+        $('.home .row3 .tab-contents-1').children('div').eq(index).addClass('active');
+        $('.home .row3 .tab-contents-1').children('div').eq(index).siblings('div').removeClass('active');
+    }, function() {
+        
+    });
+
+    // 
+    $('.footer-toolbar').scrollToFixed( { bottom: 0} );
 });
 function showchat() {
     $('#my_popup').popup('show');
   }
 $(function(){
-    $('menu .flex1col1 >.box').css({'height':($('menu .flex1col1').height())+'px'});
-    $('main .flex1col1 >.box').css({'height':($('main .flex1col1').height())+'px'});
-    $('.sualoipvtruong .lists .flex3col1 >.box').css({'height':($('.sualoipvtruong .lists .flex3col1').height())+'px'});
-    $('.sualoipvtruong .lists .flex4col1 >.box').css({'height':($('.sualoipvtruong .lists .flex4col1').height())+'px'});
-    $('.sualoipvtruong .lists .flex2col1 >.box').css({'height':($('.sualoipvtruong .lists .flex2col1').height())+'px'});
-    $(window).resize(function(){
-        $('menu .flex1col1 >.box').css({'height':($('menu .flex1col1').height())+'px'});
-        $('main .flex1col1 >.box').css({'height':($('main .flex1col1').height())+'px'});
-        $('.sualoipvtruong .lists .flex3col1 >.box').css({'height':($('.sualoipvtruong .lists .flex3col1').height())+'px'});
-        $('.sualoipvtruong .lists .flex4col1 >.box').css({'height':($('.sualoipvtruong .lists .flex4col1').height())+'px'});
-        $('.sualoipvtruong .lists .flex2col1 >.box').css({'height':($('.sualoipvtruong .lists .flex2col1').height())+'px'});
-    });
+    // $('menu .flex1col1 >.box').css({'height':($('menu .flex1col1').height())+'px'});
+    // $('main .flex1col1 >.box').css({'height':($('main .flex1col1').height())+'px'});
+    // $('.sualoipvtruong .lists .flex3col1 >.box').css({'height':($('.sualoipvtruong .lists .flex3col1').height())+'px'});
+    // $('.sualoipvtruong .lists .flex4col1 >.box').css({'height':($('.sualoipvtruong .lists .flex4col1').height())+'px'});
+    // $('.sualoipvtruong .lists .flex2col1 >.box').css({'height':($('.sualoipvtruong .lists .flex2col1').height())+'px'});
+    // $(window).resize(function(){
+    //     $('menu .flex1col1 >.box').css({'height':($('menu .flex1col1').height())+'px'});
+    //     $('main .flex1col1 >.box').css({'height':($('main .flex1col1').height())+'px'});
+    //     $('.sualoipvtruong .lists .flex3col1 >.box').css({'height':($('.sualoipvtruong .lists .flex3col1').height())+'px'});
+    //     $('.sualoipvtruong .lists .flex4col1 >.box').css({'height':($('.sualoipvtruong .lists .flex4col1').height())+'px'});
+    //     $('.sualoipvtruong .lists .flex2col1 >.box').css({'height':($('.sualoipvtruong .lists .flex2col1').height())+'px'});
+    // });
 });

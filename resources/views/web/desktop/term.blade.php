@@ -63,9 +63,6 @@
 						<div class="pull-left">
 							<h3><a href="">Bài viết về bệnh trong mục tên bệnh</a></h3>
 						</div>	
-						<div class="pull-right">
-							<span>12-06-17</span>
-						</div>
 					</div>
 					<p>
 						Mô tả bệnh , đoạn mô tả bệnh trong bài viết trong mục tên bệnh một đoạn mô tả gồm khoảng 20 đến 30 từ liên quan tóm tắt về nội dung bài viết. đoạn tóm tắt về nội dung bài viết. đoạn tóm tắt về nội dung bài viết.đoạn tóm tắt về nội dung bài viết.
@@ -77,9 +74,6 @@
 						<div class="pull-left">
 							<h3><a href="">Bài viết về bệnh trong mục tên bệnh</a></h3>
 						</div>	
-						<div class="pull-right">
-							<span>12-06-17</span>
-						</div>
 					</div>
 					<p>
 						Mô tả bệnh , đoạn mô tả bệnh trong bài viết trong mục tên bệnh một đoạn mô tả gồm khoảng 20 đến 30 từ liên quan tóm tắt về nội dung bài viết. đoạn tóm tắt về nội dung bài viết.đoạn tóm tắt về nội dung bài viết.đoạn tóm tắt về nội dung bài viết.
@@ -91,9 +85,6 @@
 						<div class="pull-left">
 							<h3><a href="">Bài viết về bệnh trong mục tên bệnh</a></h3>
 						</div>	
-						<div class="pull-right">
-							<span>12-06-17</span>
-						</div>
 					</div>
 					<p>
 						Mô tả bệnh , đoạn mô tả bệnh trong bài viết trong mục tên bệnh một đoạn mô tả gồm khoảng 20 đến 30 từ liên quan tóm tắt về nội dung bài viết. đoạn tóm tắt về nội dung bài viết.đoạn tóm tắt về nội dung bài viết.đoạn tóm tắt về nội dung bài viết.
@@ -186,39 +177,6 @@
 	            </script>
 				<div class="text-center">
 					<a href="" class="dis-inline-block">Đặt hẹn ngay</a>
-				</div>
-			</div>
-			<div class="row5">
-				<h3 class="text-center text-uppercase">Tư vấn bệnh ngay</h3>
-				<div class="flex flex2 justify-content-between flex-wrap-wrap">
-					<div class="flex2col1"><h5 class="text-container-center"><a href="">Sùi mào gà</a></h5></div>
-					<div class="flex2col1"><h5 class="text-container-center"><a href="">Bệnh lậu</a></h5></div>
-					<div class="flex2col1"><h5 class="text-container-center"><a href="">Giang mai</a></h5></div>
-
-					<div class="flex2col1"><h5 class="text-container-center"><a href="">Mụn rộp<br>sinh dục</a></h5></div>
-					<div class="flex2col1"><h5 class="text-container-center"><a href="">Rối loạn<br>chức năng<br>sinh dục</a></h5></div>
-					<div class="flex2col1"><h5 class="text-container-center"><a href="">Liệt dương</a></h5></div>
-
-					<div class="flex2col1"><h5 class="text-container-center"><a href="">Xuất tinh sớm</a></h5></div>
-					<div class="flex2col1"><h5 class="text-container-center"><a href="">Rối loạn<br>cương dương</a></h5></div>
-					<div class="flex2col1"><h5 class="text-container-center"><a href="">Dài bao<br>quy đầu</a></h5></div>
-
-					<div class="flex2col1"><h5 class="text-container-center"><a href="">Hẹp bao<br>quy đầu</a></h5></div>
-					<div class="flex2col1"><h5 class="text-container-center"><a href="">Viêm tuyến<br>tiền liệt</a></h5></div>
-					<div class="flex2col1"><h5 class="text-container-center"><a href="">Tăng sinh<br>tuyến tiền liệt</a></h5></div>
-
-					<div class="flex2col1"><h5 class="text-container-center"><a href="">Viêm quy đầu</a></h5></div>
-					<div class="flex2col1"><h5 class="text-container-center"><a href="">Viêm niệu đạo</a></h5></div>
-					<div class="flex2col1"><h5 class="text-container-center"><a href="">Viêm bàng quang</a></h5></div>
-
-					<div class="flex2col1"><h5 class="text-container-center"><a href="">Viêm tinh hoàn</a></h5></div>
-					<div class="flex2col1"><h5 class="text-container-center"><a href="">Ít tinh trùng</a></h5></div>
-					<div class="flex2col1"><h5 class="text-container-center"><a href="">Yếu tinh trùng</a></h5></div>
-
-					<div class="flex2col1"><h5 class="text-container-center"><a href="">Vô sinh nam</a></h5></div>
-					<div class="flex2col1"><h5 class="text-container-center"><a href="">Chảy mủ<br>bao quy đầu</a></h5></div>
-					<div class="flex2col1"><h5 class="text-container-center"><a href="">U nang<br>tuyến tiền liệt</a></h5></div>
-
 				</div>
 			</div>
 			<div class="row6">
