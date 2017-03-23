@@ -1,70 +1,81 @@
-/*.about p{
-	font-size: 24px;
+.about p{
+	font-size: 18px;
 	line-height: auto;
 }
 .about .row1{
 	background-image: url('../../images/desktop/about-1.png');
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 972px;
+	height: 743px;
 }
 .about .row2{
 	margin-top: -4px;
 	background-image: url('../../images/desktop/about-2.png');
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 803px;
+	height: 799px;
 	color: #fff;
-	padding:220px 230px 0px 577px ;
 }
-.about .row2 p:first-child{
-	margin-bottom: 25px;
+.about .row2 .container{
+	padding:250px 0px 0px 125px ;
+}
+.about .row2 .container p:first-child{
+	margin-bottom: 60px;
 }
 .about .row3{
 	margin-top: -4px;
 	background-image: url('../../images/desktop/about-3.png');
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 1013px;
+	height: 1010px;
 	color: #fff;
-	padding:203px 420px 0px 260px ;
+}
+.about .row3 .container{
+	padding:305px 130px 0px 0px;
 }
 .about .row4{
 	margin-top: -4px;
 	background-image: url('../../images/desktop/about-4.png');
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 420px;
-	padding:180px 420px 0px 260px;
+	height: 418px;
+}
+.about .row4 .container{
+	padding:215px 130px 0px 0px;
 }
 .about .row5{
 	margin-top: -4px;
 	background-image: url('../../images/desktop/about-5.png');
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 855px;
+	height: 850px;
 	color: #fff;
-	padding:145px 420px 0px 260px;
 }
-.about .row5 p{
-	margin-bottom: 10px;
+.about .row5 .container{
+	padding:187px 130px 0px 0px;
+}
+.about .row5 .container p{
+	margin-bottom: 20px;
 }
 .about .row6{
 	margin-top: -4px;
 	background-image: url('../../images/desktop/about-6.png');
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 397px;
+	height: 390px;
 	color: #fff;
-	padding:145px 420px 0px 260px;
+}
+.about .row6 .container{
+	padding:180px 130px 0px 0px;
 }
 .about .row7{
 	margin-top: -4px;
 	background-image: url('../../images/desktop/about-7.png');
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 738px;
-}*/
-.about >div:nth-child(n+2){
-	margin-top: -4px;
+	height: 734px;
+}
+.about .row7 a{
+	display: block;
+	height: 734px;
 }

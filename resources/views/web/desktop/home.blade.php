@@ -14,7 +14,6 @@
 	<div class="baner">
 		<div class="slick-home">
 			<div><img src="{{ asset('public/images/desktop/slide-2.png') }}" alt="" class="center-block"></div>
-			<div><img src="{{ asset('public/images/desktop/slide-1.png') }}" alt="" class="center-block"></div>
 		</div>
 		<script>
 			$('.slick-home').slick({
@@ -38,7 +37,7 @@
 					</form>
 				</div>
 				<div class="flex1col3">
-					<a href="" class="dis-inline-block">Tư vấn trực tuyến</a>
+					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block">Tư vấn trực tuyến</a>
 				</div>
 				<div class="flex1col4">
 					<div>Đã có <span>106322</span> người được hỗ trợ</div>
@@ -148,7 +147,7 @@
 							</p>
 						</div>
 						<div>
-							<a href="" class="dis-inline-block">Tư vấn trực tuyến</a>
+							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block">Tư vấn trực tuyến</a>
 						</div>
 					</div>
 					<div>
@@ -164,7 +163,7 @@
 							</p>
 						</div>
 						<div>
-							<a href="" class="dis-inline-block">Tư vấn trực tuyến</a>
+							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block">Tư vấn trực tuyến</a>
 						</div>
 					</div>
 					<div>
@@ -181,7 +180,7 @@
 							</p>
 						</div>
 						<div>
-							<a href="" class="dis-inline-block" style="margin-top: 25px;">Tư vấn trực tuyến</a>
+							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block" style="margin-top: 25px;">Tư vấn trực tuyến</a>
 						</div>
 					</div>
 					<div>
@@ -197,7 +196,7 @@
 							</p>
 						</div>
 						<div>
-							<a href="" class="dis-inline-block">Tư vấn trực tuyến</a>
+							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block">Tư vấn trực tuyến</a>
 						</div>
 					</div>
 					<div>
@@ -213,7 +212,7 @@
 							</p>
 						</div>
 						<div>
-							<a href="" class="dis-inline-block">Tư vấn trực tuyến</a>
+							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block">Tư vấn trực tuyến</a>
 						</div>
 					</div>
 					<div>
@@ -229,7 +228,7 @@
 							</p>
 						</div>
 						<div>
-							<a href="" class="dis-inline-block">Tư vấn trực tuyến</a>
+							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block">Tư vấn trực tuyến</a>
 						</div>
 					</div>
 				</div>
@@ -487,7 +486,7 @@
 				<a href="" class="dis-inline-block text-center">
 					Xem thêm môi trường<br>thiết bị phòng khám
 				</a>
-				<a href="" class="dis-inline-block text-center">
+				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block text-center">
 					Tư vấn với<br>chuyên gia nam khoa
 				</a>
 			</div>

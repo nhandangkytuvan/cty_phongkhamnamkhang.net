@@ -28,10 +28,28 @@ $(document).ready(function() {
 
     // 
     $('.footer-toolbar').scrollToFixed( { bottom: 0} );
+    //
+    setInterval(alertFunc, 2000);
 });
 function showchat() {
     $('#my_popup').popup('show');
-  }
+}
+function alertFunc() {
+    var obj = $('.home .row3 .flex1col1.active');
+    var index = obj.next().index();
+    obj.removeClass('active');
+    if(obj.next().length){
+        obj.next().addClass('active');
+        $('.home .row3 .tab-contents-1').children('div').eq(index).addClass('active');
+        $('.home .row3 .tab-contents-1').children('div').eq(index).siblings('div').removeClass('active');
+    }
+    else{
+        $('.home .row3 .flex1col1').first().addClass('active');
+        $('.home .row3 .tab-contents-1').children('div').first().addClass('active');
+        $('.home .row3 .tab-contents-1').children('div').first().siblings('div').removeClass('active');
+    }
+}
+
 $(function(){
     // $('menu .flex1col1 >.box').css({'height':($('menu .flex1col1').height())+'px'});
     // $('main .flex1col1 >.box').css({'height':($('main .flex1col1').height())+'px'});

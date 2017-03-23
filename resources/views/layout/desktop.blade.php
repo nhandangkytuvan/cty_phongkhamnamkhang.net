@@ -46,7 +46,7 @@
 				</div>
 				<div class="flex1col1">
 					<div class="text-container-center">
-						<a href="tel:0911.501.709">
+						<a href="tel:1800 6181">
 							<img src="{{ asset('public/images/desktop/header-3.png') }}" alt="">
 						</a>
 					</div>
@@ -61,80 +61,80 @@
 					<h3 class="text-container-center"><a class="text-container-center" href="#">Danh mục bệnh</a></h3>
 					<div class="menu-items">
 						<div>
-							<h4 class="bg bg1"><a href="">Bệnh về tuyến tiền liệt</a></h4>
+							<h4 class="bg bg1"><a href="{{ MyAPI::getUrlTerm(2) }}">Bệnh về tuyến tiền liệt</a></h4>
 							<div class="flex flex2 justify-content-between">
 								<div class="flex2col1">
-									<h5><a href="#">Viêm tuyến tiền liệt</a></h5>
-									<h5><a href="#">U nang tuyến tiền liệt</a></h5>
+									<h5><a href="{{ MyAPI::getUrlTerm(3) }}">Viêm tuyến tiền liệt</a></h5>
+									<h5><a href="{{ MyAPI::getUrlTerm(4) }}">U nang tuyến tiền liệt</a></h5>
 								</div>
 								<div class="flex2col1">
-									<h5><a href="#">Tăng sinh tuyến tiền liệt</a></h5>
-									<h5><a href="#">Phì đại tuyến tiền liệt</a></h5>
+									<h5><a href="{{ MyAPI::getUrlTerm(5) }}">Tăng sinh tuyến tiền liệt</a></h5>
+									<h5><a href="{{ MyAPI::getUrlTerm(6) }}">Phì đại tuyến tiền liệt</a></h5>
 								</div>
 							</div>
 						</div>
 						<div>
-							<h4 class="bg bg2"><a href="">Rối loạn chức năng sinh dục</a></h4>
+							<h4 class="bg bg2"><a href="{{ MyAPI::getUrlTerm(7) }}">Rối loạn chức năng sinh dục</a></h4>
 							<div class="flex flex2 justify-content-between">
 								<div class="flex2col1">
-									<h5><a href="#">Liệt dương</a></h5>
-									<h5><a href="#">Rối loạn cương dương</a></h5>
+									<h5><a href="{{ MyAPI::getUrlTerm(8) }}">Liệt dương</a></h5>
+									<h5><a href="{{ MyAPI::getUrlTerm(9) }}">Rối loạn cương dương</a></h5>
 								</div>
 								<div class="flex2col1">
-									<h5><a href="#">Xuất tinh sớm</a></h5>
-									<h5><a href="#">Rối loạn xuất tinh</a></h5>
+									<h5><a href="{{ MyAPI::getUrlTerm(10) }}">Xuất tinh sớm</a></h5>
+									<h5><a href="{{ MyAPI::getUrlTerm(11) }}">Rối loạn xuất tinh</a></h5>
 								</div>
 							</div>
 						</div>
 						<div>
-							<h4 class="bg bg3"><a href="">Chỉnh hình bộ phận sinh dục</a></h4>
+							<h4 class="bg bg3"><a href="{{ MyAPI::getUrlTerm(12) }}">Chỉnh hình bộ phận sinh dục</a></h4>
 							<div class="flex flex2 justify-content-between">
 								<div class="flex2col1">
-									<h5><a href="#">Dài bao quy đầu</a></h5>
-									<h5><a href="#">Kéo dài dương vật</a></h5>
+									<h5><a href="{{ MyAPI::getUrlTerm(13) }}">Dài bao quy đầu</a></h5>
+									<h5><a href="{{ MyAPI::getUrlTerm(14) }}">Kéo dài dương vật</a></h5>
 								</div>
 								<div class="flex2col1">
-									<h5><a href="#">Thủ thuật hẹp bao quy đầu</a></h5>
-									<h5><a href="#">Tăng kích thước dương vật</a></h5>
+									<h5><a href="{{ MyAPI::getUrlTerm(15) }}">Thủ thuật hẹp bao quy đầu</a></h5>
+									<h5><a href="{{ MyAPI::getUrlTerm(16) }}">Tăng kích thước dương vật</a></h5>
 								</div>
 							</div>
 						</div>
 						<div>
-							<h4 class="bg bg4"><a href="">Viêm nhiễm hệ thống sinh dục</a></h4>
+							<h4 class="bg bg4"><a href="{{ MyAPI::getUrlTerm(17) }}">Viêm nhiễm hệ thống sinh dục</a></h4>
 							<div class="flex flex2 justify-content-between">
 								<div class="flex2col1">
-									<h5><a href="#">Viêm quy đầu</a></h5>
-									<h5><a href="#">Viêm bàng quang</a></h5>
+									<h5><a href="{{ MyAPI::getUrlTerm(18) }}">Viêm quy đầu</a></h5>
+									<h5><a href="{{ MyAPI::getUrlTerm(19) }}">Viêm bàng quang</a></h5>
 								</div>
 								<div class="flex2col1">
-									<h5><a href="#">Viêm niệu đạo</a></h5>
-									<h5><a href="#">Viêm tinh hoàn</a></h5>
+									<h5><a href="{{ MyAPI::getUrlTerm(20) }}">Viêm niệu đạo</a></h5>
+									<h5><a href="{{ MyAPI::getUrlTerm(21) }}">Viêm tinh hoàn</a></h5>
 								</div>
 							</div>
 						</div>
 						<div>
-							<h4 class="bg bg5"><a href="">Vô sinh nam</a></h4>
+							<h4 class="bg bg5"><a href="{{ MyAPI::getUrlTerm(22) }}">Vô sinh nam</a></h4>
 							<div class="flex flex2 justify-content-between">
 								<div class="flex2col1">
-									<h5><a href="#">Ít tinh trùng</a></h5>
-									<h5><a href="#">Xuất tinh ra máu</a></h5>
+									<h5><a href="{{ MyAPI::getUrlTerm(23) }}">Ít tinh trùng</a></h5>
+									<h5><a href="{{ MyAPI::getUrlTerm(24) }}">Xuất tinh ra máu</a></h5>
 								</div>
 								<div class="flex2col1">
-									<h5><a href="#">Vô tinh</a></h5>
-									<h5><a href="#">Yếu tinh trùng</a></h5>
+									<h5><a href="{{ MyAPI::getUrlTerm(25) }}">Vô tinh</a></h5>
+									<h5><a href="{{ MyAPI::getUrlTerm(26) }}">Yếu tinh trùng</a></h5>
 								</div>
 							</div>
 						</div>
 						<div>
-							<h4 class="bg bg6"><a href="">Bệnh xã hội</a></h4>
+							<h4 class="bg bg6"><a href="{{ MyAPI::getUrlTerm(27) }}">Bệnh xã hội</a></h4>
 							<div class="flex flex2 justify-content-between">
 								<div class="flex2col1">
-									<h5><a href="#">Sùi mào gà</a></h5>
-									<h5><a href="#">Giang mai</a></h5>
+									<h5><a href="{{ MyAPI::getUrlTerm(28) }}">Sùi mào gà</a></h5>
+									<h5><a href="{{ MyAPI::getUrlTerm(29) }}">Giang mai</a></h5>
 								</div>
 								<div class="flex2col1">
-									<h5><a href="#">Bệnh lậu</a></h5>
-									<h5><a href="#">Mụn rộp sinh dục</a></h5>
+									<h5><a href="{{ MyAPI::getUrlTerm(30) }}">Bệnh lậu</a></h5>
+									<h5><a href="{{ MyAPI::getUrlTerm(31) }}">Mụn rộp sinh dục</a></h5>
 								</div>
 							</div>
 						</div>
@@ -144,13 +144,13 @@
 					<h3 class="text-container-center"><a class="text-container-center" href="{{ url('/') }}">Trang chủ</a></h3>
 				</div>
 				<div class="flex1col1">
-					<h3 class="text-container-center"><a class="text-container-center" href="{{ MyAPI::getUrlPost(3) }}">Kỹ thuật<br>điều trị</a></h3>
+					<h3 class="text-container-center"><a class="text-container-center" href="{{ MyAPI::getUrlTerm(32) }}">Kỹ thuật<br>điều trị</a></h3>
 				</div>
 				<div class="flex1col1">
-					<h3 class="text-container-center"><a class="text-container-center" href="{{ MyAPI::getUrlTerm(28) }}">Thiết bị<br>tiên tiến</a></h3>
+					<h3 class="text-container-center"><a class="text-container-center" href="{{ MyAPI::getUrlTerm(33) }}">Thiết bị<br>tiên tiến</a></h3>
 				</div>
 				<div class="flex1col1">
-					<h3 class="text-container-center"><a class="text-container-center" href="{{ MyAPI::getUrlTerm(29) }}">Bệnh án<br>điển hình</a></h3>
+					<h3 class="text-container-center"><a class="text-container-center" href="{{ MyAPI::getUrlTerm(34) }}">Bệnh án<br>điển hình</a></h3>
 				</div>
 				<div class="flex1col1">
 					<h3 class="text-container-center"><a class="text-container-center" href="{{ url('/dia-chi-phong-kham') }}">Địa chỉ <br>phòng khám</a></h3>
