@@ -29,9 +29,7 @@
 	border-radius: 6px;
 	color: #fff;
 	padding:12px 5px;
-}
-.home .row1 .flex1col1.order1 >div{
-	padding:10px 0px;
+	min-height: 96px;
 }
 .home .row1 .flex1col1.order1 h3{
 	font-size: 12px;
@@ -58,10 +56,11 @@
 }
 .home .row1 .flex1col1.order2 >div{
 	width: 100%;
-	height: 46%;
+	/*height: 46%;*/
 	padding:0px 2px;
 	border:1px solid #b2b2b2;
 	border-radius: 5px;
+	min-height: 44px;
 }
 .home .row1 .flex1col1.order2 >div:last-child{
 }
