@@ -27,7 +27,14 @@ class TermController extends Controller{
         $data['term'] = $term;
         $data['setting'] = $setting;
         if(BrowserDetect::isDesktop()){
-            return view('web.desktop.term',['data'=>$data]); 
+            switch ($term_id) {
+                case 34:
+                    return view('web.desktop.hoiphuc',['data'=>$data]); 
+                    break;
+                default:
+                    return view('web.desktop.term',['data'=>$data]); 
+                    break;
+            }
         }else{
             return view('web.mobile.term',['data'=>$data]); 
         }

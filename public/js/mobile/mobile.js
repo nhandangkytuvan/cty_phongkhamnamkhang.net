@@ -29,7 +29,7 @@ $(document).ready(function() {
     // 
     $('.footer-toolbar').scrollToFixed( { bottom: 0} );
     //
-    setInterval(alertFunc, 2000);
+    setInterval(alertFunc, 5000);
 });
 function showchat() {
     $('#my_popup').popup('show');

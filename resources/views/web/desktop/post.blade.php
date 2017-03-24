@@ -12,6 +12,7 @@
 <meta id="metaKeywords" name="keywords" content="{{ $data['post']->post_keyword }}">
 @endsection('keyword')
 @section('css')
+<link rel="stylesheet" type="text/css" href="{{ asset('public/css/global/hover/css/hover.css') }}">
 <link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-sidebar.css') }}">
 <link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-post.css') }}">
 @endsection('css')

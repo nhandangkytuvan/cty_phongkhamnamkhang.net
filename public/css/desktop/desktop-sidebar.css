@@ -298,3 +298,7 @@ main.term .flex0col2 .row6 h5 i{
 main.term .flex0col2 .row6 h5 i.active{
 	background-color: #bebebe;
 }
+/**/
+main.term .flex0col2 a:hover{
+	color: red;
+}
