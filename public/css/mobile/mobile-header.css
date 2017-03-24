@@ -64,6 +64,7 @@ menu .search .flex1col1 button{
 	border-bottom-right-radius:5px; 
 	padding:0px 8px;
 	vertical-align: -1px;
+	width: 30%;
 }
 menu .search .flex1col2 a{
 	display: block;
