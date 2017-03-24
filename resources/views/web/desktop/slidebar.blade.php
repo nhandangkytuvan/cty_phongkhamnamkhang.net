@@ -31,7 +31,7 @@
 	</div>
 	<div class="bg bg2">
 		<p>Địa chỉ phòng khám</p>
-		<h4><a href="tel:1800 - 6181">Số 193c1 Bà Triệu, Hai Bà Trưng Hà Nội</a></h4>
+		<h4><a href="{{ url('/dia-chi-phong-kham') }}">Số 193c1 Bà Triệu, Hai Bà Trưng Hà Nội</a></h4>
 	</div>
 </div>
 <div class="row4">

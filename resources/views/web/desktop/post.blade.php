@@ -24,11 +24,14 @@
 		<div class="search">
 			<div class="clearfix">
 				<div class="pull-left">
-					<a href=""><i class="fa fa-home"></i> Trang chủ ></a>
-					<a href="">Bệnh lây qua đường tình dục</a>
+					<a href="{{ url('/') }}"><i class="fa fa-home"></i> Trang chủ ></a>
+					@php 
+						$term = $data['post']->term;
+					@endphp
+					<a href="{{ MyAPI::getUrlTerm($term->id) }}">{{ $term->term_name }}</a>
 				</div>
 				<div class="pull-right">
-					<form action="">
+					<form action="" method="post">
 						<button><i class="fa fa-search"></i></button>
 						<input type="text" placeholder="Nhập nội dung">
 						<button type="submit">Tìm kiếm</button>
@@ -57,48 +60,48 @@
 				<div class="order2">
 					<h3>Tình trạng hiện tại của bạn là gì?</h3>
 					<div class="flex flex1 flex-wrap-wrap">
-						<div class="flex1col1 flex justify-content-center align-items-center">
-							<div>
+						<div class="flex1col1 flex justify-content-center align-items-center" onclick="open_tuvan();" alt="Tư vấn">
+							<div class="hvr-float-shadow">
 								<h4 class="text-center"><i class="bg bg1"></i></h4>
 								<h5 class="text-center">Xuất hiện triệu chứng</h5>
 								<h6 class="text-center">Tìm phương pháp giải quyết phiền phức</h6>
 								<h6 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Bấm vào đây</a></h6>
 							</div>
 						</div>
-						<div class="flex1col1 flex justify-content-center align-items-center active">
-							<div>
+						<div class="flex1col1 flex justify-content-center align-items-center active"  onclick="open_tuvan();" alt="Tư vấn">
+							<div class="hvr-float-shadow">
 								<h4 class="text-center"><i class="bg bg2"></i></h4>
 								<h5 class="text-center">Muốn đến thăm khám</h5>
 								<h6 class="text-center">Hi vọng tìm được nguyên nhân gây bệnh</h6>
 								<h6 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Bấm vào đây</a></h6>
 							</div>
 						</div>
-						<div class="flex1col1 flex justify-content-center align-items-center">
-							<div>
+						<div class="flex1col1 flex justify-content-center align-items-center"  onclick="open_tuvan();" alt="Tư vấn">
+							<div class="hvr-float-shadow">
 								<h4 class="text-center"><i class="bg bg3"></i></h4>
 								<h5 class="text-center">Đã được chẩn đoán</h5>
 								<h6 class="text-center">Tìm phương án điều trị nhanh, chính xác</h6>
 								<h6 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Bấm vào đây</a></h6>
 							</div>
 						</div>
-						<div class="flex1col1 flex justify-content-center align-items-center">
-							<div>
+						<div class="flex1col1 flex justify-content-center align-items-center"  onclick="open_tuvan();" alt="Tư vấn">
+							<div class="hvr-float-shadow">
 								<h4 class="text-center"><i class="bg bg4"></i></h4>
 								<h5 class="text-center">Tìm hiểu chi phí</h5>
 								<h6 class="text-center">Muốn tìm hiểu chi phí để yên tâm điều trị</h6>
 								<h6 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Bấm vào đây</a></h6>
 							</div>
 						</div>
-						<div class="flex1col1 flex justify-content-center align-items-center">
-							<div>
+						<div class="flex1col1 flex justify-content-center align-items-center"  onclick="open_tuvan();" alt="Tư vấn">
+							<div class="hvr-float-shadow">
 								<h4 class="text-center"><i class="bg bg5"></i></h4>
 								<h5 class="text-center">Tư vấn tham khảo</h5>
 								<h6 class="text-center">Trao đổi trực tuyến riêng với bác sĩ nam khoa</h6>
 								<h6 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Bấm vào đây</a></h6>
 							</div>
 						</div>
-						<div class="flex1col1 flex justify-content-center align-items-center">
-							<div>
+						<div class="flex1col1 flex justify-content-center align-items-center"  onclick="open_tuvan();" alt="Tư vấn">
+							<div class="hvr-float-shadow">
 								<h4 class="text-center"><i class="bg bg6"></i></h4>
 								<h5 class="text-center">Xếp số khám ngay</h5>
 								<h6 class="text-center">Hưởng dịch vụ an toàn đơn giản không cần xếp hàng</h6>

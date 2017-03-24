@@ -11,3 +11,6 @@ $(document).ready(function() {
 		
 	});
 });
+function open_tuvan(){
+	window.open("http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en","_blank");
+}

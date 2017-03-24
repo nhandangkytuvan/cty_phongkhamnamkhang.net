@@ -132,3 +132,9 @@ main.term.post a:hover{
     text-decoration: underline;
     color: red;
 }
+main.term.post .post-footer .order2 .flex1col1:hover{
+    cursor: pointer;
+}
+main.term.post .post-footer .order2 .flex1col1:hover a{
+    color: red;
+}
