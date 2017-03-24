@@ -19,8 +19,8 @@
 		<div class="search">
 			<div class="clearfix">
 				<div class="pull-left">
-					<a href=""><i class="fa fa-home"></i> Trang chủ ></a>
-					<a href="">Bệnh lây qua đường tình dục</a>
+					<a href="{{ url('/') }}"><i class="fa fa-home"></i> Trang chủ ></a>
+					<a href="{{ MyAPI::getUrlTerm($data['term']->id) }}">{{ $data['term']->term_name }}</a>
 				</div>
 				<div class="pull-right">
 					<form action="">
@@ -36,7 +36,7 @@
 <main class="container term">
 	<div class="flex flex0 justify-content-between">
 		<div class="flex0col1">
-			<h1 class="text-uppercase"><i></i> Tên bệnh</h1>
+			<h1 class="text-uppercase"><i></i> {{ $data['term']->term_name }}</h1>
 			<div class="flex flex1 justify-content-between">
 				<div class="flex1col1">
 					<h3><a href=""><img src="{{ asset('public/images/desktop/term-3.png') }}" class="center-block"></a></h3>
