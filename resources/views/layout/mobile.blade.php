@@ -8,6 +8,7 @@
     <meta name="author" content="phongkhamnamkhang.net">
     @yield('keyword')
     <link rel="shortcut icon" href="{{ asset('public/img/'.$setting->web_icon) }}" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="{{ asset('public/css/global/glyphicon-bootstrap/glyphicon-bootstrap.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/global/font-awesome/css/font-awesome.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ asset('public/css/global/slick/slick.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ asset('public/css/global/slick/slick-theme.css') }}">
@@ -44,8 +45,8 @@
 					</div>
 					<div class="flex flex4col2">
 						<div class="box-center">
-							<h6><a href="">Bác sĩ đang trực tuyến</a></h5>
-							<h5><a href="" class="text-uppercase">Tư vấn ngay</a></h5>
+							<h6><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Bác sĩ đang trực tuyến</a></h5>
+							<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-uppercase">Tư vấn ngay</a></h5>
 						</div>
 					</div>
 				</div>
@@ -84,7 +85,7 @@
 					<div class="flex">
 						<div class="box-center">
 							<h3 class="text-center"><a href=""><i class="bg bg1"></i></a></h3>
-							<h4 class="text-uppercase text-center"><a href="">Giới thiệu bác sĩ</a></h4>
+							<h4 class="text-uppercase text-center"><a href="">Giới thiệu phòng khám</a></h4>
 							<h5 class="text-center"><a href="">Năng lực, phẩm chất</a></h5>
 						</div>
 					</div>
@@ -148,20 +149,20 @@
 			<div class="flex flex1 justify-content-between">
 				<div class="flex1col1">
 					<div class="box-center">
-						<h3 class="text-center"><a href="tel:18006181"><i class="fa fa-phone-square"></i></a></h3>
+						<h3 class="text-center"><a href="tel:18006181"><i class="glyphicon glyphicon-phone-alt"></i></a></h3>
 						<h4 class="text-center"><a href="tel:18006181">Gọi điện</a></h4>
 					</div>
 				</div>
 				<div class="flex1col1">
 					<div class="box-center">
-						<h3 class="text-center"><a href=""><i class="fa fa-calendar"></i></a></h3>
-						<h4 class="text-center"><a href="">Đặt hẹn</a></h4>
+						<h3 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-calendar"></i></a></h3>
+						<h4 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đặt hẹn</a></h4>
 					</div>
 				</div>
 				<div class="flex1col1">
 					<div class="box-center">
-						<h3 class="text-center"><a href=""><i class="fa fa-comment"></i></a></h3>
-						<h4 class="text-center"><a href="">Tư vấn</a></h4>
+						<h3 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-comment"></i></a></h3>
+						<h4 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn</a></h4>
 					</div>
 				</div>
 				<div class="flex1col1">

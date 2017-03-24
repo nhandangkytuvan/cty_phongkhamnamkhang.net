@@ -156,7 +156,7 @@
 					<h3 class="text-container-center"><a class="text-container-center" href="{{ url('/dia-chi-phong-kham') }}">Địa chỉ <br>phòng khám</a></h3>
 				</div>
 				<div class="flex1col1">
-					<h3 class="text-container-center"><a class="text-container-center" href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en">Đặt hẹn <br>trực tuyến</a></h3>
+					<h3 class="text-container-center"><a class="text-container-center" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đặt hẹn <br>trực tuyến</a></h3>
 				</div>
 			</div>
 		</div>
