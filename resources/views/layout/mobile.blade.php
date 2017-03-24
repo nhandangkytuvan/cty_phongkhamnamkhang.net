@@ -93,9 +93,9 @@
 				<div class="flex2col1">
 					<div class="flex">
 						<div class="box-center">
-							<h3 class="text-center"><a href=""><i class="bg bg2"></i></a></h3>
-							<h4 class="text-uppercase text-center"><a href="">Đặt hẹn nhanh</a></h4>
-							<h5 class="text-center"><a href="">Mã số khám bệnh ưu tiên</a></h5>
+							<h3 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="bg bg2"></i></a></h3>
+							<h4 class="text-uppercase text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đặt hẹn nhanh</a></h4>
+							<h5 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Mã số khám bệnh ưu tiên</a></h5>
 						</div>
 					</div>
 				</div>
@@ -111,9 +111,9 @@
 				<div class="flex2col1">
 					<div class="flex">
 						<div class="box-center">
-							<h3 class="text-center"><a href=""><i class="bg bg4"></i></a></h3>
-							<h4 class="text-uppercase text-center"><a href="">Hỏi bác sĩ</a></h4>
-							<h5 class="text-center"><a href="">Chi phí, điều trị</a></h5>
+							<h3 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="bg bg4"></i></a></h3>
+							<h4 class="text-uppercase text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Hỏi bác sĩ</a></h4>
+							<h5 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Chi phí, điều trị</a></h5>
 						</div>
 					</div>
 				</div>

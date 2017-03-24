@@ -248,19 +248,19 @@
 						<div class="flex2col1">
 							<div class="text-center"><i class="dis-inline-block bg bg1"></i></div>
 							<h4 class="text-center">
-								<a href="">Kinh nghiệm lâm <br>sàng phong phú</a>
+								Kinh nghiệm lâm <br>sàng phong phú
 							</h4>
 						</div>
 						<div class="flex2col1">
 							<div class="text-center"><i class="dis-inline-block bg bg2"></i></div>
 							<h4 class="text-center">
-								<a href="">Nguồn lực kĩ thuật<br>chuyên nghiệp</a>
+								Nguồn lực kĩ thuật<br>chuyên nghiệp
 							</h4>
 						</div>
 						<div class="flex2col1">
 							<div class="text-center"><i class="dis-inline-block bg bg3"></i></div>
 							<h4 class="text-center">
-								<a href="">Thành tựu cá nhân<br>xuất sắc</a>
+								Thành tựu cá nhân<br>xuất sắc
 							</h4>
 						</div>
 					</div>

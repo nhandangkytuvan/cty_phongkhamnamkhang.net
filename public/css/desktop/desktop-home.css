@@ -406,3 +406,7 @@
 .home .row11 .slick-tb .slick-next{
 	right: 2px;
 }
+/**/
+.home a:hover{
+	text-decoration: underline;
+}
