@@ -8,7 +8,7 @@
 <meta id="metaKeywords" name="keywords" content="{{ $setting->web_keyword }}">
 @endsection('keyword')
 @section('css')
-	<link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-term.css') }}">
+	<link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-sidebar.css') }}">
 	<link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-address.css') }}">
 @endsection('css')
 @section('js')

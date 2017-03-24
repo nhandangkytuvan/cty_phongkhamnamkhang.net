@@ -29,3 +29,7 @@
 .address.term .address-bus .flex1col1{
 	width: 100px;
 }
+/**/
+.address.term a:hover{
+	text-decoration: underline;
+}
