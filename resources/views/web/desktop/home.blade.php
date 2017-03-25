@@ -280,10 +280,10 @@
 				<div>
 					<div class="flex flex1">
 						<div class="flex1col1">
-							<h4><a href=""><img src="{{ asset('public/images/desktop/kt-1.png') }}" alt=""></a></h4>				
+							<h4><a href="{{ MyAPI::getUrlPost(9) }}"><img src="{{ asset('public/images/desktop/kt-1.png') }}" alt=""></a></h4>				
 						</div>
 						<div class="flex1col2">
-							<h4><a href="">Kĩ thuật miễn dịch nhiễm trùng tiết niệu CRS</a></h4>
+							<h4><a href="{{ MyAPI::getUrlPost(9) }}">Kĩ thuật miễn dịch nhiễm trùng tiết niệu CRS</a></h4>
 							<ul>
 								<li><i class="fa fa-caret-right"></i>Thích hợp điều trị các bệnh: Viêm quy đầu, viêm niệu đạo, viêm bàng quang, viêm tinh hoàn</li>
 								<li><i class="fa fa-caret-right"></i>Ưu điểm: kĩ thuật mới, điều trị càng khoa học, tránh tái phát</li>
@@ -294,10 +294,10 @@
 				<div>
 					<div class="flex flex1">
 						<div class="flex1col1">
-							<h4><a href=""><img src="{{ asset('public/images/desktop/kt-2.png') }}" alt=""></a></h4>				
+							<h4><a href="{{ MyAPI::getUrlPost(11) }}"><img src="{{ asset('public/images/desktop/kt-2.png') }}" alt=""></a></h4>				
 						</div>
 						<div class="flex1col2">
-							<h4><a href="">Kĩ thuật làm tan can thiệp tuyến tiền liệt</a></h4>
+							<h4><a href="{{ MyAPI::getUrlPost(11) }}">Kĩ thuật làm tan can thiệp tuyến tiền liệt</a></h4>
 							<ul>
 								<li><i class="fa fa-caret-right"></i>Thích hợp điều trị các bệnh: Thích hợp điều trị các bệnh: Viêm tuyến tiền liệt, tăng sinh tuyến tiền liệt, phì đại tuyến tiền liệt</li>
 								<li><i class="fa fa-caret-right"></i>Ưu điểm: Định vị chính xác, điều trị an toàn</li>
@@ -308,10 +308,10 @@
 				<div>
 					<div class="flex flex1">
 						<div class="flex1col1">
-							<h4><a href=""><img src="{{ asset('public/images/desktop/kt-3.png') }}" alt=""></a></h4>				
+							<h4><a href="{{ MyAPI::getUrlPost(10) }}"><img src="{{ asset('public/images/desktop/kt-3.png') }}" alt=""></a></h4>				
 						</div>
 						<div class="flex1col2">
-							<h4><a href="">Cắt bao quy đầu xâm lấn tối thiểu Hàn Quốc</a></h4>
+							<h4><a href="{{ MyAPI::getUrlPost(10) }}">Cắt bao quy đầu xâm lấn tối thiểu Hàn Quốc</a></h4>
 							<ul>
 								<li><i class="fa fa-caret-right"></i>Thích hợp điều trị các bệnh: Dài bao quy đầu, hẹp bao quy đầu</li>
 								<li><i class="fa fa-caret-right"></i>Ưu điểm: Xâm lấn tối thiểu, ít chảy máu, chăm sóc đơn giản sau thủ thuật</li>
@@ -322,10 +322,10 @@
 				<div>
 					<div class="flex flex1">
 						<div class="flex1col1">
-							<h4><a href=""><img src="{{ asset('public/images/desktop/kt-4.png') }}" alt=""></a></h4>				
+							<h4><a href="{{ MyAPI::getUrlPost(3) }}"><img src="{{ asset('public/images/desktop/kt-4.png') }}" alt=""></a></h4>				
 						</div>
 						<div class="flex1col2">
-							<h4><a href="">Kĩ thuật kéo dài dương vật định vị CF</a></h4>
+							<h4><a href="{{ MyAPI::getUrlPost(3) }}">Kĩ thuật kéo dài dương vật định vị CF</a></h4>
 							<ul>
 								<li><i class="fa fa-caret-right"></i>Thích hợp điều trị các bệnh: Dương vật ngắn, nhỏ</li>
 								<li><i class="fa fa-caret-right"></i>Ưu điểm: An toàn, vết thương nhỏ, hiệu quả thẩm mĩ</li>
@@ -336,10 +336,10 @@
 				<div>
 					<div class="flex flex1">
 						<div class="flex1col1">
-							<h4><a href=""><img src="{{ asset('public/images/desktop/kt-5.png') }}" alt=""></a></h4>				
+							<h4><a href="{{ MyAPI::getUrlPost(4) }}"><img src="{{ asset('public/images/desktop/kt-5.png') }}" alt=""></a></h4>				
 						</div>
 						<div class="flex1col2">
-							<h4><a href="">Liệu pháp điều trị lập thể 4 hạng mục</a></h4>
+							<h4><a href="{{ MyAPI::getUrlPost(4) }}">Liệu pháp điều trị lập thể 4 hạng mục</a></h4>
 							<ul>
 								<li><i class="fa fa-caret-right"></i>Thích hợp điều trị các bệnh: Vô sinh nam, vô tinh, chết tinh trùng, yếu tinh trùng…</li>
 								<li><i class="fa fa-caret-right"></i>Ưu điểm: Thích ứng rộng, hiệu quả điều trị rõ rệt, không tác dụng phụ.</li>
@@ -350,10 +350,10 @@
 				<div>
 					<div class="flex flex1">
 						<div class="flex1col1">
-							<h4><a href=""><img src="{{ asset('public/images/desktop/kt-6.png') }}" alt=""></a></h4>				
+							<h4><a href="{{ MyAPI::getUrlPost(5) }}"><img src="{{ asset('public/images/desktop/kt-6.png') }}" alt=""></a></h4>				
 						</div>
 						<div class="flex1col2">
-							<h4><a href="">Liệu pháp trị bệnh lậu DHA</a></h4>
+							<h4><a href="{{ MyAPI::getUrlPost(5) }}">Liệu pháp trị bệnh lậu DHA</a></h4>
 							<ul>
 								<li><i class="fa fa-caret-right"></i>Thích hợp điều trị các bệnh: Bệnh lậu</li>
 								<li><i class="fa fa-caret-right"></i>Ưu điểm: Liệu pháp tiên tiến, điều trị cả gốc lẫn ngọn, ngăn chặn tái phát</li>
@@ -364,10 +364,10 @@
 				<div>
 					<div class="flex flex1">
 						<div class="flex1col1">
-							<h4><a href=""><img src="{{ asset('public/images/desktop/kt-7.png') }}" alt=""></a></h4>				
+							<h4><a href="{{ MyAPI::getUrlPost(6) }}"><img src="{{ asset('public/images/desktop/kt-7.png') }}" alt=""></a></h4>				
 						</div>
 						<div class="flex1col2">
-							<h4><a href="">Liệu pháp cân bằng miễn dịch</a></h4>
+							<h4><a href="{{ MyAPI::getUrlPost(6) }}">Liệu pháp cân bằng miễn dịch</a></h4>
 							<ul>
 								<li><i class="fa fa-caret-right"></i>Thích hợp điều trị các bệnh: Giang mai</li>
 								<li><i class="fa fa-caret-right"></i>Ưu điểm: Thiết bị tiên tiến kiểm tra chính xác, dùng thuốc khoa học tránh tái phát</li>
@@ -378,10 +378,10 @@
 				<div>
 					<div class="flex flex1">
 						<div class="flex1col1">
-							<h4><a href=""><img src="{{ asset('public/images/desktop/kt-8.png') }}" alt=""></a></h4>				
+							<h4><a href="{{ MyAPI::getUrlPost(2) }}"><img src="{{ asset('public/images/desktop/kt-8.png') }}" alt=""></a></h4>				
 						</div>
 						<div class="flex1col2">
-							<h4><a href="">Liệu pháp miễn dịch MB</a></h4>
+							<h4><a href="{{ MyAPI::getUrlPost(2) }}">Liệu pháp miễn dịch MB</a></h4>
 							<ul>
 								<li><i class="fa fa-caret-right"></i>Thích hợp điều trị các bệnh: Mụn rộp sinh dục</li>
 								<li><i class="fa fa-caret-right"></i>Ưu điểm: Hiệu quả rõ rệt, an toàn, không tác dụng phụ</li>
@@ -392,10 +392,10 @@
 				<div>
 					<div class="flex flex1">
 						<div class="flex1col1">
-							<h4><a href=""><img src="{{ asset('public/images/desktop/kt-9.png') }}" alt=""></a></h4>				
+							<h4><a href="{{ MyAPI::getUrlPost(7) }}"><img src="{{ asset('public/images/desktop/kt-9.png') }}" alt=""></a></h4>				
 						</div>
 						<div class="flex1col2">
-							<h4><a href="">Quang động lực IRA</a></h4>
+							<h4><a href="{{ MyAPI::getUrlPost(7) }}">Quang động lực IRA</a></h4>
 							<ul>
 								<li><i class="fa fa-caret-right"></i>Thích hợp điều trị các bệnh: Sùi mào gà</li>
 								<li><i class="fa fa-caret-right"></i>Ưu điểm: Vết thương nhỏ, ít chảy máu, tỷ lệ tái phát thấp</li>
@@ -406,10 +406,10 @@
 				<div>
 					<div class="flex flex1">
 						<div class="flex1col1">
-							<h4><a href=""><img src="{{ asset('public/images/desktop/kt-10.png') }}" alt=""></a></h4>				
+							<h4><a href="{{ MyAPI::getUrlPost(8) }}"><img src="{{ asset('public/images/desktop/kt-10.png') }}" alt=""></a></h4>				
 						</div>
 						<div class="flex1col2">
-							<h4><a href="">Hệ thống hồi phục chức năng sinh dục DEA</a></h4>
+							<h4><a href="{{ MyAPI::getUrlPost(8) }}">Hệ thống hồi phục chức năng sinh dục DEA</a></h4>
 							<ul>
 								<li><i class="fa fa-caret-right"></i>Thích hợp điều trị các bệnh: Liệt dương, xuất tinh sớm, rối loạn chức năng cương cứng</li>
 								<li><i class="fa fa-caret-right"></i>Ưu điểm: Hiệu quả rõ rệt, không tác dụng phụ, an toàn</li>

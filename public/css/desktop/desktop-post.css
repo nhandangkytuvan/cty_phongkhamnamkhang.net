@@ -64,25 +64,38 @@ main.term.post .order2 .flex1col1 h6{
 }
 /**/
 main.term.post .post-related .flex2col1{
-    width: 48%;
+    width: 50%;
+    padding:0px 10px;
 }
 main.term.post .post-related ul{
     list-style:none;
     margin-top: 30px;
-    padding-left: 20px;
+    padding-left: 0px;
 }
 main.term.post .post-related ul li{
-    margin-bottom: 5px;
+    margin-bottom: 8px;
+}
+main.term.post .post-related ul li h5{
+    position: relative;padding-left: 15px;
 }
 main.term.post .post-related ul li h5 i{
     font-size: 5px;
     vertical-align: 3px;
     padding-right: 10px;
+    position: absolute;
+    left: 0px;
+    top:6px;
+}
+main.term.post .post-related ul li h5:hover i{
+    color: red;
 }
 main.term.post .post-related ul li h5 a{
     font-size: 14px;
     color: #000;
     font-weight: normal;
+}
+main.term.post .post-related ul li h5 a:hover{
+    color: red;
 }
 /**/
 main.term.post .post-number{

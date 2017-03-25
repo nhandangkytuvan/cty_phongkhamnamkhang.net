@@ -87,11 +87,11 @@
 	<h3>Liệu pháp đặc biệt</h3>
 	<h4><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/images/desktop/term-5.png') }}" class="center-block"></a></h4>
 	<ul>
-		<li><h5><i>1</i><a href="">Bài viết về liệu pháp</a></h5></li>
-		<li><h5><i>2</i><a href="">Bài viết về liệu pháp</a></h5></li>
-		<li><h5><i>3</i><a href="">Bài viết về liệu pháp</a></h5></li>
-		<li><h5><i class="active">4</i><a href="">Bài viết về liệu pháp</a></h5></li>
-		<li><h5><i class="active">5</i><a href="">Bài viết về liệu pháp</a></h5></li>
-		<li><h5><i class="active">6</i><a href="">Bài viết về liệu pháp</a></h5></li>
+		<li><h5><i>1</i><a href="{{ MyAPI::getUrlPost(11) }}">【 viêm tuyến tiền liệt 】 PP điều trị</a></h5></li>
+		<li><h5><i>2</i><a href="{{ MyAPI::getUrlPost(12) }}">【 xuất tinh sớm 】 PP điều trị</a></h5></li>
+		<li><h5><i>3</i><a href="{{ MyAPI::getUrlPost(8) }}">【 liệt dương 】 PP điều trị</a></h5></li>
+		<li><h5><i class="active">4</i><a href="{{ MyAPI::getUrlPost(9) }}">【 đau tinh hoàn 】 PP điều trị</a></h5></li>
+		<li><h5><i class="active">5</i><a href="{{ MyAPI::getUrlPost(10) }}">【 dài bao quy đầu 】 PP điều trị</a></h5></li>
+		<li><h5><i class="active">6</i><a href="{{ MyAPI::getUrlPost(9) }}">【 viêm niệu đạo 】 PP điều trị</a></h5></li>
 	</ul>
 </div>

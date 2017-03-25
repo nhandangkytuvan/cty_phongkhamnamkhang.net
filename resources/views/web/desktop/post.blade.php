@@ -113,19 +113,38 @@
 				</div>
 			</div>
 			<div class="post-related">
+				@php  
+					$term = $data['post']->term;
+					$posts = $term->post()->where('id','<>',$data['post']->id)->limit(6)->get();
+				@endphp
 				<div class="flex justify-content-between flex2">
 					<div class="flex2col1">
 						<ul>
-							<li><h5><i class="fa fa-circle" aria-hidden="true"></i><a href="">Bài viết bệnh trong mục bài trước</a></h5></li>
-							<li><h5><i class="fa fa-circle" aria-hidden="true"></i><a href="">Bài viết bệnh trong mục bài trước</a></h5></li>
-							<li><h5><i class="fa fa-circle" aria-hidden="true"></i><a href="">Bài viết bệnh trong mục bài trước</a></h5></li>
+							@foreach($posts as $key => $post)
+							<li>
+								<h5>
+									<i class="fa fa-circle" aria-hidden="true"></i>
+									<a href="{{ MyAPI::getUrlPost($post->id) }}">{{ $post->post_name }}</a>
+								</h5>
+							</li>
+							@php 
+								unset($posts[$key]);
+								if($key==2) break;
+							@endphp
+							@endforeach
 						</ul>
 					</div>
 					<div class="flex2col1">
 						<ul>
-							<li><h5><i class="fa fa-circle" aria-hidden="true"></i><a href="">Bài viết bệnh trong mục bài sau</a></h5></li>
-							<li><h5><i class="fa fa-circle" aria-hidden="true"></i><a href="">Bài viết bệnh trong mục bài sau</a></h5></li>
-							<li><h5><i class="fa fa-circle" aria-hidden="true"></i><a href="">Bài viết bệnh trong mục bài sau</a></h5></li>
+							@foreach($posts as $key => $post)
+							<li>
+								<h5>
+									<i class="fa fa-circle" aria-hidden="true"></i>
+									<a href="{{ MyAPI::getUrlPost($post->id) }}">{{ $post->post_name }}</a>
+								</h5>
+							</li>
+							@php unset($posts[$key]) @endphp
+							@endforeach
 						</ul>
 					</div>
 				</div>
