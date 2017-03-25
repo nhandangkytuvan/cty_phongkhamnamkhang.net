@@ -8,6 +8,7 @@
 <meta id="metaKeywords" name="keywords" content="{{ $setting->web_keyword }}">
 @endsection('keyword')
 @section('css')
+	<link rel="stylesheet" type="text/css" href="{{ asset('public/css/global/hover/css/hover.css') }}">
 	<link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-about.css') }}">
 @endsection('css')
 @section('content')
@@ -68,8 +69,43 @@
 				</p>
 			</div>
 		</div>
-		<div class="row7">
-			<div><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"></a></div>
+		<div class="row7"  onclick="open_tuvan()">
+			<div class="container">
+				<div class="flex justify-content-between flex-wrap-wrap align-content-between">
+					<div class="flex1col1">
+						<div class="hvr-border-fade mau-xanh" style="margin-top: 4px;margin-left: 3px;" onclick="open_tuvan()">
+							<h3 class="text-center"><a href="">Tư vấn trực tuyến</a></h3>
+						</div>
+					</div>
+					<div class="flex1col1">
+						<div class="hvr-border-fade" onclick="open_tuvan()">
+							<h3 class="text-center"><a href="">Đặt hẹn trực tuyến</a></h3>
+						</div>
+					</div>
+					<div class="flex1col1">
+						<div class="hvr-border-fade">
+							<h3 class="text-center"><a href="">Đến khám</a></h3>
+						</div>
+					</div>
+				</div>
+				<div class="flex justify-content-between flex-wrap-wrap align-content-between">
+					<div class="flex1col1">
+						<div class="hvr-border-fade" onclick="open_tuvan()">
+							<h3 class="text-center"><a href="">Điều trị đúng bệnh</a></h3>
+						</div>
+					</div>
+					<div class="flex1col1">
+						<div class="hvr-border-fade" onclick="open_tuvan()">
+							<h3 class="text-center"><a href="">Chuẩn đoán</a></h3>
+						</div>
+					</div>
+					<div class="flex1col1">
+						<div class="hvr-border-fade" onclick="open_tuvan()">
+							<h3 class="text-center"><a href="">Chuyên gia trực tiếp tham khám</a></h3>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</main>
 @endsection('content')
