@@ -8,9 +8,8 @@
 <meta id="metaKeywords" name="keywords" content="{{ $data['term']->term_keyword }}">
 @endsection('keyword')
 @section('css')
-<link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-pagination.css') }}">
 <link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-sidebar.css') }}">
-<link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-kythuat.css') }}">
+<link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-thietbi.css') }}">
 @endsection('css')
 @section('js')
 <script type="text/javascript" src="{{ asset('public/js/global/MSClass.js') }}"></script>
@@ -54,21 +53,11 @@
 				<div class="flex1col2">
 					<h4>Bài xem nhiều</h4>
 					<ul>
-						@php 
-							$stt = 0;
-							$posts = $data['term']->post()->limit(5)->get();
-						@endphp
-						@foreach($posts as $post)
-						@php $stt++ @endphp
-						<li>
-							<h5>
-								<a href="{{ MyAPI::getUrlPost($post->id) }}">
-									<i {!! $stt >= 4 ? 'class="active"' : '' !!} >{{ $stt }}</i>
-									{{ $post->post_name }}
-								</a>
-							</h5>
-						</li>
-						@endforeach
+						<li><h5><a href="#"><i>1</i> Bài viết về bệnh xem nhiều.</a></h5></li>
+						<li><h5><a href="#"><i>2</i> Bài viết về bệnh xem nhiều.</a></h5></li>
+						<li><h5><a href="#"><i>3</i> Bài viết về bệnh xem nhiều.</a></h5></li>
+						<li><h5><a href="#"><i class="active">4</i> Bài viết về bệnh xem nhiều.</a></h5></li>
+						<li><h5><a href="#"><i class="active">5</i> Bài viết về bệnh xem nhiều.</a></h5></li>
 					</ul>
 					<div class="flex flex2 justify-content-between">
 						<div class="flex2col1"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn trực tuyến</a></div>
@@ -78,25 +67,39 @@
 				</div>
 			</div>
 			<div class="posts">
-				@php 
-					$posts = $data['term']->post()->paginate(7);
-				@endphp
-				@foreach($posts as $post)
 				<div class="post">
 					<div class="clearfix">
 						<div class="pull-left">
-							<h3><a href="{{ MyAPI::getUrlPost($post->id) }}">{{ $post->post_name }}</a></h3>
+							<h3><a href="">Bài viết về bệnh trong mục tên bệnh</a></h3>
 						</div>	
 					</div>
 					<p>
-						{{ MyAPI::limitWord($post->post_description,50) }}
-						<a href="{{ MyAPI::getUrlPost($post->id) }}">Chi tiết</a>
+						Mô tả bệnh , đoạn mô tả bệnh trong bài viết trong mục tên bệnh một đoạn mô tả gồm khoảng 20 đến 30 từ liên quan tóm tắt về nội dung bài viết. đoạn tóm tắt về nội dung bài viết. đoạn tóm tắt về nội dung bài viết.đoạn tóm tắt về nội dung bài viết.
+						<a href="#">Chi tiết</a>
 					</p>
 				</div>
-				@endforeach
-			</div>
-			<div class="my_pagination">
-				{{ $posts->links() }}
+				<div class="post">
+					<div class="clearfix">
+						<div class="pull-left">
+							<h3><a href="">Bài viết về bệnh trong mục tên bệnh</a></h3>
+						</div>	
+					</div>
+					<p>
+						Mô tả bệnh , đoạn mô tả bệnh trong bài viết trong mục tên bệnh một đoạn mô tả gồm khoảng 20 đến 30 từ liên quan tóm tắt về nội dung bài viết. đoạn tóm tắt về nội dung bài viết.đoạn tóm tắt về nội dung bài viết.đoạn tóm tắt về nội dung bài viết.
+						<a href="#">Chi tiết</a>
+					</p>
+				</div>
+				<div class="post">
+					<div class="clearfix">
+						<div class="pull-left">
+							<h3><a href="">Bài viết về bệnh trong mục tên bệnh</a></h3>
+						</div>	
+					</div>
+					<p>
+						Mô tả bệnh , đoạn mô tả bệnh trong bài viết trong mục tên bệnh một đoạn mô tả gồm khoảng 20 đến 30 từ liên quan tóm tắt về nội dung bài viết. đoạn tóm tắt về nội dung bài viết.đoạn tóm tắt về nội dung bài viết.đoạn tóm tắt về nội dung bài viết.
+						<a href="#">Chi tiết</a>
+					</p>
+				</div>
 			</div>
 		</div>
 		<div class="flex0col2">

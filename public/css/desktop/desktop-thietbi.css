@@ -1,6 +1,6 @@
 /**/
 .banner{
-	background-image: url('../../images/desktop/kt-banner.png')!important;
+	background-image: url('../../images/desktop/tb-banner.png')!important;
 } 
 main.term .flex0col1 .flex1{
 	margin-top: 15px;
@@ -75,7 +75,7 @@ main.term .flex0col1 .post{
 	padding-right: 10px;
 }
 main.term .flex0col1 .post h3{
-	color: #000;
+	color: #66667d;
 	font-size: 18px;
 	font-weight: normal;
 }
