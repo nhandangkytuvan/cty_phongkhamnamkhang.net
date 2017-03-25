@@ -48,7 +48,6 @@
 		<div class="flex0col1">
 			<h1 class="text-uppercase"><i></i> {{ $data['post']->post_name }}</h1>
 			<div class="post-description">
-				<p>{{ $data['post']->post_description }}</p>
 			</div>
 			<div class="post-detail">
 				{!! $data['post']->post_detail !!}
