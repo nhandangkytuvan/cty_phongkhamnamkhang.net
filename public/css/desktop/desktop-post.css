@@ -145,6 +145,7 @@ main.term.post .post-description{
     margin-top: 20px;
     line-height: 20px;
     padding-right: 15px;
+    font-weight: bold;
 }
 main.term.post .post-detail{
     padding-right: 15px;
