@@ -87,7 +87,7 @@
 							</div>
 						</div>
 						<div>
-							<h4 class="bg bg3"><a href="{{ MyAPI::getUrlTerm(12) }}">Chỉnh hình bộ phận sinh dục</a></h4>
+							<h4 class="bg bg3"><a href="{{ MyAPI::getUrlTerm(12) }}">Chỉnh hình cơ quan sinh dục</a></h4>
 							<div class="flex flex2 justify-content-between">
 								<div class="flex2col1">
 									<h5><a href="{{ MyAPI::getUrlTerm(13) }}">Dài bao quy đầu</a></h5>
@@ -116,12 +116,12 @@
 							<h4 class="bg bg5"><a href="{{ MyAPI::getUrlTerm(22) }}">Vô sinh nam</a></h4>
 							<div class="flex flex2 justify-content-between">
 								<div class="flex2col1">
-									<h5><a href="{{ MyAPI::getUrlTerm(23) }}">Ít tinh trùng</a></h5>
+									<h5><a href="{{ MyAPI::getUrlTerm(23) }}">Tinh trùng ít</a></h5>
 									<h5><a href="{{ MyAPI::getUrlTerm(24) }}">Xuất tinh ra máu</a></h5>
 								</div>
 								<div class="flex2col1">
 									<h5><a href="{{ MyAPI::getUrlTerm(25) }}">Vô tinh</a></h5>
-									<h5><a href="{{ MyAPI::getUrlTerm(26) }}">Yếu tinh trùng</a></h5>
+									<h5><a href="{{ MyAPI::getUrlTerm(26) }}">Tinh trùng yếu</a></h5>
 								</div>
 							</div>
 						</div>
