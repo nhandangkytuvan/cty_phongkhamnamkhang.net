@@ -109,7 +109,7 @@
                             content_css: [
                                 '{{ asset("public/font/codepen.min.css") }}'
                             ],
-                            imagetools_cors_hosts: ['//www.xuongkhophn.net'],
+                            imagetools_cors_hosts: ['//www.phongkhamnamkhang.net'],
                         });
                     });
                 </script>

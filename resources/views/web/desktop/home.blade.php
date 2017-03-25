@@ -339,7 +339,7 @@
 							<h4><a href=""><img src="{{ asset('public/images/desktop/kt-5.png') }}" alt=""></a></h4>				
 						</div>
 						<div class="flex1col2">
-							<h4><a href="">Liệu pháp đa chiều 4 trong 1</a></h4>
+							<h4><a href="">Liệu pháp điều trị lập thể 4 hạng mục</a></h4>
 							<ul>
 								<li><i class="fa fa-caret-right"></i>Thích hợp điều trị các bệnh: Vô sinh nam, vô tinh, chết tinh trùng, yếu tinh trùng…</li>
 								<li><i class="fa fa-caret-right"></i>Ưu điểm: Thích ứng rộng, hiệu quả điều trị rõ rệt, không tác dụng phụ.</li>
