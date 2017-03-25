@@ -8,6 +8,19 @@
     <div class="panel panel-default">
         <div class="panel-heading text-center">Tạo term</div>
         <div class="panel-body">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="control-label">Ảnh</label>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-picture"></i></span>
+                            <input type="file" class="form-control" name="term_avatar" id="fileUpload">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6" id="image-holder">
+                </div>
+            </div>
             <div class="form-group">
                 <label class="control-label">Tên</label>
                 <input type="text" class="form-control" name="term_name"  value="{{ old('term_name') }}">

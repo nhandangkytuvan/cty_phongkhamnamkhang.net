@@ -138,3 +138,26 @@ main.term.post .post-footer .order2 .flex1col1:hover{
 main.term.post .post-footer .order2 .flex1col1:hover a{
     color: red;
 }
+
+/**/
+main.term.post .post-description{
+    margin-bottom: 15px;
+    margin-top: 20px;
+    line-height: 20px;
+    padding-right: 15px;
+}
+main.term.post .post-detail{
+    padding-right: 15px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+main.term.post .post-detail ul,main.term.post .post-detail ol{
+    padding-left: 20px;
+}
+main.term.post .post-detail ul li,main.term.post .post-detail ol li{
+    margin-bottom: 5px;
+}
+main.term.post .post-detail p{
+    margin-bottom: 10px;
+    line-height: 20px;
+}

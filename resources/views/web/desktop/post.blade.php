@@ -45,12 +45,12 @@
 <main class="container term post">
 	<div class="flex flex0 justify-content-between">
 		<div class="flex0col1">
-			<h1 class="text-uppercase"><i></i> Tên bài viết trong mục</h1>
+			<h1 class="text-uppercase"><i></i> {{ $data['post']->post_name }}</h1>
 			<div class="post-description">
-				Mô tả bài viết
+				<p>{{ $data['post']->post_description }}</p>
 			</div>
 			<div class="post-detail">
-				Khu vực nội dung bài viết
+				{!! $data['post']->post_detail !!}
 			</div>
 			<div class="post-footer">
 				<div class="order1">

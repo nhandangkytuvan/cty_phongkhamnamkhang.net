@@ -40,6 +40,7 @@
     <table class="table table-bordered">
         <tr class="active">
             <td>ID</td>
+            <td>Ảnh</td>
             <td>Tên</td>
             <td>Cấp trên</td>
             <td>Số bài</td>
@@ -48,6 +49,11 @@
         @foreach($data['terms'] as $key => $term)
         <tr>
             <td>{{ $term->id }}</td>
+            <td>
+                @if($term->term_avatar)
+                <img src="{{ asset('public/img/'.$term->term_avatar) }}" class="img-responsive center-block" style="max-width: 50px;">
+                @endif
+            </td>
             <td><a href="{{ url($term->term_alias.'/'.$term->id) }}">{{ $term->term_name }}</a></td>
             <td>{{ $term->parent()->exists() ? $term->parent->term_name : '' }}</td>
             <td>{{ $term->post()->count() }}</td>

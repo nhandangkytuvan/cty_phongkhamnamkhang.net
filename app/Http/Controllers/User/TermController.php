@@ -24,6 +24,14 @@ class TermController extends Controller{
             $term->term_order = 0;
             $term->term_description = $request->input('term_description');
             $term->term_keyword = $request->input('term_keyword');
+            // upload
+            if($request->hasFile('term_avatar')){
+                $file = $request->file('term_avatar');
+                $term_avatar = $term->term_alias.'-'.time().'.'.$file->extension();
+                $file->move(public_path().'/img',$term_avatar);
+                $term->term_avatar = $term_avatar;
+            }
+            // 
             if($term->save()){
                 Session::flash('success','Tạo mới thành công.');
                 return redirect('user/term/index');
@@ -53,6 +61,14 @@ class TermController extends Controller{
             $term->term_alias = str_slug($request->input('term_name'),'-');
             $term->term_description = $request->input('term_description');
             $term->term_keyword = $request->input('term_keyword');
+            // upload
+            if($request->hasFile('term_avatar')){
+                $file = $request->file('term_avatar');
+                $term_avatar = $term->term_alias.'-'.time().'.'.$file->extension();
+                $file->move(public_path().'/img',$term_avatar);
+                $term->term_avatar = $term_avatar;
+            }
+            // 
             if($term->save()){
                 Session::flash('success','Sửa thành công.');
                 return redirect('user/term/index');

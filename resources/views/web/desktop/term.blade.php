@@ -40,7 +40,15 @@
 			<h1 class="text-uppercase"><i></i> {{ $data['term']->term_name }}</h1>
 			<div class="flex flex1 justify-content-between">
 				<div class="flex1col1">
-					<h3><a href=""><img src="{{ asset('public/images/desktop/term-3.png') }}" class="center-block"></a></h3>
+					<h3>
+						<a href="{{ MyAPI::getUrlTerm($data['term']->id) }}">
+							@if($data['term']->term_avatar)
+								<img src="{{ asset('public/img/'.$data['term']->term_avatar) }}" class="center-block">
+							@else
+								<img src="{{ asset('public/images/desktop/term-3.png') }}" class="center-block">
+							@endif
+						</a>
+					</h3>
 				</div>
 				<div class="flex1col2">
 					<h4>Bài xem nhiều</h4>
