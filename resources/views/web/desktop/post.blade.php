@@ -152,7 +152,7 @@
 								<div class="flex4col2 flex justify-content-center align-items-center">
 									<div>
 										<h3 class="text-center">
-											<a href=""><img src="{{ asset('public/images/desktop/icon-13.png') }}" class="center-block"></a>
+											<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/images/desktop/icon-13.png') }}" class="center-block"></a>
 										</h3>
 										<h4 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn trực tuyến</a></h4>
 									</div>
