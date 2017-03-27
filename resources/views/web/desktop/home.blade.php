@@ -14,7 +14,7 @@
 @section('content')
 	<div class="baner">
 		<div class="slick-home">
-			<div><img src="{{ asset('public/images/desktop/slide-2.png') }}" alt="" class="center-block"></div>
+			<div><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/images/desktop/slide-2.png') }}" alt="" class="center-block"></a></div>
 		</div>
 		<script>
 			$('.slick-home').slick({
@@ -493,12 +493,12 @@
 			</div>
 		</div>
 		<div class="row12">
-			<div><a href=""><img src="{{ asset('public/images/desktop/home-10.png') }}" class="center-block"></a></div>
+			<div><a href="#"><img src="{{ asset('public/images/desktop/home-10.png') }}" class="center-block"></a></div>
 			<p class="text-justify">
 				Phòng khám Nam Khang Hà Nội nỗ lực gánh vác trách nhiệm xã hội, phòng khám thường xuyên tổ chức các hoạt động xã hội, miễn phí kiểm tra sức khỏe cho người dân, mục đích giúp được nhiều hơn cho bệnh nhân có hoàn cảnh khó khăn, nhận được lời khen ngợi của đông đảo quần chúng nhân dân.
 			</p>
 			<div>
-				<a href=""><img src="{{ asset('public/images/desktop/home-9.png') }}" class="center-block"></a>
+				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/images/desktop/home-9.png') }}" class="center-block"></a>
 			</div>
 		</div>
 	</main>
