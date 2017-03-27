@@ -8,6 +8,7 @@
 <meta id="metaKeywords" name="keywords" content="{{ $data['term']->term_keyword }}">
 @endsection('keyword')
 @section('css')
+<link rel="stylesheet" type="text/css" href="{{ asset('public/css/global/hover/css/hover.css') }}">
 <link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-sidebar.css') }}">
 <link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-thietbi.css') }}">
 @endsection('css')
@@ -71,8 +72,8 @@
 			</div>
 			<div class="row-footer">
 				<h3 class="text-center">
-					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block"><i></i> Tìm hiểu kĩ lưỡng quá trình điều trị</a>
-					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block">Hỏi chuyên gia phải điều trị như thế nào <i></i></a>
+					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block hvr-float-shadow"><i></i> Tìm hiểu kĩ lưỡng quá trình điều trị</a>
+					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block hvr-float-shadow">Hỏi chuyên gia phải điều trị như thế nào <i></i></a>
 				</h3>
 			</div>
 		</div>
@@ -120,8 +121,8 @@
 			</div>
 			<div class="row-footer">
 				<h3 class="text-center">
-					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block"><i></i> Tìm hiểu kĩ lưỡng quá trình điều trị</a>
-					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block">Hỏi chuyên gia phải điều trị như thế nào <i></i></a>
+					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block hvr-float-shadow"><i></i> Tìm hiểu kĩ lưỡng quá trình điều trị</a>
+					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block hvr-float-shadow">Hỏi chuyên gia phải điều trị như thế nào <i></i></a>
 				</h3>
 			</div>
 		</div>
@@ -171,8 +172,8 @@
 			</div>
 			<div class="row-footer">
 				<h3 class="text-center">
-					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block"><i></i> Tìm hiểu kĩ lưỡng quá trình điều trị</a>
-					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block">Hỏi chuyên gia phải điều trị như thế nào <i></i></a>
+					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block hvr-float-shadow"><i></i> Tìm hiểu kĩ lưỡng quá trình điều trị</a>
+					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block hvr-float-shadow">Hỏi chuyên gia phải điều trị như thế nào <i></i></a>
 				</h3>
 			</div>
 		</div>
@@ -220,8 +221,8 @@
 			</div>
 			<div class="row-footer">
 				<h3 class="text-center">
-					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block"><i></i> Tìm hiểu kĩ lưỡng quá trình điều trị</a>
-					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block">Hỏi chuyên gia phải điều trị như thế nào <i></i></a>
+					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block hvr-float-shadow"><i></i> Tìm hiểu kĩ lưỡng quá trình điều trị</a>
+					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block hvr-float-shadow">Hỏi chuyên gia phải điều trị như thế nào <i></i></a>
 				</h3>
 			</div>
 		</div>
@@ -268,8 +269,8 @@
 			</div>
 			<div class="row-footer">
 				<h3 class="text-center">
-					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block"><i></i> Tìm hiểu kĩ lưỡng quá trình điều trị</a>
-					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block">Hỏi chuyên gia phải điều trị như thế nào <i></i></a>
+					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block hvr-float-shadow"><i></i> Tìm hiểu kĩ lưỡng quá trình điều trị</a>
+					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block hvr-float-shadow">Hỏi chuyên gia phải điều trị như thế nào <i></i></a>
 				</h3>
 			</div>
 		</div>

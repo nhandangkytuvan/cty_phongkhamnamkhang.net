@@ -60,7 +60,7 @@
 					<div class="flex flex2 justify-content-between">
 						<div class="flex flex2col1 justify-content-between align-items-center">
 							<div>
-								<h5><a href="">Tìm hiểu tình trạng bệnh</a></h5>
+								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tìm hiểu tình trạng bệnh</a></h5>
 							</div>
 						</div>
 						<div class="flex flex2col1 justify-content-between align-items-center">
@@ -90,7 +90,7 @@
 					<div class="flex flex2 justify-content-between">
 						<div class="flex flex2col1 justify-content-between align-items-center">
 							<div>
-								<h5><a href="">Tìm hiểu tình trạng bệnh</a></h5>
+								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tìm hiểu tình trạng bệnh</a></h5>
 							</div>
 						</div>
 						<div class="flex flex2col1 justify-content-between align-items-center">
@@ -120,7 +120,7 @@
 					<div class="flex flex2 justify-content-between">
 						<div class="flex flex2col1 justify-content-between align-items-center">
 							<div>
-								<h5><a href="">Tìm hiểu tình trạng bệnh</a></h5>
+								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tìm hiểu tình trạng bệnh</a></h5>
 							</div>
 						</div>
 						<div class="flex flex2col1 justify-content-between align-items-center">
@@ -150,7 +150,7 @@
 					<div class="flex flex2 justify-content-between">
 						<div class="flex flex2col1 justify-content-between align-items-center">
 							<div>
-								<h5><a href="">Tìm hiểu tình trạng bệnh</a></h5>
+								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tìm hiểu tình trạng bệnh</a></h5>
 							</div>
 						</div>
 						<div class="flex flex2col1 justify-content-between align-items-center">
@@ -180,7 +180,7 @@
 					<div class="flex flex2 justify-content-between">
 						<div class="flex flex2col1 justify-content-between align-items-center">
 							<div>
-								<h5><a href="">Tìm hiểu tình trạng bệnh</a></h5>
+								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tìm hiểu tình trạng bệnh</a></h5>
 							</div>
 						</div>
 						<div class="flex flex2col1 justify-content-between align-items-center">
@@ -210,7 +210,7 @@
 					<div class="flex flex2 justify-content-between">
 						<div class="flex flex2col1 justify-content-between align-items-center">
 							<div>
-								<h5><a href="">Tìm hiểu tình trạng bệnh</a></h5>
+								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tìm hiểu tình trạng bệnh</a></h5>
 							</div>
 						</div>
 						<div class="flex flex2col1 justify-content-between align-items-center">
@@ -240,7 +240,7 @@
 					<div class="flex flex2 justify-content-between">
 						<div class="flex flex2col1 justify-content-between align-items-center">
 							<div>
-								<h5><a href="">Tìm hiểu tình trạng bệnh</a></h5>
+								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tìm hiểu tình trạng bệnh</a></h5>
 							</div>
 						</div>
 						<div class="flex flex2col1 justify-content-between align-items-center">
@@ -270,7 +270,7 @@
 					<div class="flex flex2 justify-content-between">
 						<div class="flex flex2col1 justify-content-between align-items-center">
 							<div>
-								<h5><a href="">Tìm hiểu tình trạng bệnh</a></h5>
+								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tìm hiểu tình trạng bệnh</a></h5>
 							</div>
 						</div>
 						<div class="flex flex2col1 justify-content-between align-items-center">
@@ -300,7 +300,7 @@
 					<div class="flex flex2 justify-content-between">
 						<div class="flex flex2col1 justify-content-between align-items-center">
 							<div>
-								<h5><a href="">Tìm hiểu tình trạng bệnh</a></h5>
+								<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tìm hiểu tình trạng bệnh</a></h5>
 							</div>
 						</div>
 						<div class="flex flex2col1 justify-content-between align-items-center">

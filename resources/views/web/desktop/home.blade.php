@@ -8,6 +8,7 @@
 <meta id="metaKeywords" name="keywords" content="{{ $setting->web_keyword }}">
 @endsection('keyword')
 @section('css')
+	<link rel="stylesheet" type="text/css" href="{{ asset('public/css/global/hover/css/hover.css') }}">
 	<link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-home.css') }}">
 @endsection('css')
 @section('content')
@@ -37,7 +38,7 @@
 					</form>
 				</div>
 				<div class="flex1col3">
-					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block">Tư vấn trực tuyến</a>
+					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block hvr-float-shadow">Tư vấn trực tuyến</a>
 				</div>
 				<div class="flex1col4">
 					<div>Đã có <span>106322</span> người được hỗ trợ</div>
@@ -56,7 +57,7 @@
 					<p class="text-justify">
 						Phòng khám Nam Khang Hà Nội là cơ sở y tế chuyên điều trị nam khoa hiếm có ở khu vực Hà Nội, phòng khám đạt tiêu chuẩn y tế JCI quốc tế, hội tụ đội ngũ chuyên gia cao cấp trong và ngoài nước, dịch vụ chất lượng cao, môi trường khám chữa bệnh ấm cúng đạt chất lượng 5 sao, vượt qua mô hình truyền thống của ngành y tế Hà Nội, mở ra thời đại mới về khám điều trị bệnh nam khoa đỉnh cao tại Hà Nội, kết hợp với dịch vụ đặc biệt chuyên khoa, chuyên bệnh, chuyên trị, xây dựng thương hiệu chuyên nghiệp về nam khoa trên toàn quốc.
 					</p>
-					<div class="text-center"><a href="{{ url('/ve-chung-toi') }}">Xem chi tiết</a></div>
+					<div class="text-center"><a href="{{ url('/ve-chung-toi') }}" class="hvr-float-shadow">Xem chi tiết</a></div>
 				</div>
 				<div class="flex1col2">
 					<a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/images/desktop/home-2.png') }}" alt=""></a>
@@ -147,7 +148,7 @@
 							</p>
 						</div>
 						<div>
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block">Tư vấn trực tuyến</a>
+							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block hvr-float-shadow">Tư vấn trực tuyến</a>
 						</div>
 					</div>
 					<div>
@@ -163,7 +164,7 @@
 							</p>
 						</div>
 						<div>
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block">Tư vấn trực tuyến</a>
+							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block hvr-float-shadow">Tư vấn trực tuyến</a>
 						</div>
 					</div>
 					<div>
@@ -180,7 +181,7 @@
 							</p>
 						</div>
 						<div>
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block" style="margin-top: 25px;">Tư vấn trực tuyến</a>
+							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block hvr-float-shadow" style="margin-top: 25px;">Tư vấn trực tuyến</a>
 						</div>
 					</div>
 					<div>
@@ -196,7 +197,7 @@
 							</p>
 						</div>
 						<div>
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block">Tư vấn trực tuyến</a>
+							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block hvr-float-shadow">Tư vấn trực tuyến</a>
 						</div>
 					</div>
 					<div>
@@ -212,7 +213,7 @@
 							</p>
 						</div>
 						<div>
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block">Tư vấn trực tuyến</a>
+							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block hvr-float-shadow">Tư vấn trực tuyến</a>
 						</div>
 					</div>
 					<div>
@@ -228,7 +229,7 @@
 							</p>
 						</div>
 						<div>
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block">Tư vấn trực tuyến</a>
+							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block hvr-float-shadow">Tư vấn trực tuyến</a>
 						</div>
 					</div>
 				</div>
