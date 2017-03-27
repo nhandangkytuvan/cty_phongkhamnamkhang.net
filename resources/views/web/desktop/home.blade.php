@@ -433,44 +433,44 @@
 			<div class="slick-tb">
 				<div>
 					<div class="tb">
-						<h5><a href=""><img src="{{ asset('public/images/desktop/tb-1.png') }}" class="center-block"></a></h5>
-						<p class="text-center"><a href="">Máy hồi phục chức năng sinh dục</a></p>
+						<h5><a href="{{ MyAPI::getUrlTerm(33) }}"><img src="{{ asset('public/images/desktop/tb-1.png') }}" class="center-block"></a></h5>
+						<p class="text-center"><a href="{{ MyAPI::getUrlTerm(33) }}">Máy hồi phục chức năng sinh dục</a></p>
 					</div>
 				</div>
 				<div>
 					<div class="tb">
-						<h5><a href=""><img src="{{ asset('public/images/desktop/tb-2.png') }}" class="center-block"></a></h5>
-						<p class="text-center"><a href="">Máy điều trị sóng ngắn</a></p>
+						<h5><a href="{{ MyAPI::getUrlTerm(33) }}"><img src="{{ asset('public/images/desktop/tb-2.png') }}" class="center-block"></a></h5>
+						<p class="text-center"><a href="{{ MyAPI::getUrlTerm(33) }}">Máy điều trị sóng ngắn</a></p>
 					</div>
 				</div>
 				<div>
 					<div class="tb">
-						<h5><a href=""><img src="{{ asset('public/images/desktop/tb-3.png') }}" class="center-block"></a></h5>
-						<p class="text-center"><a href="">Máy điều trị hồng ngoại</a></p>
+						<h5><a href="{{ MyAPI::getUrlTerm(33) }}"><img src="{{ asset('public/images/desktop/tb-3.png') }}" class="center-block"></a></h5>
+						<p class="text-center"><a href="{{ MyAPI::getUrlTerm(33) }}">Máy điều trị hồng ngoại</a></p>
 					</div>
 				</div>
 				<div>
 					<div class="tb">
-						<h5><a href=""><img src="{{ asset('public/images/desktop/tb-4.png') }}" class="center-block"></a></h5>
-						<p class="text-center"><a href="">Máy hồi phục tuyến tiền liệt</a></p>
+						<h5><a href="{{ MyAPI::getUrlTerm(33) }}"><img src="{{ asset('public/images/desktop/tb-4.png') }}" class="center-block"></a></h5>
+						<p class="text-center"><a href="{{ MyAPI::getUrlTerm(33) }}">Máy hồi phục tuyến tiền liệt</a></p>
 					</div>
 				</div>
 				<div>
 					<div class="tb">
-						<h5><a href=""><img src="{{ asset('public/images/desktop/tb-5.png') }}" class="center-block"></a></h5>
-						<p class="text-center"><a href="">Quầy lễ tân</a></p>
+						<h5><a href="{{ MyAPI::getUrlTerm(33) }}"><img src="{{ asset('public/images/desktop/tb-5.png') }}" class="center-block"></a></h5>
+						<p class="text-center"><a href="{{ MyAPI::getUrlTerm(33) }}">Quầy lễ tân</a></p>
 					</div>
 				</div>
 				<div>
 					<div class="tb">
-						<h5><a href=""><img src="{{ asset('public/images/desktop/tb-6.png') }}" class="center-block"></a></h5>
-						<p class="text-center"><a href="">Phòng phẫu thuật vô khuẩn</a></p>
+						<h5><a href="{{ MyAPI::getUrlTerm(33) }}"><img src="{{ asset('public/images/desktop/tb-6.png') }}" class="center-block"></a></h5>
+						<p class="text-center"><a href="{{ MyAPI::getUrlTerm(33) }}">Phòng phẫu thuật vô khuẩn</a></p>
 					</div>
 				</div>
 				<div>
 					<div class="tb">
-						<h5><a href=""><img src="{{ asset('public/images/desktop/tb-7.png') }}" class="center-block"></a></h5>
-						<p class="text-center"><a href="">Phòng phẫu thuật vô khuẩn</a></p>
+						<h5><a href="{{ MyAPI::getUrlTerm(33) }}"><img src="{{ asset('public/images/desktop/tb-7.png') }}" class="center-block"></a></h5>
+						<p class="text-center"><a href="{{ MyAPI::getUrlTerm(33) }}">Phòng phẫu thuật vô khuẩn</a></p>
 					</div>
 				</div>
 			</div>
@@ -483,7 +483,7 @@
 				});	
 			</script>
 			<div class="text-center">
-				<a href="" class="dis-inline-block text-center">
+				<a href="{{ MyAPI::getUrlTerm(33) }}" class="dis-inline-block text-center">
 					Xem thêm môi trường<br>thiết bị phòng khám
 				</a>
 				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block text-center">

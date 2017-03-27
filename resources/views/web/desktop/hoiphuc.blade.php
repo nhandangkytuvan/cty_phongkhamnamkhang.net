@@ -47,14 +47,14 @@
 								<h3><img src="{{ asset('public/images/desktop/hp-1.png') }}" class="center-block"></h3>
 						    	<figcaption class="flex justify-content-between align-items-center">
 					    			<div>
-							      		<h5><span>Thông tin cơ bản: </span>Anh Đoàn  33 tuổi</h5>
+							      		<h5><span>Thông tin cơ bản: </span>Anh Đoàn  29 tuổi</h5>
 							      		<h5><span>Mắc bệnh: </span>Viêm tuyến tiền liệt</h5>
 							      		<h5><span>Triệu chứng: </span>Tiểu nhiều, tiểu rắt, tiểu không hết</h5>
 					    			</div>
 						      	</figcaption>
-						      	<a href="javascript:;" onclick="open_tuvan();"></a>
+						      	<a href="{{ MyAPI::getUrlPost(13) }}"></a>
 						    </figure>
-							<h4 class="text-center pos-absolute width-100"><a href="">Viêm tuyến tiền liệt</a></h4>
+							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPost(13) }}">Viêm tuyến tiền liệt</a></h4>
 						</div>
 					</div>
 					<div class="flex flex2 justify-content-between">
@@ -82,9 +82,9 @@
 							      		<h5><span>Triệu chứng: </span>Lột da bao quy đầu, có mùi hôi</h5>
 					    			</div>
 						      	</figcaption>
-						      	<a href="javascript:;" onclick="open_tuvan();"></a>
+						      	<a href="{{ MyAPI::getUrlPost(18) }}"></a>
 						    </figure>
-							<h4 class="text-center pos-absolute width-100"><a href="">Viêm quy đầu</a></h4>
+							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPost(18) }}">Viêm quy đầu</a></h4>
 						</div>
 					</div>
 					<div class="flex flex2 justify-content-between">
@@ -112,9 +112,9 @@
 							      		<h5><span>Triệu chứng: </span>Thường xuyên tiểu nhiều tiểu rắt, còn có cảm giác đau nhói, thậm chí xuất hiện tiểu ra máu</h5>
 					    			</div>
 						      	</figcaption>
-						      	<a href="javascript:;" onclick="open_tuvan();"></a>
+						      	<a href="{{ MyAPI::getUrlPost(20) }}"></a>
 						    </figure>
-							<h4 class="text-center pos-absolute width-100"><a href="">Tiểu ra máu</a></h4>
+							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPost(20) }}">Tiểu ra máu</a></h4>
 						</div>
 					</div>
 					<div class="flex flex2 justify-content-between">
@@ -142,9 +142,9 @@
 							      		<h5><span>Triệu chứng: </span>Xuất tinh quá nhanh (5 phút), xuất tinh vô lực</h5>
 					    			</div>
 						      	</figcaption>
-						      	<a href="javascript:;" onclick="open_tuvan();"></a>
+						      	<a href="{{ MyAPI::getUrlPost(17) }}"></a>
 						    </figure>
-							<h4 class="text-center pos-absolute width-100"><a href="">Xuất tinh sớm</a></h4>
+							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPost(17) }}">Xuất tinh sớm</a></h4>
 						</div>
 					</div>
 					<div class="flex flex2 justify-content-between">
@@ -167,14 +167,14 @@
 								<h3><img src="{{ asset('public/images/desktop/hp-5.png') }}" class="center-block"></h3>
 						    	<figcaption class="flex justify-content-between align-items-center">
 					    			<div>
-							      		<h5><span>Thông tin cơ bản: </span>Anh Trưởng  27 tuổi</h5>
+							      		<h5><span>Thông tin cơ bản: </span>Anh Trưởng  31 tuổi</h5>
 							      		<h5><span>Mắc bệnh: </span>Liệt dương</h5>
 							      		<h5><span>Triệu chứng: </span>Dương vật cương cứng kém, mệt mỏi sau quan hệ</h5>
 					    			</div>
 						      	</figcaption>
-						      	<a href="javascript:;" onclick="open_tuvan();"></a>
+						      	<a href="{{ MyAPI::getUrlPost(21) }}"></a>
 						    </figure>
-							<h4 class="text-center pos-absolute width-100"><a href="">Liệt dương</a></h4>
+							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPost(21) }}">Liệt dương</a></h4>
 						</div>
 					</div>
 					<div class="flex flex2 justify-content-between">
@@ -202,9 +202,9 @@
 							      		<h5><span>Triệu chứng: </span>Có các u nhú hình súp lơ kích thước như hạt đậu ở quy đầu trong thời gian dài</h5>
 					    			</div>
 						      	</figcaption>
-						      	<a href="javascript:;" onclick="open_tuvan();"></a>
+						      	<a href="{{ MyAPI::getUrlPost(15) }}"></a>
 						    </figure>
-							<h4 class="text-center pos-absolute width-100"><a href="">Sùi mào gà</a></h4>
+							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPost(15) }}">Sùi mào gà</a></h4>
 						</div>
 					</div>
 					<div class="flex flex2 justify-content-between">
@@ -227,14 +227,14 @@
 								<h3><img src="{{ asset('public/images/desktop/hp-7.png') }}" class="center-block"></h3>
 						    	<figcaption class="flex justify-content-between align-items-center">
 					    			<div>
-							      		<h5><span>Thông tin cơ bản: </span>Anh Toàn 48 tuổi</h5>
+							      		<h5><span>Thông tin cơ bản: </span>Anh Toàn 38 tuổi</h5>
 							      		<h5><span>Mắc bệnh: </span>Mụn rộp sinh dục</h5>
 							      		<h5><span>Triệu chứng: </span>Có mụn nước trên cơ quan sinh dục, kèm hiện tượng đau đầu</h5>
 					    			</div>
 						      	</figcaption>
-						      	<a href="javascript:;" onclick="open_tuvan();"></a>
+						      	<a href="{{ MyAPI::getUrlPost(16) }}"></a>
 						    </figure>
-							<h4 class="text-center pos-absolute width-100"><a href="">Mụn rộp sinh dục</a></h4>
+							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPost(16) }}">Mụn rộp sinh dục</a></h4>
 						</div>
 					</div>
 					<div class="flex flex2 justify-content-between">
@@ -262,9 +262,9 @@
 							      		<h5><span>Triệu chứng: </span>Yếu tinh trùng, giãn tĩnh mạch thừng tinh</h5>
 					    			</div>
 						      	</figcaption>
-						      	<a href="javascript:;" onclick="open_tuvan();"></a>
+						      	<a href="{{ MyAPI::getUrlPost(14) }}"></a>
 						    </figure>
-							<h4 class="text-center pos-absolute width-100"><a href="">Vô sinh nam</a></h4>
+							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPost(14) }}">Vô sinh nam</a></h4>
 						</div>
 					</div>
 					<div class="flex flex2 justify-content-between">
@@ -292,9 +292,9 @@
 							      		<h5><span>Triệu chứng: </span>Dài bao quy đầu, viêm quy đầu, làm bạn gái mắc viêm phụ khoa</h5>
 					    			</div>
 						      	</figcaption>
-						      	<a href="javascript:;" onclick="open_tuvan();"></a>
+						      	<a href="{{ MyAPI::getUrlPost(19) }}"></a>
 						    </figure>
-							<h4 class="text-center pos-absolute width-100"><a href="">Dài bao quy đầu</a></h4>
+							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPost(19) }}">Dài bao quy đầu</a></h4>
 						</div>
 					</div>
 					<div class="flex flex2 justify-content-between">
