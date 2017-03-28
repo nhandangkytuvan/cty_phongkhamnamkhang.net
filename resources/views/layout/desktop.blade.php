@@ -24,6 +24,7 @@
 	<script type="text/javascript" src="{{ asset('public/js/global/slick/slick.js') }}"></script>
 	@yield('js')
 	<script type="text/javascript" src="{{ asset('public/js/desktop/desktop.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('public/js/desktop/right.js') }}"></script>
 </head>
 <body>
     <header>
