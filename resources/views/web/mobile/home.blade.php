@@ -367,3 +367,33 @@
 		</div>
 	</main>
 @endsection('content')
+@section('toolbar')
+	<div class="container footer-toolbar">
+		<div class="flex flex1 justify-content-between">
+			<div class="flex1col1">
+				<div class="box-center">
+					<h3 class="text-center"><a href="tel:18006181"><i class="glyphicon glyphicon-phone-alt"></i></a></h3>
+					<h4 class="text-center"><a href="tel:18006181">Gọi điện</a></h4>
+				</div>
+			</div>
+			<div class="flex1col1">
+				<div class="box-center">
+					<h3 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-calendar"></i></a></h3>
+					<h4 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đặt hẹn</a></h4>
+				</div>
+			</div>
+			<div class="flex1col1">
+				<div class="box-center">
+					<h3 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-comment"></i></a></h3>
+					<h4 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn</a></h4>
+				</div>
+			</div>
+			<div class="flex1col1">
+				<div class="box-center">
+					<h3 class="text-center"><a href=""><i class="fa fa-map-marker"></i></a></h3>
+					<h4 class="text-center"><a href="">Địa chỉ</a></h4>
+				</div>
+			</div>
+		</div>
+	</div>
+@endsection('toolbar')

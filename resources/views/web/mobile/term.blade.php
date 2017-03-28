@@ -177,7 +177,7 @@
 			        <span aria-hidden="true">&laquo;</span>
 			      </a>
 			    </li>
-			    <li><a href="#">1</a></li>
+			    <li class="active"><a href="#">1</a></li>
 			    <li><a href="#">2</a></li>
 			    <li><a href="#">3</a></li>
 			    <li><a href="#">4</a></li>
@@ -380,3 +380,33 @@
 		</div>
 	</div>
 @endsection('content')
+@section('toolbar')
+	<div class="container footer-toolbar">
+		<div class="flex flex2 justify-content-between">
+			<div class="flex2col1 flex justify-content-around">
+				<div class="flex3col1 flex align-items-center justify-content-center">
+					<h3 class="text-center"><a href="tel:18006181"><i class="bg bg1"></i></a></h3>
+				</div>
+				<div class="flex3col2 flex align-items-center justify-content-center">
+					<h4 class="text-center"><a href="tel:18006181">Điện thoại tư vấn</a></h4>
+				</div>
+			</div>
+			<div class="flex2col1 flex justify-content-around">
+				<div class="flex3col1 flex align-items-center justify-content-center">
+					<h3 class="text-center"><a href="tel:18006181"><i class="bg bg2"></i></a></h3>
+				</div>
+				<div class="flex3col2 flex align-items-center justify-content-center">
+					<h4 class="text-center"><a href="tel:18006181">Tư vấn trực tuyến</a></h4>
+				</div>
+			</div>
+			<div class="flex2col1 flex justify-content-around">
+				<div class="flex3col1 flex align-items-center justify-content-center">
+					<h3 class="text-center"><a href="tel:18006181"><i class="bg bg3"></i></a></h3>
+				</div>
+				<div class="flex3col2 flex align-items-center justify-content-center">
+					<h4 class="text-center"><a href="tel:18006181">Lên đầu trang</a></h4>
+				</div>
+			</div>
+		</div>
+	</div>
+@endsection('toolbar')
