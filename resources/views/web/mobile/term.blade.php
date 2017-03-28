@@ -8,6 +8,7 @@
 <meta id="metaKeywords" name="keywords" content="{{ $data['term']->term_keyword }}">
 @endsection('keyword')
 @section('css')
+    <link rel="stylesheet" href="{{ asset('public/css/mobile/mobile-pagination.css') }}">
     <link rel="stylesheet" href="{{ asset('public/css/mobile/mobile-term.css') }}">
 @endsection('css')
 @section('content')
@@ -169,14 +170,43 @@
 				</ul>
 			</div>
 		</div>
+		<div class="my_pagination">
+			<ul class="pagination">
+			    <li>
+			      <a href="#" aria-label="Previous">
+			        <span aria-hidden="true">&laquo;</span>
+			      </a>
+			    </li>
+			    <li><a href="#">1</a></li>
+			    <li><a href="#">2</a></li>
+			    <li><a href="#">3</a></li>
+			    <li><a href="#">4</a></li>
+			    <li><a href="#">5</a></li>
+			    <li>
+			      <a href="#" aria-label="Next">
+			        <span aria-hidden="true">&raquo;</span>
+			      </a>
+			    </li>
+		  </ul>
+		</div>
 		<div class="uudiem-thuonghieu">
-			<h5><span>Ưu điểm của thương hiệu</span><span>/</span><span>Brand advantage</span></h5>
+			<div class="flex2 flex">
+				<div class="flex2col1">
+					<h5>Ưu điểm của thương hiệu</h5>
+				</div>
+				<div class="flex2col1">
+					<h5>/</h5>
+				</div>
+				<div class="flex2col1">
+					<h5>Brand advantage</h5>
+				</div>
+			</div>
 			<div class="flex justify-content-between first">
 				<div class="col1 flex">
 					<div class="col1col1 flex justify-content-center align-items-center">
 						<h5><i class="bg bg1"></i></h5>
 					</div>
-					<div class="col1col1 flex justify-content-center align-items-center">
+					<div class="col1col2 flex justify-content-center align-items-center">
 						<h5><a href="">Trình độ phòng khám</a></h5>
 					</div>
 				</div>
@@ -191,7 +221,7 @@
 					<div class="col1col1 flex justify-content-center align-items-center">
 						<h5><i class="bg bg2"></i></h5>
 					</div>
-					<div class="col1col1 flex justify-content-center align-items-center">
+					<div class="col1col2 flex justify-content-center align-items-center">
 						<h5><a href="">Vinh dự của phòng khám</a></h5>
 					</div>
 				</div>
@@ -206,7 +236,7 @@
 					<div class="col1col1 flex justify-content-center align-items-center">
 						<h5><i class="bg bg3"></i></h5>
 					</div>
-					<div class="col1col1 flex justify-content-center align-items-center">
+					<div class="col1col2 flex justify-content-center align-items-center">
 						<h5><a href="">Bác sĩ phòng khám</a></h5>
 					</div>
 				</div>
@@ -221,7 +251,7 @@
 					<div class="col1col1 flex justify-content-center align-items-center">
 						<h5><i class="bg bg4"></i></h5>
 					</div>
-					<div class="col1col1 flex justify-content-center align-items-center">
+					<div class="col1col2 flex justify-content-center align-items-center">
 						<h5><a href="">Liệu pháp điều trị</a></h5>
 					</div>
 				</div>
@@ -236,7 +266,7 @@
 					<div class="col1col1 flex justify-content-center align-items-center">
 						<h5><i class="bg bg5"></i></h5>
 					</div>
-					<div class="col1col1 flex justify-content-center align-items-center">
+					<div class="col1col2 flex justify-content-center align-items-center">
 						<h5><a href="">Đảm bảo riêng tư</a></h5>
 					</div>
 				</div>
@@ -251,7 +281,7 @@
 					<div class="col1col1 flex justify-content-center align-items-center">
 						<h5><i class="bg bg6"></i></h5>
 					</div>
-					<div class="col1col1 flex justify-content-center align-items-center">
+					<div class="col1col2 flex justify-content-center align-items-center">
 						<h5><a href="">Bệnh án điển hình</a></h5>
 					</div>
 				</div>
@@ -263,7 +293,17 @@
 			</div>
 		</div>
 		<div class="comments">
-			<h5><span>Bình luận của bệnh nhân</span><span>/</span><span>Comments</span></h5>
+			<div class="flex2 flex">
+				<div class="flex2col1">
+					<h5>Bình luận của bệnh nhân</h5>
+				</div>
+				<div class="flex2col1">
+					<h5>/</h5>
+				</div>
+				<div class="flex2col1">
+					<h5>Comments</h5>
+				</div>
+			</div>
 			<div class="flex flex1 justify-content-between">
 				<div class="flex1col1 flex align-items-center justify-content-center">
 					<h5>Tổng điểm đánh giá : 5</h5>

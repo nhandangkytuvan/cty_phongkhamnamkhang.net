@@ -92,7 +92,7 @@ div.post-name{
 }
 div.post-name h1{
 	font-size: 16px;
-	/*font-weight: normal;*/
+	padding:0px 10px;
 	color: #007283;
 }
 p.post-description{
@@ -175,32 +175,20 @@ div.uudiem-thuonghieu{
 	border-top: 2px solid #007283;
 	background-color: #fff;
 }
-div.uudiem-thuonghieu h5{
-	display: inline-block;
-	padding-right: 10px;
-}
-div.uudiem-thuonghieu h5 span:nth-child(1){
+div.uudiem-thuonghieu .flex2col1:nth-child(1){
+	padding-bottom: 5px;
+	border-bottom:2px solid #007283;
 	color: #007283;
-	display: inline-block;
-	border-bottom: 2px solid #007283;
+}
+div.uudiem-thuonghieu .flex2col1:nth-child(2){
+	width: 10px;
+	text-align: center;
+}
+div.uudiem-thuonghieu .flex2col1:nth-child(n+2){
 	padding-bottom: 5px;
+	border-bottom:2px solid #d2d2d2;
 }
-div.uudiem-thuonghieu h5 span:nth-child(2){
-	font-size: 17px;
-	display: inline-block;
-	padding:0px 5px;
-	color: #4a4a4a;
-	padding-bottom: 2px;
-	border-bottom: 2px solid #d2d2d2;
-}
-div.uudiem-thuonghieu h5 span:nth-child(3){
-	color: #4a4a4a;
-	position: absolute;
-	display: inline-block;
-	padding-bottom: 5px;
-	border-bottom: 2px solid #d2d2d2;
-	margin-top: 4px;
-}
+
 div.uudiem-thuonghieu >div:nth-child(2){
 	margin-top: 10px;
 }
@@ -211,6 +199,13 @@ div.uudiem-thuonghieu div.col1{
 	color: #5c5c5c;
 	text-align: center;
 	width: 30%;
+}
+div.uudiem-thuonghieu div.col1 .col1col1{
+	width: 30px;
+}
+div.uudiem-thuonghieu div.col1 .col1col2{
+	width: calc(100% - 30px);
+	padding:0px 5px;
 }
 div.uudiem-thuonghieu div.col1 h5 i{
 	display: inline-block;
@@ -256,31 +251,18 @@ div.comments{
 	background-color: #fff;
 	margin-bottom: 20px;
 }
-div.comments h5{
-	display: inline-block;
-	padding-right: 10px;
-}
-div.comments h5 span:nth-child(1){
+div.comments .flex2col1:nth-child(1){
+	padding-bottom: 5px;
+	border-bottom:2px solid #007283;
 	color: #007283;
-	display: inline-block;
-	border-bottom: 2px solid #007283;
-	padding-bottom: 5px;
 }
-div.comments h5 span:nth-child(2){
-	font-size: 17px;
-	display: inline-block;
-	padding:0px 5px;
-	color: #4a4a4a;
-	padding-bottom: 2px;
-	border-bottom: 2px solid #d2d2d2;
+div.comments .flex2col1:nth-child(2){
+	width: 10px;
+	text-align: center;
 }
-div.comments h5 span:nth-child(3){
-	color: #4a4a4a;
-	position: absolute;
-	display: inline-block;
+div.comments .flex2col1:nth-child(n+2){
 	padding-bottom: 5px;
-	border-bottom: 2px solid #d2d2d2;
-	margin-top: 4px;
+	border-bottom:2px solid #d2d2d2;
 }
 div.comments .flex1{
 	margin-top: 10px;
