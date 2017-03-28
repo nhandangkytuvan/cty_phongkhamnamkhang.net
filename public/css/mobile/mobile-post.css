@@ -1,0 +1,11 @@
+div.post{
+	padding:15px;
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+div.post .post-detail{
+	line-height: 20px;
+}
+div.post .post-detail img{
+	max-width: 100%;
+}

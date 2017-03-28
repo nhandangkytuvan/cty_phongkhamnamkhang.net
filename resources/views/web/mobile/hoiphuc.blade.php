@@ -22,7 +22,7 @@
 					<div class="col1col2 flex align-items-center justify-content-between">
 						<div class="width-100">
 							<h5>
-								<a href="">Giới thiệu phòng khám</a></h3>
+								<a href="{{ url('/ve-chung-toi') }}">Giới thiệu phòng khám</a></h3>
 							</h5>
 						</div>
 					</div>
@@ -82,7 +82,7 @@
 					<div class="col1col2 flex align-items-center justify-content-between">
 						<div class="width-100">
 							<h5>
-								<a href="">Chỉ đường</a></h5>
+								<a href="{{ url('/dia-chi-phong-kham') }}">Chỉ đường</a></h5>
 							</h5>
 						</div>
 					</div>
@@ -91,67 +91,24 @@
 		</div>
 		<div class="term-name">
 			<h3 class="text-center"><a href="">{{ $data['term']->term_name }} <i class="fa fa-chevron-circle-down"></i></a></h3>
-			@php $term_parent = $data['term']->parent;  @endphp
-			@if($term_parent)
-			<div class="flex justify-content-around">
-				@php $term_childs = $term_parent->children; @endphp
-				@foreach($term_childs as $term_child)
-				<div class="col1 flex justify-content-center align-items-center">
-					<h5><a href="{{ MyAPI::getUrlTerm($term_child->id) }}">{{ $term_child->term_name }}</a></h5>
-				</div>
-				@endforeach
-			</div>
-			@endif
 		</div>
 		<div class="crub">
 			<div class="flex">
 				<div class="col1 flex justify-content-center align-items-center">
-					<h5><a href="">Trang trước <i class="fa fa-angle-right"></i> tên bài viết</a></h5>
+					<h5><a href="{{ url('/') }}">Trang chủ </a><i class="fa fa-angle-right"></i> <a href="#">{{ $data['term']->term_name }}</a></h5>
 				</div>
 			</div>
 		</div>
-		@if($data['term']->term_description)
-		<div class="post-name">
-			<h1 class="text-center"><a href="">Bệnh lý đặc trưng của {{ $data['term']->term_name }} là gì?</a></h1>
-			<p class="text-justify post-description">
-				{{ $data['term']->term_description }} …<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn</a>
-			</p>
-			@if($data['term']->term_meta)
-			@php 
-				$term_meta = $data['term']->term_meta;
-				$term_meta = explode(";",$term_meta);
-			@endphp
-			<div class="flex trieu-trung justify-content-around">
-				@foreach($term_meta as $value)
-				<div class="col1 flex justify-content-center align-items-center">
-					<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">{{ $value }}</a></h5>
-				</div>
-				@endforeach
-			</div>
-			@endif
-		</div>
-		@endif
 		<div class="posts">
 			@php $posts = $data['term']->post()->paginate(6); @endphp
 			@foreach($posts as $post)
 			<div class="post">
-				<h4><a href=""><i class="fa fa-plus-square"></i> {{ $post->post_name }}</a></h4>
+				<h4><a href="{{ MyAPI::getUrlPost($post->id) }}"><i class="fa fa-plus-square"></i> {{ $post->post_name }}</a></h4>
 				<p class="text-justify">
-					{{ MyAPI::limitWord($post->post_description,32) }} ... <a href="#">Chi tiết</a>
+					{{ MyAPI::limitWord($post->post_description,32) }} ... <a href="{{ MyAPI::getUrlPost($post->id) }}">Chi tiết</a>
 				</p>
 			</div>
 			@endforeach
-		</div>
-		<div class="posts-lienquan">
-			<div class="post">
-				<h4><a href=""><i class="fa fa-plus-square"></i> Bài viết liên quan</a></h4>
-				<ul>
-					<li><a href=""><span>【 lorem 】</span> Lorem ipsum dolor sit.</a></li>
-					<li><a href=""><span>【 lorem 】</span> Lorem ipsum dolor sit.</a></li>
-					<li><a href=""><span>【 lorem 】</span> Lorem ipsum dolor sit.</a></li>
-					<li><a href=""><span>【 lorem 】</span> Lorem ipsum dolor sit.</a></li>
-				</ul>
-			</div>
 		</div>
 		<div class="my_pagination">
 			{!! $posts->links() !!}

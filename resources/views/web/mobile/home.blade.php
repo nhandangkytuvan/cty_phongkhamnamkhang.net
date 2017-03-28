@@ -27,9 +27,9 @@
 				<div class="flex2col1">
 					<div class="flex">
 						<div class="box-center">
-							<h3 class="text-center"><a href=""><i class="bg bg1"></i></a></h3>
-							<h4 class="text-uppercase text-center"><a href="">Giới thiệu phòng khám</a></h4>
-							<h5 class="text-center"><a href="">Năng lực, phẩm chất</a></h5>
+							<h3 class="text-center"><a href="{{ url('/ve-chung-toi') }}"><i class="bg bg1"></i></a></h3>
+							<h4 class="text-uppercase text-center"><a href="{{ url('/ve-chung-toi') }}">Giới thiệu phòng khám</a></h4>
+							<h5 class="text-center"><a href="{{ url('/ve-chung-toi') }}">Năng lực, phẩm chất</a></h5>
 						</div>
 					</div>
 				</div>
@@ -45,9 +45,9 @@
 				<div class="flex2col1">
 					<div class="flex">
 						<div class="box-center">
-							<h3 class="text-center"><a href=""><i class="bg bg3"></i></a></h3>
-							<h4 class="text-uppercase text-center"><a href="">Bản đồ</a></h4>
-							<h5 class="text-center"><a href="">Ô tô xe máy, xe bus</a></h5>
+							<h3 class="text-center"><a href="{{ url('/dia-chi-phong-kham') }}"><i class="bg bg3"></i></a></h3>
+							<h4 class="text-uppercase text-center"><a href="{{ url('/dia-chi-phong-kham') }}">Bản đồ</a></h4>
+							<h5 class="text-center"><a href="{{ url('/dia-chi-phong-kham') }}">Ô tô xe máy, xe bus</a></h5>
 						</div>
 					</div>
 				</div>
@@ -63,18 +63,18 @@
 				<div class="flex2col1">
 					<div class="flex">
 						<div class="box-center">
-							<h3 class="text-center"><a href=""><i class="bg bg5"></i></a></h3>
-							<h4 class="text-uppercase text-center"><a href="">Liệu pháp điều trị</a></h4>
-							<h5 class="text-center"><a href="">Tiên tiến, an toàn</a></h5>
+							<h3 class="text-center"><a href="{{ MyAPI::getUrlTerm(32) }}"><i class="bg bg5"></i></a></h3>
+							<h4 class="text-uppercase text-center"><a href="{{ MyAPI::getUrlTerm(32) }}">Liệu pháp điều trị</a></h4>
+							<h5 class="text-center"><a href="{{ MyAPI::getUrlTerm(32) }}">Tiên tiến, an toàn</a></h5>
 						</div>
 					</div>
 				</div>
 				<div class="flex2col1">
 					<div class="flex">
 						<div class="box-center">
-							<h3 class="text-center"><a href=""><i class="bg bg6"></i></a></h3>
-							<h4 class="text-uppercase text-center"><a href="">Trường hợp hồi phục</a></h4>
-							<h5 class="text-center"><a href="">Điển hình, thực tế</a></h5>
+							<h3 class="text-center"><a href="{{ MyAPI::getUrlTerm(34) }}"><i class="bg bg6"></i></a></h3>
+							<h4 class="text-uppercase text-center"><a href="{{ MyAPI::getUrlTerm(34) }}">Trường hợp hồi phục</a></h4>
+							<h5 class="text-center"><a href="{{ MyAPI::getUrlTerm(34) }}">Điển hình, thực tế</a></h5>
 						</div>
 					</div>
 				</div>

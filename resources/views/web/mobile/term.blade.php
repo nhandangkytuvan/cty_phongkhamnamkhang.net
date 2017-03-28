@@ -22,7 +22,7 @@
 					<div class="col1col2 flex align-items-center justify-content-between">
 						<div class="width-100">
 							<h5>
-								<a href="">Giới thiệu phòng khám</a></h3>
+								<a href="{{ url('/ve-chung-toi') }}">Giới thiệu phòng khám</a></h3>
 							</h5>
 						</div>
 					</div>
@@ -82,7 +82,7 @@
 					<div class="col1col2 flex align-items-center justify-content-between">
 						<div class="width-100">
 							<h5>
-								<a href="">Chỉ đường</a></h5>
+								<a href="{{ url('/dia-chi-phong-kham') }}">Chỉ đường</a></h5>
 							</h5>
 						</div>
 					</div>
@@ -167,17 +167,6 @@
 				<p class="text-justify">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, nemo atque. Quod quos voluptate eum repellendus dicta temporibus, unde eius.dus dicta temporibus,dus dicta temporibus... <a href="#">Chi tiết</a>
 				</p>
-			</div>
-		</div>
-		<div class="posts-lienquan">
-			<div class="post">
-				<h4><a href=""><i class="fa fa-plus-square"></i> Bài viết liên quan</a></h4>
-				<ul>
-					<li><a href="">【 lorem 】 Lorem ipsum dolor sit.</a></li>
-					<li><a href="">【 lorem 】 Lorem ipsum dolor sit.</a></li>
-					<li><a href="">【 lorem 】 Lorem ipsum dolor sit.</a></li>
-					<li><a href="">【 lorem 】 Lorem ipsum dolor sit.</a></li>
-				</ul>
 			</div>
 		</div>
 		<div class="my_pagination">
