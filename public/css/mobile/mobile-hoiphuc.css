@@ -138,9 +138,11 @@ div.posts div.post h4 i{
 }
 div.posts div.post p{
 	margin-top: 10px;
+	color: #6d6d6d;
 }
 div.posts div.post p a{
 	color: #c50707;
+	font-size: 13px;
 }
 /**/
 div.posts-lienquan{
@@ -168,7 +170,7 @@ div.posts-lienquan div.post ul{
 }
 div.posts-lienquan div.post ul li{
 	margin-bottom: 5px;
-
+	color: #6d6d6d;
 }
 /**/
 div.uudiem-thuonghieu{

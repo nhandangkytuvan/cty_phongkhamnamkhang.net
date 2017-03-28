@@ -58,8 +58,6 @@
 .pagination > .disabled > a,
 .pagination > .disabled > a:hover,
 .pagination > .disabled > a:focus {
-  background-color: #ffffff;
-  border-color: #dddddd;
   cursor: not-allowed;
 }
 .pagination > li > a,
@@ -70,20 +68,20 @@
 }
 .pagination > li:first-child > a,
 .pagination > li:first-child > span {
-  border-bottom-left-radius: 3px;
-  border-top-left-radius: 3px;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
 }
 .pagination > li:last-child > a,
 .pagination > li:last-child > span {
-  border-bottom-right-radius: 3px;
-  border-top-right-radius: 3px;
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
 }
 .my_pagination ul li{
 	margin-right: 5px;
 	display: inline-block;
 }
 .my_pagination ul li a,.my_pagination ul li span{
-	border-radius: 5px;
+	border-radius: 2px;
 }
 .my_pagination{
   text-align: center;

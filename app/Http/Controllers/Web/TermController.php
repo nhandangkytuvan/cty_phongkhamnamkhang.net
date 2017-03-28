@@ -47,7 +47,7 @@ class TermController extends Controller{
                     return view('web.mobile.term',['data'=>$data]);
                     break;
                 case 32:
-                    return view('web.mobile.term',['data'=>$data]);
+                    return view('web.mobile.kythuat',['data'=>$data]);
                     break;
                 case 34:
                     return view('web.mobile.hoiphuc',['data'=>$data]); 
