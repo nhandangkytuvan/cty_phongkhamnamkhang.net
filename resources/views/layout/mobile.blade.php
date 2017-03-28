@@ -30,7 +30,7 @@
 			<div class="flex flex1 justify-content-between">
 				<div class="flex flex1col1">
 					<div class="flex2col1">
-						<h2><a href=""><img src="{{ asset('public/images/mobile/logo.png') }}" class="center-block"></a></h2>
+						<h2><a href="{{ url('/') }}"><img src="{{ asset('public/images/mobile/logo.png') }}" class="center-block"></a></h2>
 					</div>
 					<div class="flex flex2col2">
 						<div class="box-center">
@@ -56,7 +56,7 @@
 	<div class="banner container">
 		<div class="slick-home">
 			<div>
-				<a href="#">
+				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
 					<img src="{{ asset('public/images/mobile/slide-1.png') }}" alt="" class="center-block img-responsive">
 				</a>
 			</div>

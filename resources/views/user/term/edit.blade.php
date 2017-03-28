@@ -64,6 +64,10 @@
                 <textarea type="text" class="form-control autosize" name="term_keyword">{{ $data['term']->term_keyword }}</textarea>
             </div>
             <div class="form-group">
+                <label class="control-label">Meta</label>
+                <textarea type="text" class="form-control autosize" name="term_meta">{{ $data['term']->term_meta }}</textarea>
+            </div>
+            <div class="form-group">
                 <button class="btn btn-success" type="submit"><span class="fa fa-puzzle-piece"></span>  Sửa term</button> 
             </div>
         </div>

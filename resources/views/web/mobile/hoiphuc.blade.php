@@ -9,7 +9,7 @@
 @endsection('keyword')
 @section('css')
     <link rel="stylesheet" href="{{ asset('public/css/mobile/mobile-pagination.css') }}">
-    <link rel="stylesheet" href="{{ asset('public/css/mobile/mobile-term.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/css/mobile/mobile-hoiphuc.css') }}">
 @endsection('css')
 @section('content')
 	<div class="container">
@@ -132,51 +132,24 @@
 		</div>
 		@endif
 		<div class="posts">
+			@php $posts = $data['term']->post()->paginate(6); @endphp
+			@foreach($posts as $post)
 			<div class="post">
-				<h4><a href=""><i class="fa fa-plus-square"></i> Tiêu đề bài viết</a></h4>
+				<h4><a href=""><i class="fa fa-plus-square"></i> {{ $post->post_name }}</a></h4>
 				<p class="text-justify">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, nemo atque. Quod quos voluptate eum repellendus dicta temporibus, unde eius.dus dicta temporibus,dus dicta temporibus... <a href="#">Chi tiết</a>
+					{{ MyAPI::limitWord($post->post_description,32) }} ... <a href="#">Chi tiết</a>
 				</p>
 			</div>
-			<div class="post">
-				<h4><a href=""><i class="fa fa-plus-square"></i> Tiêu đề bài viết</a></h4>
-				<p class="text-justify">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, nemo atque. Quod quos voluptate eum repellendus dicta temporibus, unde eius.dus dicta temporibus,dus dicta temporibus... <a href="#">Chi tiết</a>
-				</p>
-			</div>
-			<div class="post">
-				<h4><a href=""><i class="fa fa-plus-square"></i> Tiêu đề bài viết</a></h4>
-				<p class="text-justify">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, nemo atque. Quod quos voluptate eum repellendus dicta temporibus, unde eius.dus dicta temporibus,dus dicta temporibus... <a href="#">Chi tiết</a>
-				</p>
-			</div>
-			<div class="post">
-				<h4><a href=""><i class="fa fa-plus-square"></i> Tiêu đề bài viết</a></h4>
-				<p class="text-justify">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, nemo atque. Quod quos voluptate eum repellendus dicta temporibus, unde eius.dus dicta temporibus,dus dicta temporibus... <a href="#">Chi tiết</a>
-				</p>
-			</div>
-			<div class="post">
-				<h4><a href=""><i class="fa fa-plus-square"></i> Tiêu đề bài viết</a></h4>
-				<p class="text-justify">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, nemo atque. Quod quos voluptate eum repellendus dicta temporibus, unde eius.dus dicta temporibus,dus dicta temporibus... <a href="#">Chi tiết</a>
-				</p>
-			</div>
-			<div class="post">
-				<h4><a href=""><i class="fa fa-plus-square"></i> Tiêu đề bài viết</a></h4>
-				<p class="text-justify">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, nemo atque. Quod quos voluptate eum repellendus dicta temporibus, unde eius.dus dicta temporibus,dus dicta temporibus... <a href="#">Chi tiết</a>
-				</p>
-			</div>
+			@endforeach
 		</div>
 		<div class="posts-lienquan">
 			<div class="post">
 				<h4><a href=""><i class="fa fa-plus-square"></i> Bài viết liên quan</a></h4>
 				<ul>
-					<li><a href="">【 lorem 】 Lorem ipsum dolor sit.</a></li>
-					<li><a href="">【 lorem 】 Lorem ipsum dolor sit.</a></li>
-					<li><a href="">【 lorem 】 Lorem ipsum dolor sit.</a></li>
-					<li><a href="">【 lorem 】 Lorem ipsum dolor sit.</a></li>
+					<li><a href=""><span>【 lorem 】</span> Lorem ipsum dolor sit.</a></li>
+					<li><a href=""><span>【 lorem 】</span> Lorem ipsum dolor sit.</a></li>
+					<li><a href=""><span>【 lorem 】</span> Lorem ipsum dolor sit.</a></li>
+					<li><a href=""><span>【 lorem 】</span> Lorem ipsum dolor sit.</a></li>
 				</ul>
 			</div>
 		</div>

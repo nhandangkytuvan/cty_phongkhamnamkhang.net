@@ -24,6 +24,7 @@ class TermController extends Controller{
             $term->term_order = 0;
             $term->term_description = $request->input('term_description');
             $term->term_keyword = $request->input('term_keyword');
+            $term->term_meta = $request->input('term_meta');
             // upload
             if($request->hasFile('term_avatar')){
                 $file = $request->file('term_avatar');
@@ -61,6 +62,7 @@ class TermController extends Controller{
             $term->term_alias = str_slug($request->input('term_name'),'-');
             $term->term_description = $request->input('term_description');
             $term->term_keyword = $request->input('term_keyword');
+            $term->term_meta = $request->input('term_meta');
             // upload
             if($request->hasFile('term_avatar')){
                 $file = $request->file('term_avatar');

@@ -42,7 +42,20 @@ class TermController extends Controller{
                     break;
             }
         }else{
-            return view('web.mobile.term',['data'=>$data]); 
+            switch ($term_id) {
+                case 33:
+                    return view('web.mobile.term',['data'=>$data]);
+                    break;
+                case 32:
+                    return view('web.mobile.term',['data'=>$data]);
+                    break;
+                case 34:
+                    return view('web.mobile.hoiphuc',['data'=>$data]); 
+                    break;
+                default:
+                    return view('web.mobile.term',['data'=>$data]);  
+                    break;
+            }
         }
     }
 }

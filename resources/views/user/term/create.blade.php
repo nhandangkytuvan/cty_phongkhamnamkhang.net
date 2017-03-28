@@ -61,6 +61,10 @@
                 <textarea type="text" class="form-control autosize" name="term_keyword">{{ old('term_keyword') }}</textarea>
             </div>
             <div class="form-group">
+                <label class="control-label">Meta</label>
+                <textarea type="text" class="form-control autosize" name="term_meta">{{ old('term_meta') }}</textarea>
+            </div>
+            <div class="form-group">
                 <button class="btn btn-success" type="submit"><span class="fa fa-puzzle-piece"></span>  Thêm term</button> 
             </div>
         </div>
