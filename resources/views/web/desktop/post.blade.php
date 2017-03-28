@@ -55,8 +55,19 @@
 			<div class="post-footer">
 				<div class="order1">
 					<p class="text-justify">
-						<span>Cảnh báo:</span> Nếu muốn chữa khỏi bệnh, đầu tiên bệnh nhân cần xây dựng lòng tin có thể hồi phục, sau đó tích cực phối hợp với bác sĩ điều trị, nghiêm ngặt tuân theo yêu cầu của bác sĩ, có như vậy mới có thể hồi phục càng nhanh, bệnh nhân nếu như có gì bất thường thì cần phải đến bệnh viện kiểm tra thăm khám, vì bệnh tật sẽ không tự khỏi khi bạn kéo dài thời gian, nhưng chắc chắn do điều trị không kịp thời mà bệnh càng nặng lên, vì thế kịp thời đi khám, kiểm tra sớm, điều trị sớm mới là tốt.
+						<span>Nhắc nhở:</span> Nếu muốn chữa khỏi bệnh, đầu tiên bệnh nhân cần xây dựng lòng tin có thể hồi phục, sau đó tích cực phối hợp với bác sĩ điều trị, nghiêm ngặt tuân theo yêu cầu của bác sĩ, có như vậy mới có thể hồi phục càng nhanh, bệnh nhân nếu như có gì bất thường thì cần phải đến bệnh viện kiểm tra thăm khám, vì bệnh tật sẽ không tự khỏi khi bạn kéo dài thời gian, nhưng chắc chắn do điều trị không kịp thời mà bệnh càng nặng lên, vì thế kịp thời đi khám, kiểm tra sớm, điều trị sớm mới là tốt.
 					</p>
+					<h4>Số điện thoại tư vấn : <a href="18006181">18006181</a> - <a href="043-9656999">043-9656999</a></h4>
+					<ul>
+						@php $post_pre = $term->post()->where('id','<',$data['post']->id)->orderBy('id','desc')->first(); @endphp
+						@if($post_pre)
+						<li>Bài trước : <a href="{{ MyAPI::getUrlPost($post_pre->id) }}">{{ $post_pre->post_name }}</a></li>
+						@endif
+						@php $post_next = $term->post()->where('id','>',$data['post']->id)->orderBy('id','asc')->first(); @endphp
+						@if($post_next)
+						<li>Bài sau : <a href="{{ MyAPI::getUrlPost($post_next->id) }}">{{ $post_next->post_name }}</a></li>
+						@endif
+					</ul>
 				</div>
 				<div class="order2">
 					<h3>Tình trạng hiện tại của bạn là gì?</h3>

@@ -7,7 +7,7 @@ $(function() {
 	str += '.cf:after { clear: both }';
 	str += '.cf { zoom: 1 }';
 	str += '.float_container { background-color:#fffeee; box-sizing:border-box; border: 5px solid #0090a1; border-radius: 6px; z-index: 1000; display: none; position: fixed; width: 440px; left: 50%; bottom: 28%; margin: 0 auto auto -220px; background-image: -moz-linear-gradient(#fffcf7, #fff7e1); background-image: -webkit-linear-gradient(#fffcf7, #fff7e1); background-image: -o-linear-gradient(#fffcf7, #fff7e1); background-image: linear-gradient(#fffcf7, #fff7e1); font-size: 14px; }';
-	str += '.float_container .ntitle {overflow:hidden; position:relative; z-index: 1002; background: #0090a1; font-size: 12px; line-height: normal; color: #fff; text-align: center; letter-spacing: 0px; padding:14px 20px 0px 50px;height:47px;}';
+	str += '.float_container .ntitle {overflow:hidden; position:relative; z-index: 1002; background: #0090a1; font-size: 12px; line-height: normal; color: #fff; text-align: center; letter-spacing: 0px; padding:8px 20px 0px 20px;height:47px;}';
 	str += '.float_container .ntitle .icon_swt{ position: absolute; z-index: 1003; left: 5px; top: 0; }';
 	str += '.float_container .ntitle .close_swt{ position: absolute; cursor:pointer; z-index: 1003; right: 0px; top: 7px; }';
 	str += '.float_container dl { display: none; transiton: all .3s linear 0s; margin: 0; padding: 0; }';
@@ -33,26 +33,26 @@ $(function() {
 	str += '</style>';
 	// html
 	str += '<div class="float_container cf" id="footTool">';
-	str += '<div class="ntitle"><img class="icon_swt" src="http://localhost/cty_xuongkhophn.net/public/images/global/chat/icon_swt.png" width="49" height="39"><span></span>TRUNG TÂM TƯ VẤN TRỰC TUYẾN KHOA XƯƠNG KHỚP<img class="close_swt" src="http://localhost/cty_xuongkhophn.net/public/images/global/chat/closeBtn_swt.png" width="30" height="30" ntitle="关闭"></div>';
+	str += '<div class="ntitle"><img class="icon_swt" src="http://www.phongkhamnamkhang.net/public/images/global/chat/icon_swt.png" width="32" height="32"><span></span>TRUNG TÂM TƯ VẤN TRỰC TUYẾN PHÒNG KHÁM<br>NAM KHANG<img class="close_swt" src="http://www.phongkhamnamkhang.net/public/images/global/chat/closeBtn_swt.png" width="20" height="20" ntitle=""></div>';
 	str += '<dl class="cf" id="tools2" style="display: block;">';
-	str += '<dt><img src="http://localhost/cty_xuongkhophn.net/public/images/global/chat/zjtouxiang.jpg"></dt>';
+	str += '<dt><img src="http://www.phongkhamnamkhang.net/public/images/global/chat/zjtouxiang.jpg"></dt>';
 	str += '<dd>';
 	str += '<div class="time1" id="now1"></div>';
-	str += '<a style="text-decoration: none;" href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en">';
-	str += '<div class="box11"><img alt="smile" src="http://localhost/cty_xuongkhophn.net/public/images/global/chat/smile.gif">Chào bạn, hôm nay đến ca trực của tôi, tôi có thể giúp gì được bạn?</div>';
+	str += '<a style="text-decoration: none;" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">';
+	str += '<div class="box11"><img alt="smile" src="http://www.phongkhamnamkhang.net/public/images/global/chat/smile.gif">Chào bạn, hôm nay đến ca trực của tôi, tôi có thể giúp gì được bạn?</div>';
 	str += '</a>';
 	str += '</dd>';
 	str += '</dl>';
 	str += '<dl class="cf" id="tools3">';
-	str += '<dt><img src="http://localhost/cty_xuongkhophn.net/public/images/global/chat/zjtouxiang.jpg"></dt>';
+	str += '<dt><img src="http://www.phongkhamnamkhang.net/public/images/global/chat/zjtouxiang.jpg"></dt>';
 	str += '<dd>';
 	str += '<div class="time1" id="now2"></div>';
-	str += '<a style="text-decoration: none;" href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en">';
+	str += '<a style="text-decoration: none;" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">';
 	str += '<div class="box11">【Giải thích triệu chứng】  【Phương án điều trị】 【Chi phí điều trị】..,Tôi đều có thể trả lời trực tuyến giúp bạn！</div>';
 	str += '</a>';
 	str += '</dd>';
 	str += '</dl>';		
-	str += '<div class="sbtn cf"><a href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en">TƯ VẤN ĐẶT HẸN</a><a href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en" class="a-jg">LẬP TỨC TRẢ LỜI</a></div>';
+	str += '<div class="sbtn cf"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">TƯ VẤN ĐẶT HẸN</a><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="a-jg">LẬP TỨC TRẢ LỜI</a></div>';
 	str += '</div>';
 	$("body").eq(0).append(str);
 	$(".close_swt").click(function() {

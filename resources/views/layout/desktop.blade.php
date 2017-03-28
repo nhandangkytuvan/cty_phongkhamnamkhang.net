@@ -25,6 +25,7 @@
 	@yield('js')
 	<script type="text/javascript" src="{{ asset('public/js/desktop/desktop.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/desktop/right.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('public/js/desktop/swt.js') }}"></script>
 </head>
 <body>
     <header>
@@ -176,6 +177,7 @@
 					<p>( 8:00 -20:00) bao gồm cả ngày lễ tết </p>
 					<p>Điện thoại liên hệ :</p>
 					<p><a href="tel:1833 - 6181">1833 - 6181</a></p>
+					<p><a href="tel:043-9656999">043-9656999</a></p>
 				</div>
 				<div class="flex1col3">
 					<h4 class="text-center text-uppercase">Phòng khám của nam giới</h4>

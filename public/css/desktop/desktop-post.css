@@ -6,9 +6,22 @@ main.term.post .post-footer .order1 p{
 main.term.post .post-footer .order1 p span{
     color: red;
 }
+main.term.post .post-footer .order1 h4{
+    margin-top: 8px;
+}
+main.term.post .post-footer .order1 h4 a{
+    color: red;
+}
+main.term.post .post-footer .order1 ul{
+    list-style: none;
+    margin-top: 15px;
+}
+main.term.post .post-footer .order1 ul li{
+    margin-bottom: 10px;
+}
 /**/
 main.term.post .post-footer .order2{
-    margin-top: 68px;
+    margin-top: 20px;
 }
 main.term.post .post-footer .order2 h2{
     font-size: 18px;
