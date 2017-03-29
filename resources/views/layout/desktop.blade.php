@@ -183,7 +183,7 @@
 					<p>Thời gian làm việc của phòng khám</p>
 					<p>( 8:00 -20:00) bao gồm cả ngày lễ tết </p>
 					<p>Điện thoại liên hệ :</p>
-					<p><a href="tel:1833 - 6181">1833 - 6181</a></p>
+					<p><a href="tel:1800 - 6181">1800 - 6181</a></p>
 					<p><a href="tel:043-9656999">043-9656999</a></p>
 				</div>
 				<div class="flex1col3">
