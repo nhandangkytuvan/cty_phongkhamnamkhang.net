@@ -22,7 +22,7 @@
 			<div class="clearfix">
 				<div class="pull-left">
 					<a href="{{ url('/') }}"><i class="fa fa-home"></i> Trang chủ ></a>
-					<a href="#">Tìm kiếm</a>
+					<a href="#">Tìm kiếm - {{ $_GET['keyword'] }}</a>
 				</div>
 				<div class="pull-right">
 					<form action="{{ url('/search') }}">
