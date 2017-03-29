@@ -102,27 +102,6 @@
 				</div>
 			</div>
 		</div>
-		@if($term->term_description)
-		<div class="post-name">
-			<h1 class="text-center"><a href="">Bệnh lý đặc trưng của {{ $term->term_name }} là gì?</a></h1>
-			<p class="text-justify post-description">
-				{{ $term->term_description }} …<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn</a>
-			</p>
-			@if($term->term_meta)
-			@php 
-				$term_meta = $term->term_meta;
-				$term_meta = explode(";",$term_meta);
-			@endphp
-			<div class="flex trieu-trung justify-content-around">
-				@foreach($term_meta as $value)
-				<div class="col1 flex justify-content-center align-items-center">
-					<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">{{ $value }}</a></h5>
-				</div>
-				@endforeach
-			</div>
-			@endif
-		</div>
-		@endif
 		<div class="post">
 			<div class="post-name">
 				<h1>{{ $data['post']->post_name }}</h1>

@@ -48,7 +48,14 @@
 				<div class="post">
 					<div class="clearfix">
 						<div class="pull-left">
-							<h3><a href="{{ MyAPI::getUrlPost($post->id) }}">{{ $post->post_name }}</a></h3>
+							@php 
+								if($_GET['keyword']){
+									$post_name = str_ireplace($_GET['keyword'],'<i>'.$_GET['keyword'].'</i>',$post->post_name);
+								}else{
+									$post_name = $post->post_name;
+								}
+							@endphp
+							<h3><a href="{{ MyAPI::getUrlPost($post->id) }}">{!! $post_name !!}</a></h3>
 						</div>	
 					</div>
 					<p>
