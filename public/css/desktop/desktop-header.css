@@ -4,19 +4,24 @@ menu{
 	color: #fff;
 }
 menu .flex1col1{
-	flex-basis: 142px;
+	width: 14.28%;
 }
-menu .flex1col1 >h3{
-	font-weight: normal;
-	text-align: center;
-	height: 63px;
+menu .flex1col1 >div{
+	width: 100%;
 	border-left: 1px solid #a09e9e;
+	height: 63px;
 }
-menu .flex1col1 >h3>a{
-	padding:0px 10px;
+menu .flex1col1 >div>h3{
+	font-weight: normal;
+	height: 63px;
+}
+menu .flex1col1 >div>h3>a{
 	text-transform: uppercase;
 	font-size: 14px;
 	text-align: center;
+	height: 63px;
+	width: 100%;
+	display: flex!important;
 }
 /*hover*/
 menu .chidanbenh{
