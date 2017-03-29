@@ -81,7 +81,7 @@ a{text-decoration: none;}
 	margin:auto;
 }
 /*-------------------------*/
-#LRfloater0{
+#LRfloater0,#LR-BUBBLE,#LRMINIBar{
 	display: none!important;
 }
 
@@ -95,7 +95,7 @@ a{text-decoration: none;}
 }
 #my_popup p{
 	text-align: center;
-	margin-top: 0px;
+	margin-bottom: 10px;
 	font-size: 14px;
 }
 #my_popup a{

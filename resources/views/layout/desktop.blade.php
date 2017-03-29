@@ -196,5 +196,6 @@
 			
 		</div>
 	</footer>
+	<script language="javascript" src="http://swt.phongkham193.com/JS/LsJS.aspx?siteid=MFI63108226&float=1&lng=en"></script>
 </body>
 </html>

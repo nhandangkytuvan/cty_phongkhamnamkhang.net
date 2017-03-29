@@ -76,3 +76,7 @@ a{text-decoration: none;}
 .img-responsive{
     width: 100%;
 }
+/*livechat*/
+#LRfloater0,#LRfloater2,#LRMINIBar{
+  display: none!important;
+}

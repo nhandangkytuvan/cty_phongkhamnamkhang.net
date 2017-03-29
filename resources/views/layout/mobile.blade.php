@@ -77,10 +77,11 @@
 		</div>
 		@yield('toolbar')	
 	</footer>
-	<!-- <div id="my_popup">
+	<script language="javascript" src="http://swt.phongkham193.com/JS/LsJS.aspx?siteid=MFI63108226&float=1&lng=en"></script>
+	<div id="my_popup">
 	    <p>Bác sỹ đang yêu cầu được chát với bạn</p>
-	    <a href="http://drt.zoosnet.net/LR/Chatpre.aspx?id=DRT84001515&lng=en">Đồng ý</a>
 	    <a class="my_popup_close">Từ chối</a>
-	</div> -->
+	    <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đồng ý</a>
+	</div>
 </body>
 </html>
