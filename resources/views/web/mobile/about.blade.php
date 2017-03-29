@@ -164,7 +164,7 @@
 					</ul>
 					<div class="text-center">
 						<p>
-							<img src="{{ asset('public/images/mobile/about-3.png') }}" class="center-block">
+							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/images/mobile/about-3.png') }}" class="center-block"></a>
 						</p>
 						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-center">
 							<i></i>
@@ -173,10 +173,10 @@
 					</div>
 				</div>
 				<h4>3：Vì chuyên tâm nên chuyên nghiệp</h4>
+				<p>
+					Nam khoa học là một trong những môn học độc lập mới thịnh hành trong mấy năm gần đây, trong tình trang đất nước phát triển còn tương đối chậm, nhưng vấn đề nam khoa lại không thể xem nhẹ, Phòng khám chuyên khoa nam khang là phòng khám nam khoa chuyên nghiệp hiện đại hóa được ra đời trong bối cảnh bệnh viện nam khoa chuyên nghiệp còn thiếu thốn, mà nhu cầu của gia đình và xã hội lại bức thiết, phòng khám chuyên bảo vệ sức khỏe hạnh phúc của nam giới, mở ra một trang mới cho việc khám chữa bệnh nam khoa ở Việt Nam
+				</p>
 				<div class="text-center">
-					<p>
-						Nam khoa học là một trong những môn học độc lập mới thịnh hành trong mấy năm gần đây, trong tình trang đất nước phát triển còn tương đối chậm, nhưng vấn đề nam khoa lại không thể xem nhẹ, Phòng khám chuyên khoa nam khang là phòng khám nam khoa chuyên nghiệp hiện đại hóa được ra đời trong bối cảnh bệnh viện nam khoa chuyên nghiệp còn thiếu thốn, mà nhu cầu của gia đình và xã hội lại bức thiết, phòng khám chuyên bảo vệ sức khỏe hạnh phúc của nam giới, mở ra một trang mới cho việc khám chữa bệnh nam khoa ở Việt Nam
-					</p>
 					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
 						<i></i>
 						Click tìm hiểu phòng khám Nam Khang

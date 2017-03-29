@@ -9,3 +9,14 @@ div.post .post-detail{
 div.post .post-detail img{
 	max-width: 100%;
 }
+div.post .post-footer{
+	line-height: 20px;
+}
+div.post .post-footer p{
+	text-align: justify;
+	margin-top: 15px;
+}
+div.post .post-footer span,div.post .post-footer a{
+	color: red;
+	font-weight: bold;
+}
