@@ -32,8 +32,9 @@
 					<h4>Hỗ trợ bệnh nhân</h4>
 				</div>
 				<div class="flex1col2">
-					<form action="">
-						<input type="text" placeholder="Hãy nhập từ khóa">
+					<form action="{{ url('/search') }}">
+						{{ csrf_field() }}
+						<input type="text" placeholder="Hãy nhập từ khóa" name="keyword">
 						<button type="submit">Tìm kiếm</button>
 					</form>
 				</div>

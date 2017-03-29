@@ -3,6 +3,7 @@ namespace App\Http\Controllers\Web;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Setting;
+use App\Post;
 use BrowserDetect;
 class HomeController extends Controller{
 	public function show(Request $request){
@@ -32,6 +33,17 @@ class HomeController extends Controller{
 			return view('web.desktop.address',['data'=>$data]);
 		}else{
 			return view('web.mobile.address',['data'=>$data]);
+		}
+	}
+	public function search(Request $request){
+		$setting = Setting::first();
+		$data['setting'] = $setting;
+		$posts = Post::where('post_name','like','%'.$request->input('keyword').'%')->where('post_status',1)->paginate(10);
+		$data['posts'] = $posts;
+		if(BrowserDetect::isDesktop()){
+			return view('web.desktop.search',['data'=>$data]);
+		}else{
+			return view('web.mobile.search',['data'=>$data]);
 		}
 	}
 }
