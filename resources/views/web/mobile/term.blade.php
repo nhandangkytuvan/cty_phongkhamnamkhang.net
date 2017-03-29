@@ -106,7 +106,7 @@
 		<div class="crub">
 			<div class="flex">
 				<div class="col1 flex justify-content-center align-items-center">
-					<h5><a href="">Trang trước <i class="fa fa-angle-right"></i> tên bài viết</a></h5>
+					<h5><a href="{{ url('/') }}">Trang chủ <i class="fa fa-angle-right"></i> {{ $data['term']->term_name }}</a></h5>
 				</div>
 			</div>
 		</div>
@@ -274,7 +274,7 @@
 					<h5>Hiệu quả : 5</h5>
 				</div>
 				<div class="flex1col1 flex align-items-center justify-content-center">
-					<h5><a href="">Tôi muốn bình luận</a></h5>
+					<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tôi muốn bình luận</a></h5>
 				</div>
 			</div>
 			<div class="list-comments">

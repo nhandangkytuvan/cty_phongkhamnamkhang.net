@@ -15,8 +15,9 @@
 		<div class="search">
 			<div class="">
 				<div class="flex1col1">
-					<form action="" method="post">
-						<input type="text" placeholder="Hãy nhập từ khóa">
+					<form action="{{ url('/search') }}">
+						{{ csrf_field() }}
+						<input type="text" placeholder="Hãy nhập từ khóa" name="keyword">
 						<button type="submit">Tìm kiếm</button>
 					</form>
 				</div>
@@ -274,7 +275,7 @@
 			</div>
 		</div>
 		<div class="row2">
-			<h3><a href=""><img src="{{ asset('public/images/mobile/home-1.png') }}" class="center-block img-responsive"></a></h3>
+			<h3><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/images/mobile/home-1.png') }}" class="center-block img-responsive"></a></h3>
 		</div>
 		<div class="row3">
 			<div class="headding">

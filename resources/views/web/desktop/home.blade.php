@@ -69,13 +69,13 @@
 			<h2 class="text-center text-uppercase">Hình ảnh nhân viên</h2>
 			<h3 class="text-center"><span>Chúng tôi luôn nỗ lực hết mình</span></h3>
 			<div class="slick-pk">
-				<div><a href=""><img src="{{ asset('public/images/desktop/pk-1.png') }}" class="center-block"></a></div>
-				<div><a href=""><img src="{{ asset('public/images/desktop/pk-2.png') }}" class="center-block"></a></div>
-				<div><a href=""><img src="{{ asset('public/images/desktop/pk-3.png') }}" class="center-block"></a></div>
-				<div><a href=""><img src="{{ asset('public/images/desktop/pk-4.png') }}" class="center-block"></a></div>
-				<div><a href=""><img src="{{ asset('public/images/desktop/pk-5.png') }}" class="center-block"></a></div>
-				<div><a href=""><img src="{{ asset('public/images/desktop/pk-6.png') }}" class="center-block"></a></div>
-				<div><a href=""><img src="{{ asset('public/images/desktop/pk-7.png') }}" class="center-block"></a></div>
+				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/images/desktop/pk-1.png') }}" class="center-block"></a></div>
+				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/images/desktop/pk-2.png') }}" class="center-block"></a></div>
+				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/images/desktop/pk-3.png') }}" class="center-block"></a></div>
+				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/images/desktop/pk-4.png') }}" class="center-block"></a></div>
+				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/images/desktop/pk-5.png') }}" class="center-block"></a></div>
+				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/images/desktop/pk-6.png') }}" class="center-block"></a></div>
+				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/images/desktop/pk-7.png') }}" class="center-block"></a></div>
 			</div>
 			<script>
 				$('.slick-pk').slick({
@@ -87,7 +87,7 @@
 			</script>
 		</div>
 		<div class="row4">
-			<div><a href=""><img src="{{ asset('public/images/desktop/home-4.png') }}" class="center-block"></a></div>
+			<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/images/desktop/home-4.png') }}" class="center-block"></a></div>
 		</div>
 		<div class="row5">
 			<div class="groups-btn">
@@ -142,10 +142,10 @@
 						</p>
 						<div>
 							<p>Mở rộng hạng mục điều trị:
-								<a href="">Sùi mào gà</a>,
-								<a href="">lậu</a>,
-								<a href="">giang mang</a>,
-								<a href="">mụn rộp sinh dục</a>
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Sùi mào gà</a>,
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">lậu</a>,
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">giang mang</a>,
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">mụn rộp sinh dục</a>
 							</p>
 						</div>
 						<div>
@@ -158,10 +158,10 @@
 						</p>
 						<div>
 							<p>Mở rộng hạng mục điều trị: 
-								<a href="">Xuất tinh sớm</a>,
-								<a href="">liệt dương</a>,
-								<a href="">rối loạn cương dương</a>,
-								<a href="">di tinh</a>
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Xuất tinh sớm</a>,
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">liệt dương</a>,
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">rối loạn cương dương</a>,
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">di tinh</a>
 							</p>
 						</div>
 						<div>
@@ -174,11 +174,11 @@
 						</p>
 						<div>
 							<p>Mở rộng hạng mục điều trị: 
-								<a href="">Viêm tuyến tiền liệt</a>, 
-								<a href="">u nang tuyến tiền liệt</a>,
-								<a href="">tăng sinh tuyến tiền liệt</a>,
-								<a href="">đau tuyến tiền liệt</a>,
-								<a href="">vôi hóa tuyến tiền liệt</a>
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Viêm tuyến tiền liệt</a>, 
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">u nang tuyến tiền liệt</a>,
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">tăng sinh tuyến tiền liệt</a>,
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">đau tuyến tiền liệt</a>,
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">vôi hóa tuyến tiền liệt</a>
 							</p>
 						</div>
 						<div>
@@ -191,10 +191,10 @@
 						</p>
 						<div>
 							<p>Mở rộng hạng mục điều trị: 
-								<a href="">Viêm niệu đạo</a>, 
-								<a href="">viêm túi tinh,</a>,
-								<a href="">viêm tinh hoàn</a>,
-								<a href="">viêm quy đầu</a>
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Viêm niệu đạo</a>, 
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">viêm túi tinh</a>,
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">viêm tinh hoàn</a>,
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">viêm quy đầu</a>
 							</p>
 						</div>
 						<div>
@@ -207,10 +207,10 @@
 						</p>
 						<div>
 							<p>Mở rộng hạng mục điều trị: 
-								<a href="">Chết tinh trùng</a>, 
-								<a href="">ít tinh trùng</a>,
-								<a href="">yếu tinh trùng</a>,
-								<a href="">vô tinh</a>
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Chết tinh trùng</a>, 
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">ít tinh trùng</a>,
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">yếu tinh trùng</a>,
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">vô tinh</a>
 							</p>
 						</div>
 						<div>
@@ -223,10 +223,10 @@
 						</p>
 						<div>
 							<p>Mở rộng hạng mục điều trị: 
-								<a href="">Dài bao quy đầu</a>, 
-								<a href="">hẹp bao quy đầu</a>,
-								<a href="">tăng độ dài</a>,
-								<a href="">kích thước dương vật</a>
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Dài bao quy đầu</a>, 
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">hẹp bao quy đầu</a>,
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">tăng độ dài</a>,
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">kích thước dương vật</a>
 							</p>
 						</div>
 						<div>
@@ -237,7 +237,7 @@
 			</div>
 		</div>
 		<div class="row7">
-			<div><a href=""><img src="{{ asset('public/images/desktop/home-6.png') }}" class="center-block"></a></div>
+			<div><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/images/desktop/home-6.png') }}" class="center-block"></a></div>
 		</div>
 		<div class="row8">
 			<div class="flex flex1 justify-content-between">
@@ -273,7 +273,7 @@
 			</div>
 		</div>
 		<div class="row9">
-			<div><a href=""><img src="{{ asset('public/images/desktop/home-8.png') }}" class="center-block"></a></div>
+			<div><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/images/desktop/home-8.png') }}" class="center-block"></a></div>
 		</div>
 		<div class="row10">
 			<h2 class="text-center text-uppercase">10 kĩ thuật điều trị trọng điểm</h2>

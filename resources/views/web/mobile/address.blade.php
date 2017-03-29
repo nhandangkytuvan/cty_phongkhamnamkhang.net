@@ -312,7 +312,7 @@
 					<h5>Hiệu quả : 5</h5>
 				</div>
 				<div class="flex1col1 flex align-items-center justify-content-center">
-					<h5><a href="">Tôi muốn bình luận</a></h5>
+					<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tôi muốn bình luận</a></h5>
 				</div>
 			</div>
 			<div class="list-comments">
