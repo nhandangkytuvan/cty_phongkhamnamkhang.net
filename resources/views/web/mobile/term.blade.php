@@ -112,7 +112,7 @@
 		</div>
 		@if($data['term']->term_description)
 		<div class="post-name">
-			<h1 class="text-center"><a href="">Bệnh lý đặc trưng của {{ $data['term']->term_name }} là gì?</a></h1>
+			<h1 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Bệnh lý đặc trưng của {{ $data['term']->term_name }} là gì?</a></h1>
 			<p class="text-justify post-description">
 				{{ $data['term']->term_description }} …<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn</a>
 			</p>
@@ -132,61 +132,18 @@
 		</div>
 		@endif
 		<div class="posts">
+			@php $posts = $data['term']->post()->paginate(6); @endphp
+			@foreach($posts as $post)
 			<div class="post">
-				<h4><a href=""><i class="fa fa-plus-square"></i> Tiêu đề bài viết</a></h4>
+				<h4><a href="{{ MyAPI::getUrlPost($post->id) }}"><i class="fa fa-plus-square"></i> {{ $post->post_name }}</a></h4>
 				<p class="text-justify">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, nemo atque. Quod quos voluptate eum repellendus dicta temporibus, unde eius.dus dicta temporibus,dus dicta temporibus... <a href="#">Chi tiết</a>
+					{{ MyAPI::limitWord($post->post_description,32) }} ... <a href="{{ MyAPI::getUrlPost($post->id) }}">Chi tiết</a>
 				</p>
 			</div>
-			<div class="post">
-				<h4><a href=""><i class="fa fa-plus-square"></i> Tiêu đề bài viết</a></h4>
-				<p class="text-justify">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, nemo atque. Quod quos voluptate eum repellendus dicta temporibus, unde eius.dus dicta temporibus,dus dicta temporibus... <a href="#">Chi tiết</a>
-				</p>
-			</div>
-			<div class="post">
-				<h4><a href=""><i class="fa fa-plus-square"></i> Tiêu đề bài viết</a></h4>
-				<p class="text-justify">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, nemo atque. Quod quos voluptate eum repellendus dicta temporibus, unde eius.dus dicta temporibus,dus dicta temporibus... <a href="#">Chi tiết</a>
-				</p>
-			</div>
-			<div class="post">
-				<h4><a href=""><i class="fa fa-plus-square"></i> Tiêu đề bài viết</a></h4>
-				<p class="text-justify">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, nemo atque. Quod quos voluptate eum repellendus dicta temporibus, unde eius.dus dicta temporibus,dus dicta temporibus... <a href="#">Chi tiết</a>
-				</p>
-			</div>
-			<div class="post">
-				<h4><a href=""><i class="fa fa-plus-square"></i> Tiêu đề bài viết</a></h4>
-				<p class="text-justify">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, nemo atque. Quod quos voluptate eum repellendus dicta temporibus, unde eius.dus dicta temporibus,dus dicta temporibus... <a href="#">Chi tiết</a>
-				</p>
-			</div>
-			<div class="post">
-				<h4><a href=""><i class="fa fa-plus-square"></i> Tiêu đề bài viết</a></h4>
-				<p class="text-justify">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, nemo atque. Quod quos voluptate eum repellendus dicta temporibus, unde eius.dus dicta temporibus,dus dicta temporibus... <a href="#">Chi tiết</a>
-				</p>
-			</div>
+			@endforeach
 		</div>
 		<div class="my_pagination">
-			<ul class="pagination">
-			    <li>
-			      <a href="#" aria-label="Previous">
-			        <span aria-hidden="true">&laquo;</span>
-			      </a>
-			    </li>
-			    <li class="active"><a href="#">1</a></li>
-			    <li><a href="#">2</a></li>
-			    <li><a href="#">3</a></li>
-			    <li><a href="#">4</a></li>
-			    <li><a href="#">5</a></li>
-			    <li>
-			      <a href="#" aria-label="Next">
-			        <span aria-hidden="true">&raquo;</span>
-			      </a>
-			    </li>
-		  </ul>
+			{!! $posts->links() !!}
 		</div>
 		<div class="uudiem-thuonghieu">
 			<div class="flex2 flex">

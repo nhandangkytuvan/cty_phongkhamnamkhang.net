@@ -33,9 +33,10 @@
 					<a href="{{ MyAPI::getUrlTerm($term->id) }}">{{ $term->term_name }}</a>
 				</div>
 				<div class="pull-right">
-					<form action="" method="post">
+					<form action="{{ url('/search') }}">
+						{{ csrf_field() }}
 						<button><i class="fa fa-search"></i></button>
-						<input type="text" placeholder="Nhập nội dung">
+						<input type="text" placeholder="Nhập nội dung" name="keyword">
 						<button type="submit">Tìm kiếm</button>
 					</form>
 				</div>
