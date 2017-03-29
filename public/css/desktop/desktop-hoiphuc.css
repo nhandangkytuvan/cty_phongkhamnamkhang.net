@@ -2,23 +2,23 @@
 .banner{
 	background-image: url('../../images/desktop/hp-banner.png')!important;
 } 
-main.term.hoiphuc .flex1{
+main.term.hoiphuc .flex0col1 .flex1{
 	margin-top: 30px;
 }
-main.term.hoiphuc .flex1col1{
+main.term.hoiphuc .flex0col1 .flex1col1{
 	width: 228px;
 	margin-bottom: 40px;
 }
-main.term.hoiphuc .flex1col1 .border{
+main.term.hoiphuc .flex0col1 .flex1col1 .border{
 	border:1px solid #e6e6e6;
 	padding:4px;
 	padding-bottom: 0px;
 }
-main.term.hoiphuc .flex1col1 .border img{
+main.term.hoiphuc .flex0col1 .flex1col1 .border img{
 	width: 100%;
 	height: 202px;
 }
-main.term.hoiphuc .flex1col1 .border .pos-relative h4{
+main.term.hoiphuc .flex0col1 .flex1col1 .border .pos-relative h4{
 	font-weight: normal;
 	color: #fff;
 	background-image: url('../../images/desktop/icon-14.png');
