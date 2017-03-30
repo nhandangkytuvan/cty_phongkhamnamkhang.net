@@ -92,14 +92,21 @@
 		<div class="crub">
 			<div class="flex">
 				<div class="col1 flex justify-content-center align-items-center">
-					<h5><a href="{{ url('/') }}">Trang chủ <i class="fa fa-angle-right"></i> tìm kiếm - {{ $_GET['keyword'] }}</a></h5>
+					<h5><a href="{{ url('/') }}">Trang chủ <i class="fa fa-angle-right"></i> tìm kiếm - {{ Request::input('keyword') }}</a></h5>
 				</div>
 			</div>
 		</div>
 		<div class="posts">
 			@foreach($data['posts'] as $post)
 			<div class="post">
-				<h4><a href="{{ MyAPI::getUrlPost($post->id) }}"><i class="fa fa-plus-square"></i> {{ $post->post_name }}</a></h4>
+				@php 
+					if(Request::input('keyword')){
+						$post_name = str_ireplace(Request::input('keyword'),'<i>'.Request::input('keyword').'</i>',$post->post_name);
+					}else{
+						$post_name = $post->post_name;
+					}
+				@endphp
+				<h4><a href="{{ MyAPI::getUrlPost($post->id) }}"><i class="fa fa-plus-square"></i> {!! $post_name !!}</a></h4>
 				<p class="text-justify">
 					{{ MyAPI::limitWord($post->post_description,32) }} ... <a href="{{ MyAPI::getUrlPost($post->id) }}">Chi tiết</a>
 				</p>

@@ -52,7 +52,7 @@ $(function() {
 	str += '</a>';
 	str += '</dd>';
 	str += '</dl>';		
-	str += '<div class="sbtn cf"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">TƯ VẤN ĐẶT HẸN</a><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="a-jg">LẬP TỨC TRẢ LỜI</a></div>';
+	str += '<div class="sbtn cf"><a class="hvr-wobble-horizontal" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">TƯ VẤN ĐẶT HẸN</a><a class="hvr-wobble-horizontal" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="a-jg">LẬP TỨC TRẢ LỜI</a></div>';
 	str += '</div>';
 	$("body").eq(0).append(str);
 	$(".close_swt").click(function() {

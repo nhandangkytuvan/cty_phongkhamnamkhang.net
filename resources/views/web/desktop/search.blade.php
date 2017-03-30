@@ -22,7 +22,7 @@
 			<div class="clearfix">
 				<div class="pull-left">
 					<a href="{{ url('/') }}"><i class="fa fa-home"></i> Trang chủ ></a>
-					<a href="#">Tìm kiếm - {{ $_GET['keyword'] }}</a>
+					<a href="#">Tìm kiếm - {{ Request::input('keyword') }}</a>
 				</div>
 				<div class="pull-right">
 					<form action="{{ url('/search') }}">
@@ -49,8 +49,8 @@
 					<div class="clearfix">
 						<div class="pull-left">
 							@php 
-								if($_GET['keyword']){
-									$post_name = str_ireplace($_GET['keyword'],'<i>'.$_GET['keyword'].'</i>',$post->post_name);
+								if(Request::input('keyword')){
+									$post_name = str_ireplace(Request::input('keyword'),'<i>'.Request::input('keyword').'</i>',$post->post_name);
 								}else{
 									$post_name = $post->post_name;
 								}

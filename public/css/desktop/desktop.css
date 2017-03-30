@@ -80,3 +80,8 @@ a{text-decoration: none;}
 #LRfloater0,#LRfloater2,#LRMINIBar{
   display: none!important;
 }
+/**/
+.sbtn.cf a:hover {
+    color: #c50707;
+    border-color:#c50707!important;
+}
