@@ -109,9 +109,8 @@ class PostController extends Controller{
             $posts = $posts->where('post_name','like','%'.$request->input('post_name').'%');
         }
         if($request->input('post_created')){
-            $thoigian_pre = date('Y-m-d 00:00:00',strtotime($request->input('post_created')));
-            $thoigian_next = date('Y-m-d 23:59:59',strtotime($request->input('post_created')));
-            $posts = $posts->where('created_at','>=',$thoigian_pre)->where('created_at','<=',$thoigian_next);
+            $created_at = date('Y-m-d',strtotime($request->input('post_created')));
+            $posts = $posts->whereDate('created_at',$created_at);
         }
         if($request->input('term_id')){
             $term_ids = [];
