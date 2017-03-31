@@ -175,8 +175,9 @@
 						<div class="flex3col2">
 							<div class="flex">
 								<div class="flex4col1">
-									<form method="post">
-										<input type="text" name="" placeholder="Nhập triệu chứng của bạn để được tư vấn">
+									<form action="{{ url('/search') }}">
+										{{ csrf_field() }}
+										<input type="text" name="keyword" placeholder="Nhập triệu chứng của bạn để được tư vấn">
 									</form>
 								</div>
 								<div class="flex4col2 flex justify-content-center align-items-center">
