@@ -6,8 +6,8 @@ $(function() {
 	str += '.cf:before, .cf:after { display: table; content: "" }';
 	str += '.cf:after { clear: both }';
 	str += '.cf { zoom: 1 }';
-	str += '.float_container { background-color:#fffeee; box-sizing:border-box; border: 5px solid #0090a1; border-radius: 6px; z-index: 1000; display: none; position: fixed; width: 440px; left: 50%; bottom: 28%; margin: 0 auto auto -220px; background-image: -moz-linear-gradient(#fffcf7, #fff7e1); background-image: -webkit-linear-gradient(#fffcf7, #fff7e1); background-image: -o-linear-gradient(#fffcf7, #fff7e1); background-image: linear-gradient(#fffcf7, #fff7e1); font-size: 14px; }';
-	str += '.float_container .ntitle {overflow:hidden; position:relative; z-index: 1002; background: #0090a1; font-size: 12px; line-height: normal; color: #fff; text-align: center; letter-spacing: 0px; padding:8px 20px 0px 20px;height:47px;}';
+	str += '.float_container { background-color:#fffeee; box-sizing:border-box; border: 5px solid #0163b2; border-radius: 6px; z-index: 1000; display: none; position: fixed; width: 440px; left: 50%; bottom: 28%; margin: 0 auto auto -220px; background-image: -moz-linear-gradient(#fffcf7, #fff7e1); background-image: -webkit-linear-gradient(#fffcf7, #fff7e1); background-image: -o-linear-gradient(#fffcf7, #fff7e1); background-image: linear-gradient(#fffcf7, #fff7e1); font-size: 14px; }';
+	str += '.float_container .ntitle {overflow:hidden; position:relative; z-index: 1002; background: #0163b2; font-size: 12px; line-height: normal; color: #fff; text-align: center; letter-spacing: 0px; padding:8px 20px 0px 20px;height:47px;}';
 	str += '.float_container .ntitle .icon_swt{ position: absolute; z-index: 1003; left: 5px; top: 0; }';
 	str += '.float_container .ntitle .close_swt{ position: absolute; cursor:pointer; z-index: 1003; right: 0px; top: 7px; }';
 	str += '.float_container dl { display: none; transiton: all .3s linear 0s; margin: 0; padding: 0; }';

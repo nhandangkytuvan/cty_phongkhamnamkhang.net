@@ -244,7 +244,7 @@
 				<div class="flex1col1">
 					<h3 class="text-center">Đội ngũ chuyên gia nam khoa, người tiên phong <br>về nam khoa trên toàn quốc</h3>
 					<p class="text-justify">
-						Khám bệnh phải tìm chuyên gia là quan điểm phổ biến của người dân. Khám bệnh nam khoa càng cần các chuyên gia có y thuật cao minh, kinh nghiệm lâm sàng phong phú. Phòng khám Nam Khang Hà Nội đã kiểm tra nghiêm trình độ chuyên môn của các chuyên gia ra nhập đội ngũ bác sỹ, tại đây hội tụ những chuyên gia lâu năm nổi tiếng trong và ngoài nước, kiên trì sử dụng kĩ thuật khám và điều trị trình độ cao phục vụ cho đông đảo bệnh nhân nam giới…<a href="">Chi tiết</a>
+						Khám bệnh phải tìm chuyên gia là quan điểm phổ biến của người dân. Khám bệnh nam khoa càng cần các chuyên gia có y thuật cao minh, kinh nghiệm lâm sàng phong phú. Phòng khám Nam Khang Hà Nội đã kiểm tra nghiêm trình độ chuyên môn của các chuyên gia ra nhập đội ngũ bác sỹ, tại đây hội tụ những chuyên gia lâu năm nổi tiếng trong và ngoài nước, kiên trì sử dụng kĩ thuật khám và điều trị trình độ cao phục vụ cho đông đảo bệnh nhân nam giới…<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Chi tiết</a>
 					</p>
 					<div class="flex flex2 justify-content-between">
 						<div class="flex2col1">
