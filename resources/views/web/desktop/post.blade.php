@@ -170,7 +170,7 @@
 								<span>2</span>
 								<span>3</span>
 								<span>8</span>
-								người đặt hẹn
+								người tư vấn
 							</p>
 						</div>
 						<div class="flex3col2">
