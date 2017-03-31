@@ -85,3 +85,7 @@ a{text-decoration: none;}
     color: #c50707;
     border-color:#c50707!important;
 }
+/**/
+.toast8-message a{
+  text-decoration: underline;
+}

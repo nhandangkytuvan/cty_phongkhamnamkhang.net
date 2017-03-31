@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/global/font-awesome/css/font-awesome.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ asset('public/css/global/slick/slick.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ asset('public/css/global/slick/slick-theme.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ asset('public/css/global/toastr8/dist/css/toastr8.css') }}">
 
 	<link rel="stylesheet" type="text/css" href="{{ asset('public/css/global/hover/css/hover.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/desktop.css') }}">
@@ -23,6 +24,7 @@
 	<script type="text/javascript" src="{{ asset('public/js/global/jquery-1.12.3.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/jquery-scrolltofixed-min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/slick/slick.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('public/js/global/toastr8/dist/js/toastr8.min.js') }}"></script>
 	@yield('js')
 	<script type="text/javascript" src="{{ asset('public/js/desktop/desktop.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/desktop/right.js') }}"></script>
