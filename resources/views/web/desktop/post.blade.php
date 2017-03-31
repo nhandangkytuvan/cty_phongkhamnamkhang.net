@@ -12,7 +12,6 @@
 <meta id="metaKeywords" name="keywords" content="{{ $data['post']->post_keyword }}">
 @endsection('keyword')
 @section('css')
-<link rel="stylesheet" type="text/css" href="{{ asset('public/css/global/hover/css/hover.css') }}">
 <link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-sidebar.css') }}">
 <link rel="stylesheet" href="{{ asset('public/font/post-detail-css.css') }}">
 <link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-post.css') }}">
@@ -202,7 +201,7 @@
 							iconClass: "fa fa-user-md",
 							imgURI: ["{{ asset('public/images/desktop/logo-footer.png') }}"],
 							timeOut:0,
-							positionClass:'toast8-bottom-right',
+							positionClass:'toast8-bottom-left',
 						});
 					}, 60000);
 				});

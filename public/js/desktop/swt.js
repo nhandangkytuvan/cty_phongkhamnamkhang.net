@@ -19,8 +19,8 @@ $(function() {
 	str += '.float_container .box11 span { color: #de0000; }';
 	str += '.float_container .box11 img { width: 22px; vertical-align: bottom; }';
 	str += '.float_container .box11:before, .float_container .box11:after { position: absolute; content: "" }';
-	str += '.float_container .box11:before { width: 18px; height: 13px; top: -1px; left: -9px; background: url(/chat/img/arrow.png) 0 0 no-repeat; background-size: 18px; }';
-	str += '.float_container .box11:after { width: 40px; height: 26px; bottom: -4px; right: -7px; background: url(/chat/img/wave.png) 0 0 no-repeat; background-size: 40px; }';
+	str += '.float_container .box11:before { width: 18px; height: 13px; top: -1px; left: -9px;}';
+	str += '.float_container .box11:after { width: 40px; height: 26px; bottom: -4px; right: -7px;}';
 	str += '.float_container .sbtn { margin-top: 15px; padding: 10px 0; border-top: 1px solid #c7c7c0; border-bottom: 1px solid #979185; background-color: #eaebed; }';
 	str += '.float_container .sbtn a { display: inline-block; width: 39%; height: 2em; float: left; margin: 0 5%; border: 1px solid #a6a5a1; border-radius: 12px; background-color: #fefefe; box-shadow: 0 2px 2px #d1d1d3; font-size: 16px; color: #6c6761; line-height: 2; text-align: center; text-decoration: none; transition: all .3s linear 0s; }';
 	str += '.float_container .sbtn a:hover { border-color: #959490; background-color: #f7f7f7 }';
