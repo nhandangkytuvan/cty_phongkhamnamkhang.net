@@ -67,7 +67,7 @@
 						<h3><a href="#"  class="text-container-center">Danh mục bệnh</a></h3>
 						<div class="menu-items">
 							<div>
-								<h4 class="bg bg1"><a href="{{ MyAPI::getUrlTerm(2) }}">Bệnh về tuyến tiền liệt</a></h4>
+								<h4 class="bg bg1">Bệnh về tuyến tiền liệt</h4>
 								<div class="flex flex2 justify-content-between">
 									<div class="flex2col1">
 										<h5><a href="{{ MyAPI::getUrlTerm(3) }}">Viêm tuyến tiền liệt</a></h5>
@@ -80,7 +80,7 @@
 								</div>
 							</div>
 							<div>
-								<h4 class="bg bg2"><a href="{{ MyAPI::getUrlTerm(7) }}">Rối loạn chức năng sinh dục</a></h4>
+								<h4 class="bg bg2">Rối loạn chức năng sinh dục</h4>
 								<div class="flex flex2 justify-content-between">
 									<div class="flex2col1">
 										<h5><a href="{{ MyAPI::getUrlTerm(8) }}">Liệt dương</a></h5>
@@ -93,7 +93,7 @@
 								</div>
 							</div>
 							<div>
-								<h4 class="bg bg3"><a href="{{ MyAPI::getUrlTerm(12) }}">Chỉnh hình cơ quan sinh dục</a></h4>
+								<h4 class="bg bg3">Chỉnh hình cơ quan sinh dục</h4>
 								<div class="flex flex2 justify-content-between">
 									<div class="flex2col1">
 										<h5><a href="{{ MyAPI::getUrlTerm(13) }}">Dài bao quy đầu</a></h5>
@@ -106,7 +106,7 @@
 								</div>
 							</div>
 							<div>
-								<h4 class="bg bg4"><a href="{{ MyAPI::getUrlTerm(17) }}">Viêm nhiễm hệ thống sinh dục</a></h4>
+								<h4 class="bg bg4">Viêm nhiễm hệ thống sinh dục</h4>
 								<div class="flex flex2 justify-content-between">
 									<div class="flex2col1">
 										<h5><a href="{{ MyAPI::getUrlTerm(18) }}">Viêm quy đầu</a></h5>
@@ -119,7 +119,7 @@
 								</div>
 							</div>
 							<div>
-								<h4 class="bg bg5"><a href="{{ MyAPI::getUrlTerm(22) }}">Vô sinh nam</a></h4>
+								<h4 class="bg bg5">Vô sinh nam</h4>
 								<div class="flex flex2 justify-content-between">
 									<div class="flex2col1">
 										<h5><a href="{{ MyAPI::getUrlTerm(23) }}">Tinh trùng ít</a></h5>
@@ -132,7 +132,7 @@
 								</div>
 							</div>
 							<div>
-								<h4 class="bg bg6"><a href="{{ MyAPI::getUrlTerm(27) }}">Bệnh xã hội</a></h4>
+								<h4 class="bg bg6">Bệnh xã hội</h4>
 								<div class="flex flex2 justify-content-between">
 									<div class="flex2col1">
 										<h5><a href="{{ MyAPI::getUrlTerm(28) }}">Sùi mào gà</a></h5>

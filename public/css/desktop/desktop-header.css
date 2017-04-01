@@ -31,11 +31,16 @@ menu .chidanbenh .menu-items{
 	display: none;
 	position: absolute;
 	z-index: 1;
-	background-image: url('../../images/desktop/icon-8.png');
+	/*background-image: url('../../images/desktop/icon-8.png');*/
 	background-repeat: no-repeat;
 	width: 326px;
 	height: 600px;
 	padding-left:15px;
+	left: 0;
+	border: 1px solid rgba(0,0,0,.15);
+	border-top: none;
+	background-color: #f9f9f9;
+	box-shadow: 0 6px 12px rgba(0,0,0,.175);
 }
 menu .chidanbenh .menu-items h4.bg2{
 	background-position: 0px -100px;
