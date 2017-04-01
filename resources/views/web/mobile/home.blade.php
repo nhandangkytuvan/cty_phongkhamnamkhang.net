@@ -113,7 +113,7 @@
 					</div>
 					<div class="flex align-items-center justify-content-center">
 						<div class="">
-							<h4 class="text-center"><a href="{{ MyAPI::getUrlTerm(11) }}">Rối loạn xuất tinh</a></h4>
+							<h4 class="text-center"><a href="{{ MyAPI::getUrlTerm(35) }}">Yếu sinh lý</a></h4>
 						</div>
 					</div>
 				</div>

@@ -10,6 +10,7 @@ a{text-decoration: none;}
 .dis-inline-block{display: inline-block!important;}
 .dis-flex{display: flex;}
 .dis-container-box{display: block;height: 100%;}
+.dis-none{display: none;}
 /*position*/
 .pos-relative{position: relative;}
 .pos-absolute{position: absolute;}
@@ -104,11 +105,11 @@ a{text-decoration: none;}
 	border-radius: 2px;
 	text-align: center;
 }
-#my_popup a:nth-child(2){
+#my_popup a.btn-cancel{
 	background: #2facbe;
     color: #fff;font-size: 14px;
 }
-#my_popup a:nth-child(3){
+#my_popup a.btn-agree{
 	background: #0163b2;
 	color: #fff;
 	margin-left: 10px;font-size: 14px;

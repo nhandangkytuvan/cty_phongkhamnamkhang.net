@@ -88,7 +88,7 @@
 									</div>
 									<div class="flex2col1">
 										<h5><a href="{{ MyAPI::getUrlTerm(10) }}">Xuất tinh sớm</a></h5>
-										<h5><a href="{{ MyAPI::getUrlTerm(11) }}">Rối loạn xuất tinh</a></h5>
+										<h5><a href="{{ MyAPI::getUrlTerm(35) }}">Yếu sinh lý</a></h5>
 									</div>
 								</div>
 							</div>
