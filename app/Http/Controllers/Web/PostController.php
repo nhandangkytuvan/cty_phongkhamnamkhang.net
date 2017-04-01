@@ -4,12 +4,15 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Post;
 use App\Setting;
+use App\Events\AccessWebEvent;
 use App\View;
 use Session;
 use BrowserDetect;
 class PostController extends Controller{
     public function show($post_alias,$post_id,Request $request){
     	$setting = Setting::first();
+        event(new AccessWebEvent($setting));
+
     	$user = Session::get('user');
     	$post = Post::find($post_id);
         if(!$post){
