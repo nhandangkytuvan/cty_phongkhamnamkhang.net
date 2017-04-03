@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    var inter1;
     $('#my_popup').popup({
         blur:false,
         transition: 'all 0.3s',
@@ -14,22 +15,20 @@ $(document).ready(function() {
         setTimeout(showchat, 15000);
     }
     // 
-
-    $('.home .row3 .flex1col1').hover(function() {
+    $('.home .row3 .flex1col1').click(function(event) {
+        /* Act on the event */
         clearInterval(inter1);
         var index = $(this).index();
         $(this).addClass('active');
         $(this).siblings('div').removeClass('active');
         $('.home .row3 .tab-contents-1').children('div').eq(index).addClass('active');
         $('.home .row3 .tab-contents-1').children('div').eq(index).siblings('div').removeClass('active');
-    }, function() {
         inter1 = setInterval(alertFunc, 5000);
     });
-
     // 
     $('.footer-toolbar').scrollToFixed( { bottom: 0} );
     //
-    var inter1 = setInterval(alertFunc, 5000);
+    inter1 = setInterval(alertFunc, 5000);
     //
     $("a[href='#top']").click(function() {
         $("html, body").animate({ scrollTop: 0 }, "slow");
