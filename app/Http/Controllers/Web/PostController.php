@@ -11,7 +11,9 @@ use BrowserDetect;
 class PostController extends Controller{
     public function show($post_alias,$post_id,Request $request){
     	$setting = Setting::first();
-        event(new AccessWebEvent($setting));
+        if(!Session::has('user')){
+            event(new AccessWebEvent($setting));
+        }
 
     	$user = Session::get('user');
     	$post = Post::find($post_id);

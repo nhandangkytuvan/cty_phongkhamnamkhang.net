@@ -1,10 +1,11 @@
 main.term.post .post-footer .order1 p{
-    color: #434343;
     line-height: 20px;
     margin-top: 20px;
+    padding-right: 15px;
 }
 main.term.post .post-footer .order1 p span{
     color: red;
+    font-weight: bold;
 }
 main.term.post .post-footer .order1 h4{
     margin-top: 8px;
