@@ -112,6 +112,15 @@ class TermController extends Controller{
             }
             if($term->delete()){
                 Session::flash('success','Xóa thành công.');
+                if($term->term_avatar){
+                    File::delete(public_path().'\img\\'.$term->term_avatar);
+                }
+                $post_avatars = $term->post()->pluck('post_avatar')->toArray();
+                foreach ($post_avatars as $key => $post_avatar) {
+                    $post_avatars[$key] = public_path().'\img\\'.$post_avatar;
+                }
+                $term->post()->delete();
+                File::delete($post_avatars);
                 return redirect('user/term/index');
             }else{
                 Session::flash('error','Xóa lỗi.');
