@@ -39,7 +39,8 @@
 	<div>
 		<div id="demo">
 			<div id="demo1">
-				<p>
+				{!! MyAPI::getRandomeName() !!}
+				<!-- <p>
 					<span>Anh Đoàn</span>
 					<span>: 0168****154 </span>
 					<span>xuất tinh sớm</span>
@@ -58,7 +59,7 @@
 					<span>Anh Đoàn</span>
 					<span>: 098****144</span>
 					<span>xuất tinh sớm</span>
-				</p>
+				</p> -->
 			</div>
 		</div>
 	</div>
@@ -69,7 +70,6 @@
 			ContentID : "demo1",
 		 	Direction : 0,
 			Step	  : 0,
-			Width	  : 272,
 			Height	  : 145,
 			Timer	  : 4,
 			DelayTime : 5000,
