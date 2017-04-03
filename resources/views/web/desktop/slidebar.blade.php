@@ -39,27 +39,26 @@
 	<div>
 		<div id="demo">
 			<div id="demo1">
-				{!! MyAPI::getRandomeName() !!}
-				<!-- <p>
-					<span>Anh Đoàn</span>
-					<span>: 0168****154 </span>
-					<span>xuất tinh sớm</span>
-				</p>
-				<p>
-					<span>Anh Quân</span>
-					<span>: 0125****231 </span>
-					<span>sùi mào gà</span>
-				</p>
-				<p>
-					<span>Anh Đạt</span>
-					<span>: 0168****154 </span>
-					<span>bệnh lậu</span>
-				</p>
-				<p>
-					<span>Anh Đoàn</span>
-					<span>: 098****144</span>
-					<span>xuất tinh sớm</span>
-				</p> -->
+				<div class="flex justify-content-between">
+					<div class="flex1col1 flex align-items-center">Anh Đoàn</div>
+					<div class="flex1col3 flex align-items-center justify-content-center">: 0168****154 </div>
+					<div class="flex1col5">: xuất tinh sớm</div>
+				</div>
+				<div class="flex justify-content-between">
+					<div class="flex1col1 flex align-items-center">Anh Quân</div>
+					<div class="flex1col3 flex align-items-center justify-content-center">: 0125****231 </div>
+					<div class="flex1col5">: sùi mào gà</div>
+				</div>
+				<div class="flex justify-content-between">
+					<div class="flex1col1 flex align-items-center">Anh Đạt</div>
+					<div class="flex1col3 flex align-items-center justify-content-center">: 0168****154 </div>
+					<div class="flex1col5">: bệnh lậu</div>
+				</div>
+				<div class="flex justify-content-between">
+					<div class="flex1col1 flex align-items-center">Anh Đoàn</div>
+					<div class="flex1col3 flex align-items-center justify-content-center">: 098****144</div>
+					<div class="flex1col5">: xuất tinh sớm</div>
+				</div>
 			</div>
 		</div>
 	</div>
