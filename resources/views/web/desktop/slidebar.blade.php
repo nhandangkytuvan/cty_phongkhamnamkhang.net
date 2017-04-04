@@ -48,26 +48,6 @@
 				@else
 					{!! MyAPI::getRandomeName() !!}
 				@endif
-				<!-- <div class="flex justify-content-between">
-					<div class="flex1col1 flex align-items-center">Anh Đoàn</div>
-					<div class="flex1col3 flex align-items-center justify-content-center">: 0168****154 </div>
-					<div class="flex1col5">: xuất tinh sớm</div>
-				</div>
-				<div class="flex justify-content-between">
-					<div class="flex1col1 flex align-items-center">Anh Quân</div>
-					<div class="flex1col3 flex align-items-center justify-content-center">: 0125****231 </div>
-					<div class="flex1col5">: sùi mào gà</div>
-				</div>
-				<div class="flex justify-content-between">
-					<div class="flex1col1 flex align-items-center">Anh Đạt</div>
-					<div class="flex1col3 flex align-items-center justify-content-center">: 0168****154 </div>
-					<div class="flex1col5">: bệnh lậu</div>
-				</div>
-				<div class="flex justify-content-between">
-					<div class="flex1col1 flex align-items-center">Anh Đoàn</div>
-					<div class="flex1col3 flex align-items-center justify-content-center">: 098****144</div>
-					<div class="flex1col5">: xuất tinh sớm</div>
-				</div> -->
 			</div>
 		</div>
 	</div>
