@@ -35,11 +35,20 @@
 	</div>
 </div>
 <div class="row4">
-	<div>Hiện tại có <span>9</span><span>8</span> bệnh nhân đặt hẹn</div>
+	<div>
+		Hiện tại có 
+		<span>9</span><span>8</span> 
+		bệnh nhân đặt hẹn
+	</div>
 	<div>
 		<div id="demo">
 			<div id="demo1">
-				<div class="flex justify-content-between">
+				@if(Session::has('random_names'))
+					{!! Session::get('random_names') !!}
+				@else
+					{!! MyAPI::getRandomeName() !!}
+				@endif
+				<!-- <div class="flex justify-content-between">
 					<div class="flex1col1 flex align-items-center">Anh Đoàn</div>
 					<div class="flex1col3 flex align-items-center justify-content-center">: 0168****154 </div>
 					<div class="flex1col5">: xuất tinh sớm</div>
@@ -58,7 +67,7 @@
 					<div class="flex1col1 flex align-items-center">Anh Đoàn</div>
 					<div class="flex1col3 flex align-items-center justify-content-center">: 098****144</div>
 					<div class="flex1col5">: xuất tinh sớm</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
