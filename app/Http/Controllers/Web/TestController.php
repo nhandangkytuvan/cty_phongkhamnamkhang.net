@@ -5,15 +5,11 @@ use Illuminate\Http\Request;
 use App\Setting;
 use App\Post;
 use App\Term;
-use View;
-use Response;
 use Session;
-use BrowserDetect;
 class TestController extends Controller{
 	public function db_pluck(Request $request){
 		$terms = Term::pluck('term_name')->toArray();
 		var_dump(implode(',',$terms));
-		MyAPI::getRandomeName();
 	}
     public function setRandomName(Request $request){
         $benhs = ['viêm tuyến tiền liệt','u nang tuyến tiền liệt','tăng sinh tuyến tiền liệt','phì đại tuyến tiền liệt','rối loạn chức năng sinh dục','liệt dương','rối loạn cương dương','xuất tinh sớm','dài bao quy đầu','viêm nhiễm hệ thống sinh dục','viêm quy đầu','viêm bàng quang','viêm niệu đạo','viêm tinh hoàn','vô sinh nam','tinh trùng ít','xuất tinh ra máu','vô tinh','tinh trùng yếu','sùi mào gà','giang mai','bệnh lậu','mụn rộp sinh dục','yếu sinh lý'];
@@ -23,7 +19,7 @@ class TestController extends Controller{
         $phones = ['098','097','096','0169','0168','0167','0166','0165','0164','0163','0162','091','094','0123','0124','0125','0127','0129','090','093','0120','0121','0122','0126','0128'];
         
         $html = '';
-        $name_rands = array_rand($names,6);
+        $name_rands = array_rand($names,11);
         $phone_start_rands = array_rand($phones,1);
         foreach ($name_rands as $key => $value) {
             $phone_start_rands = array_rand($phones,1);
@@ -37,5 +33,12 @@ class TestController extends Controller{
         }
         Session::put('random_names',$html);
         //Session::forget('random_names');
+        return 'oke';
+    }
+    public function resetNumberTuvan(Request $request){
+        $setting = Setting::first();
+        $setting->web_visitday = 11;
+        $setting->save();
+        return 'oke';
     }
 }
