@@ -75,9 +75,15 @@
 						@endforeach
 					</ul>
 					<div class="flex flex2 justify-content-between">
-						<div class="flex2col1"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn trực tuyến</a></div>
-						<div class="flex2col1"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Chuyên gia giải đáp</a></div>
-						<div class="flex2col1"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Hẹn khám qua mạng</a></div>
+						<div class="flex2col1">
+							<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-comment-o"></i> Tư vấn trực tuyến</a></h5>
+						</div>
+						<div class="flex2col1">
+							<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-question-circle-o"></i> Chuyên gia giải đáp</a></h5>
+						</div>
+						<div class="flex2col1">
+							<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-calendar-check-o"></i> Hẹn khám qua mạng</a></h5>
+						</div>
 					</div>
 				</div>
 			</div>
