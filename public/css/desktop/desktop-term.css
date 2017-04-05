@@ -53,7 +53,7 @@ main.term .flex0col1 .flex1col2 ul li h5 i{
 main.term .flex0col1 .flex1col2 ul li h5 i.active{
 	background-color: #bebebe;
 }
-main.term .flex0col1 .flex2col1{
+/*main.term .flex0col1 .flex2col1{
 	height: 38px;
 	width: 160px;
 	background-image: url('../../images/desktop/icon-4.png');
@@ -69,7 +69,27 @@ main.term .flex0col1 .flex2col1:nth-child(2){
 }
 main.term .flex0col1 .flex2col1:nth-child(3){
 	background-position: -345px -1px;
+}*/
+main.term .flex0col1 .flex2{
+	margin-right: 20px;
 }
+main.term .flex0col1 .flex2col1{
+	width: 32%;
+}
+main.term .flex0col1 .flex2col1 a{
+	display: block;
+	background-color: #3ea0dd;
+	color: #fff;
+	text-align: center;
+	padding:8px 0px;
+	border-radius: 3px;
+	/*box-shadow: 0 6px 12px rgba(0,0,0,.175);*/
+}
+main.term .flex0col1 .flex2col1 a:hover{
+	text-decoration: none;
+	background-color: #0163b2;
+}
+/**/
 main.term .flex0col1 .posts{
 	margin-top: 28px;
 }
