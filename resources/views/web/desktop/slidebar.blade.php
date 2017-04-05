@@ -37,7 +37,20 @@
 <div class="row4">
 	<div>
 		Hiện tại có 
-		<span>9</span><span>8</span> 
+		@php 
+			$web_dathen = 99;
+			if($setting->web_visitday < 200){
+				$web_dathen = (int)(($setting->web_visitday)/2);
+			}
+			$web_dathen = str_split($web_dathen);
+			if(count($web_dathen)==1){
+				array_unshift($web_dathen,'0');
+			}
+		@endphp
+		@foreach($web_dathen as $value)
+		<span>{{ $value }}</span>
+		@endforeach
+		<!-- <span>9</span><span>8</span>  -->
 		bệnh nhân đặt hẹn
 	</div>
 	<div>
