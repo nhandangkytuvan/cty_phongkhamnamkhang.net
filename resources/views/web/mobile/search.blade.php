@@ -106,9 +106,9 @@
 						$post_name = $post->post_name;
 					}
 				@endphp
-				<h4><a href="{{ MyAPI::getUrlPost($post->id) }}"><i class="fa fa-plus-square"></i> {!! $post_name !!}</a></h4>
+				<h4><a href="{{ MyAPI::getUrlPostObj($post) }}"><i class="fa fa-plus-square"></i> {!! $post_name !!}</a></h4>
 				<p class="text-justify">
-					{{ MyAPI::limitWord($post->post_description,32) }} ... <a href="{{ MyAPI::getUrlPost($post->id) }}">Chi tiết</a>
+					{{ MyAPI::limitWord($post->post_description,32) }} ... <a href="{{ MyAPI::getUrlPostObj($post) }}">Chi tiết</a>
 				</p>
 			</div>
 			@endforeach

@@ -97,7 +97,7 @@
 				@php $term_childs = $term_parent->children; @endphp
 				@foreach($term_childs as $term_child)
 				<div class="col1 flex justify-content-center align-items-center">
-					<h5><a href="{{ MyAPI::getUrlTerm($term_child->id) }}">{{ $term_child->term_name }}</a></h5>
+					<h5><a href="{{ MyAPI::getUrlTermObj($term_child) }}">{{ $term_child->term_name }}</a></h5>
 				</div>
 				@endforeach
 			</div>
@@ -135,9 +135,9 @@
 			@php $posts = $data['term']->post()->paginate(6); @endphp
 			@foreach($posts as $post)
 			<div class="post">
-				<h4><a href="{{ MyAPI::getUrlPost($post->id) }}"><i class="fa fa-user-md"></i> {{ $post->post_name }}</a></h4>
+				<h4><a href="{{ MyAPI::getUrlPostObj($post) }}"><i class="fa fa-user-md"></i> {{ $post->post_name }}</a></h4>
 				<p class="text-justify">
-					{{ MyAPI::limitWord($post->post_description,32) }} ... <a href="{{ MyAPI::getUrlPost($post->id) }}">Chi tiết</a>
+					{{ MyAPI::limitWord($post->post_description,32) }} ... <a href="{{ MyAPI::getUrlPostObj($post) }}">Chi tiết</a>
 				</p>
 			</div>
 			@endforeach

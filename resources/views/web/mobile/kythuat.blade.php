@@ -103,9 +103,9 @@
 			@php $posts = $data['term']->post()->paginate(6); @endphp
 			@foreach($posts as $post)
 			<div class="post">
-				<h4><a href="{{ MyAPI::getUrlPost($post->id) }}"><i class="fa fa-user-md"></i> {{ $post->post_name }}</a></h4>
+				<h4><a href="{{ MyAPI::getUrlPostObj($post) }}"><i class="fa fa-user-md"></i> {{ $post->post_name }}</a></h4>
 				<p class="text-justify">
-					{{ MyAPI::limitWord($post->post_description,32) }} ... <a href="{{ MyAPI::getUrlPost($post->id) }}">Chi tiết</a>
+					{{ MyAPI::limitWord($post->post_description,32) }} ... <a href="{{ MyAPI::getUrlPostObj($post) }}">Chi tiết</a>
 				</p>
 			</div>
 			@endforeach
