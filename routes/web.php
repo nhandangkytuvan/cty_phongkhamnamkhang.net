@@ -1,7 +1,7 @@
 <?php
 // web
 Route::get('/', 'Web\HomeController@show');
-Route::get('/sitemap', 'Web\HomeController@sitemap');
+Route::get('/sitemap.xml', 'Web\HomeController@sitemap');
 Route::get('/ve-chung-toi', 'Web\HomeController@about');
 Route::get('/dia-chi-phong-kham', 'Web\HomeController@address');
 Route::any('/search{query?}', 'Web\HomeController@search');
