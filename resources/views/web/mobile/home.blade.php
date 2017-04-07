@@ -64,18 +64,18 @@
 				<div class="flex2col1">
 					<div class="flex">
 						<div class="box-center">
-							<h3 class="text-center"><a href="{{ MyAPI::getUrlTerm(32) }}"><i class="bg bg5"></i></a></h3>
-							<h4 class="text-uppercase text-center"><a href="{{ MyAPI::getUrlTerm(32) }}">Liệu pháp điều trị</a></h4>
-							<h5 class="text-center"><a href="{{ MyAPI::getUrlTerm(32) }}">Tiên tiến, an toàn</a></h5>
+							<h3 class="text-center"><a href="{{ MyAPI::getUrlTermID(32) }}"><i class="bg bg5"></i></a></h3>
+							<h4 class="text-uppercase text-center"><a href="{{ MyAPI::getUrlTermID(32) }}">Liệu pháp điều trị</a></h4>
+							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(32) }}">Tiên tiến, an toàn</a></h5>
 						</div>
 					</div>
 				</div>
 				<div class="flex2col1">
 					<div class="flex">
 						<div class="box-center">
-							<h3 class="text-center"><a href="{{ MyAPI::getUrlTerm(34) }}"><i class="bg bg6"></i></a></h3>
-							<h4 class="text-uppercase text-center"><a href="{{ MyAPI::getUrlTerm(34) }}">Trường hợp hồi phục</a></h4>
-							<h5 class="text-center"><a href="{{ MyAPI::getUrlTerm(34) }}">Điển hình, thực tế</a></h5>
+							<h3 class="text-center"><a href="{{ MyAPI::getUrlTermID(34) }}"><i class="bg bg6"></i></a></h3>
+							<h4 class="text-uppercase text-center"><a href="{{ MyAPI::getUrlTermID(34) }}">Trường hợp hồi phục</a></h4>
+							<h5 class="text-center"><a href="{{ MyAPI::getUrlTermID(34) }}">Điển hình, thực tế</a></h5>
 						</div>
 					</div>
 				</div>
@@ -96,24 +96,24 @@
 				<div class="flex1col1 order2 flex flex-wrap-wrap align-content-between">
 					<div class="flex align-items-center justify-content-center">
 						<div class="">
-							<h4 class="text-center"><a href="{{ MyAPI::getUrlTerm(8) }}">Liệt dương</a></h4>
+							<h4 class="text-center"><a href="{{ MyAPI::getUrlTermID(8) }}">Liệt dương</a></h4>
 						</div>
 					</div>
 					<div class="flex align-items-center justify-content-center">
 						<div class="">
-							<h4 class="text-center"><a href="{{ MyAPI::getUrlTerm(9) }}">Rối loạn cương dương</a></h4>
+							<h4 class="text-center"><a href="{{ MyAPI::getUrlTermID(9) }}">Rối loạn cương dương</a></h4>
 						</div>
 					</div>
 				</div>
 				<div class="flex1col1 order2 flex flex-wrap-wrap align-content-between">
 					<div class="flex align-items-center justify-content-center">
 						<div class="">
-							<h4 class="text-center"><a href="{{ MyAPI::getUrlTerm(10) }}">Xuất tinh sớm</a></h4>
+							<h4 class="text-center"><a href="{{ MyAPI::getUrlTermID(10) }}">Xuất tinh sớm</a></h4>
 						</div>
 					</div>
 					<div class="flex align-items-center justify-content-center">
 						<div class="">
-							<h4 class="text-center"><a href="{{ MyAPI::getUrlTerm(35) }}">Yếu sinh lý</a></h4>
+							<h4 class="text-center"><a href="{{ MyAPI::getUrlTermID(35) }}">Yếu sinh lý</a></h4>
 						</div>
 					</div>
 				</div>
@@ -127,24 +127,24 @@
 				<div class="flex1col1 order2 flex flex-wrap-wrap align-content-between">
 					<div class="flex align-items-center justify-content-center">
 						<div class="">
-							<h4 class="text-center"><a href="{{ MyAPI::getUrlTerm(13) }}">Dài bao quy đầu</a></h4>
+							<h4 class="text-center"><a href="{{ MyAPI::getUrlTermID(13) }}">Dài bao quy đầu</a></h4>
 						</div>
 					</div>
 					<div class="flex align-items-center justify-content-center">
 						<div class="">
-							<h4 class="text-center"><a href="{{ MyAPI::getUrlTerm(15) }}">Thủ thuật hẹp bao quy đầu</a></h4>
+							<h4 class="text-center"><a href="{{ MyAPI::getUrlTermID(15) }}">Thủ thuật hẹp bao quy đầu</a></h4>
 						</div>
 					</div>
 				</div>
 				<div class="flex1col1 order2 flex flex-wrap-wrap align-content-between">
 					<div class="flex align-items-center justify-content-center">
 						<div class="">
-							<h4 class="text-center"><a href="{{ MyAPI::getUrlTerm(14) }}">Kéo dài dương vật</a></h4>
+							<h4 class="text-center"><a href="{{ MyAPI::getUrlTermID(14) }}">Kéo dài dương vật</a></h4>
 						</div>
 					</div>
 					<div class="flex align-items-center justify-content-center">
 						<div class="">
-							<h4 class="text-center"><a href="{{ MyAPI::getUrlTerm(16) }}">Tăng kích cỡ dương vật</a></h4>
+							<h4 class="text-center"><a href="{{ MyAPI::getUrlTermID(16) }}">Tăng kích cỡ dương vật</a></h4>
 						</div>
 					</div>
 				</div>
@@ -158,24 +158,24 @@
 				<div class="flex1col1 order2 flex flex-wrap-wrap align-content-between">
 					<div class="flex align-items-center justify-content-center">
 						<div class="">
-							<h4 class="text-center"><a href="{{ MyAPI::getUrlTerm(3) }}">Viêm tuyến tiền liệt</a></h4>
+							<h4 class="text-center"><a href="{{ MyAPI::getUrlTermID(3) }}">Viêm tuyến tiền liệt</a></h4>
 						</div>
 					</div>
 					<div class="flex align-items-center justify-content-center">
 						<div class="">
-							<h4 class="text-center"><a href="{{ MyAPI::getUrlTerm(6) }}">Phì đại tuyến tiền liệt</a></h4>
+							<h4 class="text-center"><a href="{{ MyAPI::getUrlTermID(6) }}">Phì đại tuyến tiền liệt</a></h4>
 						</div>
 					</div>
 				</div>
 				<div class="flex1col1 order2 flex flex-wrap-wrap align-content-between">
 					<div class="flex align-items-center justify-content-center">
 						<div class="">
-							<h4 class="text-center"><a href="{{ MyAPI::getUrlTerm(5) }}">Tăng sinh tuyến tiền liệt</a></h4>
+							<h4 class="text-center"><a href="{{ MyAPI::getUrlTermID(5) }}">Tăng sinh tuyến tiền liệt</a></h4>
 						</div>
 					</div>
 					<div class="flex align-items-center justify-content-center">
 						<div class="">
-							<h4 class="text-center"><a href="{{ MyAPI::getUrlTerm(4) }}">U nang tuyến tiền liệt</a></h4>
+							<h4 class="text-center"><a href="{{ MyAPI::getUrlTermID(4) }}">U nang tuyến tiền liệt</a></h4>
 						</div>
 					</div>
 				</div>
@@ -189,24 +189,24 @@
 				<div class="flex1col1 order2 flex flex-wrap-wrap align-content-between">
 					<div class="flex align-items-center justify-content-center">
 						<div class="">
-							<h4 class="text-center"><a href="{{ MyAPI::getUrlTerm(18) }}">Viêm quy đầu</a></h4>
+							<h4 class="text-center"><a href="{{ MyAPI::getUrlTermID(18) }}">Viêm quy đầu</a></h4>
 						</div>
 					</div>
 					<div class="flex align-items-center justify-content-center">
 						<div class="">
-							<h4 class="text-center"><a href="{{ MyAPI::getUrlTerm(19) }}">Viêm bàng quang</a></h4>
+							<h4 class="text-center"><a href="{{ MyAPI::getUrlTermID(19) }}">Viêm bàng quang</a></h4>
 						</div>
 					</div>
 				</div>
 				<div class="flex1col1 order2 flex flex-wrap-wrap align-content-between">
 					<div class="flex align-items-center justify-content-center">
 						<div class="">
-							<h4 class="text-center"><a href="{{ MyAPI::getUrlTerm(20) }}">Viêm niệu đạo</a></h4>
+							<h4 class="text-center"><a href="{{ MyAPI::getUrlTermID(20) }}">Viêm niệu đạo</a></h4>
 						</div>
 					</div>
 					<div class="flex align-items-center justify-content-center">
 						<div class="">
-							<h4 class="text-center"><a href="{{ MyAPI::getUrlTerm(21) }}">Viêm tinh hoàn</a></h4>
+							<h4 class="text-center"><a href="{{ MyAPI::getUrlTermID(21) }}">Viêm tinh hoàn</a></h4>
 						</div>
 					</div>
 				</div>
@@ -220,24 +220,24 @@
 				<div class="flex1col1 order2 flex flex-wrap-wrap align-content-between">
 					<div class="flex align-items-center justify-content-center">
 						<div class="">
-							<h4 class="text-center"><a href="{{ MyAPI::getUrlTerm(23) }}">Ít tinh trùng</a></h4>
+							<h4 class="text-center"><a href="{{ MyAPI::getUrlTermID(23) }}">Ít tinh trùng</a></h4>
 						</div>
 					</div>
 					<div class="flex align-items-center justify-content-center">
 						<div class="">
-							<h4 class="text-center"><a href="{{ MyAPI::getUrlTerm(24) }}">Xuất tinh ra máu</a></h4>
+							<h4 class="text-center"><a href="{{ MyAPI::getUrlTermID(24) }}">Xuất tinh ra máu</a></h4>
 						</div>
 					</div>
 				</div>
 				<div class="flex1col1 order2 flex flex-wrap-wrap align-content-between">
 					<div class="flex align-items-center justify-content-center">
 						<div class="">
-							<h4 class="text-center"><a href="{{ MyAPI::getUrlTerm(25) }}">Vô tinh</a></h4>
+							<h4 class="text-center"><a href="{{ MyAPI::getUrlTermID(25) }}">Vô tinh</a></h4>
 						</div>
 					</div>
 					<div class="flex align-items-center justify-content-center">
 						<div class="">
-							<h4 class="text-center"><a href="{{ MyAPI::getUrlTerm(26) }}">Tinh trùng yếu</a></h4>
+							<h4 class="text-center"><a href="{{ MyAPI::getUrlTermID(26) }}">Tinh trùng yếu</a></h4>
 						</div>
 					</div>
 				</div>
@@ -251,24 +251,24 @@
 				<div class="flex1col1 order2 flex flex-wrap-wrap align-content-between">
 					<div class="flex align-items-center justify-content-center">
 						<div class="">
-							<h4 class="text-center"><a href="{{ MyAPI::getUrlTerm(28) }}">Sùi mào gà</a></h4>
+							<h4 class="text-center"><a href="{{ MyAPI::getUrlTermID(28) }}">Sùi mào gà</a></h4>
 						</div>
 					</div>
 					<div class="flex align-items-center justify-content-center">
 						<div class="">
-							<h4 class="text-center"><a href="{{ MyAPI::getUrlTerm(29) }}">Giang mai</a></h4>
+							<h4 class="text-center"><a href="{{ MyAPI::getUrlTermID(29) }}">Giang mai</a></h4>
 						</div>
 					</div>
 				</div>
 				<div class="flex1col1 order2 flex flex-wrap-wrap align-content-between">
 					<div class="flex align-items-center justify-content-center">
 						<div class="">
-							<h4 class="text-center"><a href="{{ MyAPI::getUrlTerm(30) }}">Bệnh lậu</a></h4>
+							<h4 class="text-center"><a href="{{ MyAPI::getUrlTermID(30) }}">Bệnh lậu</a></h4>
 						</div>
 					</div>
 					<div class="flex align-items-center justify-content-center">
 						<div class="">
-							<h4 class="text-center"><a href="{{ MyAPI::getUrlTerm(31) }}">Mụn rộp sinh dục</a></h4>
+							<h4 class="text-center"><a href="{{ MyAPI::getUrlTermID(31) }}">Mụn rộp sinh dục</a></h4>
 						</div>
 					</div>
 				</div>

@@ -61,11 +61,11 @@
 					<ul>
 						@php $post_pre = $term->post()->where('id','<',$data['post']->id)->orderBy('id','desc')->first(); @endphp
 						@if($post_pre)
-						<li>Bài trước : <a href="{{ MyAPI::getUrlPost($post_pre->id) }}">{{ $post_pre->post_name }}</a></li>
+						<li>Bài trước : <a href="{{ MyAPI::getUrlPostObj($post_pre) }}">{{ $post_pre->post_name }}</a></li>
 						@endif
 						@php $post_next = $term->post()->where('id','>',$data['post']->id)->orderBy('id','asc')->first(); @endphp
 						@if($post_next)
-						<li>Bài sau : <a href="{{ MyAPI::getUrlPost($post_next->id) }}">{{ $post_next->post_name }}</a></li>
+						<li>Bài sau : <a href="{{ MyAPI::getUrlPostObj($post_next) }}">{{ $post_next->post_name }}</a></li>
 						@endif
 					</ul>
 				</div>

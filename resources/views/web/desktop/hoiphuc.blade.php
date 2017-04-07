@@ -53,9 +53,9 @@
 							      		<h5><span>Triệu chứng: </span>Tiểu nhiều, tiểu rắt, tiểu không hết</h5>
 					    			</div>
 						      	</figcaption>
-						      	<a href="{{ MyAPI::getUrlPost(13) }}"></a>
+						      	<a href="{{ MyAPI::getUrlPostID(13) }}"></a>
 						    </figure>
-							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPost(13) }}">Viêm tuyến tiền liệt</a></h4>
+							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPostID(13) }}">Viêm tuyến tiền liệt</a></h4>
 						</div>
 					</div>
 					<div class="flex flex2 justify-content-between">
@@ -83,9 +83,9 @@
 							      		<h5><span>Triệu chứng: </span>Lột da bao quy đầu, có mùi hôi</h5>
 					    			</div>
 						      	</figcaption>
-						      	<a href="{{ MyAPI::getUrlPost(18) }}"></a>
+						      	<a href="{{ MyAPI::getUrlPostID(18) }}"></a>
 						    </figure>
-							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPost(18) }}">Viêm quy đầu</a></h4>
+							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPostID(18) }}">Viêm quy đầu</a></h4>
 						</div>
 					</div>
 					<div class="flex flex2 justify-content-between">
@@ -113,9 +113,9 @@
 							      		<h5><span>Triệu chứng: </span>Thường xuyên tiểu nhiều tiểu rắt, còn có cảm giác đau nhói, thậm chí xuất hiện tiểu ra máu</h5>
 					    			</div>
 						      	</figcaption>
-						      	<a href="{{ MyAPI::getUrlPost(20) }}"></a>
+						      	<a href="{{ MyAPI::getUrlPostID(20) }}"></a>
 						    </figure>
-							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPost(20) }}">Tiểu ra máu</a></h4>
+							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPostID(20) }}">Tiểu ra máu</a></h4>
 						</div>
 					</div>
 					<div class="flex flex2 justify-content-between">
@@ -143,9 +143,9 @@
 							      		<h5><span>Triệu chứng: </span>Xuất tinh quá nhanh (5 phút), xuất tinh vô lực</h5>
 					    			</div>
 						      	</figcaption>
-						      	<a href="{{ MyAPI::getUrlPost(17) }}"></a>
+						      	<a href="{{ MyAPI::getUrlPostID(17) }}"></a>
 						    </figure>
-							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPost(17) }}">Xuất tinh sớm</a></h4>
+							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPostID(17) }}">Xuất tinh sớm</a></h4>
 						</div>
 					</div>
 					<div class="flex flex2 justify-content-between">
@@ -173,9 +173,9 @@
 							      		<h5><span>Triệu chứng: </span>Dương vật cương cứng kém, mệt mỏi sau quan hệ</h5>
 					    			</div>
 						      	</figcaption>
-						      	<a href="{{ MyAPI::getUrlPost(21) }}"></a>
+						      	<a href="{{ MyAPI::getUrlPostID(21) }}"></a>
 						    </figure>
-							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPost(21) }}">Liệt dương</a></h4>
+							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPostID(21) }}">Liệt dương</a></h4>
 						</div>
 					</div>
 					<div class="flex flex2 justify-content-between">
@@ -203,9 +203,9 @@
 							      		<h5><span>Triệu chứng: </span>Có các u nhú hình súp lơ kích thước như hạt đậu ở quy đầu trong thời gian dài</h5>
 					    			</div>
 						      	</figcaption>
-						      	<a href="{{ MyAPI::getUrlPost(15) }}"></a>
+						      	<a href="{{ MyAPI::getUrlPostID(15) }}"></a>
 						    </figure>
-							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPost(15) }}">Sùi mào gà</a></h4>
+							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPostID(15) }}">Sùi mào gà</a></h4>
 						</div>
 					</div>
 					<div class="flex flex2 justify-content-between">
@@ -233,9 +233,9 @@
 							      		<h5><span>Triệu chứng: </span>Có mụn nước trên cơ quan sinh dục, kèm hiện tượng đau đầu</h5>
 					    			</div>
 						      	</figcaption>
-						      	<a href="{{ MyAPI::getUrlPost(16) }}"></a>
+						      	<a href="{{ MyAPI::getUrlPostID(16) }}"></a>
 						    </figure>
-							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPost(16) }}">Mụn rộp sinh dục</a></h4>
+							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPostID(16) }}">Mụn rộp sinh dục</a></h4>
 						</div>
 					</div>
 					<div class="flex flex2 justify-content-between">
@@ -263,9 +263,9 @@
 							      		<h5><span>Triệu chứng: </span>Yếu tinh trùng, giãn tĩnh mạch thừng tinh</h5>
 					    			</div>
 						      	</figcaption>
-						      	<a href="{{ MyAPI::getUrlPost(14) }}"></a>
+						      	<a href="{{ MyAPI::getUrlPostID(14) }}"></a>
 						    </figure>
-							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPost(14) }}">Vô sinh nam</a></h4>
+							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPostID(14) }}">Vô sinh nam</a></h4>
 						</div>
 					</div>
 					<div class="flex flex2 justify-content-between">
@@ -293,9 +293,9 @@
 							      		<h5><span>Triệu chứng: </span>Dài bao quy đầu, viêm quy đầu, làm bạn gái mắc viêm phụ khoa</h5>
 					    			</div>
 						      	</figcaption>
-						      	<a href="{{ MyAPI::getUrlPost(19) }}"></a>
+						      	<a href="{{ MyAPI::getUrlPostID(19) }}"></a>
 						    </figure>
-							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPost(19) }}">Dài bao quy đầu</a></h4>
+							<h4 class="text-center pos-absolute width-100"><a href="{{ MyAPI::getUrlPostID(19) }}">Dài bao quy đầu</a></h4>
 						</div>
 					</div>
 					<div class="flex flex2 justify-content-between">

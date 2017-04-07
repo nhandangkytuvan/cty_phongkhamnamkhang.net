@@ -46,7 +46,7 @@
 					<div class="col1col2 flex align-items-center justify-content-between">
 						<div class="width-100">
 							<h5>
-								<a href="{{ MyAPI::getUrlTerm(32) }}">Liệu pháp uy tín</a></h5>
+								<a href="{{ MyAPI::getUrlTermID(32) }}">Liệu pháp uy tín</a></h5>
 							</h5>
 						</div>
 					</div>
@@ -58,7 +58,7 @@
 					<div class="col1col2 flex align-items-center justify-content-between">
 						<div class="width-100">
 							<h5>
-								<a href="{{ MyAPI::getUrlTerm(34) }}">Bệnh án điển hình</a></h5>
+								<a href="{{ MyAPI::getUrlTermID(34) }}">Bệnh án điển hình</a></h5>
 							</h5>
 						</div>
 					</div>
@@ -105,7 +105,7 @@
 			<div class="post">
 				<h4><a href="{{ MyAPI::getUrlPostObj($post) }}"><i class="fa fa-user-md"></i> {{ $post->post_name }}</a></h4>
 				<p class="text-justify">
-					{{ MyAPI::limitWord($post->post_description,32) }} ... <a href="{{ MyAPI::getUrlPostObj($post) }}">Chi tiết</a>
+					{{ MyAPI::getLimitWord($post->post_description,32) }} ... <a href="{{ MyAPI::getUrlPostObj($post) }}">Chi tiết</a>
 				</p>
 			</div>
 			@endforeach

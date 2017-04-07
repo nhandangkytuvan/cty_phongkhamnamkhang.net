@@ -94,7 +94,7 @@
 						</div>	
 					</div>
 					<p>
-						{{ MyAPI::limitWord($post->post_description,50) }}
+						{{ MyAPI::getLimitWord($post->post_description,50) }}
 						<a href="{{ MyAPI::getUrlPostObj($post) }}">Chi tiết</a>
 					</p>
 				</div>

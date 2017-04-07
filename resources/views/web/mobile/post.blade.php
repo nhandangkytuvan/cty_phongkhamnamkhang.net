@@ -52,7 +52,7 @@
 					<div class="col1col2 flex align-items-center justify-content-between">
 						<div class="width-100">
 							<h5>
-								<a href="{{ MyAPI::getUrlTerm(32) }}">Liệu pháp uy tín</a></h5>
+								<a href="{{ MyAPI::getUrlTermID(32) }}">Liệu pháp uy tín</a></h5>
 							</h5>
 						</div>
 					</div>
@@ -64,7 +64,7 @@
 					<div class="col1col2 flex align-items-center justify-content-between">
 						<div class="width-100">
 							<h5>
-								<a href="{{ MyAPI::getUrlTerm(34) }}">Bệnh án điển hình</a></h5>
+								<a href="{{ MyAPI::getUrlTermID(34) }}">Bệnh án điển hình</a></h5>
 							</h5>
 						</div>
 					</div>
