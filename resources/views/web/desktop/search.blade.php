@@ -55,12 +55,12 @@
 									$post_name = $post->post_name;
 								}
 							@endphp
-							<h3><a href="{{ MyAPI::getUrlPost($post->id) }}">{!! $post_name !!}</a></h3>
+							<h3><a href="{{ MyAPI::getUrlPostObj($post) }}">{!! $post_name !!}</a></h3>
 						</div>	
 					</div>
 					<p>
 						{{ MyAPI::limitWord($post->post_description,50) }}
-						<a href="{{ MyAPI::getUrlPost($post->id) }}">Chi tiết</a>
+						<a href="{{ MyAPI::getUrlPostObj($post) }}">Chi tiết</a>
 					</p>
 				</div>
 				@endforeach

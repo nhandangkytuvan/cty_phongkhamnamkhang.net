@@ -22,7 +22,7 @@
 			<div class="clearfix">
 				<div class="pull-left">
 					<a href="{{ url('/') }}"><i class="fa fa-home"></i> Trang chủ ></a>
-					<a href="{{ MyAPI::getUrlTerm($data['term']->id) }}">{{ $data['term']->term_name }}</a>
+					<a href="{{ MyAPI::getUrlTermObj($data['term']) }}">{{ $data['term']->term_name }}</a>
 				</div>
 				<div class="pull-right">
 					<form action="{{ url('/search') }}">

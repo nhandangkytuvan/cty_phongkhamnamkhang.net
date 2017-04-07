@@ -14,6 +14,14 @@ class MyAPI {
         	return url('/');
         }
     }
+    public static function getUrlPostObj($post){
+        if($post){
+            return url($post->post_alias.'/'.$post->id.'.htm');
+        }else{
+            return url('/');
+        }
+    }
+    // 
     public static function getUrlTerm($term_id){
         $term = Term::find($term_id);
         if($term){
@@ -22,16 +30,26 @@ class MyAPI {
         	return url('/');
         }
     }
+    public static function getUrlTermObj($term){
+        if($term){
+            return url($term->term_alias.'/'.$term->id);
+        }else{
+            return url('/');
+        }
+    }
+    //
     public static function limitWord($text, $limit) {
         $words = explode(" ",$text);
         return implode(" ",array_splice($words,0,$limit));
     }
+    //
     public static function getPost($post_id){
         return Post::find($post_id);
     }
     public static function getTerm($term_id){
         return Term::find($term_id);
     }
+    //
     public static function getRandomeName(){
         $benhs = ['viêm tuyến tiền liệt','u nang tuyến tiền liệt','tăng sinh tuyến tiền liệt','phì đại tuyến tiền liệt','rối loạn chức năng sinh dục','liệt dương','rối loạn cương dương','xuất tinh sớm','dài bao quy đầu','viêm nhiễm hệ thống sinh dục','viêm quy đầu','viêm bàng quang','viêm niệu đạo','viêm tinh hoàn','vô sinh nam','tinh trùng ít','xuất tinh ra máu','vô tinh','tinh trùng yếu','sùi mào gà','giang mai','bệnh lậu','mụn rộp sinh dục','yếu sinh lý'];
         $numbers = [0,1,2,3,4,5,6,7,8,9];

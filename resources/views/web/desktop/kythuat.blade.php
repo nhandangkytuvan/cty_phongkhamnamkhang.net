@@ -22,7 +22,7 @@
 			<div class="clearfix">
 				<div class="pull-left">
 					<a href="{{ url('/') }}"><i class="fa fa-home"></i> Trang chủ ></a>
-					<a href="{{ MyAPI::getUrlTerm($data['term']->id) }}">{{ $data['term']->term_name }}</a>
+					<a href="{{ MyAPI::getUrlTermObj($data['term']) }}">{{ $data['term']->term_name }}</a>
 				</div>
 				<div class="pull-right">
 					<form action="{{ url('/search') }}">
@@ -43,7 +43,7 @@
 			<div class="flex flex1 justify-content-between">
 				<div class="flex1col1">
 					<h3>
-						<a href="{{ MyAPI::getUrlTerm($data['term']->id) }}">
+						<a href="{{ MyAPI::getUrlTermObj($data['term']) }}">
 							@if($data['term']->term_avatar)
 								<img src="{{ asset('public/img/'.$data['term']->term_avatar) }}" class="center-block">
 							@else
@@ -66,7 +66,7 @@
 						@php $stt++ @endphp
 						<li>
 							<h5>
-								<a href="{{ MyAPI::getUrlPost($post->id) }}">
+								<a href="{{ MyAPI::getUrlPostObj($post) }}">
 									<i {!! $stt >= 4 ? 'class="active"' : '' !!} >{{ $stt }}</i>
 									{{ $post->post_name }}
 								</a>
@@ -95,12 +95,12 @@
 				<div class="post">
 					<div class="clearfix">
 						<div class="pull-left">
-							<h3><a href="{{ MyAPI::getUrlPost($post->id) }}">{{ $post->post_name }}</a></h3>
+							<h3><a href="{{ MyAPI::getUrlPostObj($post) }}">{{ $post->post_name }}</a></h3>
 						</div>	
 					</div>
 					<p>
 						{{ MyAPI::limitWord($post->post_description,50) }}
-						<a href="{{ MyAPI::getUrlPost($post->id) }}">Chi tiết</a>
+						<a href="{{ MyAPI::getUrlPostObj($post) }}">Chi tiết</a>
 					</p>
 				</div>
 				@endforeach

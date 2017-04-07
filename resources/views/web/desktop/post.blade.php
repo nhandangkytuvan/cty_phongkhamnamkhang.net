@@ -29,7 +29,7 @@
 					@php 
 						$term = $data['post']->term;
 					@endphp
-					<a href="{{ MyAPI::getUrlTerm($term->id) }}">{{ $term->term_name }}</a>
+					<a href="{{ MyAPI::getUrlTermObj($term) }}">{{ $term->term_name }}</a>
 				</div>
 				<div class="pull-right">
 					<form action="{{ url('/search') }}">
@@ -135,7 +135,7 @@
 							<li>
 								<h5>
 									<i class="fa fa-circle" aria-hidden="true"></i>
-									<a href="{{ MyAPI::getUrlPost($post->id) }}">{{ $post->post_name }}</a>
+									<a href="{{ MyAPI::getUrlPostObj($post) }}">{{ $post->post_name }}</a>
 								</h5>
 							</li>
 							@php 
@@ -151,7 +151,7 @@
 							<li>
 								<h5>
 									<i class="fa fa-circle" aria-hidden="true"></i>
-									<a href="{{ MyAPI::getUrlPost($post->id) }}">{{ $post->post_name }}</a>
+									<a href="{{ MyAPI::getUrlPostObj($post) }}">{{ $post->post_name }}</a>
 								</h5>
 							</li>
 							@php unset($posts[$key]) @endphp
