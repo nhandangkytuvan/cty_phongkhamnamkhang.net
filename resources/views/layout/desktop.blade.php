@@ -10,6 +10,7 @@
     <meta property="og:site_name" content="{{ url('/') }}">
     <meta property="og:type" content="website">
     @yield('keyword')
+    <link rel="canonical" href="{{ url('/') }}" />
     <link rel="shortcut icon" href="{{ asset('public/img/'.$setting->web_icon) }}" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/global/font-awesome/css/font-awesome.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ asset('public/css/global/slick/slick.css') }}">
@@ -177,7 +178,7 @@
 		<div class="container">
 			<div class="flex flex1 justify-content-between">
 				<div class="flex1col1">
-					<h3><a href="{{ url('/') }}"><img src="{{ asset('public/images/desktop/logo-footer.png') }}" class="center-block"></a></h3>
+					<h3><a href="{{ url('/') }}"><img alt="" src="{{ asset('public/images/desktop/logo-footer.png') }}" class="center-block"></a></h3>
 					<h3 class="text-center text-uppercase"><a href="">Phòng khám chuyên khoa Nam Khang</a></h3>
 					<p><a href="{{ url('/dia-chi-phong-kham') }}"><address>Số 193c1 Bà Triệu, Hai Bà Trưng, Hà Nội</address></a></p>
 				</div>

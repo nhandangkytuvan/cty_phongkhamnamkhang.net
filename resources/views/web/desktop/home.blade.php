@@ -69,13 +69,13 @@
 			<h2 class="text-center text-uppercase">Hình ảnh nhân viên</h2>
 			<h3 class="text-center"><span>Chúng tôi luôn nỗ lực hết mình</span></h3>
 			<div class="slick-pk">
-				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/images/desktop/pk-1.png') }}" class="center-block"></a></div>
-				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/images/desktop/pk-2.png') }}" class="center-block"></a></div>
-				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/images/desktop/pk-3.png') }}" class="center-block"></a></div>
-				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/images/desktop/pk-4.png') }}" class="center-block"></a></div>
-				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/images/desktop/pk-5.png') }}" class="center-block"></a></div>
-				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/images/desktop/pk-6.png') }}" class="center-block"></a></div>
-				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/images/desktop/pk-7.png') }}" class="center-block"></a></div>
+				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/images/desktop/pk-1.png') }}" alt="" class="center-block"></a></div>
+				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/images/desktop/pk-2.png') }}" alt="" class="center-block"></a></div>
+				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/images/desktop/pk-3.png') }}" alt="" class="center-block"></a></div>
+				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/images/desktop/pk-4.png') }}" alt="" class="center-block"></a></div>
+				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/images/desktop/pk-5.png') }}" alt="" class="center-block"></a></div>
+				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/images/desktop/pk-6.png') }}" alt="" class="center-block"></a></div>
+				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/images/desktop/pk-7.png') }}" alt="" class="center-block"></a></div>
 			</div>
 			<script>
 				$('.slick-pk').slick({
@@ -87,7 +87,7 @@
 			</script>
 		</div>
 		<div class="row4">
-			<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/images/desktop/home-4.png') }}" class="center-block"></a></div>
+			<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/images/desktop/home-4.png') }}" alt="" class="center-block"></a></div>
 		</div>
 		<div class="row5">
 			<div class="groups-btn">
@@ -117,22 +117,22 @@
 			<div class="flex1 flex justify-content-between">
 				<div class="flex1col1">
 					<div class="active">
-						<img src="{{ asset('public/images/desktop/home-5.png') }}" class="center-block">
+						<img src="{{ asset('public/images/desktop/home-5.png') }}" alt="" class="center-block">
 					</div>
 					<div>
-						<img src="{{ asset('public/images/desktop/benh-2.png') }}" class="center-block">
+						<img src="{{ asset('public/images/desktop/benh-2.png') }}" alt="" class="center-block">
 					</div>
 					<div>
-						<img src="{{ asset('public/images/desktop/benh-3.png') }}" class="center-block">
+						<img src="{{ asset('public/images/desktop/benh-3.png') }}" alt="" class="center-block">
 					</div>
 					<div>
-						<img src="{{ asset('public/images/desktop/benh-4.png') }}" class="center-block">
+						<img src="{{ asset('public/images/desktop/benh-4.png') }}" alt="" class="center-block">
 					</div>
 					<div>
-						<img src="{{ asset('public/images/desktop/benh-5.png') }}" class="center-block">
+						<img src="{{ asset('public/images/desktop/benh-5.png') }}" alt="" class="center-block">
 					</div>
 					<div>
-						<img src="{{ asset('public/images/desktop/benh-6.png') }}" class="center-block">
+						<img src="{{ asset('public/images/desktop/benh-6.png') }}" alt="" class="center-block">
 					</div>
 				</div>
 				<div class="flex1col2">
@@ -237,7 +237,7 @@
 			</div>
 		</div>
 		<div class="row7">
-			<div><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/images/desktop/home-6.png') }}" class="center-block"></a></div>
+			<div><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/images/desktop/home-6.png') }}" alt="" class="center-block"></a></div>
 		</div>
 		<div class="row8">
 			<div class="flex flex1 justify-content-between">
@@ -268,12 +268,12 @@
 					</div>
 				</div>
 				<div class="flex1col2">
-					<img src="{{ asset('public/images/desktop/home-7.png') }}" class="center-block">
+					<img src="{{ asset('public/images/desktop/home-7.png') }}" alt="" class="center-block">
 				</div>
 			</div>
 		</div>
 		<div class="row9">
-			<div><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/images/desktop/home-8.png') }}" class="center-block"></a></div>
+			<div><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/images/desktop/home-8.png') }}" alt="" class="center-block"></a></div>
 		</div>
 		<div class="row10">
 			<h2 class="text-center text-uppercase">10 kĩ thuật điều trị trọng điểm</h2>
@@ -435,43 +435,43 @@
 			<div class="slick-tb">
 				<div>
 					<div class="tb">
-						<h5><a href="{{ MyAPI::getUrlTermID(33) }}"><img src="{{ asset('public/images/desktop/tb-1.png') }}" class="center-block"></a></h5>
+						<h5><a href="{{ MyAPI::getUrlTermID(33) }}"><img alt="" src="{{ asset('public/images/desktop/tb-1.png') }}" class="center-block"></a></h5>
 						<p class="text-center"><a href="{{ MyAPI::getUrlTermID(33) }}">Máy hồi phục chức năng sinh dục</a></p>
 					</div>
 				</div>
 				<div>
 					<div class="tb">
-						<h5><a href="{{ MyAPI::getUrlTermID(33) }}"><img src="{{ asset('public/images/desktop/tb-2.png') }}" class="center-block"></a></h5>
+						<h5><a href="{{ MyAPI::getUrlTermID(33) }}"><img alt="" src="{{ asset('public/images/desktop/tb-2.png') }}" class="center-block"></a></h5>
 						<p class="text-center"><a href="{{ MyAPI::getUrlTermID(33) }}">Máy điều trị sóng ngắn</a></p>
 					</div>
 				</div>
 				<div>
 					<div class="tb">
-						<h5><a href="{{ MyAPI::getUrlTermID(33) }}"><img src="{{ asset('public/images/desktop/tb-3.png') }}" class="center-block"></a></h5>
+						<h5><a href="{{ MyAPI::getUrlTermID(33) }}"><img alt="" src="{{ asset('public/images/desktop/tb-3.png') }}" class="center-block"></a></h5>
 						<p class="text-center"><a href="{{ MyAPI::getUrlTermID(33) }}">Máy điều trị hồng ngoại</a></p>
 					</div>
 				</div>
 				<div>
 					<div class="tb">
-						<h5><a href="{{ MyAPI::getUrlTermID(33) }}"><img src="{{ asset('public/images/desktop/tb-4.png') }}" class="center-block"></a></h5>
+						<h5><a href="{{ MyAPI::getUrlTermID(33) }}"><img alt="" src="{{ asset('public/images/desktop/tb-4.png') }}" class="center-block"></a></h5>
 						<p class="text-center"><a href="{{ MyAPI::getUrlTermID(33) }}">Máy hồi phục tuyến tiền liệt</a></p>
 					</div>
 				</div>
 				<div>
 					<div class="tb">
-						<h5><a href="{{ MyAPI::getUrlTermID(33) }}"><img src="{{ asset('public/images/desktop/tb-5.png') }}" class="center-block"></a></h5>
+						<h5><a href="{{ MyAPI::getUrlTermID(33) }}"><img alt="" src="{{ asset('public/images/desktop/tb-5.png') }}" class="center-block"></a></h5>
 						<p class="text-center"><a href="{{ MyAPI::getUrlTermID(33) }}">Quầy lễ tân</a></p>
 					</div>
 				</div>
 				<div>
 					<div class="tb">
-						<h5><a href="{{ MyAPI::getUrlTermID(33) }}"><img src="{{ asset('public/images/desktop/tb-6.png') }}" class="center-block"></a></h5>
+						<h5><a href="{{ MyAPI::getUrlTermID(33) }}"><img alt="" src="{{ asset('public/images/desktop/tb-6.png') }}" class="center-block"></a></h5>
 						<p class="text-center"><a href="{{ MyAPI::getUrlTermID(33) }}">Phòng phẫu thuật vô khuẩn</a></p>
 					</div>
 				</div>
 				<div>
 					<div class="tb">
-						<h5><a href="{{ MyAPI::getUrlTermID(33) }}"><img src="{{ asset('public/images/desktop/tb-7.png') }}" class="center-block"></a></h5>
+						<h5><a href="{{ MyAPI::getUrlTermID(33) }}"><img alt="" src="{{ asset('public/images/desktop/tb-7.png') }}" class="center-block"></a></h5>
 						<p class="text-center"><a href="{{ MyAPI::getUrlTermID(33) }}">Phòng phẫu thuật vô khuẩn</a></p>
 					</div>
 				</div>
@@ -494,12 +494,12 @@
 			</div>
 		</div>
 		<div class="row12">
-			<div><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/images/desktop/home-10.png') }}" class="center-block"></a></div>
+			<div><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/images/desktop/home-10.png') }}" alt="" class="center-block"></a></div>
 			<p class="text-justify">
 				Phòng khám Nam Khang Hà Nội nỗ lực gánh vác trách nhiệm xã hội, phòng khám thường xuyên tổ chức các hoạt động xã hội, miễn phí kiểm tra sức khỏe cho người dân, mục đích giúp được nhiều hơn cho bệnh nhân có hoàn cảnh khó khăn, nhận được lời khen ngợi của đông đảo quần chúng nhân dân.
 			</p>
 			<div>
-				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/images/desktop/home-9.png') }}" class="center-block"></a>
+				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/images/desktop/home-9.png') }}" alt="" class="center-block"></a>
 			</div>
 		</div>
 	</main>
