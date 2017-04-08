@@ -17,8 +17,10 @@
 	
 	@if($data['term']->term_keyword)
 		<meta id="metaKeywords" name="keywords" content="{{ $data['term']->term_keyword }}">
-	@else
+	@elseif($data['term']->term_meta)
 		<meta id="metaKeywords" name="keywords" content="{{ $data['term']->term_meta }}">
+	@else
+		<meta id="metaKeywords" name="keywords" content="{{ $setting->web_keyword }}">
 	@endif
 @endsection('keyword')
 @section('css')
