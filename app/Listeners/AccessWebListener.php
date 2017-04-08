@@ -27,10 +27,10 @@ class AccessWebListener
     public function handle(AccessWebEvent $event)
     {
         $setting = $event->setting;
-        if($setting->web_visitday == 398){
-            return true;
+        if(time()%3==0){
+            $setting->web_visitday = $setting->web_visitday + 1;
+            $setting->save();
         }
-        $setting->web_visitday = $setting->web_visitday + 1;
-        $setting->save();
+        return true;
     }
 }
