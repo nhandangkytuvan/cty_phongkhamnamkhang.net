@@ -40,4 +40,17 @@ class TestController extends Controller{
         Session::put('web_dathen',[0,6]);
         return 'oke';
     }
+    public function setNumberTuvan(Request $request){
+        $web_dathen = Session::get('web_dathen');
+        $web_dathen = implode('',$web_dathen)+1;
+        if($web_dathen>99){
+            $web_dathen = 99;
+        }
+        $web_dathen = str_split($web_dathen);
+        if(count($web_dathen)==1){
+            array_unshift($web_dathen,'0');
+        }
+        Session::put('web_dathen',$web_dathen);
+        return 'oke';
+    }
 }

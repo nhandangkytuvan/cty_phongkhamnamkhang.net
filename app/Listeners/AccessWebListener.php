@@ -27,7 +27,7 @@ class AccessWebListener
     public function handle(AccessWebEvent $event)
     {
         $setting = $event->setting;
-        if(time()%2==0){
+        if(rand(0,9)>=6){
             $setting->web_visitday = $setting->web_visitday + 1;
             $setting->save();
             //visit today
@@ -40,7 +40,7 @@ class AccessWebListener
             }
             Session::put('web_visitday',$web_visitday);
             //dathen today
-            if(time()%3==0){
+            if(rand(0,9)>=6){
                 $web_dathen = Session::get('web_dathen');
                 $web_dathen = implode('',$web_dathen)+1;
                 if($web_dathen>99){

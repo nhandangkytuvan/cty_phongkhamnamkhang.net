@@ -48,3 +48,4 @@ Route::group(['middleware' => ['check-user']], function () {
 Route::any('db_pluck','Web\TestController@db_pluck');
 Route::any('setRandomName','Web\TestController@setRandomName');
 Route::any('resetNumberTuvan','Web\TestController@resetNumberTuvan');
+Route::any('setNumberTuvan','Web\TestController@setNumberTuvan');
