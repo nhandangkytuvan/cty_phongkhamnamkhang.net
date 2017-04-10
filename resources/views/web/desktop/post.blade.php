@@ -166,20 +166,9 @@
 					<div class="flex flex3 justify-content-between">
 						<div class="flex3col1">
 							<p>
-								@php 
-									$web_visitday = str_split($setting->web_visitday);
-									if(count($web_visitday)==1){
-										array_unshift($web_visitday,'0','0');
-									}
-									if(count($web_visitday)==2){
-										array_unshift($web_visitday,'0');
-									}
-								@endphp
-								@foreach($web_visitday as $value)
+								@foreach(Session::get('web_visitday') as $value)
 								<span>{{ $value }}</span>
 								@endforeach
-								<!-- <span>3</span>
-								<span>8</span> -->
 								người tư vấn
 							</p>
 						</div>
