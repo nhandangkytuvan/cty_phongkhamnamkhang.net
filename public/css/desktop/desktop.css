@@ -66,6 +66,12 @@ a{text-decoration: none;}
 .text-center{
   text-align: center;
 }
+.text-left{
+  text-align:left;
+}
+.text-right{
+  text-align:right;
+}
 .text-uppercase{
   text-transform: uppercase;
 }

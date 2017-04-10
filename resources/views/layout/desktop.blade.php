@@ -35,26 +35,42 @@
     <header>
 		<div class="container">
 			<div class="flex flex1 justify-content-between">
-				<div class="flex1col1">
-					<div class="text-container-center">
+				<div class="flex1col1 flex2 flex justify-content-between">
+					<div class="flex2col1 flex align-items-center justify-content-center">
 						<div>
-							<div class="bg"></div>
-							<a href="{{ url('/') }}">
-								<img src="{{ asset('public/images/desktop/header-1.png') }}" alt="">
-							</a>
+							<h2>
+								<a href="{{ url('/') }}">
+									<img src="{{ asset('public/images/desktop/logo-header.png') }}" alt="">
+								</a>
+							</h2>
+						</div>
+					</div>
+					<div class="flex2col2 flex align-items-center justify-content-center">
+						<div>
+							<h2 class="text-uppercase"><a href="{{ url('ve-chung-toi') }}">Phòng khám chuyên khoa Nam Khang</a></h2>
+							<h3 class="text-uppercase"><a href="{{ url('dia-chi-phong-kham') }}">Số 193C1 Bà Triệu - Hai Bà Trưng - Hà Nội</a></h3>
 						</div>
 					</div>
 				</div>
-				<div class="flex1col1">
-					<div class="text-container-center">
-						<img src="{{ asset('public/images/desktop/header-2.png') }}" alt="">
+				<div class="flex1col1 flex justify-content-center align-items-center">
+					<div class="thoigian-lamviec">
+						<p class="text-left">Thời gian làm việc</p>
+						<p class="text-center">8:00 - 20:00</p>
+						<p class="text-right">(làm việc cả chủ nhật, ngày lễ)</p>
 					</div>
 				</div>
-				<div class="flex1col1">
-					<div class="text-container-center">
+				<div class="flex1col1 flex flex3 justify-content-between">
+					<div class="flex3col1 flex justify-content-center align-items-center">
 						<a href="tel:1800 6181">
-							<img src="{{ asset('public/images/desktop/header-3.png') }}" alt="">
+							<img src="{{ asset('public/images/desktop/header-4.png') }}" alt="">
 						</a>
+					</div>
+					<div class="flex3col2 flex justify-content-center align-items-center">
+						<div>
+							<h5 class="text-uppercase">Đường dây nóng khẩn cấp</h5>
+							<h2 class="text-center"><a href="tel:043-9656999">043 - 9656999</a></h2>
+							<h2 class="text-center"><a href="tel:1800 - 6181">1800 - 6181</a></h2>
+						</div>
 					</div>
 				</div>
 			</div>

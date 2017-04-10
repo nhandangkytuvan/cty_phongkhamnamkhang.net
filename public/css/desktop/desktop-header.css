@@ -1,4 +1,52 @@
-header .flex1{margin:40px 0px;}
+header {margin:35px 0px;}
+header .flex1 .flex2col1{
+	padding-right: 10px;
+}
+header .flex1 .flex2col2 h2{ 
+	color: #2a6636;
+	font-size: 16px;
+	font-weight: 900;
+	letter-spacing: -0.5px;
+}
+header .flex1 .flex2col2 h3{
+	color: #d25356;
+	margin-top: 2px;
+	font-size: 14px;
+} 
+/**/
+header .flex1col1:nth-child(2){
+	width: 200px;
+}
+header .flex1col1:nth-child(2) >div{
+	width: 100%;
+}
+header .flex1col1:nth-child(2) p.text-left,header .flex1col1:nth-child(2) p.text-right{
+	font-size: 10px;
+	margin-bottom: 1px;
+	color: #4a4a4a;
+	font-weight: bold;
+}
+header .flex1col1:nth-child(2) p.text-center{
+	color: #db0909;
+	font-size: 18px;
+	font-weight: bold;
+}
+/**/
+header .flex1col1:nth-child(3) .flex3col1{
+	padding-right: 10px;
+}
+header .flex1col1:nth-child(3) .flex3col2 h5{
+	color: #111111;
+	font-style: italic;
+}
+header .flex1col1:nth-child(3) .flex3col2 h2{
+	color: #db0909;
+	font-weight: 800;
+}
+header .flex1col1:nth-child(3) .flex3col2 h2:nth-child(3){
+	margin-top: -8px;
+}
+/**/
 menu{
 	background-color: #006e77;
 	color: #fff;
