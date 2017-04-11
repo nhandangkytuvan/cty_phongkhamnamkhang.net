@@ -2,9 +2,8 @@
 namespace App\Http\Controllers\Web;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Setting;
 use App\Term;
-use App\View;
+use App\Events\ViewTermEvent;
 use Session;
 use BrowserDetect;
 class TermController extends Controller{
@@ -14,14 +13,7 @@ class TermController extends Controller{
             return redirect('/');
         }
         // -----------
-        if(View::where('term_id',$term_id)->exists()){
-            $view = View::where('term_id',$term_id)->first();
-        }else{
-            $view = new View;
-            $view->term_id = $term_id;
-        }
-        $view->view_sum ++;
-        $view->save();
+        event(new ViewTermEvent($term));
         // -----------
         $data['term'] = $term;
         if(BrowserDetect::isDesktop()){
