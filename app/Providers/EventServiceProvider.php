@@ -16,8 +16,14 @@ class EventServiceProvider extends ServiceProvider
         'App\Events\SomeEvent' => [
             'App\Listeners\EventListener',
         ],
-        'App\Events\AccessWebEvent' => [
-            'App\Listeners\AccessWebListener',
+        'App\Events\ViewSumEvent' => [
+            'App\Listeners\ViewSumListener',
+        ],
+        'App\Events\ViewPostEvent' => [
+            'App\Listeners\ViewPostListener',
+        ],
+        'App\Events\ViewTermEvent' => [
+            'App\Listeners\ViewTermListener',
         ]
     ];
 
