@@ -10,37 +10,27 @@ use Response;
 use BrowserDetect;
 class HomeController extends Controller{
 	public function show(Request $request){
-		$setting = Setting::first();
-		$data['request'] = $request;
-		$data['home'] = true;
-		$data['setting'] = $setting;
 		if(BrowserDetect::isDesktop()){
-			return view('web.desktop.home',['data'=>$data]);
+			return view('web.desktop.home');
 		}else{
-			return view('web.mobile.home',['data'=>$data]);
+			return view('web.mobile.home');
 		}
 	}
 	public function about(Request $request){
-		$setting = Setting::first();
-		$data['setting'] = $setting;
 		if(BrowserDetect::isDesktop()){
-			return view('web.desktop.about',['data'=>$data]);
+			return view('web.desktop.about');
 		}else{
-			return view('web.mobile.about',['data'=>$data]);
+			return view('web.mobile.about');
 		}
 	}
 	public function address(Request $request){
-		$setting = Setting::first();
-		$data['setting'] = $setting;
 		if(BrowserDetect::isDesktop()){
-			return view('web.desktop.address',['data'=>$data]);
+			return view('web.desktop.address');
 		}else{
-			return view('web.mobile.address',['data'=>$data]);
+			return view('web.mobile.address');
 		}
 	}
 	public function search(Request $request){
-		$setting = Setting::first();
-		$data['setting'] = $setting;
 		$posts = Post::where('post_name','like','%'.$request->input('keyword').'%')->where('post_status',1)->paginate(10);
 		$data['posts'] = $posts;
 		if(BrowserDetect::isDesktop()){

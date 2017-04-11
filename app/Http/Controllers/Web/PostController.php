@@ -31,7 +31,6 @@ class PostController extends Controller{
         $view->save();
         // ------------
         $data['post'] = $post;
-        $data['setting'] = $setting;
         if(BrowserDetect::isDesktop()){
         	return view('web.desktop.post',['data'=>$data]); 
         }else{
