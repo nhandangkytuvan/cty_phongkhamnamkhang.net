@@ -3,7 +3,7 @@ namespace App\Http\Controllers\Web;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Term;
-use App\Events\ViewTermEvent;
+use App\Events\VisitTermEvent;
 use Session;
 use BrowserDetect;
 class TermController extends Controller{
@@ -13,7 +13,7 @@ class TermController extends Controller{
             return redirect('/');
         }
         // -----------
-        event(new ViewTermEvent($term));
+        event(new VisitTermEvent($term));
         // -----------
         $data['term'] = $term;
         if(BrowserDetect::isDesktop()){

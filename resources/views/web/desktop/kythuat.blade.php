@@ -74,8 +74,8 @@
 						@php 
 							$stt = 0;
 							$posts = $data['term']->post();
-							$posts = $posts->join('view', 'post.id', '=', 'view.post_id');
-							$posts = $posts->latest('view_sum');
+							$posts = $posts->join('visit', 'post.id', '=', 'visit.post_id');
+							$posts = $posts->latest('visit_sum');
 							$posts = $posts->select('post.*')->limit(5)->get();
 						@endphp
 						@foreach($posts as $post)
