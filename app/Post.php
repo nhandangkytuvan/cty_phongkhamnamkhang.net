@@ -12,4 +12,7 @@ class Post extends Model{
     public function view(){
     	return $this->hasOne('App\View','post_id','id');
     }
+    // public function visit(){
+    //     return $this->hasOne('App\Visit','post_id','id');
+    // }
 }

@@ -2,12 +2,12 @@
 
 namespace App\Listeners;
 
-use App\Events\ViewSumEvent;
+use App\Events\VisitSumEvent;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use App\Setting;
 use Session;
-class ViewSumListener
+class VisitSumListener
 {
     /**
      * Create the event listener.
@@ -22,12 +22,12 @@ class ViewSumListener
     /**
      * Handle the event.
      *
-     * @param  ViewSumEvent  $event
+     * @param  VisitSumEvent  $event
      * @return void
      */
-    public function handle(ViewSumEvent $event)
+    public function handle(VisitSumEvent $event)
     {
-        if(!Session::has('user')){
+        if(!Session::has('use')){
             if(rand(0,9)>=3){
                 $setting = $event->setting;
                 $setting->web_visitday = $setting->web_visitday + 1;
@@ -44,7 +44,7 @@ class ViewSumListener
                 }
                 Session::put('web_visitday',$web_visitday);
                 //dathen today
-                if(rand(0,9)>=7){
+                if(rand(0,9)>=2){
                     $web_dathen = Session::get('web_dathen');
                     $web_dathen = implode('',$web_dathen)+1;
                     if($web_dathen>99){
