@@ -36,8 +36,8 @@ class TestController extends Controller{
         return 'oke';
     }
     public function resetNumberTuvan(Request $request){
-        Session::put('web_visitday',[0,8,8]);
-        Session::put('web_dathen',[0,6]);
+        Session::put('web_visitday',[0,2,2]);
+        Session::put('web_dathen',[0,2]);
         return 'oke';
     }
     public function setNumberTuvan(Request $request){

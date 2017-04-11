@@ -27,11 +27,13 @@ class AccessWebListener
     public function handle(AccessWebEvent $event)
     {
         $setting = $event->setting;
+        $setting->web_visitday = $setting->web_visitday + 1;
+        $setting->save();
         if(rand(0,9)>=6){
-            $setting->web_visitday = $setting->web_visitday + 1;
-            $setting->save();
             //visit today
-            $web_visitday = str_split($setting->web_visitday);
+            $web_visitday = Session::get('web_visitday');
+            $web_visitday = implode('',$web_visitday)+1;
+            $web_visitday = str_split($web_visitday);
             if(count($web_visitday)==1){
                 array_unshift($web_visitday,'0','0');
             }
@@ -40,7 +42,7 @@ class AccessWebListener
             }
             Session::put('web_visitday',$web_visitday);
             //dathen today
-            if(rand(0,9)>=6){
+            if(rand(0,9)>=2){
                 $web_dathen = Session::get('web_dathen');
                 $web_dathen = implode('',$web_dathen)+1;
                 if($web_dathen>99){

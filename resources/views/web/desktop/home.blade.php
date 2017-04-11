@@ -42,7 +42,7 @@
 					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block hvr-float-shadow">Tư vấn trực tuyến</a>
 				</div>
 				<div class="flex1col4">
-					<div>Đã có <span>106322</span> người được hỗ trợ</div>
+					<div>Đã có <span>{{ $setting->web_visitday }}</span> người được hỗ trợ</div>
 				</div>
 			</div>
 		</div>
