@@ -14,10 +14,10 @@ class AppServiceProvider extends ServiceProvider
     public function boot(){
         View::share('setting',Setting::first());
         if(!Session::has('web_visitday')){
-            Session::put('web_visitday',[0,1,1]);
+            Session::put('web_visitday',[0,8,9]);
         }
         if(!Session::has('web_dathen')){
-            Session::put('web_dathen',[0,3]);
+            Session::put('web_dathen',[1,6]);
         }
     }
     /**
