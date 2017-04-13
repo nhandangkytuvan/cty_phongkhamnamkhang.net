@@ -6,7 +6,6 @@ use App\Post;
 use App\Setting;
 use App\Events\VisitSumEvent;
 use App\Events\VisitPostEvent;
-use Session;
 use BrowserDetect;
 class PostController extends Controller{
     public function show($post_alias,$post_id,Request $request){

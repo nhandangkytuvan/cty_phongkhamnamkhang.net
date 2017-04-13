@@ -4,7 +4,6 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Term;
 use App\Events\VisitTermEvent;
-use Session;
 use BrowserDetect;
 class TermController extends Controller{
     public function show($term_alias,$term_id,Request $request){

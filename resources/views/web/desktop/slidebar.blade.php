@@ -37,7 +37,14 @@
 <div class="row4">
 	<div>
 		Hiện tại có 
-		@foreach(Session::get('web_dathen') as $value)
+		@php 
+			$web_dathen = $setting->web_dathen;
+			$web_dathen = str_split($web_dathen);
+            if(count($web_dathen)==1){
+                array_unshift($web_dathen,'0');
+            }
+		@endphp
+		@foreach($web_dathen as $value)
 		<span>{{ $value }}</span>
 		@endforeach
 		bệnh nhân đặt hẹn

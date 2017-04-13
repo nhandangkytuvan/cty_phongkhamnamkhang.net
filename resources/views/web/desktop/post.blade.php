@@ -174,7 +174,17 @@
 					<div class="flex flex3 justify-content-between">
 						<div class="flex3col1">
 							<p>
-								@foreach(Session::get('web_visitday') as $value)
+								@php 
+									$web_tuvan = $setting->web_tuvan;
+									$web_tuvan = str_split($web_tuvan);
+					                if(count($web_tuvan)==1){
+					                    array_unshift($web_tuvan,'0','0');
+					                }
+					                if(count($web_tuvan)==2){
+					                    array_unshift($web_tuvan,'0');
+					                }
+								@endphp
+								@foreach($web_tuvan as $value)
 								<span>{{ $value }}</span>
 								@endforeach
 								người tư vấn

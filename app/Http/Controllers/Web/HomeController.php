@@ -2,7 +2,6 @@
 namespace App\Http\Controllers\Web;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Setting;
 use App\Post;
 use App\Term;
 use View;
