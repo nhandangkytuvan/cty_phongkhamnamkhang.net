@@ -3,25 +3,7 @@
 	<title>{{ $data['term']->term_name }} - {{ $setting->web_name }}</title>
 @endsection('title')
 @section('keyword')
-	@if($data['term']->term_avatar)
-		<meta property="og:image" content="{{ asset('public/img/'.$data['term']->term_avatar) }}">
-	@else
-		<meta property="og:image" content="{{ asset('public/img/'.$setting->web_logo) }}">
-	@endif
-	
-	@if($data['term']->term_description)
-		<meta id="metaDescription" name="description" content="{{ $data['term']->term_description }}">
-	@else
-		<meta id="metaDescription" name="description" content="{{ $setting->web_description }}">
-	@endif
-
-	@if($data['term']->term_keyword)
-		<meta id="metaKeywords" name="keywords" content="{{ $data['term']->term_keyword }}">
-	@elseif($data['term']->term_meta)
-		<meta id="metaKeywords" name="keywords" content="{{ $data['term']->term_meta }}">
-	@else
-		<meta id="metaKeywords" name="keywords" content="{{ $setting->web_keyword }}">
-	@endif
+	@include('seo.seo_term',['data'=>$data])
 @endsection('keyword')
 @section('css')
 <link rel="stylesheet" type="text/css" href="{{ asset('public/css/global/imagehover/css/imagehover.css') }}">

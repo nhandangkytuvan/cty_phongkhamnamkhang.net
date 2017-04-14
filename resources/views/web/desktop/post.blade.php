@@ -3,21 +3,7 @@
 	<title>{{ $data['post']->post_name }} - {{ $setting->web_name }}</title>
 @endsection('title')
 @section('keyword')
-	<meta property="og:url" content="{{ MyAPI::getUrlPostObj($data['post']) }}" />
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content="{{ $data['post']->post_name }}" />
-	<meta property="og:description" content="{{ $data['post']->post_description }}" />
-	@if($data['post']->post_avatar)
-		<meta property="og:image" content="{{ asset('public/img/'.$data['post']->post_avatar) }}">
-	@else
-		<meta property="og:image" content="{{ asset('public/img/'.$setting->web_logo) }}">
-	@endif
-	<meta name="og:keyword" content="{{ $data['post']->post_keyword }}">
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:description" content="{{ $data['post']->post_description }}" />
-	<meta name="twitter:title" content="{{ $data['post']->post_name }}" />
-	<meta name="twitter:image" content="{{ asset('public/img/'.$data['post']->post_avatar) }}" />
-	<link rel="canonical" href="{{ MyAPI::getUrlPostObj($data['post']) }}" />
+	@include('seo.seo_post',['data'=>$data])
 @endsection('keyword')
 @section('css')
 <link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-sidebar.css') }}">
