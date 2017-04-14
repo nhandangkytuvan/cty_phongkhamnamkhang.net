@@ -33,7 +33,7 @@ class VisitSumListener
                 $setting->web_tuvan = $setting->web_tuvan + 1;
                 $setting->save();
                 //dathen today
-                if(rand(0,9)>=3){
+                if(rand(0,9)>=6){
                     $setting->web_dathen = $setting->web_dathen + 1;
                     $setting->save();
                 }
