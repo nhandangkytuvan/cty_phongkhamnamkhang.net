@@ -50,29 +50,33 @@
 						</a>
 					</h3>
 				</div>
-				<div class="flex1col2">
-					<h4>Bài xem nhiều</h4>
-					<ul>
-						@php 
-							$stt = 0;
-							$posts = $data['term']->post();
-							$posts = $posts->join('visit', 'post.id', '=', 'visit.post_id');
-							$posts = $posts->latest('visit_sum');
-							$posts = $posts->select('post.*')->limit(5)->get();
-						@endphp
-						@foreach($posts as $post)
-						@php $stt++ @endphp
-						<li>
-							<h5>
-								<a href="{{ MyAPI::getUrlPostObj($post) }}">
-									<i {!! $stt >= 4 ? 'class="active"' : '' !!} >{{ $stt }}</i>
-									{{ $post->post_name }}
-								</a>
-							</h5>
-						</li>
-						@endforeach
-					</ul>
-					<div class="flex flex2 justify-content-between">
+				<div class="flex1col2 flex flex-wrap-wrap align-content-between">
+					<div class="width-100">
+						<h4>Bài xem nhiều</h4>
+					</div>
+					<div class="width-100">
+						<ul>
+							@php 
+								$stt = 0;
+								$posts = $data['term']->post();
+								$posts = $posts->join('visit', 'post.id', '=', 'visit.post_id');
+								$posts = $posts->latest('visit_sum');
+								$posts = $posts->select('post.*')->limit(5)->get();
+							@endphp
+							@foreach($posts as $post)
+							@php $stt++ @endphp
+							<li>
+								<h5>
+									<a href="{{ MyAPI::getUrlPostObj($post) }}">
+										<i {!! $stt >= 4 ? 'class="active"' : '' !!} >{{ $stt }}</i>
+										{{ $post->post_name }}
+									</a>
+								</h5>
+							</li>
+							@endforeach
+						</ul>
+					</div>
+					<div class="flex flex2 justify-content-between width-100">
 						<div class="flex2col1">
 							<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-comment-o"></i> Tư vấn trực tuyến</a></h5>
 						</div>
