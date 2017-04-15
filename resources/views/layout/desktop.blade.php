@@ -181,6 +181,10 @@
 					<div><h3><a href="{{ url('/') }}" class="text-container-center hvr-underline-reveal">Trang chủ</a></h3></div>
 				</div>
 				<div class="flex1col1 flex align-items-center justify-content-center">
+					<div><h3><a href="{{ url('ve-chung-toi') }}" class="text-container-center hvr-underline-reveal">Giới thiệu<br>phòng khám</a></h3>
+					</div>
+				</div>
+				<div class="flex1col1 flex align-items-center justify-content-center">
 					<div><h3><a href="{{ MyAPI::getUrlTermID(32) }}" class="text-container-center hvr-underline-reveal" >Kỹ thuật<br>điều trị</a></h3></div>
 				</div>
 				<div class="flex1col1 flex align-items-center justify-content-center">
@@ -191,13 +195,6 @@
 				</div>
 				<div class="flex1col1 flex align-items-center justify-content-center">
 					<div><h3><a href="{{ url('/dia-chi-phong-kham') }}" class="text-container-center hvr-underline-reveal">Địa chỉ <br>phòng khám</a></h3></div>
-				</div>
-				<div class="flex1col1 flex align-items-center justify-content-center">
-					<div>
-						<h3>
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-container-center hvr-underline-reveal">Đặt hẹn <br>trực tuyến</a>
-						</h3>
-					</div>
 				</div>
 			</div>
 		</div>

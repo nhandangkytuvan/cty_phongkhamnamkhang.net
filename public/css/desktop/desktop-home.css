@@ -99,9 +99,10 @@
 }
 .home .row3{
 	margin-top: 23px;
-	background-color: #f1f1f1;
+	background-color: #e3faff;
 	height:277px;
 	padding-top: 22px;
+	margin-bottom: 25px;
 }
 .home .row3 h2{
 	font-size: 24px;
@@ -119,17 +120,19 @@
 .home .row3 h3 span{
 	display: inline-block;
 	padding:0px 10px;
-	background-color: #f1f1f1;
+	background-color: #e3faff;
 }
 .home .row3 .slick-pk{
 	margin-top: 30px;
 }
 /**/
 .home .row4{
-	margin-top: 25px;
+	padding-top: 25px;
+	background-color: #f2f2f2;
 }
 .home .row5{
-	margin-top: 50px;
+	padding-top: 50px;
+	background-color: #f2f2f2;
 }
 .home .row5 .groups-btn .flex1col1{
 	width: 160px;
@@ -151,7 +154,9 @@
 }
 /**/
 .home .row6{
-	margin-top: 37px;
+	padding-top: 37px;
+	background-color: #f2f2f2;
+	padding-bottom: 20px;
 }
 .home .row6 .flex1col1>div{
 	display: none;
@@ -192,7 +197,7 @@
 }
 /**/
 .home .row7{
-	margin-top: 40px;
+	margin-top: 20px;
 }
 /**/
 .home .row8{
@@ -242,11 +247,14 @@
 }
 /**/
 .home .row9{
-	margin-top: 55px;
+	margin-top: 35px;
+	padding-top: 25px;
+	background-color: #f2f2f2;
 }
 /**/
 .home .row10{
-	margin-top: 37px;
+	padding-top: 37px;
+	background-color: #f2f2f2;
 }
 .home .row10 h2{
 	color: #006e77;
@@ -264,7 +272,7 @@
 .home .row10 h3 span{
 	display: inline-block;
 	padding:0px 10px;
-	background-color: #fff;
+	background-color: #f2f2f2;
 }
 .home .row10 .slick-kt{
 	margin-top: 32px;
@@ -307,7 +315,9 @@
 }
 /**/
 .home .row11{
-	margin-top: 42px;
+	padding-top: 42px;
+	background-color: #f2f2f2;
+	padding-bottom: 30px;
 }
 .home .row11 h2{
 	color: #006e77;
@@ -325,7 +335,7 @@
 .home .row11 h3 span{
 	display: inline-block;
 	padding:0px 10px;
-	background-color: #fff;
+	background-color: #f2f2f2;
 }
 .home .row11 .tb{
 	position: relative;
@@ -344,10 +354,10 @@
 	text-decoration: underline;
 	color: red;
 }
-.home .row11 >div:last-child{
+.home .row11 >div>div:last-child{
 	margin-top: 33px;
 }
-.home .row11 >div:last-child a{
+.home .row11 >div>div:last-child a{
 	height: 42px;
 	background-color: #fba100;
 	color: #fff;
@@ -355,21 +365,21 @@
 	border-radius: 5px;
 	box-shadow:2px 2px #000;  
 }
-.home .row11 >div:last-child a:last-child{
+.home .row11 >div>div:last-child a:last-child{
 	margin-left: 25px;
 	background-color: #1d9eb2;
 	box-shadow:2px 2px #000;  
 }
 /**/
 .home .row12{
-	margin-top: 60px;
+	margin-top: 30px;
 }
 .home .row12 p{
 	margin-top: 31px;
 	color: #070707;
 	font-size: 18px;
 }
-.home .row12 >div:last-child{
+.home .row12 >div>div:last-child{
 	margin-top: 48px;
 }
 /*slick fix*/
