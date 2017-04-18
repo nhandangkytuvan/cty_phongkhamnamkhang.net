@@ -74,7 +74,6 @@ class MediaController extends Controller{
                 return back();
             }
         }else{
-            $data['user'] = $user;
         	$data['media'] = $media;
             $data['terms'] = $terms;
             return view('user.media.edit',['data'=>$data]); 

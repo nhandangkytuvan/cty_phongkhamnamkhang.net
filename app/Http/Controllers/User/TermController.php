@@ -113,9 +113,11 @@ class TermController extends Controller{
                 foreach ($post_avatars as $key => $post_avatar) {
                     $post_avatars[$key] = public_path().'\img\\'.$post_avatar;
                 }
+                foreach ($term->post as $post) {
+                    $post->visit()->delete();
+                }
                 $term->post()->delete();
                 File::delete($post_avatars);
-
                 $term->visit()->delete();
                 DB::statement('ALTER TABLE term AUTO_INCREMENT = 1');
                 DB::statement('ALTER TABLE post AUTO_INCREMENT = 1');
