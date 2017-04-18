@@ -61,7 +61,7 @@
             <td>Mục</td>
             <td>T.thái</td>
             <td>T.giả</td>
-            <td>Tổng xem</td>
+            <td>T.xem</td>
             <td>Date</td>
             <td>#</td>
         </tr>
@@ -77,7 +77,7 @@
                 </div>
             </td>
             <td>{{ $post->user->user_name }}</td>
-            <td>{{ isset($post->visit) ? $post->visit->visit_sum : '' }}</td>
+            <td>{{ $post->visit ? $post->visit->visit_sum : '' }}</td>
             <td>{{ date('d.m',strtotime($post->created_at)) }}</td>
             <td>
                 <div class="clearfix">
