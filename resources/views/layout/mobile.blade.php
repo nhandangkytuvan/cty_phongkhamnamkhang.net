@@ -51,7 +51,11 @@
 					</div>
 					<div class="flex flex2col2">
 						<div class="box-center">
+							@if(Request::url()==url('/'))
+							<h1 class="text-uppercase">phòng khám chuyên khoa nam khang</h1>
+							@else
 							<h3 class="text-uppercase">phòng khám chuyên khoa nam khang</h3>
+							@endif
 							<h4 class="text-uppercase">số 193C1 bà triệu - hai bà trưng - hà nội</h4>
 						</div>
 					</div>

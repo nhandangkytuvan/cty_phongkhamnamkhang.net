@@ -4,7 +4,7 @@ header{
 header .flex2col1{
 	padding-right: 10px;
 }
-header .flex1col1 h3{
+header .flex1col1 h3,header .flex1col1 h1{
 	color: #2a6636;
 	font-size: 14px;
 }
