@@ -8,6 +8,7 @@ use App\Term;
 use File;
 use Gate;
 use Session;
+use DB;
 class PostController extends Controller{
     protected $rules = [
         'post_name' => 'required',
@@ -147,6 +148,10 @@ class PostController extends Controller{
                 return back();
             }
             if($post->delete()){
+                $post->visit()->delete();
+                DB::statement('ALTER TABLE visit AUTO_INCREMENT = 1');
+                DB::statement('ALTER TABLE post AUTO_INCREMENT = 1');
+
                 Session::flash('success','Xóa thành công.');
                 File::delete(public_path().'/img/'.$post->post_avatar);
                 return redirect('user/post/index');

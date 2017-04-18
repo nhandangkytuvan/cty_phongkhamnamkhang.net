@@ -7,6 +7,7 @@ use App\Term;
 use File;
 use Gate;
 use Session;
+use DB;
 class TermController extends Controller{
     protected $rules = [
         'term_name' => 'required',
@@ -114,6 +115,12 @@ class TermController extends Controller{
                 }
                 $term->post()->delete();
                 File::delete($post_avatars);
+
+                $term->visit()->delete();
+                DB::statement('ALTER TABLE term AUTO_INCREMENT = 1');
+                DB::statement('ALTER TABLE post AUTO_INCREMENT = 1');
+                DB::statement('ALTER TABLE visit AUTO_INCREMENT = 1');
+
                 return redirect('user/term/index');
             }else{
                 Session::flash('error','Xóa lỗi.');
@@ -122,6 +129,28 @@ class TermController extends Controller{
         }else{
             $data['term'] = $term;
             return view('user.term.delete',['data'=>$data]); 
+        }
+    }
+    public function removePost($term_id,Request $request){
+        $term = Term::find($term_id);
+        if($request->isMethod('post')){
+            $post_avatars = $term->post()->pluck('post_avatar')->toArray();
+            foreach ($post_avatars as $key => $post_avatar) {
+                $post_avatars[$key] = public_path().'\img\\'.$post_avatar;
+            }
+            $term->post()->delete();
+            $media_files = $term->media()->pluck('media_file')->toArray();
+            foreach ($media_files as $key => $media_file) {
+                $media_files[$key] = public_path().'\img\\'.$media_file;
+            }
+            $term->media()->delete();
+            File::delete($post_avatars);
+            DB::statement('ALTER TABLE post AUTO_INCREMENT = 1');
+            DB::statement('ALTER TABLE visit AUTO_INCREMENT = 1');
+            return redirect('user/term/index');
+        }else{
+            $data['term'] = $term;
+            return view('user.term.removePost',['data'=>$data]); 
         }
     }
 }
