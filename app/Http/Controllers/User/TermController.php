@@ -41,8 +41,6 @@ class TermController extends Controller{
                 return back();
             }   
         }else{
-            $data['user'] = $user;
-            $data['request'] = $request;
             $data['terms'] = $terms;
             return view('user.term.create',['data'=>$data]); 
         }
@@ -79,15 +77,12 @@ class TermController extends Controller{
                 return back();
             }   
         }else{
-            $data['user'] = $user;
-            $data['request'] = $request;
             $data['terms'] = $terms;
             $data['term'] = $term;
             return view('user.term.edit',['data'=>$data]); 
         }
     }
     public function index(Request $request){
-        $user = Session::get('user');
         $terms = Term::orderby('id','desc');
         if($request->input('term_name')){
             $terms = $terms->where('term_name','like','%'.$request->input('term_name').'%');
@@ -96,7 +91,6 @@ class TermController extends Controller{
             $terms = $terms->where('id',$request->input('term_id'));
         }
         $terms = $terms->get();
-        $data['user'] = $user;
         $data['terms'] = $terms;
         $data['terms_search'] = Term::get();
         return view('user.term.index',['data'=>$data]); 
@@ -126,8 +120,6 @@ class TermController extends Controller{
                 return back();
             }
         }else{
-            $data['user'] = $user;
-            $data['request'] = $request;
             $data['term'] = $term;
             return view('user.term.delete',['data'=>$data]); 
         }

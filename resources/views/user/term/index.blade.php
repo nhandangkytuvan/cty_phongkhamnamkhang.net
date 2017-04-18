@@ -42,8 +42,6 @@
             <td>ID</td>
             <td>Ảnh</td>
             <td>Tên</td>
-            <!-- <td>Des</td> -->
-            <!-- <td>Meta</td> -->
             <td>Số bài</td>
             <td>L.xem</td>
             <td>#</td>
