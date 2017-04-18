@@ -54,7 +54,6 @@ class PostController extends Controller{
                 return back();
             }
         }else{
-            $data['user'] = $user;
             $data['terms'] = $terms;
             return view('user.post.create',['data'=>$data]); 
         }
@@ -96,14 +95,12 @@ class PostController extends Controller{
                 return back();
             }
         }else{
-            $data['user'] = $user;
         	$data['post'] = $post;
             $data['terms'] = $terms;
             return view('user.post.edit',['data'=>$data]); 
         }
     }
     public function index(Request $request){
-        $user = Session::get('user');
         $users = User::get();
         $terms = Term::get();
         $posts = Post::orderby('id','desc');
@@ -130,7 +127,6 @@ class PostController extends Controller{
             $posts = $posts->where('user_id',$request->input('user_id'));
         }
         $posts = $posts->paginate(22);
-        $data['user'] = $user;
         $data['users'] = $users;
         $data['posts'] = $posts;
         $data['terms'] = $terms; 
