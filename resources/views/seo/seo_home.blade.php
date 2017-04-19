@@ -1,5 +1,6 @@
 	<!-- meta -->
 	<meta name="keywords" content="{{ $setting->web_keyword }}">
+	<meta name="description" content="{{ $setting->web_description }}">
 	<!-- facebook -->
 	<meta property="og:url" content="{{ url('/') }}" />
 	<meta property="og:title" content="{{ $setting->web_name }}" />
