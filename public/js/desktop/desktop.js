@@ -27,7 +27,7 @@ $(document).ready(function() {
         setTimeout(showchat, 15000);
     }
 
-
+    $('.footer-status').scrollToFixed({bottom:0});
 });
 function open_tuvan(){
 	window.open("http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en","_blank");
