@@ -50,12 +50,5 @@ footer div.bg-status{
 	height: 50px;
 }
 footer div.footer-status{
-	height: 150px;
-	background-color: #00b9ec;
-}
-footer div.pos-relative{
-	top:-50px;
-}
-footer div.footer-status .gif{
-	left: 0px;
+	height: 146px;
 }
