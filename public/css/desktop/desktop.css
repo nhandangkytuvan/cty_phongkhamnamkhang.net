@@ -83,7 +83,7 @@ a{text-decoration: none;}
     width: 100%;
 }
 /*livechat*/
-#LRfloater0,#LRfloater2,#LRMINIBar{
+#LRfloater0{
   display: none!important;
 }
 /**/

@@ -9,7 +9,6 @@
 	<meta name="distribution" content="Bệnh viện, phòng khám, Y tế" />
 	<meta name="rating" content="General" />
 	<meta name="robots" content="index, follow" />
-	<meta name="revisit-after" content="30 days" />
 	<meta name="creator" content="Phòng khám Nam Khang,Số 193c1 Bà Triệu, Hai Bà Trưng, Hà Nội" />
 	<meta name="publisher" content="Phòng khám Nam Khang,Số 193c1 Bà Triệu, Hai Bà Trưng, Hà Nội" />
     <meta name="author" content="{{ $setting->web_name }}">

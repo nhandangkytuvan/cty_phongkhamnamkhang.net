@@ -9,7 +9,6 @@
 	<meta name="distribution" content="Bệnh viện, phòng khám, Y tế" />
 	<meta name="rating" content="General" />
 	<meta name="robots" content="index, follow" />
-	<meta name="revisit-after" content="30 days" />
 	<meta name="creator" content="Phòng khám Nam Khang,Số 193c1 Bà Triệu, Hai Bà Trưng, Hà Nội" />
 	<meta name="publisher" content="Phòng khám Nam Khang,Số 193c1 Bà Triệu, Hai Bà Trưng, Hà Nội" />
     <meta name="author" content="{{ $setting->web_name }}">
@@ -223,8 +222,17 @@
 				</div>
 			</div>
 		</div>
-		<div class="footer-status">
-			
+		<div class="footer-status text-center">
+			<div class="bg-status">
+				
+			</div>
+			<div class="pos-relative container">
+				<div class="pos-absolute gif">
+					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
+						<img src="{{ asset('public/images/desktop/namkhang2.gif') }}" alt="">
+					</a>
+				</div>
+			</div>
 		</div>
 	</footer>
 	<script language="javascript" src="http://swt.phongkham193.com/JS/LsJS.aspx?siteid=MFI63108226&float=1&lng=en"></script>

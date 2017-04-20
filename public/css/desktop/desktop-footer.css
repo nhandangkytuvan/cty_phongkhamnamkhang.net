@@ -45,8 +45,17 @@ footer .flex1col3 h4{
 	text-align: center;
 }
 /**/
-footer div.footer-status{
-	height: 50px;
-	line-height: 50px;
+footer div.bg-status{
 	background-color: #289daf;
+	height: 50px;
+}
+footer div.footer-status{
+	height: 146px;
+	background-color: #00b9ec;
+}
+footer div.pos-relative{
+	top:-50px;
+}
+footer div.footer-status .gif{
+	left: 0px;
 }
