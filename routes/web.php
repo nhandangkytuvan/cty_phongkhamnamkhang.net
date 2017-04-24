@@ -5,13 +5,22 @@ Route::get('/sitemap.xml', 'Web\HomeController@sitemap');
 Route::get('/ve-chung-toi', 'Web\HomeController@about');
 Route::get('/dia-chi-phong-kham', 'Web\HomeController@address');
 Route::any('/search{query?}', 'Web\HomeController@search');
+// Chuyen De
+Route::get('/viem-tuyen-tien-liet', 'Web\ChuyenDeController@viemtuyentienliet');
+
+
+
 // Term
 Route::get('/{term_alias?}/{term_id?}', 'Web\TermController@show')->where(['term_alias'=>'[-a-z0-9]+','term_id'=>'[0-9]+']);
 // Post
 Route::get('/{post_alias?}/{post_id?}.htm', 'Web\PostController@show')->where(['post_alias'=>'[-a-z0-9]+','post_id'=>'[0-9]+']);
 
+
+// User
 Route::any('web/user/login','Web\UserController@login');
 
+
+// administrator
 Route::group(['middleware' => ['check-user']], function () {
 	// user
 	Route::any('user/user/create','User\UserController@create')->middleware('check-admin');
@@ -44,7 +53,7 @@ Route::group(['middleware' => ['check-user']], function () {
 	Route::any('user/setting/edit/{setting_id}', 'User\SettingController@edit')->middleware('check-admin');
 });
 
-// DB
+// DB-TestCode
 Route::any('db_pluck','Web\TestController@db_pluck');
 Route::any('setRandomName','Web\TestController@setRandomName');
 Route::any('resetVisit','Web\TestController@resetVisit');
