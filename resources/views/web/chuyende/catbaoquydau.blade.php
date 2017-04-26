@@ -153,28 +153,28 @@
 					Thủ thuật cắt bao quy đầu có hiệu quả như thế nào?
 				</div>
 				<div class="line2 flex justify-content-between flex">
-					<div class="col1">
+					<div class="col1 hvr-glow">
 						<div class="bg"></div>
 						<div class="text-center">Thúc đẩy dương<br>vật phát triển</div>
 						<div class="text-justify">
 							Sau thủ thuật quy đầu sẽ lộ ra bên ngoài, thường xuyên cọ sát với quần, có thể kích hoạt lại tổ chức tế bào da dương vật, thúc đẩy dương vật phát triển lại một lần nữa, có tác dụng giúp cho dương vật dài và to thêm.
 						</div>
 					</div>
-					<div class="col1">
+					<div class="col1 hvr-glow">
 						<div class="bg bg1"></div>
 						<div class="text-center">Kéo dài thời gian<br>sinh hoạt tình dục</div>
 						<div class="text-justify">
 							Sau thủ thuật quy đầu lộ ra và cọ sát với bên ngoài nhiều hơn, giảm thấp độ nhạy cảm, kéo dài thời gian sinh hoạt tình dục, có thể phòng ngừa hiệu quả các bệnh rối loạn chức năng sinh dục như xuất tinh sớm, xuất tinh quá nhanh…
 						</div>
 					</div>
-					<div class="col1">
+					<div class="col1 hvr-glow">
 						<div class="bg bg2"></div>
 						<div class="text-center">Ngăn ngừa<br>các bệnh xã hội</div>
 						<div class="text-justify">
 							Sau khi cắt bao quy đầu, cơ quan sinh dục sẽ dễ dàng vệ sinh hơn, có thể tránh được việc vi khuẩn sinh sôi, viêm nhiễm sang các tổ chức khác, và có cơ hội giảm hiệu quả viêm nhiễm phát sinh ở cơ quan sinh dục.
 						</div>
 					</div>
-					<div class="col1">
+					<div class="col1 hvr-glow">
 						<div class="bg bg3"></div>
 						<div class="text-center">Nâng cao khả<br>năng sinh dục nam</div>
 						<div class="text-justify">
