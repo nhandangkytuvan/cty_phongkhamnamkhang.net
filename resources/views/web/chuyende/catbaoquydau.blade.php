@@ -103,7 +103,7 @@
 										Chẩn đoán trực tuyến xem có dài bao quy đầu hay không?
 									</div>
 									<div class="text-center">
-										<a href="">Click để kiểm tra</a>
+										<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Click để kiểm tra</a>
 									</div>
 								</div>
 								<div class="flex4col1">
@@ -111,7 +111,7 @@
 										Có cần làm thủ thuật bao quy đầu không?
 									</div>
 									<div class="text-center">
-										<a href="">Chẩn đoán trực tuyến</a>
+										<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Chẩn đoán trực tuyến</a>
 									</div>
 								</div>
 							</div>
@@ -141,6 +141,9 @@
 							<span>Quá trình thủ thuật</span> dài bao quy đầu
 						</div>
 					</div>
+				</div>
+				<div class="line5">
+					<img src="{{ asset('public/images/chuyende/catbaoquydau/catbaoquydau-22.gif') }}" alt="">
 				</div>
 			</div>
 		</div>
@@ -266,7 +269,7 @@
 						<div class="cols2 flex flex-wrap-wrap align-content-around">
 							<div class="flex justify-content-between">
 								<div class="colss1">Trước thủ thuật cắt bao quy đầu cần làm những kiểm tra gì?</div>
-								<div class="colss2"><a href="" class="text-uppercase">[ Tư vấn ]</a></div>
+								<div class="colss2"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-uppercase">[ Tư vấn ]</a></div>
 							</div>
 							<div class="line21">
 								Kiểm tra trước khi làm thủ thuật cắt bao quy đầu có thể tránh được biến chứng trong và sau thủ thuật, chủ yếu gồm xét nghiệm nước tiểu, xét nghiệm máu và kiểm tra máu đông…
@@ -280,7 +283,7 @@
 						<div class="cols2 flex flex-wrap-wrap align-content-around">
 							<div class="flex justify-content-between">
 								<div class="colss1">Sau thủ thuật có để lại sẹo không?</div>
-								<div class="colss2"><a href="" class="text-uppercase">[ Tư vấn ]</a></div>
+								<div class="colss2"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-uppercase">[ Tư vấn ]</a></div>
 							</div>
 							<div class="line21">
 								Phòng khám chuyên khoa Nam Khang sử dụng thủ thuật cắt bao quy đầu xâm lấn tối thiểu Hàn Quốc có thể đảm bảo ở mức cao nhất mức độ tự nhiên, gọn gàng, phẳng, thẩm mỹ, không để lại sẹo sau khi vết thương lành lại.
@@ -296,7 +299,7 @@
 						<div class="cols2 flex flex-wrap-wrap align-content-around">
 							<div class="flex justify-content-between">
 								<div class="colss1">Thủ thuật cắt bao quy đầu có đau không?</div>
-								<div class="colss2"><a href="" class="text-uppercase">[ Tư vấn ]</a></div>
+								<div class="colss2"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-uppercase">[ Tư vấn ]</a></div>
 							</div>
 							<div class="line21">
 								Khi làm thủ thuật cắt bao quy đầu bác sĩ căn cứ vào tình hình của bệnh nhân để gây tê thích hợp, chỉ cần chọn phương pháp thủ thuật hợp lý, kĩ thuật gây tê chính xác thì sẽ không gây cảm giác đau.
@@ -310,7 +313,7 @@
 						<div class="cols2 flex flex-wrap-wrap align-content-around">
 							<div class="flex justify-content-between">
 								<div class="colss1">Thủ thuật cắt bao quy đầu có an toàn không?</div>
-								<div class="colss2"><a href="" class="text-uppercase">[ Tư vấn ]</a></div>
+								<div class="colss2"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-uppercase">[ Tư vấn ]</a></div>
 							</div>
 							<div class="line21">
 								Chỉ cần lựa chọn bệnh viện nam khoa chuyên nghiệp chính quy và kĩ thuật tiên tiến đáng tin cậy, thủ thuật không chỉ có thể đảm bảo an toàn tuyệt đối mà còn không ảnh hưởng đến công việc và cuộc sống.
@@ -406,7 +409,7 @@
 				</div>
 				<div class="line6 flex justify-content-between text-center">
 					<div class="col1">
-						<a href="" class="hvr-fade flex flex-wrap-wrap align-content-center justify-content-center">
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="hvr-fade flex flex-wrap-wrap align-content-center justify-content-center">
 							<div class="text-uppercase">Tư vấn trực tuyến</div>
 							<div>
 								Đặt câu hỏi ngay<br>Trả lời kịp thời
@@ -414,7 +417,7 @@
 						</a>
 					</div>
 					<div class="col1">
-						<a href="" class="hvr-fade flex flex-wrap-wrap align-content-center justify-content-center">
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="hvr-fade flex flex-wrap-wrap align-content-center justify-content-center">
 							<div class="text-uppercase">Đặt hẹn xếp số khám trực tuyến</div>
 							<div>
 								Không cần xếp hàng<br>Nhanh chóng được khám
@@ -422,7 +425,7 @@
 						</a>
 					</div>
 					<div class="col1">
-						<a href="" class="hvr-fade flex flex-wrap-wrap align-content-center justify-content-center">
+						<a href="tel:1800 6181" class="hvr-fade flex flex-wrap-wrap align-content-center justify-content-center">
 							<div class="text-uppercase">Đường dây nóng nam khoa 24h</div>
 							<div>
 								1800 - 6181
@@ -430,7 +433,7 @@
 						</a>
 					</div>
 					<div class="col1">
-						<a href="" class="hvr-fade flex flex-wrap-wrap align-content-center justify-content-center">
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="hvr-fade flex flex-wrap-wrap align-content-center justify-content-center">
 							<div class="text-uppercase"> Phòng Khám Chuyên Khoa Nam Khang</div>
 							<div>
 								Facebook

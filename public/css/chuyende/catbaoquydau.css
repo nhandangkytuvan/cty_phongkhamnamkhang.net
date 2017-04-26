@@ -146,6 +146,9 @@ div.row4 div.line4>div.col2>div:last-child{
 div.row4 div.line4>div.col2>div:last-child span{
 	color: #ffea00;
 }
+div.row4 div.line5{
+	margin-top: 25px;
+}
 /**/
 div.row5{
 	padding-top: 45px;
@@ -244,6 +247,7 @@ div.row5 .line4 .col1 .link a{
 	border-radius: 5px;
 	left: -150px;
 	top:40px;
+	box-shadow: 2px 2px #000;
 }
 div.row5 .line5{
 	margin:0px auto;
