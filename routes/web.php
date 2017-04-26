@@ -7,6 +7,7 @@ Route::get('/dia-chi-phong-kham', 'Web\HomeController@address');
 Route::any('/search{query?}', 'Web\HomeController@search');
 // Chuyen De
 Route::get('/viem-tuyen-tien-liet', 'Web\ChuyenDeController@viemtuyentienliet');
+Route::get('/cat-bao-quy-dau', 'Web\ChuyenDeController@catbaoquydau');
 
 
 

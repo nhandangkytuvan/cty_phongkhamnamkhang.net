@@ -12,4 +12,11 @@ class ChuyenDeController extends Controller{
 			//return view('web.mobile.home');
 		}
 	}
+	public function catbaoquydau(Request $request){
+		if(BrowserDetect::isDesktop()){
+			return view('web.chuyende.catbaoquydau');
+		}else{
+			//return view('web.mobile.home');
+		}
+	}
 }
