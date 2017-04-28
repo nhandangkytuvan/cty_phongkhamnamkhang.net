@@ -3,6 +3,10 @@ namespace App;
 use Illuminate\Database\Eloquent\Model;
 class Term extends Model{
     protected $table = 'term';
+    public $fillable = ['id','user_id','term_id','term_avatar','term_name','term_alias','term_description','term_keyword','term_meta'];
+    public static $rules = [
+        'term_name' => 'required',
+    ];
     public function user(){
     	return $this->belongsTo('App\User','user_id','id');
     }

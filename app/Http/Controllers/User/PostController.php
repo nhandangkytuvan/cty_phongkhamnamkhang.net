@@ -10,43 +10,25 @@ use Gate;
 use Session;
 use DB;
 class PostController extends Controller{
-    protected $rules = [
-        'post_name' => 'required',
-        'post_description' => 'required',
-        'term_id' => 'required',
-    ];
-    protected $messages = [
-        'post_name.required' => 'Bạn chưa nhập tên bài viết.',
-        'post_description.required' => 'Bạn chưa nhập tóm tắt bài viết.',
-        'term_id.required' => 'Bạn chưa chọn mục úp bài viết.',
-    ];
     public function create(Request $request){
         $user = Session::get('user');
     	$terms = Term::get();
         if($request->isMethod('post')){
-            $this->validate($request,$this->rules,$this->messages);
+            $this->validate($request,Post::$rules,Post::$messages);
             $post = new Post;
             $post->user_id = $user->id;
-            $post->term_id = $request->input('term_id');
-            $post->post_name = $request->input('post_name');
             $post->post_alias = str_slug($request->input('post_name'),'-');
-            $post->post_description = $request->input('post_description');
-            $post->post_detail = $request->input('post_detail');
-            //$post->post_detail = str_replace("src=\"../../public/img","src=\"../../../public/img",$post->post_detail);
-            $post->post_detail = str_replace("src=\"../../public/img","src=\"".str_replace('www.','',asset('public/img')),$post->post_detail);
-            $post->post_keyword = $request->input('post_keyword');
-            if($request->has('post_status')){
-                $post->post_status = 1;
-            }else{
-                $post->post_status = 0;
-            }
-
-            if($request->hasFile('post_avatar')){
-                $file = $request->file('post_avatar');
-                $extension = $file->extension();
-                $post_avatar = $post->post_alias.'-'.time().'.'.$extension;
-                $path = $file->move(public_path().'/img',$post_avatar);
-                $post->post_avatar = $post_avatar;
+            foreach ($post->fillable as $key => $value) {
+                if($request->has($value)){
+                    $post->$value = $request->input($value);
+                }
+                if($request->hasFile($value)){
+                    $file = $request->file($value);
+                    $extension = $file->extension();
+                    $file_name = $post->post_alias.'-'.time().'.'.$extension;
+                    $file->move(public_path().'/img',$file_name);
+                    $post->$value = $file_name;
+                }
             }
             if($post->save()){
                 Session::flash('success','Thêm thành công.');
@@ -65,30 +47,23 @@ class PostController extends Controller{
         $terms = Term::get();
         $post = Post::find($post_id);
         if($request->isMethod('post')){
-            if (Gate::forUser($user)->denies('edit-post', $post)) {
-                Session::flash('error','Bài viết không phải của bạn.');
-                return back();
-            }
-            $this->validate($request,$this->rules,$this->messages);
-            $post->term_id = $request->input('term_id');
-            $post->post_name = $request->input('post_name');
+            // if (Gate::forUser($user)->denies('edit-post', $post)) {
+            //     Session::flash('error','Bài viết không phải của bạn.');
+            //     return back();
+            // }
+            $this->validate($request,Post::$rules,Post::$messages);
             $post->post_alias = str_slug($request->input('post_name'),'-');
-            $post->post_description = $request->input('post_description');
-            $post->post_detail = $request->input('post_detail');
-            //$post->post_detail = str_replace("src=\"../../public/img","src=\"../../../public/img",$post->post_detail);
-            $post->post_detail = str_replace("src=\"../../public/img","src=\"".str_replace('www.','',asset('public/img')),$post->post_detail);
-            $post->post_keyword = $request->input('post_keyword');
-            if($request->has('post_status')){
-                $post->post_status = 1;
-            }else{
-                $post->post_status = 0;
-            }
-            if($request->hasFile('post_avatar')){
-                $file = $request->file('post_avatar');
-                $extension = $file->extension();
-                $post_avatar = $post->post_alias.'-'.time().'.'.$extension;
-                $path = $file->move(public_path().'/img',$post_avatar);
-                $post->post_avatar = $post_avatar;
+            foreach ($post->fillable as $key => $value) {
+                if($request->has($value)){
+                    $post->$value = $request->input($value);
+                }
+                if($request->hasFile($value)){
+                    $file = $request->file($value);
+                    $extension = $file->extension();
+                    $file_name = $post->post_alias.'-'.time().'.'.$extension;
+                    $file->move(public_path().'/img',$file_name);
+                    $post->$value = $file_name;
+                }
             }
             if($post->save()){
                 Session::flash('success','Sửa thành công.');

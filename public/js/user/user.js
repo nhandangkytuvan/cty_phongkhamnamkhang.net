@@ -22,7 +22,7 @@ $(document).ready(function() {
 	                var reader = new FileReader();
 	                reader.onload = function (e) {
 
-	                    $('<div class="col-xs-4"><img src="'+e.target.result+'" class="img-thumbnail img-responsive" />').appendTo(image_holder);
+	                    $('<div class="col-xs-12"><img src="'+e.target.result+'" class="img-thumbnail img-responsive" />').appendTo(image_holder);
 	                }
 
 	                image_holder.show();

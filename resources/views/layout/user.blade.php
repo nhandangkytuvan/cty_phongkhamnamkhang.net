@@ -20,9 +20,9 @@
     <script src="{{ asset('public/js/global/datetimepicker/build/jquery.datetimepicker.full.js') }}"></script>
     <script src="{{ asset('public/js/user/user.js') }}"></script>
 </head>
-<body style="padding-top: 70px;">
+<body>
     <header>
-        <nav class="navbar navbar-default navbar-fixed-top" style="background-color: #fff;color: #333;">
+        <nav class="navbar navbar-default" style="background-color: #fff;color: #333;">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
@@ -120,11 +120,4 @@
         </div>
     </main>
 </body>
-<script>  
-$(document).ready(function() {
-    $('.menuSystem').scrollToFixed({
-        marginTop: 70,
-    });
-});
-</script>
 </html>
