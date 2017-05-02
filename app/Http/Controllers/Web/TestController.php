@@ -37,8 +37,8 @@ class TestController extends Controller{
     // reset visit_tuvan - visit_dathen
     public static function resetVisit(Request $request){
         $setting = Setting::first();
-        $setting->web_tuvan =  0;
-        $setting->web_dathen =  0;
+        $setting->web_tuvan =  200;
+        $setting->web_dathen =  19;
         $setting->save();
         return '0oe';
     } 
