@@ -21,7 +21,7 @@ header .flex1col1:nth-child(2) >div{
 	width: 100%;
 }
 header .flex1col1:nth-child(2) p.text-left,header .flex1col1:nth-child(2) p.text-right{
-	font-size: 10px;
+	font-size: 13px;
 	margin-bottom: 1px;
 	color: #4a4a4a;
 	font-weight: bold;
