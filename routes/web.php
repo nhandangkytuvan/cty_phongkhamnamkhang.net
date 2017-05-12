@@ -8,7 +8,7 @@ Route::any('/search{query?}', 'Web\HomeController@search');
 // Chuyen De
 Route::get('/viem-tuyen-tien-liet', 'Web\ChuyenDeController@viemtuyentienliet');
 Route::get('/cat-bao-quy-dau', 'Web\ChuyenDeController@catbaoquydau');
-
+Route::get('chuyen-de/viem-nhiem-quy-dau','Web\ChuyenDeController@viemnhiemquydau');
 
 
 // Term

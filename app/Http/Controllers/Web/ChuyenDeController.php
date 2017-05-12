@@ -19,4 +19,11 @@ class ChuyenDeController extends Controller{
 			//return view('web.mobile.home');
 		}
 	}
+	public function viemnhiemquydau(Request $request){
+		if(BrowserDetect::isDesktop()){
+			//
+		}else{
+			return view('web.chuyende.mobile.viemnhiemquydau');
+		}
+	}
 }
