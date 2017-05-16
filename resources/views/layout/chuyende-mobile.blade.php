@@ -57,7 +57,15 @@
 			<div class="flex flex1 justify-content-around">
 				<div class="flex flex1col1">
 					<div class="flex2col1">
-						<div><a href="{{ url('/') }}" title="phòng khám chuyên khoa nam khang"><img src="{{ asset('public/images/mobile2/logo.png') }}" class="center-block"></a></div>
+						<div>
+							<a href="{{ url('/') }}" title="phòng khám chuyên khoa nam khang">
+								@if(url()->current()==url('chuyen-de/sui-mao-ga'))
+									<img src="{{ asset('public/images/chuyende/mobile/suimaoga/suimaoga-2.png') }}" class="center-block">
+								@else
+									<img src="{{ asset('public/images/mobile2/logo.png') }}" class="center-block">
+								@endif
+							</a>
+						</div>
 					</div>
 					<div class="flex flex2col2">
 						<div class="box-center">
@@ -71,7 +79,11 @@
 					</div>
 				</div>
 				<div class="flex flex1col2 align-items-center">
-					<img src="{{ asset('public/images/mobile/header-1.png') }}" alt="doc">
+					@if(url()->current()==url('chuyen-de/sui-mao-ga'))
+						<img src="{{ asset('public/images/chuyende/mobile/suimaoga/suimaoga-3.png') }}" alt="doc">
+					@else
+						<img src="{{ asset('public/images/mobile/header-1.png') }}" alt="doc">
+					@endif
 				</div>
 				<div class="flex flex1col3 align-items-center">
 					<span class="text-uppercase">Chuyên khoa<br>bệnh xã hội</span>
@@ -119,7 +131,6 @@
 		</div>
 		@yield('toolbar')	
 	</footer>
-	<script language="javascript" src="http://swt.phongkham193.com/JS/LsJS.aspx?siteid=MFI63108226&float=1&lng=en"></script>
 	<div id="my_popup">
 	    <p>Bác sỹ đang yêu cầu được chát với bạn</p>
 	    <p class="dis-none">Sẽ nhanh hơn khi bạn trò chuyện với bác sĩ tư vấn</p>

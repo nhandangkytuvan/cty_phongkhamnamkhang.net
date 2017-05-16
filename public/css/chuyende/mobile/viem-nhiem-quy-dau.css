@@ -1,7 +1,7 @@
 div.chuyende div.row1{margin:35px 20px 0px 20px;border:1px solid #d3d3d3;}
 div.chuyende div.row1 .flex1col1{background-image: url('../../../images/chuyende/mobile/viemnhiemquydau/viemnhiemquydau-2.png');background-repeat: repeat-y;background-size: cover;}
 div.chuyende div.row1 .flex1col1{width: 72px;min-height: 180px;color: #fff;padding:0px 5px;}
-div.chuyende div.row1 .flex1col2{padding:0px 10px 0px 10px;}
+div.chuyende div.row1 .flex1col2{padding:0px 10px 0px 10px;width: calc(100% - 72px)}
 div.chuyende div.row1 .flex1col2>*{margin:10px 0px;}
 div.chuyende div.row1 .flex1col2 p{color: #363636;font-size: 14px;line-height: 15px;}
 div.chuyende div.row1 .flex3{width: 177px;height: 45px;border:1px solid #1542bf;border-radius: 5px;color: #1542bf;}
@@ -36,7 +36,7 @@ div.chuyende div.row4 div.flex1col1 i.bg3{background-position: 0px -170px;}
 div.chuyende div.row4 div.flex1col1 i.bg4{background-position: 0px -255px;}
 div.chuyende div.row4 div.flex1col1 i.bg5{background-position: 0px -339px;}
 div.chuyende div.row4 div.flex1col1 h2{font-size: 14px;font-weight: normal;margin-top: 5px;}
-div.chuyende div.row4 div.flex1col2{color: #393939;padding-left: 18px;}
+div.chuyende div.row4 div.flex1col2{color: #393939;padding-left: 18px;width: calc(100% - 106px)}
 div.chuyende div.row4 div.flex1col2 div:nth-child(2) span{height: 30px;text-decoration: uppercase;color: #fff;font-size: 14px;line-height: 30px;display: inline-block;padding:0px 10px;background-color: #21c4e7;}
 div.chuyende div.row4 div.global2{margin-top: 25px;margin-left: 20px;margin-right: 20px;}
 div.chuyende div.row4 div.global3{margin-top: 15px;margin-left: 20px;margin-right: 20px;}
@@ -74,6 +74,7 @@ div.chuyende div.row7 div.flex1col1>div{margin-bottom: 10px;}
 div.chuyende div.row7 div.flex1col1{width: 393px;border:1px solid #d3d3d3;padding-left: 20px;padding-top: 10px;padding-bottom: 10px;}
 div.chuyende div.row7 div.flex1col2{width: 236px;border:1px solid #d3d3d3;padding-bottom: 16px;margin-left: 10px;}
 div.chuyende div.row7 div.flex2col1{background-color: #00a0e9;color: #fff;font-weight: bold;padding:10px;margin-right: 10px;}
+div.chuyende div.row7 div.flex2col2{width: calc(100% - 44px);}
 div.chuyende div.row7 div.flex1col1>div:nth-child(2) span{background-color: #edad3c;height: 26px;line-height: 26px;display: inline-block;padding:0px 10px;color: #fff;}
 div.chuyende div.row7 div.flex1col1>div:nth-child(4) span{border:1px solid #00a0e9;height: 28px;line-height: 28px;color: #00a0e9;font-weight: bold;text-align: center;display: inline-block;width: 144px;}
 div.chuyende div.row7 div.flex1col2>div:nth-child(1){background-color: #edad3c;color: #fff;font-weight: bold;padding:10px;height: 54px;}

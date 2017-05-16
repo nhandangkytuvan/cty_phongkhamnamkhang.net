@@ -21,9 +21,16 @@ class ChuyenDeController extends Controller{
 	}
 	public function viemnhiemquydau(Request $request){
 		if(BrowserDetect::isDesktop()){
-			//
+			return view('web.chuyende.mobile.viemnhiemquydau');
 		}else{
 			return view('web.chuyende.mobile.viemnhiemquydau');
+		}
+	}
+	public function suimaoga(Request $request){
+		if(BrowserDetect::isDesktop()){
+			return view('web.chuyende.mobile.suimaoga');
+		}else{
+			return view('web.chuyende.mobile.suimaoga');
 		}
 	}
 }

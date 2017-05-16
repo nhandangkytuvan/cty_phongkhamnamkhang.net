@@ -20,8 +20,8 @@
 @section('content')
 	<div class="container chuyende">
 		<div class="row1">
-			<div class="flex flex1 justify-content-center">
-				<div class="flex1col1 flex align-items-center justify-content-center text-center text-uppercase">
+			<div class="flex flex1 justify-content-center clearfix">
+				<div class="flex1col1 flex align-items-center justify-content-center text-center text-uppercase pull-left">
 					Chuyên gia cho biết
 				</div>
 				<div class="flex1col2 flex flex-wrap-wrap align-content-around width-100">
@@ -109,8 +109,8 @@
 			<div class="description">
 				Viêm nhiễm quy đầu là căn bệnh viêm nhiễm hệ sinh dục thường gặp ở nam giới, chuyên gia Phòng khám chuyên khoa Nam Khang cho biết, nguyên nhân gây viêm nhiễm quy đầu ở nam giới có rất nhiều, nguyên nhân thường gặp là do mắc viêm quy đầu, mụn rộp sinh dục, sùi mào gà….gây nên.
 			</div>
-			<div class="flex flex1 justify-content-between">
-				<div class="flex1col1">
+			<div class="flex flex1 justify-content-between clearfix">
+				<div class="flex1col1 pull-left">
 					<div><i class="bg1 center-block"></i></div>
 					<h2 class="text-uppercase text-center">Viêm quy đầu</h2>
 				</div>
@@ -120,8 +120,8 @@
 					<div class="width-100">Nốt đỏ, chảy mủ, ngứa rát, sưng đỏ, lở loét, mụn trắng, đau, mùi bất thường, lỗ niệu đạo bất thường…</div>
 				</div>
 			</div>
-			<div class="flex flex1 justify-content-between">
-				<div class="flex1col1">
+			<div class="flex flex1 justify-content-between clearfix">
+				<div class="flex1col1 pull-left">
 					<div><i class="bg2 center-block"></i></div>
 					<h2 class="text-uppercase text-center">Mụn rộp sinh dục</h2>
 				</div>
@@ -131,8 +131,8 @@
 					<div class="width-100">Thời gian đầu sẽ xuất hiện mụn nước, sau mấy ngày sẽ vỡ ra tạo thành vết loét, một số bệnh nhân có cảm giác nóng rát hoặc đau.…</div>
 				</div>
 			</div>
-			<div class="flex flex1 justify-content-between">
-				<div class="flex1col1">
+			<div class="flex flex1 justify-content-between clearfix">
+				<div class="flex1col1 pull-left">
 					<div><i class="bg3 center-block"></i></div>
 					<h2 class="text-uppercase text-center">Sùi mào gà</h2>
 				</div>
@@ -142,8 +142,8 @@
 					<div class="width-100">Xuất hiện những u nhú dạng mào gà, hoa súp lơ hoặc gai, dễ bị lở loét, chảy dịch và xuất huyết, có mùi hôi.</div>
 				</div>
 			</div>
-			<div class="flex flex1 justify-content-between">
-				<div class="flex1col1">
+			<div class="flex flex1 justify-content-between clearfix">
+				<div class="flex1col1 pull-left">
 					<div><i class="bg4 center-block"></i></div>
 					<h2 class="text-uppercase text-center">Hẹp bao quy đầu</h2>
 				</div>
@@ -153,8 +153,8 @@
 					<div class="width-100">Quy đầu đỏ cục bộ, có cảm giác nóng rát và ngứa.</div>
 				</div>
 			</div>
-			<div class="flex flex1 justify-content-between">
-				<div class="flex1col1">
+			<div class="flex flex1 justify-content-between clearfix">
+				<div class="flex1col1 pull-left">
 					<div><i class="bg5 center-block"></i></div>
 					<h2 class="text-uppercase text-center">Viêm niệu đạo</h2>
 				</div>
@@ -299,8 +299,8 @@
 			</div>
 			<div class="flex flex1 justify-content-between flex-wrap-wrap">
 				<div class="flex1col1 flex flex-wrap-wrap align-content-around">
-					<div class="flex flex2 justify-content-between width-100">
-						<div class="flex2col1 flex align-items-center justify-content-center">
+					<div class="flex flex2 justify-content-between width-100 clearfix">
+						<div class="flex2col1 flex align-items-center justify-content-center pull-left">
 							Hỏi
 						</div>
 						<div class="flex2col2 flex align-items-center justify-content-center">
@@ -329,11 +329,11 @@
 			</div>
 			<div class="flex flex1 justify-content-between flex-wrap-wrap ">
 				<div class="flex1col1 flex flex-wrap-wrap align-content-around">
-					<div class="flex flex2 justify-content-between width-100">
+					<div class="flex flex2 justify-content-between width-100 clearfix">
 						<div class="flex2col1 flex align-items-center justify-content-center">
 							Hỏi
 						</div>
-						<div class="flex2col2 flex align-items-center justify-content-center">
+						<div class="flex2col2 flex align-items-center justify-content-center pull-left">
 							<strong>Viêm nhiễm quy đầu dùng thuốc có khỏi không?</strong>
 						</div>
 					</div>
@@ -360,8 +360,8 @@
 			</div>
 			<div class="flex flex1 justify-content-between flex-wrap-wrap ">
 				<div class="flex1col1 flex flex-wrap-wrap align-content-around">
-					<div class="flex flex2 justify-content-between width-100">
-						<div class="flex2col1 flex align-items-center justify-content-center">
+					<div class="flex flex2 justify-content-between width-100 clearfix">
+						<div class="flex2col1 flex align-items-center justify-content-center pull-left">
 							Hỏi
 						</div>
 						<div class="flex2col2 flex align-items-center justify-content-center">

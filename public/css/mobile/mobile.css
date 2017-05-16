@@ -114,3 +114,11 @@ a{text-decoration: none;}
 	color: #fff;
 	margin-left: 10px;font-size: 14px;
 }
+
+/**/
+.dis-table{display: table;}
+.table-cell{display: table-cell;vertical-align: middle;}
+/*margin*/
+.marlr-5{margin:0px -5px!important;}
+/*padding*/
+.padlr5{padding:0px 5px!important;}
