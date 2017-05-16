@@ -1,7 +1,7 @@
 @extends('layout.chuyende-mobile')
 <!-- title -->
 @section('title')
-	<title>Viêm nhiễm quy đầu</title>
+	<title>Sùi mào gà</title>
 @endsection('title')
 <!-- seo -->
 @section('keyword')
@@ -374,7 +374,7 @@
 							<p><span>Con đường truyền nhiễm:</span> Qua tiếp xúc<br>quan hệ tình dục</p>
 							<p><span>Khoa:</span> Bệnh xã hội</p>
 							<div class="link">
-								<a href="">Click tư vấn chi tiết</a>
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Click tư vấn chi tiết</a>
 							</div>
 						</div>
 					</div>
@@ -396,13 +396,13 @@
 				<div class="global3">
 					<div class="marlr-5 row">
 						<div class="padlr5 col-sm-6">
-							<a class="dis-table" href="#">
+							<a class="dis-table" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
 								<i class="table-cell"></i>
 								<span class="table-cell">Chuyên gia tư vấn trực tuyến</span>
 							</a>
 						</div>
 						<div class="padlr5 col-sm-6 col2">
-							<a class="dis-table" href="#">
+							<a class="dis-table" href="tel:18006181">
 								<i class="table-cell"></i>
 								<span class="table-cell">
 									Điện thoại tư vấn<br>
@@ -430,7 +430,7 @@
 							<p><span>Con đường truyền nhiễm:</span> Qua tiếp xúc<br>quan hệ tình dục</p>
 							<p><span>Khoa:</span> Khoa da liễu</p>
 							<div class="link">
-								<a href="">Click tư vấn chi tiết</a>
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Click tư vấn chi tiết</a>
 							</div>
 						</div>
 					</div>
@@ -462,13 +462,13 @@
 				<div class="global3">
 					<div class="marlr-5 row">
 						<div class="padlr5 col-sm-6">
-							<a class="dis-table" href="#">
+							<a class="dis-table" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
 								<i class="table-cell"></i>
 								<span class="table-cell">Chuyên gia tư vấn trực tuyến</span>
 							</a>
 						</div>
 						<div class="padlr5 col-sm-6 col2">
-							<a class="dis-table" href="#">
+							<a class="dis-table" href="tel:18006181">
 								<i class="table-cell"></i>
 								<span class="table-cell">
 									Điện thoại tư vấn<br>
@@ -521,13 +521,13 @@
 				<div class="global3">
 					<div class="marlr-5 row">
 						<div class="padlr5 col-sm-6">
-							<a class="dis-table" href="#">
+							<a class="dis-table" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
 								<i class="table-cell"></i>
 								<span class="table-cell">Chuyên gia tư vấn trực tuyến</span>
 							</a>
 						</div>
 						<div class="padlr5 col-sm-6 col2">
-							<a class="dis-table" href="#">
+							<a class="dis-table" href="tel:18006181">
 								<i class="table-cell"></i>
 								<span class="table-cell">
 									Điện thoại tư vấn<br>
@@ -555,13 +555,13 @@
 					<img src="{{ asset('public/images/chuyende/mobile/suimaoga/suimaoga-40.png') }}" alt="" class="img-responsive">
 				</div>
 				<div class="row line2">
-					<div class="col-sm-4">
+					<div class="col-xs-4">
 						<img src="{{ asset('public/images/chuyende/mobile/suimaoga/suimaoga-41.png') }}" alt="" class="img-responsive">
 					</div>
-					<div class="col-sm-4">
+					<div class="col-xs-4">
 						<img src="{{ asset('public/images/chuyende/mobile/suimaoga/suimaoga-42.png') }}" alt="" class="img-responsive">
 					</div>
-					<div class="col-sm-4">
+					<div class="col-xs-4">
 						<img src="{{ asset('public/images/chuyende/mobile/suimaoga/suimaoga-43.png') }}" alt="" class="img-responsive">
 					</div>
 				</div>
@@ -574,13 +574,13 @@
 			<div class="global3">
 				<div class="marlr-5 row">
 					<div class="padlr5 col-sm-6">
-						<a class="dis-table" href="#">
+						<a class="dis-table" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
 							<i class="table-cell"></i>
 							<span class="table-cell">Chuyên gia tư vấn trực tuyến</span>
 						</a>
 					</div>
 					<div class="padlr5 col-sm-6 col2">
-						<a class="dis-table" href="#">
+						<a class="dis-table" href="tel:18006181">
 							<i class="table-cell"></i>
 							<span class="table-cell">
 								Điện thoại tư vấn<br>
@@ -664,13 +664,13 @@
 			<div class="global3">
 				<div class="marlr-5 row">
 					<div class="padlr5 col-sm-6">
-						<a class="dis-table" href="#">
+						<a class="dis-table" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
 							<i class="table-cell"></i>
 							<span class="table-cell">Chuyên gia tư vấn trực tuyến</span>
 						</a>
 					</div>
 					<div class="padlr5 col-sm-6 col2">
-						<a class="dis-table" href="#">
+						<a class="dis-table" href="tel:18006181">
 							<i class="table-cell"></i>
 							<span class="table-cell">
 								Điện thoại tư vấn<br>
@@ -702,13 +702,13 @@
 				<div class="global3">
 					<div class="marlr-5 row">
 						<div class="padlr5 col-sm-6">
-							<a class="dis-table" href="#">
+							<a class="dis-table" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
 								<i class="table-cell"></i>
 								<span class="table-cell">Chuyên gia tư vấn trực tuyến</span>
 							</a>
 						</div>
 						<div class="padlr5 col-sm-6 col2">
-							<a class="dis-table" href="#">
+							<a class="dis-table" href="tel:18006181">
 								<i class="table-cell"></i>
 								<span class="table-cell">
 									Điện thoại tư vấn<br>
@@ -737,22 +737,22 @@
 			<div class="line1">
 				<div class="row">
 					<div class="col-sm-7">
-						<a href="" class="align-items-center text-center justify-content-center flex bg1">Nguyên nhân gây sùi mào gà là gì?</a>
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="align-items-center text-center justify-content-center flex bg1">Nguyên nhân gây sùi mào gà là gì?</a>
 					</div>
 					<div class="col-sm-5">
-						<a href="" class="align-items-center text-center justify-content-center flex bg2">Sùi mào gà có lây truyền không?</a>
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="align-items-center text-center justify-content-center flex bg2">Sùi mào gà có lây truyền không?</a>
 					</div>
 					<div class="col-sm-5">
-						<a href="" class="align-items-center text-center justify-content-center flex bg3">Sùi mào gà có gây ung thư không?</a>
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="align-items-center text-center justify-content-center flex bg3">Sùi mào gà có gây ung thư không?</a>
 					</div>
 					<div class="col-sm-7">
-						<a href="" class="align-items-center text-center justify-content-center flex bg4">Phương pháp điều trị sùi mào gà tốt nhất</a>
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="align-items-center text-center justify-content-center flex bg4">Phương pháp điều trị sùi mào gà tốt nhất</a>
 					</div>
 					<div class="col-sm-6">
-						<a href="" class="align-items-center text-center justify-content-center flex bg5">Điều trị sùi mào gà bao nhiêu tiền?</a>
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="align-items-center text-center justify-content-center flex bg5">Điều trị sùi mào gà bao nhiêu tiền?</a>
 					</div>
 					<div class="col-sm-6">
-						<a href="" class="align-items-center text-center justify-content-center flex bg6">Sùi mào gà tái phát phải làm thế nào?</a>
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="align-items-center text-center justify-content-center flex bg6">Sùi mào gà tái phát phải làm thế nào?</a>
 					</div>
 				</div>
 			</div>
@@ -775,9 +775,9 @@
 			</div>
 			<div class="line1">
 				<div class="tabs clearfix row">
-					<div class="col-sm-4 active"><div class="flex align-items-center justify-content-center text-center ">Dịch vụ<br>Nam Khang</div></div>
-					<div class="col-sm-4"><div class="flex align-items-center justify-content-center text-center ">Môi trường<br>Nam Khang</div></div>
-					<div class="col-sm-4"><div class="flex align-items-center justify-content-center text-center ">Thiết bị<br>Nam Khang</div></div>
+					<div class="col-xs-4 active dis-table"><div class="flex align-items-center justify-content-center text-center table-cell">Dịch vụ<br>Nam Khang</div></div>
+					<div class="col-xs-4 dis-table"><div class="flex align-items-center justify-content-center text-center table-cell">Môi trường<br>Nam Khang</div></div>
+					<div class="col-xs-4 dis-table"><div class="flex align-items-center justify-content-center text-center table-cell">Thiết bị<br>Nam Khang</div></div>
 				</div>
 				<div class="contents">
 					<div class="active">
@@ -800,10 +800,34 @@
 						</div>
 						<script>
 							$('.dv-nk').slick({
-								infinite: true,
+								// autoplay: true,
 								slidesToShow: 3,
 			  					slidesToScroll: 1,
-								autoplaySpeed: 5000,
+								autoplaySpeed: 2000,
+								responsive: [
+							    {
+							      breakpoint: 1024,
+							      settings: {
+							        slidesToShow: 3,
+							        slidesToScroll: 1,
+							        infinite: true,
+							        dots: true
+							      }
+							    },
+							    {
+							      breakpoint: 600,
+							      settings: {
+							        slidesToShow: 2,
+							        slidesToScroll: 1
+							      }
+							    },
+							    {
+							      breakpoint: 480,
+							      settings: {
+							        slidesToShow: 2,
+							        slidesToScroll: 1
+							      }
+							    }]
 							});
 						</script>
 					</div>
@@ -830,10 +854,34 @@
 						</div>
 						<script>
 							$('.mt-nk').slick({
-								infinite: true,
+								// autoplay: true,
 								slidesToShow: 3,
 			  					slidesToScroll: 1,
-								autoplaySpeed: 5000,
+								autoplaySpeed: 3000,
+								responsive: [
+							    {
+							      breakpoint: 1024,
+							      settings: {
+							        slidesToShow: 3,
+							        slidesToScroll: 1,
+							        infinite: true,
+							        dots: true
+							      }
+							    },
+							    {
+							      breakpoint: 600,
+							      settings: {
+							        slidesToShow: 2,
+							        slidesToScroll: 1
+							      }
+							    },
+							    {
+							      breakpoint: 480,
+							      settings: {
+							        slidesToShow: 2,
+							        slidesToScroll: 1
+							      }
+							    }]
 							});
 						</script>
 					</div>
@@ -854,10 +902,34 @@
 						</div>
 						<script>
 							$('.tb-nk').slick({
-								infinite: true,
+								// autoplay: true,
 								slidesToShow: 3,
 			  					slidesToScroll: 1,
-								autoplaySpeed: 5000,
+								autoplaySpeed: 4000,
+								responsive: [
+							    {
+							      breakpoint: 1024,
+							      settings: {
+							        slidesToShow: 3,
+							        slidesToScroll: 1,
+							        infinite: true,
+							        dots: true
+							      }
+							    },
+							    {
+							      breakpoint: 600,
+							      settings: {
+							        slidesToShow: 2,
+							        slidesToScroll: 1
+							      }
+							    },
+							    {
+							      breakpoint: 480,
+							      settings: {
+							        slidesToShow: 2,
+							        slidesToScroll: 1
+							      }
+							    }]
 							});
 						</script>
 					</div>
@@ -865,13 +937,48 @@
 			</div>
 			<script>
 				$(document).ready(function() {
-					//$('.contents >div').removeClass('active').first().addClass('active');
+					// $('.dv-nk,.tb-nk,.mt-nk').slick({
+					// 	autoplay: true,
+					// 	infinite: true,
+					// 	slidesToShow: 3,
+	  		// 			slidesToScroll: 1,
+					// 	autoplaySpeed: 5000,
+					// 	responsive: [
+					//     {
+					//       breakpoint: 1024,
+					//       settings: {
+					//         slidesToShow: 3,
+					//         slidesToScroll: 1,
+					//         infinite: true,
+					//         dots: true
+					//       }
+					//     },
+					//     {
+					//       breakpoint: 600,
+					//       settings: {
+					//         slidesToShow: 2,
+					//         slidesToScroll: 1
+					//       }
+					//     },
+					//     {
+					//       breakpoint: 480,
+					//       settings: {
+					//         slidesToShow: 2,
+					//         slidesToScroll: 1
+					//       }
+					//     }]
+					// });
+					setTimeout(function(){
+					    //do what you need here
+						$('.contents >div').eq(0).addClass('active').siblings('div').removeClass('active');
+					}, 2000);
+
 					$('.tabs >div').on('click', function(event) {
 						event.preventDefault();
 						/* Act on the event */
-						$('.contents >div').eq(index).children('div').first().slick('slickNext');
-						$(this).addClass('active').siblings('div').removeClass('active');
 						var index = $(this).index();
+						// $('.contents >div').eq(index).children('div').first().slick('slickNext');
+						$(this).addClass('active').siblings('div').removeClass('active');
 						$('.contents >div').eq(index).addClass('active').siblings('div').removeClass('active');
 
 					});	
@@ -928,7 +1035,7 @@
 								<button type="submit" class="text-uppercase text-center btn">Bấm gửi</button>
 							</div>
 							<div class="col-sm-6">
-								<a href="" type="button" class="text-uppercase text-center btn flex align-items-center justify-content-center bg1">Bác sĩ tư vấn</a>
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" type="button" class="text-uppercase text-center btn flex align-items-center justify-content-center bg1">Bác sĩ tư vấn</a>
 							</div>
 						</div>
 					</div>
@@ -946,15 +1053,15 @@
 						</div>
 					</div>
 					<div class="col-sm-5">
-						<a href="" class="width-100 dis-table">
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="width-100 dis-table">
 							<span class="table-cell"><i class="bg2"></i></span>
 							<span class="table-cell">Đặt hẹn trong ngày</span>
 						</a>
-						<a href="" class="width-100 dis-table">
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="width-100 dis-table">
 							<span class="table-cell"><i class="bg2"></i></span>
 							<span class="table-cell">Đi khám trong ngày</span>
 						</a>
-						<a href="" class="width-100 dis-table">
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="width-100 dis-table">
 							<span class="table-cell"><i class="bg2"></i></span>
 							<span class="table-cell">Cả năm không nghỉ</span>
 						</a>
@@ -974,14 +1081,14 @@
 									<i class="bg2"></i>
 								</div>
 								<div class="table-cell">
-									<a href="">1800 - 6181</a>
+									<a href="tel:18006181">1800 - 6181</a>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="col-sm-3 text-center">
-						<a href="" class="dis-inline-block text-center flex align-items-center justify-content-center">
-							Gọi điện thoại<br>miễn phí
+						<a href="" class="dis-table">
+							<span class="table-cell">Gọi điện thoại<br>miễn phí</span>
 						</a>
 					</div>
 				</div>
@@ -1002,8 +1109,8 @@
 @endsection('content')
 @section('toolbar')
 	<div class="container footer-toolbar">
-		<div class="flex flex2 justify-content-between">
-			<div class="flex2col1 flex justify-content-center">
+		<div class="row flex flex2 justify-content-between">
+			<div class="col-xs-4 flex2col1 flex justify-content-center">
 				<div class="flex3col1 flex align-items-center justify-content-center">
 					<h3 class="text-center"><a href="tel:18006181"><i class="bg bg1"></i></a></h3>
 				</div>
@@ -1011,7 +1118,7 @@
 					<h4 class="text-center"><a href="tel:18006181">Điện thoại tư vấn</a></h4>
 				</div>
 			</div>
-			<div class="flex2col1 flex justify-content-center">
+			<div class="col-xs-4 flex2col1 flex justify-content-center">
 				<div class="flex3col1 flex align-items-center justify-content-center">
 					<h3 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="bg bg2"></i></a></h3>
 				</div>
@@ -1019,7 +1126,7 @@
 					<h4 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn trực tuyến</a></h4>
 				</div>
 			</div>
-			<div class="flex2col1 flex justify-content-center">
+			<div class="col-xs-4 flex2col1 flex justify-content-center">
 				<div class="flex3col1 flex align-items-center justify-content-center">
 					<h3 class="text-center"><a href="#top"><i class="bg bg3"></i></a></h3>
 				</div>

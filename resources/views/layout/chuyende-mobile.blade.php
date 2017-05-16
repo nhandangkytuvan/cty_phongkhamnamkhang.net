@@ -54,9 +54,9 @@
 <body>
 	<header>
 		<div class="container">
-			<div class="flex flex1 justify-content-around">
-				<div class="flex flex1col1">
-					<div class="flex2col1">
+			<div class="row flex flex1 justify-content-around dis-table">
+				<div class="pull-left flex flex1col1 table-table">
+					<div class="flex2col1 pull-left table-cell">
 						<div>
 							<a href="{{ url('/') }}" title="phòng khám chuyên khoa nam khang">
 								@if(url()->current()==url('chuyen-de/sui-mao-ga'))
@@ -67,7 +67,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="flex flex2col2">
+					<div class="flex flex2col2 pull-left table-cell">
 						<div class="box-center">
 							@if(Request::url()==url('/'))
 							<h1 class="text-uppercase">phòng khám chuyên khoa nam khang</h1>
@@ -78,31 +78,31 @@
 						</div>
 					</div>
 				</div>
-				<div class="flex flex1col2 align-items-center">
+				<div class="pull-left flex flex1col2 align-items-center table-cell">
 					@if(url()->current()==url('chuyen-de/sui-mao-ga'))
 						<img src="{{ asset('public/images/chuyende/mobile/suimaoga/suimaoga-3.png') }}" alt="doc">
 					@else
 						<img src="{{ asset('public/images/mobile/header-1.png') }}" alt="doc">
 					@endif
 				</div>
-				<div class="flex flex1col3 align-items-center">
+				<div class="pull-left flex flex1col3 align-items-center table-cell">
 					<span class="text-uppercase">Chuyên khoa<br>bệnh xã hội</span>
 				</div>
 			</div>
 		</div>
 	</header>
 	<menu class="container">
-		<div class="flex flex1 justify-content-between">
-			<a class="flex flex1col1 align-items-center justify-content-center text-center text-uppercase" href="{{ url('/') }}" title="Trang chủ">
+		<div class="row flex flex1 justify-content-between">
+			<a class="col-xs-3 flex flex1col1 align-items-center justify-content-center text-center text-uppercase" href="{{ url('/') }}" title="Trang chủ">
 				Trang chủ
 			</a>
-			<a class="flex flex1col1 align-items-center justify-content-center text-center text-uppercase" href="{{ url('ve-chung-toi') }}" title="Giới thiệu phòng khám">
+			<a class="col-xs-3 flex flex1col1 align-items-center justify-content-center text-center text-uppercase" href="{{ url('ve-chung-toi') }}" title="Giới thiệu phòng khám">
 				Giới thiệu<br>phòng khám
 			</a>
-			<a class="flex flex1col1 align-items-center justify-content-center text-center text-uppercase" href="#" title="Đội ngũ chuyên gia">
+			<a class="col-xs-3 flex flex1col1 align-items-center justify-content-center text-center text-uppercase" href="#" title="Đội ngũ chuyên gia">
 				Đội ngũ<br>chuyên gia
 			</a>
-			<a class="flex flex1col1 align-items-center justify-content-center text-center text-uppercase" href="{{ url('dia-chi-phong-kham') }}" title="Địa chỉ phòng khám">
+			<a class="col-xs-3 flex flex1col1 align-items-center justify-content-center text-center text-uppercase" href="{{ url('dia-chi-phong-kham') }}" title="Địa chỉ phòng khám">
 				Địa chỉ<br>phòng khám
 			</a>
 		</div>
