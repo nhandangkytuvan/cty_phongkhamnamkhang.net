@@ -92,17 +92,17 @@
 		</div>
 	</header>
 	<menu class="container">
-		<div class="row flex flex1 justify-content-between">
-			<a class="col-xs-3 flex flex1col1 align-items-center justify-content-center text-center text-uppercase" href="{{ url('/') }}" title="Trang chủ">
-				Trang chủ
+		<div class="dis-table width-100">
+			<a class="table-cell text-center text-uppercase" href="{{ url('/') }}" title="Trang chủ">
+				<span>Trang chủ</span>
 			</a>
-			<a class="col-xs-3 flex flex1col1 align-items-center justify-content-center text-center text-uppercase" href="{{ url('ve-chung-toi') }}" title="Giới thiệu phòng khám">
+			<a class="table-cell text-center text-uppercase" href="{{ url('ve-chung-toi') }}" title="Giới thiệu phòng khám">
 				Giới thiệu<br>phòng khám
 			</a>
-			<a class="col-xs-3 flex flex1col1 align-items-center justify-content-center text-center text-uppercase" href="#" title="Đội ngũ chuyên gia">
+			<a class="table-cell text-center text-uppercase" href="#" title="Đội ngũ chuyên gia">
 				Đội ngũ<br>chuyên gia
 			</a>
-			<a class="col-xs-3 flex flex1col1 align-items-center justify-content-center text-center text-uppercase" href="{{ url('dia-chi-phong-kham') }}" title="Địa chỉ phòng khám">
+			<a class="table-cell text-center text-uppercase" href="{{ url('dia-chi-phong-kham') }}" title="Địa chỉ phòng khám">
 				Địa chỉ<br>phòng khám
 			</a>
 		</div>

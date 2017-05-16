@@ -5,7 +5,8 @@ header .flex1col1 div.web-address{font-size: 14px;color: #e3bc2b;margin-top: 5px
 header .flex1col3 span{color: #103a8c;font-weight:bold; font-size:13.5px;}
 /**/
 menu{background-color: #103a8c;height: 64px;}
-menu .flex1{height: 64px;color: #fff;}
-menu .flex1col1{width: 25%;font-size: 14px;background-image: url('../../../images/mobile/menu-1.png');background-repeat: no-repeat;background-position: right center;}
-menu .flex1col1:last-child{background-image: none;}
+menu .table-cell{height: 64px;color: #fff;}
+menu .table-cell{width: 25%;font-size: 14px;background-image: url('../../../images/mobile/menu-1.png');background-repeat: no-repeat;background-position: right center;}
+menu .table-cell:last-child{background-image: none;}
 /**/
+

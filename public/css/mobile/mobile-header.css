@@ -1,26 +1,26 @@
 header{
 	padding:10px;
 }
-header .flex2col1{
+header .cell1{
 	padding-right: 10px;
 }
-header .flex1col1 h3,header .flex1col1 h1{
+header .cell2 h3,header .cell2 h1{
 	color: #2a6636;
 	font-size: 14px;
 }
-header .flex1col1 h4{
+header .cell2 h4{
 	font-size: 10px;
 	color: #eb2b41;
 	margin-top: 5px;
 }
-header .flex1col2 h4{
+header .cell2 h4{
 	padding-right: 10px;
 }
-header .flex1col2 h6{
+header .cell4 h6{
 	color: #eb2b41;
 	font-size: 10px;
 }
-header .flex1col2 h5 a{
+header .cell4 h5 a{
 	display: block;
 	background-color: #eb2b41;
 	color: #fff;
