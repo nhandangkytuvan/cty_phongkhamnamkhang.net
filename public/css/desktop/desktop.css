@@ -84,7 +84,7 @@ a{text-decoration: none;}
 }
 /*livechat*/
 #LRfloater0{
-  display: none!important;
+  /*display: none!important;*/
 }
 /**/
 .sbtn.cf a:hover {

@@ -7,81 +7,95 @@
 @endsection('keyword')
 @section('css')
     <link rel="stylesheet" href="{{ asset('public/css/mobile/mobile-pagination.css') }}">
-    <link rel="stylesheet" href="{{ asset('public/css/mobile/mobile-hoiphuc.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/css/mobile/mobile-term.css') }}">
 @endsection('css')
 @section('content')
 	<div class="container">
 		<div class="menu">
-			<div class="flex flex-wrap-wrap justify-content-center">
-				<div class="col1 flex justify-content-center">
-					<div class="col1col1 flex align-items-center justify-content-between">
-						<div class="width-100"><h5><a href=""><i class="bg bg1"></i></a></h5></div>
-					</div>
-					<div class="col1col2 flex align-items-center justify-content-between">
-						<div class="width-100">
-							<h5>
-								<a href="{{ url('/ve-chung-toi') }}">Giới thiệu phòng khám</a></h3>
-							</h5>
+			<div class="dis-table width-100">
+				<div class="table-cell cell1">
+					<div class="dis-table width-100">
+						<div class="table-cell">
+							<div class="width-100"><h5><a href=""><i class="bg bg1"></i></a></h5></div>
+						</div>
+						<div class="table-cell">
+							<div class="width-100">
+								<h5>
+									<a href="{{ url('/ve-chung-toi') }}">Giới thiệu phòng khám</a></h3>
+								</h5>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col1 flex justify-content-center">
-					<div class="col1col1 flex align-items-center justify-content-between">
-						<div class="width-100"><h5><a href=""><i class="bg bg2"></i></a></h5></div>
-					</div>
-					<div class="col1col2 flex align-items-center justify-content-between">
-						<div class="width-100">
-							<h5>
-								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn bác sĩ</a></h5>
-							</h5>
+				<div class="table-cell cell1">
+					<div class="dis-table width-100">
+						<div class="table-cell">
+							<div class="width-100"><h5><a href=""><i class="bg bg2"></i></a></h5></div>
+						</div>
+						<div class="table-cell">
+							<div class="width-100">
+								<h5>
+									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn bác sĩ</a></h5>
+								</h5>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col1 flex justify-content-center">
-					<div class="col1col1 flex align-items-center justify-content-between">
-						<div class="width-100"><h5><a href=""><i class="bg bg3"></i></a></h5></div>
-					</div>
-					<div class="col1col2 flex align-items-center justify-content-between">
-						<div class="width-100">
-							<h5>
-								<a href="{{ MyAPI::getUrlTermID(32) }}">Liệu pháp uy tín</a></h5>
-							</h5>
+				<div class="table-cell cell1">
+					<div class="dis-table width-100">
+						<div class="table-cell">
+							<div class="width-100"><h5><a href=""><i class="bg bg3"></i></a></h5></div>
+						</div>
+						<div class="table-cell">
+							<div class="width-100">
+								<h5>
+									<a href="{{ MyAPI::getUrlTermID(32) }}">Liệu pháp uy tín</a></h5>
+								</h5>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col1 flex justify-content-center">
-					<div class="col1col1 flex align-items-center justify-content-between">
-						<div class="width-100"><h5><a href=""><i class="bg bg4"></i></a></h5></div>
-					</div>
-					<div class="col1col2 flex align-items-center justify-content-between">
-						<div class="width-100">
-							<h5>
-								<a href="{{ MyAPI::getUrlTermID(34) }}">Bệnh án điển hình</a></h5>
-							</h5>
+			</div>
+			<div class="dis-table width-100">
+				<div class="table-cell cell1">
+					<div class="dis-table width-100">
+						<div class="table-cell">
+							<div class="width-100"><h5><a href=""><i class="bg bg4"></i></a></h5></div>
+						</div>
+						<div class="table-cell">
+							<div class="width-100">
+								<h5>
+									<a href="{{ MyAPI::getUrlTermID(34) }}">Bệnh án điển hình</a></h5>
+								</h5>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col1 flex justify-content-center">
-					<div class="col1col1 flex align-items-center justify-content-between">
-						<div class="width-100"><h5><a href=""><i class="bg bg5"></i></a></h5></div>
-					</div>
-					<div class="col1col2 flex align-items-center justify-content-between">
-						<div class="width-100">
-							<h5>
-								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đặt hẹn nhanh</a></h5>
-							</h5>
+				<div class="table-cell cell1">
+					<div class="dis-table width-100">
+						<div class="table-cell">
+							<div class="width-100"><h5><a href=""><i class="bg bg5"></i></a></h5></div>
+						</div>
+						<div class="table-cell">
+							<div class="width-100">
+								<h5>
+									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đặt hẹn nhanh</a></h5>
+								</h5>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col1 flex justify-content-center">
-					<div class="col1col1 flex align-items-center justify-content-between">
-						<div class="width-100"><h5><a href=""><i class="bg bg6"></i></a></h5></div>
-					</div>
-					<div class="col1col2 flex align-items-center justify-content-between">
-						<div class="width-100">
-							<h5>
-								<a href="{{ url('/dia-chi-phong-kham') }}">Chỉ đường</a></h5>
-							</h5>
+				<div class="table-cell cell1">
+					<div class="dis-table width-100">
+						<div class="table-cell">
+							<div class="width-100"><h5><a href=""><i class="bg bg6"></i></a></h5></div>
+						</div>
+						<div class="table-cell">
+							<div class="width-100">
+								<h5>
+									<a href="{{ url('/dia-chi-phong-kham') }}">Chỉ đường</a></h5>
+								</h5>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -112,102 +126,114 @@
 			{!! $posts->links() !!}
 		</div>
 		<div class="uudiem-thuonghieu">
-			<div class="flex2 flex">
-				<div class="flex2col1">
+			<div class="flex2 dis-table table2">
+				<div class="table-cell cell1">
 					<h5>Ưu điểm của thương hiệu</h5>
 				</div>
-				<div class="flex2col1">
+				<div class="table-cell cell1">
 					<h5>/</h5>
 				</div>
-				<div class="flex2col1">
+				<div class="table-cell cell1">
 					<h5>Brand advantage</h5>
 				</div>
 			</div>
-			<div class="flex justify-content-between first">
-				<div class="col1 flex">
-					<div class="col1col1 flex justify-content-center align-items-center">
-						<h5><i class="bg bg1"></i></h5>
-					</div>
-					<div class="col1col2 flex justify-content-center align-items-center">
-						<h5>Trình độ phòng khám</h5>
+			<div class="dis-table table3 width-100">
+				<div class="table-cell cell1">
+					<div class="dis-table">
+						<div class="table-cell cell2">
+							<h5><i class="bg bg1"></i></h5>
+						</div>
+						<div class="table-cell cell2">
+							<h5>Trình độ phòng khám</h5>
+						</div>
 					</div>
 				</div>
-				<div class="col2 flex justify-content-center align-items-center">
+				<div class="table-cell cell1">
 					<p class="text-justify">
 						Phòng khám chuyên khoa Nam Khang Hà Nội là phòng khám nam khoa tại Hà Nội với mô hình lớn, hiện đại hóa có trình độ y tế chuyên nghiệp đã được đăng kí với Sở Y tế nhà nước.
 					</p>
 				</div>
 			</div>
-			<div class="flex justify-content-between">
-				<div class="col1 flex">
-					<div class="col1col1 flex justify-content-center align-items-center">
-						<h5><i class="bg bg2"></i></h5>
-					</div>
-					<div class="col1col2 flex justify-content-center align-items-center">
-						<h5>Vinh dự của phòng khám</h5>
+			<div class="dis-table table3 width-100">
+				<div class="table-cell cell1">
+					<div class="dis-table">
+						<div class="table-cell cell2">
+							<h5><i class="bg bg2"></i></h5>
+						</div>
+						<div class="table-cell cell2">
+							<h5>Vinh dự của phòng khám</h5>
+						</div>
 					</div>
 				</div>
-				<div class="col2 flex justify-content-center align-items-center">
+				<div class="table-cell cell1">
 					<p class="text-justify">
 						Từ khi thành lập đến nay, phòng khám vinh dự được nhiều bệnh nhân khen ngợi, công nhận, được đông đảo quần chúng nhân dân đón nhận.
 					</p>
 				</div>
 			</div>
-			<div class="flex justify-content-between">
-				<div class="col1 flex">
-					<div class="col1col1 flex justify-content-center align-items-center">
-						<h5><i class="bg bg3"></i></h5>
-					</div>
-					<div class="col1col2 flex justify-content-center align-items-center">
-						<h5>Bác sĩ phòng khám</h5>
+			<div class="dis-table table3 width-100">
+				<div class="table-cell cell1">
+					<div class="dis-table">
+						<div class="table-cell cell2">
+							<h5><i class="bg bg3"></i></h5>
+						</div>
+						<div class="table-cell cell2">
+							<h5>Bác sĩ phòng khám</h5>
+						</div>
 					</div>
 				</div>
-				<div class="col2 flex justify-content-center align-items-center">
+				<div class="table-cell cell1">
 					<p class="text-justify">
 						Được bác sĩ trong và ngoài nước thăm khám, đảm bảo mỗi một bệnh nhân đều có thể được hưởng dịch vụ, bác sĩ chuyên nghiệp.
 					</p>
 				</div>
 			</div>
-			<div class="flex justify-content-between">
-				<div class="col1 flex">
-					<div class="col1col1 flex justify-content-center align-items-center">
-						<h5><i class="bg bg4"></i></h5>
-					</div>
-					<div class="col1col2 flex justify-content-center align-items-center">
-						<h5>Liệu pháp điều trị</h5>
+			<div class="dis-table table3 width-100">
+				<div class="table-cell cell1">
+					<div class="dis-table">
+						<div class="table-cell cell2">
+							<h5><i class="bg bg4"></i></h5>
+						</div>
+						<div class="table-cell cell2">
+							<h5>Liệu pháp điều trị</h5>
+						</div>
 					</div>
 				</div>
-				<div class="col2 flex justify-content-center align-items-center">
+				<div class="table-cell cell1">
 					<p class="text-justify">
 						Hợp tác theo chiều sâu với nhiều mô hình y tế đỉnh cao trong nước, nhập và nghiên cứu 10 kĩ thuật lớn, thành lập 6 khoa nam khoa trọng điểm lớn.
 					</p>
 				</div>
 			</div>
-			<div class="flex justify-content-between">
-				<div class="col1 flex">
-					<div class="col1col1 flex justify-content-center align-items-center">
-						<h5><i class="bg bg5"></i></h5>
-					</div>
-					<div class="col1col2 flex justify-content-center align-items-center">
-						<h5>Đảm bảo riêng tư</h5>
+			<div class="dis-table table3 width-100">
+				<div class="table-cell cell1">
+					<div class="dis-table">
+						<div class="table-cell cell2">
+							<h5><i class="bg bg5"></i></h5>
+						</div>
+						<div class="table-cell cell2">
+							<h5>Đảm bảo riêng tư</h5>
+						</div>
 					</div>
 				</div>
-				<div class="col2 flex justify-content-center align-items-center">
+				<div class="table-cell cell1">
 					<p class="text-justify">
 						Mô hình thăm khám “một bác sĩ một bệnh nhân”, đảm bảo riêng tư cho bệnh nhân, nâng cao chất lượng thăm khám, điều trị.
 					</p>
 				</div>
 			</div>
-			<div class="flex justify-content-between">
-				<div class="col1 flex">
-					<div class="col1col1 flex justify-content-center align-items-center">
-						<h5><i class="bg bg6"></i></h5>
-					</div>
-					<div class="col1col2 flex justify-content-center align-items-center">
-						<h5>Bệnh án điển hình</h5>
+			<div class="dis-table table3 width-100">
+				<div class="table-cell cell1">
+					<div class="dis-table">
+						<div class="table-cell cell2">
+							<h5><i class="bg bg6"></i></h5>
+						</div>
+						<div class="table-cell cell2">
+							<h5>Bệnh án điển hình</h5>
+						</div>
 					</div>
 				</div>
-				<div class="col2 flex justify-content-center align-items-center">
+				<div class="table-cell cell1">
 					<p class="text-justify">
 						Thống kê đến năm 2016, bệnh án bệnh nhân nam giới hồi phục tại Nam Khang lên tới 56800 hồ sơ, tất cả đều đã hồi phục.
 					</p>
@@ -215,31 +241,31 @@
 			</div>
 		</div>
 		<div class="comments">
-			<div class="flex2 flex">
-				<div class="flex2col1">
+			<div class="dis-table">
+				<div class="table-cell">
 					<h5>Bình luận của bệnh nhân</h5>
 				</div>
-				<div class="flex2col1">
+				<div class="table-cell">
 					<h5>/</h5>
 				</div>
-				<div class="flex2col1">
+				<div class="table-cell">
 					<h5>Comments</h5>
 				</div>
 			</div>
-			<div class="flex flex1 justify-content-between">
-				<div class="flex1col1 flex align-items-center justify-content-center">
+			<div class="dis-table table2">
+				<div class="table-cell">
 					<h5>Tổng điểm đánh giá : 5</h5>
 				</div>
-				<div class="flex1col1 flex align-items-center justify-content-center">
+				<div class="table-cell">
 					<h5>Dịch vụ : 5</h5>
 				</div>
-				<div class="flex1col1 flex align-items-center justify-content-center">
+				<div class="table-cell">
 					<h5>Môi trường : 5</h5>
 				</div>
-				<div class="flex1col1 flex align-items-center justify-content-center">
+				<div class="table-cell">
 					<h5>Hiệu quả : 5</h5>
 				</div>
-				<div class="flex1col1 flex align-items-center justify-content-center">
+				<div class="table-cell">
 					<h5><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tôi muốn bình luận</a></h5>
 				</div>
 			</div>
