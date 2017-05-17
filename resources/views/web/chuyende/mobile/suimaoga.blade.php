@@ -996,13 +996,14 @@
 			</div>
 			<div class="radius1">
 				<div class="text-center text-uppercase red1 line3">(Trang web này đã được bảo mật, tuyệt đối đảm bảo thông tin cá nhân)</div>
-				<form action="">
+				<form action="{{ url('sendmail') }}" method="post" id="formMailSend">
+					{{ csrf_field() }}
 					<div class="row form-group">
 						<div class="col-sm-4 red1 text-uppercase text-right">
 							Họ tên bệnh nhân :
 						</div>
 						<div class="col-sm-8">
-							<input type="text" name="ho_va_ten">
+							<input type="text" name="ho_va_ten" required>
 						</div>
 					</div>
 					<div class="row form-group">
@@ -1010,7 +1011,7 @@
 							Số điện thoại :
 						</div>
 						<div class="col-sm-8">
-							<input type="text" name="phone">
+							<input type="text" name="phone" required>
 						</div>
 					</div>
 					<div class="row form-group">
@@ -1018,7 +1019,7 @@
 							thời gian đặt hẹn :
 						</div>
 						<div class="col-sm-8">
-							<input type="text" name="thoigian">
+							<input type="text" name="thoigian" required>
 						</div>
 					</div>
 					<div class="row form-group">
@@ -1040,6 +1041,14 @@
 						</div>
 					</div>
 				</form>
+				<script>
+					$(document).ready(function() {
+						$('#formMailSend').ajaxForm(function() { 
+			                alert("Cảm ơn bạn đã đăng ký!"); 
+			                $('#formMailSend').resetForm();
+			            });	
+					});
+				</script>
 			</div>
 			<div class="des1">
 				<div class="row">

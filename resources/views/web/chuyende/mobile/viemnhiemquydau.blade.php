@@ -216,7 +216,7 @@
 							<p>Nhập nội dung miêu tả tình hình cụ thể, chuyên gia căn cứ vào đó chẩn đoán. (Thích hợp với triệu chứng xuất hiện trong vòng 1~7 ngày)</p>
 						</div>
 						<div>
-							<a class="width-100 text-center" href="#">
+							<a class="width-100 text-center" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
 								Click vào để<br>miêu tả tình trạng trực tuyến
 							</a>
 						</div>
@@ -238,7 +238,7 @@
 							<p>Bệnh nhân dùng điện thoại chụp lại ảnh, gửi cho chuyên gia chẩn đoán bằng hình ảnh (Thích hợp với triệu chứng xuất hiện trong vòng 8~14 ngày)</p>
 						</div>
 						<div>
-							<a class="width-100 text-center" href="#">
+							<a class="width-100 text-center" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
 								Click vào để<br>miêu tả tình trạng trực tuyến
 							</a>
 						</div>
