@@ -11,15 +11,17 @@
 @section('content')
 	<menu class="container">
 		<div class="search">
-			<div class="">
-				<div class="flex1col1">
-					<form action="{{ url('/search') }}">
-						{{ csrf_field() }}
+			<form action="{{ url('/search') }}">
+				{{ csrf_field() }}
+				<div class="dis-table width-100">
+					<div class="table-cell">
 						<input type="text" placeholder="Hãy nhập từ khóa" name="keyword">
+					</div>
+					<div class="table-cell">
 						<button type="submit">Tìm kiếm</button>
-					</form>
+					</div>
 				</div>
-			</div>
+			</form>
 		</div>
 		<div class="menu">
 			<div class="flex flex2 flex-wrap-wrap justify-content-around align-content-around">
@@ -368,27 +370,27 @@
 @endsection('content')
 @section('toolbar')
 	<div class="container footer-toolbar">
-		<div class="flex flex1 justify-content-between">
-			<div class="flex1col1">
-				<div class="box-center">
+		<div class="dis-table width-100 forHome">
+			<div class="table-cell">
+				<div class="">
 					<h3 class="text-center"><a href="tel:18006181"><i class="glyphicon glyphicon-phone-alt"></i></a></h3>
 					<h4 class="text-center"><a href="tel:18006181">Gọi điện</a></h4>
 				</div>
 			</div>
-			<div class="flex1col1">
-				<div class="box-center">
+			<div class="table-cell">
+				<div class="">
 					<h3 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-calendar"></i></a></h3>
 					<h4 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đặt hẹn</a></h4>
 				</div>
 			</div>
-			<div class="flex1col1">
-				<div class="box-center">
+			<div class="table-cell">
+				<div class="">
 					<h3 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-comment"></i></a></h3>
 					<h4 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn</a></h4>
 				</div>
 			</div>
-			<div class="flex1col1">
-				<div class="box-center">
+			<div class="table-cell">
+				<div class="">
 					<h3 class="text-center"><a href="{{ url('/dia-chi-phong-kham') }}"><i class="fa fa-map-marker"></i></a></h3>
 					<h4 class="text-center"><a href="{{ url('/dia-chi-phong-kham') }}">Địa chỉ</a></h4>
 				</div>

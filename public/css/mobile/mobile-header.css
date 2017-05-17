@@ -38,7 +38,7 @@ menu .search{
 menu .search .flex1col1{
 	padding:1px;
 }
-menu .search .flex1col1 input{
+menu .search .table-cell input{
 	height: 30px;
 	line-height: 30px;
 	border:none;
@@ -48,9 +48,9 @@ menu .search .flex1col1 input{
 	padding-right: 5px;
 	border-top-left-radius:5px; 
 	border-bottom-left-radius:5px; 
-	width: 70%;
+	width: 100%;
 } 
-menu .search .flex1col1 button{
+menu .search .table-cell button{
 	outline: none;
 	height: 30px;
 	line-height: 30px;
@@ -64,9 +64,9 @@ menu .search .flex1col1 button{
 	border-bottom-right-radius:5px; 
 	padding:0px 8px;
 	vertical-align: -1px;
-	width: 30%;
+	width: 100%;
 }
-menu .search .flex1col2 a{
+menu .search .table-cell a{
 	display: block;
 	height: 30px;
 	line-height: 30px;
