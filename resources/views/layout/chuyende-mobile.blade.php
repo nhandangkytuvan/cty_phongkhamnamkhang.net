@@ -54,38 +54,34 @@
 <body>
 	<header>
 		<div class="container">
-			<div class="row flex flex1 justify-content-around dis-table">
-				<div class="pull-left flex flex1col1 table-table">
-					<div class="flex2col1 pull-left table-cell">
-						<div>
-							<a href="{{ url('/') }}" title="phòng khám chuyên khoa nam khang">
-								@if(url()->current()==url('chuyen-de/sui-mao-ga'))
-									<img src="{{ asset('public/images/chuyende/mobile/suimaoga/suimaoga-2.png') }}" class="center-block">
-								@else
-									<img src="{{ asset('public/images/mobile2/logo.png') }}" class="center-block">
-								@endif
-							</a>
-						</div>
-					</div>
-					<div class="flex flex2col2 pull-left table-cell">
-						<div class="box-center">
-							@if(Request::url()==url('/'))
-							<h1 class="text-uppercase">phòng khám chuyên khoa nam khang</h1>
+			<div class="dis-table width-100">
+				<div class="table-cell">
+					<div>
+						<a href="{{ url('/') }}" title="phòng khám chuyên khoa nam khang">
+							@if(url()->current()==url('chuyen-de/sui-mao-ga'))
+								<img src="{{ asset('public/images/chuyende/mobile/suimaoga/suimaoga-2.png') }}" class="center-block">
 							@else
-							<div class="h3 text-uppercase">phòng khám chuyên khoa nam khang</div>
+								<img src="{{ asset('public/images/mobile2/logo.png') }}" class="center-block">
 							@endif
-							<div class="web-address text-uppercase">số 193C1 bà triệu - hai bà trưng - hà nội</div>
-						</div>
+						</a>
 					</div>
 				</div>
-				<div class="pull-left flex flex1col2 align-items-center table-cell">
+				<div class="table-cell">
+					@if(Request::url()==url('/'))
+					<h1 class="text-uppercase">phòng khám chuyên khoa nam khang</h1>
+					@else
+					<div class="h3 text-uppercase">phòng khám chuyên khoa nam khang</div>
+					@endif
+					<div class="web-address text-uppercase">số 193C1 bà triệu - hai bà trưng - hà nội</div>
+				</div>
+				<div class="table-cell">
 					@if(url()->current()==url('chuyen-de/sui-mao-ga'))
 						<img src="{{ asset('public/images/chuyende/mobile/suimaoga/suimaoga-3.png') }}" alt="doc">
 					@else
 						<img src="{{ asset('public/images/mobile/header-1.png') }}" alt="doc">
 					@endif
 				</div>
-				<div class="pull-left flex flex1col3 align-items-center table-cell">
+				<div class="table-cell">
 					<span class="text-uppercase">Chuyên khoa<br>bệnh xã hội</span>
 				</div>
 			</div>
