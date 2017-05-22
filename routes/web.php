@@ -10,9 +10,11 @@ Route::get('/viem-tuyen-tien-liet', 'Web\ChuyenDeController@viemtuyentienliet');
 Route::get('/cat-bao-quy-dau', 'Web\ChuyenDeController@catbaoquydau');
 Route::get('chuyen-de/viem-nhiem-quy-dau','Web\ChuyenDeController@viemnhiemquydau');
 Route::get('chuyen-de/sui-mao-ga','Web\ChuyenDeController@suimaoga');
+Route::get('chuyen-de/dai-bao-quy-dau','Web\ChuyenDeController@daibaoquydau');
 
 // Mail
 Route::post('sendmail','Web\MyMailController@sendmail');
+Route::post('sendphone','Web\MyMailController@sendphone');
 // Term
 Route::get('/{term_alias?}/{term_id?}', 'Web\TermController@show')->where(['term_alias'=>'[-a-z0-9]+','term_id'=>'[0-9]+']);
 // Post

@@ -33,4 +33,11 @@ class ChuyenDeController extends Controller{
 			return view('web.chuyende.mobile.suimaoga');
 		}
 	}
+	public function daibaoquydau(Request $request){
+		if(BrowserDetect::isDesktop()){
+			return view('web.chuyende.mobile.daibaoquydau');
+		}else{
+			return view('web.chuyende.mobile.daibaoquydau');
+		}
+	}
 }

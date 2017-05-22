@@ -61,6 +61,8 @@
 						<a href="{{ url('/') }}" title="phòng khám chuyên khoa nam khang">
 							@if(url()->current()==url('chuyen-de/sui-mao-ga'))
 								<img src="{{ asset('public/images/chuyende/mobile/suimaoga/suimaoga-2.png') }}" class="center-block">
+							@elseif(url()->current()==url('chuyen-de/dai-bao-quy-dau'))
+								<img src="{{ asset('public/images/chuyende/mobile/daibaoquydau/daibaoquydau-7.png') }}" class="center-block">
 							@else
 								<img src="{{ asset('public/images/mobile2/logo.png') }}" class="center-block">
 							@endif
@@ -78,6 +80,8 @@
 				<div class="table-cell">
 					@if(url()->current()==url('chuyen-de/sui-mao-ga'))
 						<img src="{{ asset('public/images/chuyende/mobile/suimaoga/suimaoga-3.png') }}" alt="doc">
+					@elseif(url()->current()==url('chuyen-de/dai-bao-quy-dau'))
+						<img src="{{ asset('public/images/chuyende/mobile/daibaoquydau/daibaoquydau-8.png') }}" alt="doc">
 					@else
 						<img src="{{ asset('public/images/mobile/header-1.png') }}" alt="doc">
 					@endif
