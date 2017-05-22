@@ -737,22 +737,23 @@
 			<div class="line1">
 				<div class="row">
 					<div class="col-sm-7">
-						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="align-items-center text-center justify-content-center flex bg1">Nguyên nhân gây sùi mào gà là gì?</a>
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-table width-100 bg1">
+						<span class="table-cell">Nguyên nhân gây sùi mào gà là gì?</span></a>
 					</div>
 					<div class="col-sm-5">
-						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="align-items-center text-center justify-content-center flex bg2">Sùi mào gà có lây truyền không?</a>
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-table width-100 bg2"><span class="table-cell">Sùi mào gà có lây truyền không?</span></a>
 					</div>
 					<div class="col-sm-5">
-						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="align-items-center text-center justify-content-center flex bg3">Sùi mào gà có gây ung thư không?</a>
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-table width-100 bg3"><span class="table-cell">Sùi mào gà có gây ung thư không?</span></a>
 					</div>
 					<div class="col-sm-7">
-						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="align-items-center text-center justify-content-center flex bg4">Phương pháp điều trị sùi mào gà tốt nhất</a>
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-table width-100 bg4"><span class="table-cell">Phương pháp điều trị sùi mào gà tốt nhất</span></a>
 					</div>
 					<div class="col-sm-6">
-						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="align-items-center text-center justify-content-center flex bg5">Điều trị sùi mào gà bao nhiêu tiền?</a>
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-table width-100 bg5"><span class="table-cell">Điều trị sùi mào gà bao nhiêu tiền?</span></a>
 					</div>
 					<div class="col-sm-6">
-						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="align-items-center text-center justify-content-center flex bg6">Sùi mào gà tái phát phải làm thế nào?</a>
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-table width-100 bg6"><span class="table-cell">Sùi mào gà tái phát phải làm thế nào?</span></a>
 					</div>
 				</div>
 			</div>
