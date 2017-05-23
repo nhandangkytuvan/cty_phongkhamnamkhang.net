@@ -21,7 +21,7 @@
 						<div class="table-cell">
 							<div class="width-100">
 								<h5>
-									<a href="{{ url('/ve-chung-toi') }}">Giới thiệu phòng khám</a></h3>
+									<a href="{{ url('/ve-chung-toi') }}">Giới thiệu phòng khám</a>
 								</h5>
 							</div>
 						</div>
@@ -35,7 +35,7 @@
 						<div class="table-cell">
 							<div class="width-100">
 								<h5>
-									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn bác sĩ</a></h5>
+									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn bác sĩ</a>
 								</h5>
 							</div>
 						</div>
@@ -49,7 +49,7 @@
 						<div class="table-cell">
 							<div class="width-100">
 								<h5>
-									<a href="{{ MyAPI::getUrlTermID(32) }}">Liệu pháp uy tín</a></h5>
+									<a href="{{ MyAPI::getUrlTermID(32) }}">Liệu pháp uy tín</a>
 								</h5>
 							</div>
 						</div>
@@ -65,7 +65,7 @@
 						<div class="table-cell">
 							<div class="width-100">
 								<h5>
-									<a href="{{ MyAPI::getUrlTermID(34) }}">Bệnh án điển hình</a></h5>
+									<a href="{{ MyAPI::getUrlTermID(34) }}">Bệnh án điển hình</a>
 								</h5>
 							</div>
 						</div>
@@ -79,7 +79,7 @@
 						<div class="table-cell">
 							<div class="width-100">
 								<h5>
-									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đặt hẹn nhanh</a></h5>
+									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đặt hẹn nhanh</a>
 								</h5>
 							</div>
 						</div>
@@ -93,7 +93,7 @@
 						<div class="table-cell">
 							<div class="width-100">
 								<h5>
-									<a href="{{ url('/dia-chi-phong-kham') }}">Chỉ đường</a></h5>
+									<a href="{{ url('/dia-chi-phong-kham') }}">Chỉ đường</a>
 								</h5>
 							</div>
 						</div>
@@ -127,51 +127,51 @@
 					Đi xe bus nào đến phòng khám? <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Bấm vào tư vấn >></a>
 				</h4>
 				<h3>Tuyến xe</h3>
-				<div class="flex flex1">
-					<div class="flex1col1">Tuyến 08: </div>
-					<div class="flex1col2">
+				<div class="dis-table">
+					<div class="table-cell cell1">Tuyến 08: </div>
+					<div class="table-cell cell2">
 						Yên Phụ-Long Biên- Bà Triệu-Bạch Mai- Đại La- Giải Phóng- Giáp Bát- Quốc Lộ 1- Ngũ Hiệp- Đông Mỹ
 					</div>
 				</div>
-				<div class="flex flex1">
-					<div class="flex1col1">Tuyến 23: </div>
-					<div class="flex1col2">
+				<div class="dis-table">
+					<div class="table-cell cell1">Tuyến 23: </div>
+					<div class="table-cell cell2">
 						Nguyễn Công Trứ- Phố Huế- Bà Triệu- Phương Mai- La Thành- Giảng Võ- Nguyễn Thái Học- Long Biên- Ngô Thì Nhậm- Nguyễn Công Trứ
 					</div>
 				</div>
-				<div class="flex flex1">
-					<div class="flex1col1">Tuyến 31: </div>
-					<div class="flex1col2">
+				<div class="dis-table">
+					<div class="table-cell cell1">Tuyến 31: </div>
+					<div class="table-cell cell2">
 						ĐH Mỏ- Phú Thượng- Bà Triệu- Bách Khoa
 					</div>
 				</div>
-				<div class="flex flex1">
-					<div class="flex1col1">Tuyến 35: </div>
-					<div class="flex1col2">
+				<div class="dis-table">
+					<div class="table-cell cell1">Tuyến 35: </div>
+					<div class="table-cell cell2">
 						Trần Khánh Dư- Phạm Ngọc Thạch- Nguyễn Chí Thanh- Phạm Hùng- Nam Thăng Long
 					</div>
 				</div>
-				<div class="flex flex1">
-					<div class="flex1col1">Tuyến 36: </div>
-					<div class="flex1col2">
+				<div class="dis-table">
+					<div class="table-cell cell1">Tuyến 36: </div>
+					<div class="table-cell cell2">
 						Yên Phụ- Triệu Quốc Đạt- Bà Triệu- Bạch Mai- Trương Định- Giải Phóng- KĐT Linh Đàm
 					</div>
 				</div>
-				<div class="flex flex1">
-					<div class="flex1col1">Tuyến 38: </div>
-					<div class="flex1col2">
+				<div class="dis-table">
+					<div class="table-cell cell1">Tuyến 38: </div>
+					<div class="table-cell cell2">
 						BĐX Nam Thăng Long- ĐTC Cầu Giấy- Kim Mã- Lê Duẩn- Bạch Mai- Minh Khai- Tam Trinh- Mai Động
 					</div>
 				</div>
-				<div class="flex flex1">
-					<div class="flex1col1">Tuyến 52: </div>
-					<div class="flex1col2">
+				<div class="dis-table">
+					<div class="table-cell cell1">Tuyến 52: </div>
+					<div class="table-cell cell2">
 						CV Thống Nhất- Đại Cồ Việt- Minh Khai- Nguyễn Văn Linh- Lệ Chi
 					</div>
 				</div>
-				<div class="flex flex1">
-					<div class="flex1col1">Tuyến 52: </div>
-					<div class="flex1col2">
+				<div class="dis-table">
+					<div class="table-cell cell1">Tuyến 52: </div>
+					<div class="table-cell cell2">
 						CV Thống Nhất- Bà Triệu- Bạch Mai- Minh Khai- Thạch Bàn- KĐT Ecopark- Đường 179- Ỷ Lan- Đặng Xá (Gia Lâm).
 					</div>
 				</div>

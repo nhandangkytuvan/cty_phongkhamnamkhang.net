@@ -23,7 +23,7 @@
 						<div class="table-cell">
 							<div class="width-100">
 								<h5>
-									<a href="{{ url('/ve-chung-toi') }}">Giới thiệu phòng khám</a></h3>
+									<a href="{{ url('/ve-chung-toi') }}">Giới thiệu phòng khám</a>
 								</h5>
 							</div>
 						</div>
@@ -37,7 +37,7 @@
 						<div class="table-cell">
 							<div class="width-100">
 								<h5>
-									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn bác sĩ</a></h5>
+									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn bác sĩ</a>
 								</h5>
 							</div>
 						</div>
@@ -51,7 +51,7 @@
 						<div class="table-cell">
 							<div class="width-100">
 								<h5>
-									<a href="{{ MyAPI::getUrlTermID(32) }}">Liệu pháp uy tín</a></h5>
+									<a href="{{ MyAPI::getUrlTermID(32) }}">Liệu pháp uy tín</a>
 								</h5>
 							</div>
 						</div>
@@ -67,7 +67,7 @@
 						<div class="table-cell">
 							<div class="width-100">
 								<h5>
-									<a href="{{ MyAPI::getUrlTermID(34) }}">Bệnh án điển hình</a></h5>
+									<a href="{{ MyAPI::getUrlTermID(34) }}">Bệnh án điển hình</a>
 								</h5>
 							</div>
 						</div>
@@ -81,7 +81,7 @@
 						<div class="table-cell">
 							<div class="width-100">
 								<h5>
-									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đặt hẹn nhanh</a></h5>
+									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đặt hẹn nhanh</a>
 								</h5>
 							</div>
 						</div>
@@ -95,7 +95,7 @@
 						<div class="table-cell">
 							<div class="width-100">
 								<h5>
-									<a href="{{ url('/dia-chi-phong-kham') }}">Chỉ đường</a></h5>
+									<a href="{{ url('/dia-chi-phong-kham') }}">Chỉ đường</a>
 								</h5>
 							</div>
 						</div>
