@@ -40,4 +40,11 @@ class ChuyenDeController extends Controller{
 			return view('web.chuyende.mobile.daibaoquydau');
 		}
 	}
+	public function nhiemtrunglieudao(Request $request){
+		if(BrowserDetect::isDesktop()){
+			return view('web.chuyende.mobile.nhiemtrunglieudao');
+		}else{
+			return view('web.chuyende.mobile.nhiemtrunglieudao');
+		}
+	}
 }

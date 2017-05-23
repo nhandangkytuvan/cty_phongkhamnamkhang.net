@@ -63,6 +63,8 @@
 								<img src="{{ asset('public/images/chuyende/mobile/suimaoga/suimaoga-2.png') }}" class="center-block">
 							@elseif(url()->current()==url('chuyen-de/dai-bao-quy-dau'))
 								<img src="{{ asset('public/images/chuyende/mobile/daibaoquydau/daibaoquydau-7.png') }}" class="center-block">
+							@elseif(url()->current()==url('chuyen-de/nhiem-trung-lieu-dao'))
+								<img src="{{ asset('public/images/chuyende/mobile/nhiemtrunglieudao/nhiemtrunglieudao-26.png') }}" class="center-block">
 							@else
 								<img src="{{ asset('public/images/mobile2/logo.png') }}" class="center-block">
 							@endif
@@ -82,6 +84,8 @@
 						<img src="{{ asset('public/images/chuyende/mobile/suimaoga/suimaoga-3.png') }}" alt="doc">
 					@elseif(url()->current()==url('chuyen-de/dai-bao-quy-dau'))
 						<img src="{{ asset('public/images/chuyende/mobile/daibaoquydau/daibaoquydau-8.png') }}" alt="doc">
+					@elseif(url()->current()==url('chuyen-de/nhiem-trung-lieu-dao'))
+						<img src="{{ asset('public/images/chuyende/mobile/nhiemtrunglieudao/nhiemtrunglieudao-27.png') }}" alt="doc">
 					@else
 						<img src="{{ asset('public/images/mobile/header-1.png') }}" alt="doc">
 					@endif
@@ -138,5 +142,6 @@
 	    <a class="my_popup_close btn-cancel">Từ chối</a>
 	    <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="btn-agree">Đồng ý</a>
 	</div>
+	<script language="javascript" src="http://swt.phongkham193.com/JS/LsJS.aspx?siteid=MFI63108226&float=1&lng=en"></script>
 </body>
 </html>
