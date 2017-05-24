@@ -12,6 +12,7 @@ Route::get('chuyen-de/viem-nhiem-quy-dau','Web\ChuyenDeController@viemnhiemquyda
 Route::get('chuyen-de/sui-mao-ga','Web\ChuyenDeController@suimaoga');
 Route::get('chuyen-de/dai-bao-quy-dau','Web\ChuyenDeController@daibaoquydau');
 Route::get('chuyen-de/nhiem-trung-lieu-dao','Web\ChuyenDeController@nhiemtrunglieudao');
+Route::get('chuyen-de/benh-tuyen-tien-liet','Web\ChuyenDeController@benhtuyentienliet');
 
 // Mail
 Route::post('sendmail','Web\MyMailController@sendmail');

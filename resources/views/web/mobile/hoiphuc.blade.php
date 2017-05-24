@@ -9,6 +9,13 @@
     <link rel="stylesheet" href="{{ asset('public/css/mobile/mobile-pagination.css') }}">
     <link rel="stylesheet" href="{{ asset('public/css/mobile/mobile-term.css') }}">
 @endsection('css')
+@section('banner')
+	<div>
+		<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
+			<img src="{{ asset('public/images/mobile/slide-1.png') }}" alt="" class="center-block img-responsive">
+		</a>
+	</div>
+@endsection('banner')
 @section('content')
 	<div class="container">
 		<div class="menu">

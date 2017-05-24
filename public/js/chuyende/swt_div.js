@@ -56,7 +56,7 @@ $("#c_btn").on("click",function(){
 	});
 });
 
-setTimeout("showSwt()",1000);   //第一次弹出时间
+setTimeout("showSwt()",20000);   //第一次弹出时间
 
 function showSwt()
 {

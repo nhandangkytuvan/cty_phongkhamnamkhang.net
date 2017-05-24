@@ -102,6 +102,21 @@
 			</div>
 		</div>
 	</header>
+	<div class="banner container">
+		<div class="slick-home">
+			<div>
+				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
+					@yield('banner')
+				</a>
+			</div>
+		</div>
+		<script>
+			$('.slick-home').slick({
+				autoplay: true,
+				autoplaySpeed: 4000,
+			});
+		</script>
+	</div>
 	<menu class="container">
 		<div class="dis-table width-100">
 			<a class="table-cell text-center text-uppercase" href="{{ url('/') }}" title="Trang chủ">
@@ -118,21 +133,6 @@
 			</a>
 		</div>
 	</menu>
-	<div class="banner container">
-		<div class="slick-home">
-			<div>
-				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
-					@yield('banner')
-				</a>
-			</div>
-		</div>
-		<script>
-			$('.slick-home').slick({
-				autoplay: true,
-				autoplaySpeed: 4000,
-			});
-		</script>
-	</div>
 	@yield('content')	
 	<footer>
 		<div class="container">
@@ -149,10 +149,5 @@
 	    <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="btn-agree">Đồng ý</a>
 	</div>
 	<script language="javascript" src="http://swt.phongkham193.com/JS/LsJS.aspx?siteid=MFI63108226&float=1&lng=en"></script>
-	<div id="myanimate">
-		<div class="container">	
-			Đây là đoạn animate của tôi
-		</div>
-	</div>
 </body>
 </html>

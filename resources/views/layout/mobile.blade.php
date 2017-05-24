@@ -84,11 +84,7 @@
 	</header>
 	<div class="banner container">
 		<div class="slick-home">
-			<div>
-				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
-					<img src="{{ asset('public/images/mobile/slide-1.png') }}" alt="" class="center-block img-responsive">
-				</a>
-			</div>
+			@yield('banner')
 		</div>
 		<script>
 			$('.slick-home').slick({
