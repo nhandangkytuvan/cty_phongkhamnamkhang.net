@@ -27,7 +27,7 @@ class VisitSumListener
     public function handle(VisitSumEvent $event)
     {
         if(!Session::has('user')){
-            if(rand(0,9)>=6){
+            if(rand(0,9)>=8){
                 $setting = $event->setting;
                 $setting->web_visitday = $setting->web_visitday + 1;
                 $setting->web_tuvan = $setting->web_tuvan + 1;

@@ -37,6 +37,7 @@ class AppServiceProvider extends ServiceProvider
             10=>'xuat-tinh-som.png',
             35=>'yeu-sinh-ly.png',
             31=>'MUN SINH DUC.png',
+            25=>'vo-tinh.png',
         ];
         View::share('banner_benhs',$banner_benhs);
     }

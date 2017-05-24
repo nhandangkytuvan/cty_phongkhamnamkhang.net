@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Phạm Văn Trường</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="js/jquery-1.12.3.min.js"></script>
+	<script src="css/bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/js.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top" id="navbar-example">
+	  	<div class="container">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        	<span class="sr-only">MyCV</span>
+		        	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span>
+		      	</button>
+		      	<a class="navbar-brand" href="#"><span class="fa fa-home"></span></a>
+		    </div>
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      	<ul class="nav navbar-nav">
+		        	<li class="active"><a href="javascript:;" data-target="#kinh-nghiem">Kinh nghiệm</a></li>
+		        	<li><a data-target="#cong-viec" href="javascript:;">Công việc</a></li>
+		        	<li><a data-target="#du-an" href="javascript:;">Các dự án</a></li>
+		        	<li><a data-target="#cac-cong-cu" href="javascript:;">Các công cụ</a></li>
+		        	<li><a data-target="#mong-muon" href="javascript:;">Mong muốn</a></li>
+		      	</ul>
+		    </div><!-- /.navbar-collapse -->
+	  	</div><!-- /.container-fluid -->
+	</nav>
+	<div class="container content">
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="bg-info panel panel-default">
+					<div class="panel-heading">
+						<h1 class="text-center">
+							<img src="images/user_1.jpg" class="img-responsive center-block img-circle" style="max-width: 100px;">
+						</h1>
+						<h4 class="text-center">
+							Phạm Văn Trường
+						</h4>
+					</div>
+					<ul class="list-group">
+						<li class="list-group-item">
+							<span class="fa fa-map-marker"></span>
+							Hải Dương
+						</li>
+						<li class="list-group-item">
+							<span class="fa fa-birthday-cake"></span>
+							3/2/1990
+						</li>
+						<li class="list-group-item">
+							<span class="fa fa-graduation-cap"></span>
+							ĐH Bách khoa HN -Khóa K53
+						</li>
+						<li class="list-group-item">
+							<span class="fa fa-envelope-o"></span>
+							vantruong3289@gmail.com
+						</li>
+						<li class="list-group-item">
+							<span class="fa fa-phone"></span>
+							<a href="tel:01686.390.400">01686 390 400</a>
+						</li>
+						<li class="list-group-item">
+							<span class="fa fa-heart-o"></span>
+							Độc thân
+						</li>
+					</ul>
+				</div>
+				<div class="bg-info panel panel-default">
+					<div class="panel-heading">
+						Tính cách
+					</div>
+					<ul class="list-group">
+						<li class="list-group-item">
+							<span class="label label-success">Bản thân</span> em thấy mình hiền lành, tốt bụng, sống có kỷ luật, nguyên tắc. Việc công việc tư phân minh rõ ràng.
+						</li>
+						<li class="list-group-item">
+							<span class="label label-danger">Trong công việc</span> em là người chịu khó làm,làm việc theo quy trình, trình tự.
+							hạn chế tối đã lỗi xảy ra...Có trách nhiệm với công việc, với nhiệm vụ được giao. Nếu công việc xong em sẽ rà soát lại tìm lỗi.
+						</li>
+						<li class="list-group-item">
+							<span class="label label-info">Với bạn bè</span> em thấy mình không giỏi nói chuyện vui vì quen nói sự thật, không quen trêu đùa.
+						</li>
+					</ul>
+				</div>
+				<div class="bg-info panel panel-default">
+					<div class="panel-heading">
+						Sở thích
+					</div>
+					<ul class="list-group">
+						<li class="list-group-item">
+							<span class="label label-success">Du lịch</span> Muốn biết nhiều nơi nếu có thể
+						</li>
+						<li class="list-group-item">
+							<span class="label label-danger">Ăn uống</span> Thích ăn món ăn giàu đạm,năng lượng
+						</li>
+					</ul>
+				</div>
+				<div class="bg-info panel panel-default">
+					<div class="panel-heading">
+						Tiếng anh
+					</div>
+					<ul class="list-group">
+						<li class="list-group-item">
+							<span class="label label-success">Tiếng anh</span> Có hạn, trung bình, tiếng anh chuyên ngành cơ bản. 
+							<p>Em tìm kiếm kiến thức, error, code,thư viện... trên trang nước ngoài.</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-8">
+				<div class="panel panel-default" id="kinh-nghiem">
+					<div class="panel-heading" >
+						Kinh nghiệm
+					</div>
+					<ul class="list-group">
+						<li class="list-group-item">
+							Xây Dựng HTML , CSS, Javascript từ PSD
+							<a  data-toggle="collapse" href="#collapseExample" class="pull-right" data-parent="#kinh-nghiem">
+								<span class="fa fa-angle-down"></span>
+							</a>
+							<div class="collapse" id="collapseExample">
+							  	<hr>
+							  	<ul>
+							  		<li>Sử dụng <span class="label label-danger">Photoshop</span> cắt PSD to HTML</li>
+							  		<li>Dựng web <span class="label label-danger">responsive</span></li>
+							  		<li>Thư viện css quen thuộc như bootstrap,flexgrid,...</li>
+							  		<li>Thư viện js quen thuộc như : jquery-form,datetimepicker,jquery-price,jquery-date,slick,jssor,js order table..</li>
+
+							  	</ul>
+							</div>
+						</li>
+						<li class="list-group-item">
+							Làm web bằng wordpress 
+							<a  data-toggle="collapse" href="#collapseExample1" class="pull-right" data-parent="#kinh-nghiem">
+								<span class="fa fa-angle-down"></span>
+							</a>
+							<div class="collapse" id="collapseExample1">
+							  	<hr>
+							  	<ul>
+							  		<li>Sử dụng <span class="label label-success">hàm wordpress</span> quen thuộc</li>
+							  		<li>Vòng lặp loop wordpress</li>
+							  		<li>Sử dụng <span class="label label-success">plugin quen thuộc</span> như : switch theme mobile,cache, tiny mce,wp-pagination...</li>
+							  		<li>...</li>
+							  	</ul>
+							</div>
+						</li>
+						<li class="list-group-item">
+							Làm web bằng laravel 5.x
+							<a  data-toggle="collapse" href="#collapseExample2" class="pull-right"  data-parent="#kinh-nghiem">
+								<span class="fa fa-angle-down"></span>
+							</a>
+							<div class="collapse" id="collapseExample2">
+							  	<hr>
+							  	<ul>
+							  		<li><span class="label label-danger">Xây dựng</span> backend hệ thống</li>
+							  		<li>Sử dụng <span class="label label-danger">Model View Controler</span> in Laravel</li>
+							  		<li>Sử dụng quen hầu hết <span class="label label-danger">các lớp quen</span> Pagination,Session,Validate.,Gate, Polyci,Auth...</li>
+							  		<li>Và còn nhiều hơn như Middleware,Provider,Event,Listent ,Carbon...</li>
+							  		<li>Làm quen với Pusher</li>
+							  	</ul>
+							</div>
+						</li>
+						<li class="list-group-item">
+							Mysql và phpMyadmin
+							<a  data-toggle="collapse" href="#collapseExample3" class="pull-right"  data-parent="#kinh-nghiem">
+								<span class="fa fa-angle-down"></span>
+							</a>
+							<div class="collapse" id="collapseExample3">
+							  	<hr>
+							  	<ul>
+							  		<li><span class="label label-danger">Thiết kế</span> cơ sở dữ liệu website như user,term,post,media,tag,comment,config...</li>
+							  		<li>Thiết kế cơ sở dữ liệu hệ thống tùy vào chức năng hệ thống.</li>
+							  		<li>Và còn nhiều hơn như <span class="label label-danger">truy vấn</span> dữ liệu...</li>
+							  	</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="panel panel-default" id="cong-viec">
+					<div class="panel-heading" >
+						Công việc gần đây
+					</div>
+					<ul class="list-group">
+						<li class="list-group-item">
+							<span></span>
+							Làm nhân viên lập trình Web cho Phòng khám Nam Khang 193C1 Bà Triệu
+							<a  data-toggle="collapse" href="#collapseExample5" class="pull-right" data-parent="#cong-viec">
+								<span class="fa fa-angle-down"></span>
+							</a>
+							<div class="collapse" id="collapseExample5">
+							  	<hr>
+							  	<p><span class="label label-success">Địa chỉ làm việc :</span> 146 Hoàng Văn Thái - Hà Nội</p>
+							  	<p><span class="label label-success">Thời gian :</span> 16/5/2016 - Hiện nay</p>
+							  	<p><span class="label label-success">Công việc :</span> 
+							  		Nhận thiết kế PSD sau đó làm hoàn thiện website hoạt động. Xây dựng backend quản lý dữ liệu...
+							  		<br>Sửa chữa, bổ sung nâng cấp giao diện,....
+							  	</p>
+							  	<p><span class="label label-danger">Mức lương :</span> 8.000.000 vnđ , ngoài ra có hỗ trợ ăn trưa 30k/ngày làm. Hỗ trợ chuyên cần 300k/tháng-đủ ngày công.</p>
+							  	<p><span class="label label-danger">Dự án :</span> Các website về phòng khám như <a href="http://phongkhamnamkhang.com">phongkhamnamkhang.com</a>,<a href="http://phongkhamnamkhang.net">phongkhamnamkhang.net</a>...</p>
+							  	<p><span class="label label-danger">Số lượng thành viên :</span> 1 người làm.</p>
+							</div>
+						</li>
+						<li class="list-group-item">
+							<span></span>
+							Làm Lập trình viên ngôn ngữ PHP tại các công ty cũ từ năm 2014-5/2016
+						</li>
+					</ul>
+				</div>
+				<div class="panel panel-default" id="du-an">
+					<div class="panel-heading" >
+						Các dự án gần đây
+					</div>
+					<div class="table-responsive">				
+						<table class="table table-bordered">
+							<tr>
+								<td>#</td>
+								<td>Tên</td>
+								<td>C.việc</td>
+								<td><span class="fa fa-group"></span></td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>
+									<ul>
+										<li>
+											<a href="http://www.phongkhamnamkhang.net">phongkhamnamkhang.net</a>
+										</li>
+										<li>
+											<a href="http://www.phongkhamnamkhang.com">phongkhamnamkhang.com</a>
+										</li>
+										<li>
+											<a href="http://phongkhamnamkhang.top">phongkhamnamkhang.top</a>
+										<li>
+											<a href="http://www.xuongkhophn.net">xuongkhophn.net</a>
+										</li>
+										</li>
+									</ul>
+									
+								</td>
+								<td>
+									<p>Cắt PSD tới hoàn thiện</p>
+									<p>Làm bằng Laravel 5.3</p>
+									<p></p>
+								</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>
+									<ul>
+										<li><a href="http://www.khoaxuongkhop.net">khoaxuongkhop.net</a></li>
+									</ul>
+								</td>
+								<td>
+									<p>Cắt PSD tới hoàn thiện</p>
+									<p>Làm bằng Wordpress</p>
+									<p></p>
+								</td>
+								<td>1</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div class="panel panel-default" id="cac-cong-cu">
+					<div class="panel-heading">
+						Các công cụ
+					</div>
+					<ul class="list-group">
+						<li class="list-group-item">
+							<span></span>
+							Sublime text
+						</li>
+						<li class="list-group-item">
+							<span class=""></span>
+							Photoshop CS6
+						</li>
+						<li class="list-group-item">
+							<span class="fa fa-github"></span>
+							Git and GitHub
+						</li>
+						<li class="list-group-item">
+							<span></span>
+							WinSCP
+						</li>
+					</ul>
+				</div>
+				<div class="panel panel-default" id="mong-muon">
+					<div class="panel-heading" >
+						Mong muốn
+					</div>
+					<ul class="list-group">
+						<li class="list-group-item">
+							<span class="fa fa-windows"></span>
+							Hỗ trợ máy tính làm việc
+						</li>
+						<li class="list-group-item">
+							<span class="fa fa-money"></span>
+							Mức lương từ 9.000.000 vnđ
+						</li>
+						<li class="list-group-item">
+							<span class="glyphicon glyphicon-star"></span>
+							Đầy đủ các chế độ như bảo hiểm,ngày nghỉ,lễ,tết...
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- modal popup -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="myModal" data-backdrop="static">
+	  	<div class="modal-dialog" role="document">
+	  	</div>
+	</div>
+</body>
+</html>

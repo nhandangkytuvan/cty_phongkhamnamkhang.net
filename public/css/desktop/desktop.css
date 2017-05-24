@@ -83,8 +83,8 @@ a{text-decoration: none;}
     width: 100%;
 }
 /*livechat*/
-#LRfloater0{
-  /*display: none!important;*/
+#LRfloater0,#LRfloater1{
+  display: none!important;
 }
 /**/
 .sbtn.cf a:hover {

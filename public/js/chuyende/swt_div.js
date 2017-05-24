@@ -11,9 +11,9 @@ document.writeln(".c_btn_info a{display:block;text-align:center;font-size:22px;c
 document.writeln(".c_btn_info a img{margin-bottom:5px;}");
 document.writeln(".c_btn_b{position:absolute;left:0;bottom:8%;width:100%;text-align:center;line-height:300%;}");
 document.writeln(".c_btn_b strong{color:#fff;font-size:18px;display:block;padding-bottom:15px;}");
-document.writeln(".c_btn_b a{display:inline-block;width:256px;height:45px;line-height:16px;padding-top:5px;background: url(http://phongkhamnamkhang.net/public/images/chuyende/mobile/popup/1_07.png) no-repeat 50px center #37aeec;border-radius:6px;font-size:15px;color:#fff;margin-top:0;font-weight: bold;text-decoration: none;}");
-document.writeln(".c_btn_b a.atop{ display:inline-block;margin-top:1%;background: url(http://phongkhamnamkhang.net/public/images/chuyende/mobile/popup/1_15.png) no-repeat 50px center #efc239;margin-top:20px;}.c_btn_b a:hover{ color:#fff;}.c_btn_b a:visited{ color:#fff;}.c_btn_b a:active {color: #fff;}");
-document.writeln(".c_btn_b a.atop1{ display:inline-block;margin-top:1%;background: url(http://phongkhamnamkhang.net/public/images/chuyende/mobile/popup/1_13.png) no-repeat 50px center #f48a4a;margin-top:20px;}.c_btn_b a:hover{ color:#fff;}.c_btn_b a:visited{ color:#fff;}.c_btn_b a:active {color: #fff;}");
+document.writeln(".c_btn_b a{padding-left:25px;display:inline-block;width:256px;height:45px;line-height:45px;background: url(http://phongkhamnamkhang.net/public/images/chuyende/mobile/popup/1_07.png) no-repeat 25px center #37aeec;border-radius:6px;font-size:15px;color:#fff;margin-top:0;font-weight: bold;text-decoration: none;}");
+document.writeln(".c_btn_b a.atop{ padding-left:25px;display:inline-block;margin-top:1%;background: url(http://phongkhamnamkhang.net/public/images/chuyende/mobile/popup/1_15.png) no-repeat 25px center #efc239;margin-top:20px;}.c_btn_b a:hover{ color:#fff;}.c_btn_b a:visited{ color:#fff;}.c_btn_b a:active {color: #fff;}");
+document.writeln(".c_btn_b a.atop1{ padding-left:25px;display:inline-block;margin-top:1%;background: url(http://phongkhamnamkhang.net/public/images/chuyende/mobile/popup/1_13.png) no-repeat 25px center #f48a4a;margin-top:20px;}.c_btn_b a:hover{ color:#fff;}.c_btn_b a:visited{ color:#fff;}.c_btn_b a:active {color: #fff;}");
 document.writeln(".c_btn_inner{position:absolute;width:90%;}");
 document.writeln(".c_btn_inner dt{text-align:center;color:#fff;font-size:22px;margin-bottom:10px;}");
 document.writeln(".c_btn_inner dd{width:100%;display:table;margin-bottom:10px;overflow:hidden;}");
@@ -42,9 +42,9 @@ document.writeln("            </a>");
 document.writeln("            <div style='font-size:20px;line-height:50px;font-weight:bold; color:#fff; text-align:center;' id=\"atext\"></div>");
 document.writeln("        </div>");
 document.writeln("        <div class=\"c_btn_b\">");
-document.writeln("            <a href=\"http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en\">Hỏi bác sĩ<br>trực tuyến</a><br>");
-document.writeln("            <a href=\"http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en\" class=\"atop\">Hỏi chi phí<br>điều trị</a><br>");
-document.writeln("            <a href=\"http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en\" class=\"atop1\">Xem kĩ thuật<br>điều trị</a>");
+document.writeln("            <a href=\"http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en\">Hỏi bác sĩ trực tuyến</a><br>");
+document.writeln("            <a href=\"http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en\" class=\"atop\">Hỏi chi phí điều trị</a><br>");
+document.writeln("            <a href=\"http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en\" class=\"atop1\">Xem kĩ thuật điều trị</a>");
 document.writeln("        </div>");
 
 document.writeln("    </div>");

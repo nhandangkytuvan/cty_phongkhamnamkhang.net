@@ -32,7 +32,6 @@
 	<link rel="stylesheet" type="text/css" href="{{ asset('public/css/mobile/mobile.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ asset('public/css/chuyende/mobile/mobile-header.css') }}">
 	<link rel="stylesheet" href="{{ asset('public/css/chuyende/mobile/bootstrap.css') }}">
-	<link rel="stylesheet" href="{{ asset('public/css/mobile/animate.css') }}">
 	@yield('css')
 	<!-- <link rel="stylesheet" href="{{ asset('public/css/chuyende/mobile/mobile-viem-nhiem-quy-dau-mediaqueries.css') }}"> -->
 	<script type="text/javascript" src="{{ asset('public/js/global/jquery-1.12.3.min.js') }}"></script>
@@ -40,8 +39,8 @@
 	<script type="text/javascript" src="{{ asset('public/js/global/jquery.popupoverlay.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/jquery-scrolltofixed-min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/slick/slick.js') }}"></script>
-	<script type="text/javascript" src="{{ asset('public/js/chuyende/swt_div.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/mobile/mobile.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('public/js/chuyende/swt_div.js') }}"></script>
 	@yield('js')
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -67,8 +66,6 @@
 								<img src="{{ asset('public/images/chuyende/mobile/daibaoquydau/daibaoquydau-7.png') }}" class="center-block">
 							@elseif(url()->current()==url('chuyen-de/nhiem-trung-lieu-dao'))
 								<img src="{{ asset('public/images/chuyende/mobile/nhiemtrunglieudao/nhiemtrunglieudao-26.png') }}" class="center-block">
-							@elseif(url()->current()==url('chuyen-de/benh-tuyen-tien-liet'))
-								<img src="{{ asset('public/images/chuyende/mobile/benhtuyentienliet/benhtuyentienliet-19.png') }}" class="center-block">
 							@else
 								<img src="{{ asset('public/images/mobile2/logo.png') }}" class="center-block">
 							@endif
@@ -90,8 +87,6 @@
 						<img src="{{ asset('public/images/chuyende/mobile/daibaoquydau/daibaoquydau-8.png') }}" alt="doc">
 					@elseif(url()->current()==url('chuyen-de/nhiem-trung-lieu-dao'))
 						<img src="{{ asset('public/images/chuyende/mobile/nhiemtrunglieudao/nhiemtrunglieudao-27.png') }}" alt="doc">
-					@elseif(url()->current()==url('chuyen-de/benh-tuyen-tien-liet'))
-						<img src="{{ asset('public/images/chuyende/mobile/benhtuyentienliet/benhtuyentienliet-20.png') }}" alt="doc">
 					@else
 						<img src="{{ asset('public/images/mobile/header-1.png') }}" alt="doc">
 					@endif
@@ -149,10 +144,5 @@
 	    <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="btn-agree">Đồng ý</a>
 	</div>
 	<script language="javascript" src="http://swt.phongkham193.com/JS/LsJS.aspx?siteid=MFI63108226&float=1&lng=en"></script>
-	<div id="myanimate">
-		<div class="container">	
-			Đây là đoạn animate của tôi
-		</div>
-	</div>
 </body>
 </html>

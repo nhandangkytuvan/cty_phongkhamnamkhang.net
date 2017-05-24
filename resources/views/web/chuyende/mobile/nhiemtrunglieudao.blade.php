@@ -1,7 +1,7 @@
 @extends('layout.chuyende-mobile')
 <!-- title -->
 @section('title')
-	<title>Dài bao quy đầu</title>
+	<title>Nhiễm trùng liệu đạo</title>
 @endsection('title')
 <!-- seo -->
 @section('keyword')
@@ -229,7 +229,7 @@
 			</div>
 			<div class="bg">
 				<div class="text-center text-uppercase line1">
-					RS- khắc tinh của chứng viêm – 3 ngày thấy hiệu quả
+					CRS- khắc tinh của chứng viêm – 3 ngày thấy hiệu quả
 				</div>
 				<div class="text-justify">
 					Không phẫu thuật, không mổ. Loại bỏ hiệu quả virus, đồng thời đảm bảo hình dáng cơ quan tiết niệu hoàn chỉnh và chức năng sinh lý bình thường.

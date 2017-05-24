@@ -114,7 +114,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="pull-left left3 col-sm-3 col-xs-6">
+				<div class="pull-left left3 col-sm-3 col-xs-6"  onclick="open_tuvan();">
 					<div class="flex flex-wrap-wrap align-content-around justify-content-center">
 						<div class="text-center order1 width-100">
 							Xuất hiện các triệu chứng tương tự
@@ -190,7 +190,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="pull-left left3 col-sm-3 col-xs-6">
+				<div class="pull-left left3 col-sm-3 col-xs-6"  onclick="open_tuvan();">
 					<div class="flex flex-wrap-wrap align-content-around justify-content-center">
 						<div class="text-center order1 width-100">
 							Xuất hiện các triệu chứng tương tự
@@ -282,7 +282,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="pull-left left3 col-sm-3 col-xs-6">
+				<div class="pull-left left3 col-sm-3 col-xs-6"  onclick="open_tuvan();">
 					<div class="flex flex-wrap-wrap align-content-around justify-content-center" style="background-color: #c64658;">
 						<div class="text-center order1 width-100">
 							Xuất hiện các triệu chứng tương tự
@@ -337,7 +337,7 @@
 					<img src="{{ asset('public/images/chuyende/mobile/suimaoga/suimaoga-29.png') }}" alt="" class="img-responsive">
 				</div>
 				<div class="pull-left left2">
-					<a href="">Bấm gửi</a>
+					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Bấm gửi</a>
 				</div>
 				<div class="pull-left left3">
 					<div class="text-center">Hình ảnh triệu chứng của bạn</div>
@@ -937,38 +937,10 @@
 				</div>
 			</div>
 			<script>
+				function open_tuvan(){
+					window.open("http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en","_blank");
+				}
 				$(document).ready(function() {
-					// $('.dv-nk,.tb-nk,.mt-nk').slick({
-					// 	autoplay: true,
-					// 	infinite: true,
-					// 	slidesToShow: 3,
-	  		// 			slidesToScroll: 1,
-					// 	autoplaySpeed: 5000,
-					// 	responsive: [
-					//     {
-					//       breakpoint: 1024,
-					//       settings: {
-					//         slidesToShow: 3,
-					//         slidesToScroll: 1,
-					//         infinite: true,
-					//         dots: true
-					//       }
-					//     },
-					//     {
-					//       breakpoint: 600,
-					//       settings: {
-					//         slidesToShow: 2,
-					//         slidesToScroll: 1
-					//       }
-					//     },
-					//     {
-					//       breakpoint: 480,
-					//       settings: {
-					//         slidesToShow: 2,
-					//         slidesToScroll: 1
-					//       }
-					//     }]
-					// });
 					setTimeout(function(){
 					    //do what you need here
 						$('.contents >div').eq(0).addClass('active').siblings('div').removeClass('active');

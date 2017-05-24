@@ -11,7 +11,7 @@ class MyMailController extends Controller
 		{
 		    $message->from('nhandangkytuvan@gmail.com', 'PK Nam Khang');
 		    $message->to('honghue228@gmail.com');
-		    $message->subject('Người dùng đăng ký khám !');
+		    $message->subject('Người dùng đăng ký khám');
 		});
 		return 1;
     }
