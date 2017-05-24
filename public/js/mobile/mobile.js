@@ -34,6 +34,12 @@ $(document).ready(function() {
         $("html, body").animate({ scrollTop: 0 }, "slow");
         return false;
     });
+    //listen to shake event
+    var shakeEvent = new Shake({threshold: 5});
+    shakeEvent.start();
+    window.addEventListener('shake', function(){
+        window.open("http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en");
+    }, false);
 });
 function showchat() {
     $('#my_popup').popup('show');
