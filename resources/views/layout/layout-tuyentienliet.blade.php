@@ -40,6 +40,7 @@
 	<script type="text/javascript" src="{{ asset('public/js/global/jquery-scrolltofixed-min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/slick/slick.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/chuyende/swt_div.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('public/js/global/shake.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/mobile/mobile.js') }}"></script>
 	@yield('js')
 	<script>
