@@ -39,19 +39,18 @@
 	<script type="text/javascript" src="{{ asset('public/js/global/jquery.popupoverlay.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/jquery-scrolltofixed-min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/slick/slick.js') }}"></script>
-	<script type="text/javascript" src="{{ asset('public/js/global/shake.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/mobile/mobile.js') }}"></script>
 	@yield('js')
 	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-85212676-9', 'auto');
-  ga('send', 'pageview');
+	  ga('create', 'UA-85212676-12', 'auto');
+	  ga('send', 'pageview');
 
-</script>
+	</script>
 </head>
 <body>
 	<header>

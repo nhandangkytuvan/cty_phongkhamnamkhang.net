@@ -35,10 +35,10 @@ $(document).ready(function() {
         return false;
     });
     //listen to shake event
-    var shakeEvent = new Shake({threshold: 5});
+    var shakeEvent = new Shake({threshold: 5,timeout: 1000});
     shakeEvent.start();
     window.addEventListener('shake', function(){
-        window.open("http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en");
+        window.location.href = "http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en";
     }, false);
 });
 function showchat() {
