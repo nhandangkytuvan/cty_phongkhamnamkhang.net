@@ -1,7 +1,7 @@
 @extends('layout.chuyende-mobile')
 <!-- title -->
 @section('title')
-	<title>Vô sinh</title>
+	<title>Vô sinh nam</title>
 @endsection('title')
 <!-- seo -->
 @section('keyword')
@@ -32,48 +32,48 @@
 			<div class="title text-center text-uppercase">Có phải bạn đã có một vài triệu chứng dưới đây?</div>
 			<div class="dis-table table1 width-100">
 				<div class="table-cell">
-					<div class="bg dis-table width-100">
+					<a class="bg dis-table width-100" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
 						<span class="table-cell text-center">
 							Tinh dịch vàng,<br>ít, có sợi máu
 						</span>
-					</div>
+					</a>
 				</div>
 				<div class="table-cell">
-					<div class="bg bg1 dis-table width-100">
+					<a class="bg bg1 dis-table width-100" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
 						<span class="table-cell text-center">
 							Tinh dịch không hóa lỏng,<br>thời gian hóa lỏng dài
 						</span>
-					</div>
+					</a>
 				</div>
 				<div class="table-cell">
-					<div class="bg bg2 dis-table width-100">
+					<a class="bg bg2 dis-table width-100" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
 						<span class="table-cell  text-center">
 							Nước tiểu đục,<br>sau khi đi tiểu<br>tinh dịch có màu đục
 						</span>
-					</div>
+					</a>
 				</div>
 			</div>
 			<div class="dis-table table1 table2 width-100">
 				<div class="table-cell">
-					<div class="bg bg3 dis-table width-100">
+					<a class="bg bg3 dis-table width-100" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
 						<span class="table-cell text-center">
 							Tinh dịch vàng,<br>ít, có sợi máu
 						</span>
-					</div>
+					</a>
 				</div>
 				<div class="table-cell">
-					<div class="bg bg4 dis-table width-100">
+					<a class="bg bg4 dis-table width-100" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
 						<span class="table-cell text-center">
 							Tinh dịch không hóa lỏng,<br>thời gian hóa lỏng dài
 						</span>
-					</div>
+					</a>
 				</div>
 				<div class="table-cell">
-					<div class="bg bg5 dis-table width-100">
+					<a class="bg bg5 dis-table width-100" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
 						<span class="table-cell  text-center">
 							Nước tiểu đục,<br>sau khi đi tiểu<br>tinh dịch có màu đục
 						</span>
-					</div>
+					</a>
 				</div>
 			</div>
 			<div class="global text-center">
@@ -85,19 +85,25 @@
 			<div class="dis-table table1 width-100">
 				<div class="table-cell">
 					<div>
-						<img src="{{ asset('public/images/chuyende/mobile/vosinh/vosinh-2.png') }}" alt="" class="img-responsive center-block">
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
+							<img src="{{ asset('public/images/chuyende/mobile/vosinh/vosinh-2.png') }}" alt="" class="img-responsive center-block">
+						</a>
 					</div>
 					<p class="text-center">Vô sinh do<br>ít tinh trùng</p>
 				</div>
 				<div class="table-cell">
 					<div>
-						<img src="{{ asset('public/images/chuyende/mobile/vosinh/vosinh-3.png') }}" alt="" class="img-responsive center-block">
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
+							<img src="{{ asset('public/images/chuyende/mobile/vosinh/vosinh-3.png') }}" alt="" class="img-responsive center-block">
+						</a>
 					</div>
 					<p class="text-center">Vô sinh do<br>chứng tinh trùng yếu</p>
 				</div>
 				<div class="table-cell">
 					<div>
-						<img src="{{ asset('public/images/chuyende/mobile/vosinh/vosinh-4.png') }}" alt="" class="img-responsive center-block">
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
+							<img src="{{ asset('public/images/chuyende/mobile/vosinh/vosinh-4.png') }}" alt="" class="img-responsive center-block">
+						</a>
 					</div>
 					<p class="text-center">Vô sinh do tinh<br>dịch không hóa lỏng</p>
 				</div>
@@ -105,19 +111,25 @@
 			<div class="dis-table table1 table2 width-100">
 				<div class="table-cell">
 					<div>
-						<img src="{{ asset('public/images/chuyende/mobile/vosinh/vosinh-5.png') }}" alt="" class="img-responsive center-block">
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
+							<img src="{{ asset('public/images/chuyende/mobile/vosinh/vosinh-5.png') }}" alt="" class="img-responsive center-block">
+						</a>
 					</div>
 					<p class="text-center">Vô sinh do<br>không có tinh trùng</p>
 				</div>
 				<div class="table-cell">
 					<div>
-						<img src="{{ asset('public/images/chuyende/mobile/vosinh/vosinh-6.png') }}" alt="" class="img-responsive center-block">
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
+							<img src="{{ asset('public/images/chuyende/mobile/vosinh/vosinh-6.png') }}" alt="" class="img-responsive center-block">
+						</a>
 					</div>
 					<p class="text-center">Vô sinh do rối loạn<br>chức năng sinh dục</p>
 				</div>
 				<div class="table-cell">
 					<div>
-						<img src="{{ asset('public/images/chuyende/mobile/vosinh/vosinh-7.png') }}" alt="" class="img-responsive center-block">
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
+							<img src="{{ asset('public/images/chuyende/mobile/vosinh/vosinh-7.png') }}" alt="" class="img-responsive center-block">
+						</a>
 					</div>
 					<p class="text-center">Giãn tĩnh mạch<br>thừng tinh</p>
 				</div>
@@ -130,48 +142,48 @@
 			<div class="title text-center text-uppercase">Những câu hỏi thường gặp của bệnh nhân vô sinh nam</div>
 			<div class="dis-table table1 width-100">
 				<div class="table-cell">
-					<div class="bg dis-table width-100">
+					<a class="bg dis-table width-100" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
 						<span class="table-cell text-center">
 							Thủ dâm có gây<br>vô sinh không?
 						</span>
-					</div>
+					</a>
 				</div>
 				<div class="table-cell">
-					<div class="bg dis-table width-100">
+					<a class="bg dis-table width-100" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
 						<span class="table-cell text-center">
 							Những nguyên nhân<br>nào gây vô sinh?
 						</span>
-					</div>
+					</a>
 				</div>
 				<div class="table-cell">
-					<div class="bg dis-table width-100">
+					<a class="bg dis-table width-100" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
 						<span class="table-cell  text-center">
 							Các hạng mục kiểm<br>tra và chi phí
 						</span>
-					</div>
+					</a>
 				</div>
 			</div>
 			<div class="dis-table table1 table2 width-100">
 				<div class="table-cell">
-					<div class="bg dis-table width-100">
+					<a class="bg dis-table width-100" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
 						<span class="table-cell text-center">
 							Điều trị vô sinh ở đâu tốt?
 						</span>
-					</div>
+					</a>
 				</div>
 				<div class="table-cell">
-					<div class="bg dis-table width-100">
+					<a class="bg dis-table width-100" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
 						<span class="table-cell text-center">
 							Điều trị vô sinh nam<br>có khỏi được không?
 						</span>
-					</div>
+					</a>
 				</div>
 				<div class="table-cell">
-					<div class="bg dis-table width-100">
+					<a class="bg dis-table width-100" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
 						<span class="table-cell  text-center">
 							Kĩ thuật điều trị nào tốt?
 						</span>
-					</div>
+					</a>
 				</div>
 			</div>
 		</div>
