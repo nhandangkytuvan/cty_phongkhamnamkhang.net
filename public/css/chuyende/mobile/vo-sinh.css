@@ -93,7 +93,7 @@ footer .footer-toolbar .table-cell i{display: inline-block;width: 25px;height: 2
 footer .footer-toolbar .table-cell.cell2 i.bg2{width: 35px;background-position: -188px 0px;}
 footer .footer-toolbar .table-cell.cell1 i.bg3{background-position: -405px 0px;}
 footer .footer-toolbar .table-cell.cell2:nth-child(2){background-color: #ff2600;color: #fff;}
-
+footer .footer-toolbar .table-cell.cell2 i.bg2{background-image: url('../../../images/mobile/icon-4.gif')}
 @media(min-width: 640px){
 	.img-responsive{max-width: 100%!important;width: auto;}
 	/*div.row4 .gird1 >div>div{min-height: 248px;}*/
