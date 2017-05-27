@@ -170,20 +170,15 @@ div.chuyende div.row16 div.line3{font-size: 20px;margin-top: 15px;}
 
 /*fixed*/
 footer >div:first-child{display: none;}
-footer .footer-toolbar .flex2col1{background-color: #00ad62;}
-footer .footer-toolbar .flex2col1:nth-child(2){background-color: #ff2400;}
 menu{background-color: #046349;}
-header .flex1col3 span{color: #046349;}
-header .flex1col1 div.h3, header .flex1col1 h1{color: #046349;}
-header .flex1col1 div.web-address{color: #e92426;font-weight: normal;}
 header .table-cell div.h3, header .table-cell h1{color: #046349;}
 header .table-cell span{color: #046349;}
 header .table-cell div.web-address{color: #e92426;}
 
 footer .footer-toolbar{background: none;}
 footer .footer-toolbar .flex2{min-height:40px;}
-footer .footer-toolbar .table-cell.cell1{padding:5px;background-color: #038ea7;color: #fff;width: 33%;}
+footer .footer-toolbar .table-cell.cell1{padding:5px;background-color: #00af67;color: #fff;width: 33%;}
 footer .footer-toolbar .table-cell i{display: inline-block;width: 25px;height: 26px;line-height: 26px;background-image: url('../../../images/mobile/icon-4.png');background-repeat: no-repeat;background-position: 0px 0px;}
 footer .footer-toolbar .table-cell.cell2 i.bg2{width: 35px;background-position: -188px 0px;}
 footer .footer-toolbar .table-cell.cell1 i.bg3{background-position: -405px 0px;}
-footer .footer-toolbar .table-cell.cell2:nth-child(2){background-color: #ffb400;color: #fff;}
+footer .footer-toolbar .table-cell.cell2:nth-child(2){background-color: #ff2600;color: #fff;}
