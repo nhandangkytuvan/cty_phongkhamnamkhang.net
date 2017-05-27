@@ -13,6 +13,14 @@
 <link rel="stylesheet" href="{{ asset('public/css/chuyende/mobile/bootstrap.css') }}">
 <link rel="stylesheet" href="{{ asset('public/css/chuyende/mobile/nhiem-trung-lieu-dao.css') }}">
 @endsection('css')
+<!-- logo -->
+@section('logo')
+<img src="{{ asset('public/images/chuyende/mobile/nhiemtrunglieudao/nhiemtrunglieudao-26.png') }}" class="center-block">
+@endsection('logo')
+<!-- doc -->
+@section('doc')
+<img src="{{ asset('public/images/chuyende/mobile/nhiemtrunglieudao/nhiemtrunglieudao-27.png') }}" alt="doc">
+@endsection('doc')
 <!-- banner -->
 @section('banner')
 	<img src="{{ asset('public/images/chuyende/mobile/nhiemtrunglieudao/nhiemtrunglieudao-1.png') }}" alt="Phòng khám Nam Khang" class="center-block img-responsive">

@@ -12,6 +12,14 @@
 <link rel="canonical" href="{{ url('chuyen-de/viem-nhiem-quy-dau') }}" />
 <link rel="stylesheet" href="{{ asset('public/css/chuyende/mobile/viem-nhiem-quy-dau.css') }}">
 @endsection('css')
+<!-- logo -->
+@section('logo')
+<img src="{{ asset('public/images/mobile2/logo.png') }}" class="center-block">
+@endsection('logo')
+<!-- doc -->
+@section('doc')
+<img src="{{ asset('public/images/mobile/header-1.png') }}" alt="doc">
+@endsection('doc')
 <!-- banner -->
 @section('banner')
 	<img src="{{ asset('public/images/chuyende/mobile/viemnhiemquydau/viemnhiemquydau-1.png') }}" alt="Phòng khám Nam Khang" class="center-block img-responsive">

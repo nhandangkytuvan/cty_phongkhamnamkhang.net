@@ -13,6 +13,14 @@
 <link rel="stylesheet" href="{{ asset('public/css/chuyende/mobile/bootstrap.css') }}">
 <link rel="stylesheet" href="{{ asset('public/css/chuyende/mobile/sui-mao-ga.css') }}">
 @endsection('css')
+<!-- logo -->
+@section('logo')
+	<img src="{{ asset('public/images/chuyende/mobile/suimaoga/suimaoga-2.png') }}" class="center-block">
+@endsection('logo')
+<!-- doc -->
+@section('doc')
+	<img src="{{ asset('public/images/chuyende/mobile/suimaoga/suimaoga-3.png') }}" alt="doc">
+@endsection('doc')
 <!-- banner -->
 @section('banner')
 	<img src="{{ asset('public/images/chuyende/mobile/suimaoga/suimaoga-1.png') }}" alt="Phòng khám Nam Khang" class="center-block img-responsive">
