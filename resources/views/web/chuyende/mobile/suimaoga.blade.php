@@ -1033,7 +1033,7 @@
 			</div>
 			<div class="des1">
 				<div class="row">
-					<div class="col-sm-7">
+					<div class="col-xs-7">
 						<div>
 							Đặt hẹn qua điện thoại<br>không cần xếp hàng, ưu tiên thăm khám
 						</div>
@@ -1042,7 +1042,7 @@
 							<span class="text-uppercase table-cell">Gọi điện thoại đặt lịch trước</span>
 						</div>
 					</div>
-					<div class="col-sm-5">
+					<div class="col-xs-5">
 						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="width-100 dis-table">
 							<span class="table-cell"><i class="bg2"></i></span>
 							<span class="table-cell">Đặt hẹn trong ngày</span>
