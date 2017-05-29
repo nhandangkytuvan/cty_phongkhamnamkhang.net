@@ -61,4 +61,11 @@ class ChuyenDeController extends Controller{
 			return view('web.chuyende.mobile.vosinh');
 		}
 	}
+	public function lietduong(Request $request){
+		if(BrowserDetect::isDesktop()){
+			return view('web.chuyende.mobile.lietduong');
+		}else{
+			return view('web.chuyende.mobile.lietduong');
+		}
+	}
 }
