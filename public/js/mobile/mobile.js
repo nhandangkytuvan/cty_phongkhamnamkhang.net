@@ -38,7 +38,7 @@ $(document).ready(function() {
     var shakeEvent = new Shake({threshold: 5,timeout: 1000});
     shakeEvent.start();
     window.addEventListener('shake', function(){
-        window.location.href = "http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en";
+        window.location.href = "tel:18006181";
     }, false);
 });
 function showchat() {
