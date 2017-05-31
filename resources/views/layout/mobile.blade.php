@@ -115,8 +115,8 @@
 		@yield('toolbar')	
 	</footer>
 	<script language="javascript" src="http://swt.phongkham193.com/JS/LsJS.aspx?siteid=MFI63108226&float=1&lng=en"></script>
-	@include('popup.mypopup2')
 	@include('popup.mypopup0')
+	@include('popup.mypopup2')
 	<img src="{{ asset('public/images/mobile/shake.gif') }}" alt="" style="position: fixed; top: 15%;right: 0px;z-index: 999;width:55px;">
 </body>
 </html>

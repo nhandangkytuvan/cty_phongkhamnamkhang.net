@@ -13,7 +13,7 @@
 				<div class="bg">
 					<form action="{{ url('sendmail') }}" method="post" id="formMailSend2">
 						{{ csrf_field() }}
-						<input type="text" name="phone" placeholder="Nhập số điện thoại để tư vấn" required>
+						<input type="number" name="phone" placeholder="Nhập số điện thoại để tư vấn" required>
 						<button type="submit">gửi</button>
 					</form>
 				</div>

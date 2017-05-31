@@ -40,7 +40,6 @@
 	<script type="text/javascript" src="{{ asset('public/js/global/jquery-scrolltofixed-min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/slick/slick.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/shake.js') }}"></script>
-	<script type="text/javascript" src="{{ asset('public/js/chuyende/swt_div.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/mobile/mobile.js') }}"></script>
 	@yield('js')
 	<script>
@@ -61,7 +60,17 @@
 				<div class="table-cell">
 					<div>
 						<a href="{{ url('/') }}" title="phòng khám chuyên khoa nam khang">
-							@yield('logo')
+							@if(url()->current()==url('chuyen-de/sui-mao-ga'))
+								<img src="{{ asset('public/images/chuyende/mobile/suimaoga/suimaoga-2.png') }}" class="center-block">
+							@elseif(url()->current()==url('chuyen-de/dai-bao-quy-dau'))
+								<img src="{{ asset('public/images/chuyende/mobile/daibaoquydau/daibaoquydau-7.png') }}" class="center-block">
+							@elseif(url()->current()==url('chuyen-de/nhiem-trung-lieu-dao'))
+								<img src="{{ asset('public/images/chuyende/mobile/nhiemtrunglieudao/nhiemtrunglieudao-26.png') }}" class="center-block">
+							@elseif(url()->current()==url('chuyen-de/benh-tuyen-tien-liet'))
+								<img src="{{ asset('public/images/chuyende/mobile/benhtuyentienliet/benhtuyentienliet-19.png') }}" class="center-block">
+							@else
+								<img src="{{ asset('public/images/mobile2/logo.png') }}" class="center-block">
+							@endif
 						</a>
 					</div>
 				</div>
@@ -74,7 +83,17 @@
 					<div class="web-address text-uppercase">số 193C1 bà triệu - hai bà trưng - hà nội</div>
 				</div>
 				<div class="table-cell">
-					@yield('doc')
+					@if(url()->current()==url('chuyen-de/sui-mao-ga'))
+						<img src="{{ asset('public/images/chuyende/mobile/suimaoga/suimaoga-3.png') }}" alt="doc">
+					@elseif(url()->current()==url('chuyen-de/dai-bao-quy-dau'))
+						<img src="{{ asset('public/images/chuyende/mobile/daibaoquydau/daibaoquydau-8.png') }}" alt="doc">
+					@elseif(url()->current()==url('chuyen-de/nhiem-trung-lieu-dao'))
+						<img src="{{ asset('public/images/chuyende/mobile/nhiemtrunglieudao/nhiemtrunglieudao-27.png') }}" alt="doc">
+					@elseif(url()->current()==url('chuyen-de/benh-tuyen-tien-liet'))
+						<img src="{{ asset('public/images/chuyende/mobile/benhtuyentienliet/benhtuyentienliet-20.png') }}" alt="doc">
+					@else
+						<img src="{{ asset('public/images/mobile/header-1.png') }}" alt="doc">
+					@endif
 				</div>
 				<div class="table-cell">
 					<span class="text-uppercase">Chuyên khoa<br>bệnh xã hội</span>
@@ -130,5 +149,6 @@
 	</div>
 	<script language="javascript" src="http://swt.phongkham193.com/JS/LsJS.aspx?siteid=MFI63108226&float=1&lng=en"></script>
 	<img src="{{ asset('public/images/mobile/shake.gif') }}" alt="" style="position: fixed; top: 15%;right: 0px;z-index: 999;width:55px;">
+	@include('popup.mypopup2')
 </body>
 </html>

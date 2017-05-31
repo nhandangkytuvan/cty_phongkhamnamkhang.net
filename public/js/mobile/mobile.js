@@ -12,8 +12,8 @@ $(document).ready(function() {
     var gio = d.getHours();
     var phut = d.getMinutes();
     if((7<gio&&gio<22)||(gio==22&&phut<=30)||(gio==7&&phut>=30)){
-        setTimeout(showchat, 20000);
-        setTimeout(showchat2, 15000);
+        setTimeout(showchat, 15000);
+        setTimeout(showchat2, 20000);
     }
     // 
     $('.home .row3 .table-cell').click(function(event) {
@@ -44,14 +44,14 @@ $(document).ready(function() {
 
     $("#myoverlay2 .mypopup2_close").click(function(event) {
         $("#myoverlay2").animate({top:"100%"},1000);
-        if(sodem<2){setTimeout(showchat2, 15000);}
+        //if(sodem<2){setTimeout(showchat2, 15000);}
     });
 });
 function showchat() {
     $('#my_popup').popup('show');
 }
 function showchat2() {
-    sodem++;
+    //sodem++;
     $("#myoverlay2").show();
     $("#myoverlay2").animate({top:"0"},1000);
 }
