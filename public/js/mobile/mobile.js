@@ -13,7 +13,6 @@ $(document).ready(function() {
     var phut = d.getMinutes();
     if((7<gio&&gio<22)||(gio==22&&phut<=30)||(gio==7&&phut>=30)){
         setTimeout(showchat, 15000);
-        setTimeout(showchat2, 20000);
     }
     // 
     $('.home .row3 .table-cell').click(function(event) {
@@ -41,19 +40,9 @@ $(document).ready(function() {
     window.addEventListener('shake', function(){
         window.location.href = "tel:18006181";
     }, false);
-
-    $("#myoverlay2 .mypopup2_close").click(function(event) {
-        $("#myoverlay2").animate({top:"100%"},1000);
-        //if(sodem<2){setTimeout(showchat2, 15000);}
-    });
 });
 function showchat() {
     $('#my_popup').popup('show');
-}
-function showchat2() {
-    //sodem++;
-    $("#myoverlay2").show();
-    $("#myoverlay2").animate({top:"0"},1000);
 }
 function alertFunc() {
     var obj = $('.home .row3 .table-cell.active');
