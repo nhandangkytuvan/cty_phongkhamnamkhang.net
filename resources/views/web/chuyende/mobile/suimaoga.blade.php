@@ -984,7 +984,7 @@
 							Họ tên bệnh nhân :
 						</div>
 						<div class="col-sm-8">
-							<input type="text" name="ho_va_ten" required>
+							<input type="text" name="ho_va_ten">
 						</div>
 					</div>
 					<div class="row form-group">
@@ -992,7 +992,7 @@
 							Số điện thoại :
 						</div>
 						<div class="col-sm-8">
-							<input type="text" name="phone" required>
+							<input type="number" name="phone" required>
 						</div>
 					</div>
 					<div class="row form-group">
@@ -1000,7 +1000,7 @@
 							thời gian đặt hẹn :
 						</div>
 						<div class="col-sm-8">
-							<input type="text" name="thoigian" required>
+							<input type="text" name="thoigian">
 						</div>
 					</div>
 					<div class="row form-group">
@@ -1022,12 +1022,20 @@
 						</div>
 					</div>
 				</form>
+				<div id="myloadding"><div id="mytext">Xin chờ chút...</div></div>
 				<script>
-					$(document).ready(function() {
-						$('#formMailSend').ajaxForm(function() { 
-			                alert("Cảm ơn bạn đã đăng ký!"); 
-			                $('#formMailSend').resetForm();
-			            });	
+					$(document).ready(function() 
+					{
+						$('#formMailSend').ajaxForm({
+							beforeSubmit:function(){
+								$("#myloadding").show();
+							},
+							success:function(){
+			                	alert("Cảm ơn bạn đã đăng ký!");
+			                	$("#myloadding").hide(); 
+			                	$('#formMailSend').resetForm();
+							}
+						});
 					});
 				</script>
 			</div>
