@@ -40,7 +40,7 @@
 	<script type="text/javascript" src="{{ asset('public/js/global/slick/slick.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/shake.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/mobile/mobile.js') }}"></script>
-	<script type="text/javascript" src="{{ asset('public/js/chuyende/swt_div.js') }}"></script>
+	<!-- <script type="text/javascript" src="{{ asset('public/js/chuyende/swt_div.js') }}"></script> -->
 	@yield('js')
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -116,6 +116,7 @@
 	</footer>
 	<script language="javascript" src="http://swt.phongkham193.com/JS/LsJS.aspx?siteid=MFI63108226&float=1&lng=en"></script>
 	@include('popup.mypopup0')
+	@include('popup.mypopup2')
 	<img src="{{ asset('public/images/mobile/shake.gif') }}" alt="" style="position: fixed; top: 15%;right: 0px;z-index: 999;width:55px;">
 </body>
 </html>

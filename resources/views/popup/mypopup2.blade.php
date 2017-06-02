@@ -26,15 +26,24 @@
 		</div>
 	</div>
 	<script>
-		$(document).ready(function() {
-			$('#formMailSend2').ajaxForm(function() { 
-	            alert("Cảm ơn bạn đã đăng ký!"); 
-	            $('#formMailSend2').resetForm();
-	            $('#mypopup2').popup('hide');
-	        });	
+		$(document).ready(function() 
+		{
+			$('#formMailSend2').ajaxForm(
+			{
+				beforeSubmit:function(){
+					document.getElementById("myloadding").style.display = "block";
+				},
+				success:function() { 
+			       	alert("Cảm ơn bạn đã đăng ký!"); 
+			       	document.getElementById("myloadding").style.display = "none";
+			        $('#formMailSend2').resetForm();  
+			        $("#myoverlay2").animate({top:"100%"},1000);  
+			    },
+			})
 		});
 	</script>
 	<div class="pos-absolute mypopup2_close">
 		<img src="{{ asset('public/images/popup/mypopup1/mypopup-2.png') }}" alt="">
 	</div>
 </div>
+<div id="myloadding"><div id="mytext">Xin chờ chút...</div></div>
