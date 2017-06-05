@@ -4,7 +4,6 @@ namespace App\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
-
 class Kernel extends ConsoleKernel
 {
     /**
@@ -14,6 +13,7 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         //
+        \App\Console\Commands\ResetVisit::class,
     ];
 
     /**
@@ -26,6 +26,17 @@ class Kernel extends ConsoleKernel
     {
         // $schedule->command('inspire')
         //          ->hourly();
+        //$schedule->call(function () {
+            // $mysetting = Setting::find(1);
+            // $mysetting->web_tuvan ++;
+            // $mysetting->web_dathen ++;
+            // $mysetting->save();
+            // DB::table('setting')
+            //     ->where('id', 1)
+            //     ->update(['web_tuvan' => 99,'web_dathen' => 12]);
+        //})->everyMinute();
+        $schedule->command('reset:visit')
+             ->everyMinute();
     }
 
     /**
