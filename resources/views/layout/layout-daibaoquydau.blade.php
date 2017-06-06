@@ -55,8 +55,20 @@
 </script>
 </head>
 <body>
+	<div id="my-header">
+		<div class="container">
+			<a href="{{ MyAPI::getUrlPostID(424) }}">
+				<img src="{{ asset('public/images/chuyende/mobile/daibaoquydau/gif.gif') }}" alt="" class="img-responsive center-block">
+			</a>
+		</div>
+	</div>
 	<header>
 		<div class="container">
+			<script>
+				$(document).ready(function() {
+				  	$('#my-header').scrollToFixed();
+				});
+			</script>
 			<div class="dis-table width-100">
 				<div class="table-cell">
 					<div>

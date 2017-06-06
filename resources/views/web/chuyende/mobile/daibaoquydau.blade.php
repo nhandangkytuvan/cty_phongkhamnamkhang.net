@@ -1,4 +1,4 @@
-@extends('layout.chuyende-mobile')
+@extends('layout.layout-daibaoquydau')
 <!-- title -->
 @section('title')
 	<title>Dài bao quy đầu</title>
