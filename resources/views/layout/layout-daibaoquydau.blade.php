@@ -62,13 +62,13 @@
 			</a>
 		</div>
 	</div>
+	<script>
+		$(document).ready(function() {
+		  	$('#my-header').scrollToFixed();
+		});
+	</script>
 	<header>
 		<div class="container">
-			<script>
-				$(document).ready(function() {
-				  	$('#my-header').scrollToFixed();
-				});
-			</script>
 			<div class="dis-table width-100">
 				<div class="table-cell">
 					<div>

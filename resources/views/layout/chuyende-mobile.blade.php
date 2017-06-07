@@ -41,7 +41,7 @@
 	<script type="text/javascript" src="{{ asset('public/js/global/slick/slick.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/shake.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/mobile/mobile.js') }}"></script>
-	<!-- <script type="text/javascript" src="{{ asset('public/js/chuyende/swt_div.js') }}"></script> -->
+	<script type="text/javascript" src="{{ asset('public/js/chuyende/swt_div.js') }}"></script>
 	@yield('js')
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -55,6 +55,18 @@
 </script>
 </head>
 <body>
+	<div id="my-header">
+		<div class="container">
+			<a href="{{ MyAPI::getUrlPostID(424) }}">
+				<img src="{{ asset('public/images/chuyende/mobile/daibaoquydau/gif.gif') }}" alt="" class="img-responsive center-block">
+			</a>
+		</div>
+	</div>
+	<script>
+		$(document).ready(function() {
+		  	$('#my-header').scrollToFixed();
+		});
+	</script>
 	<header>
 		<div class="container">
 			<div class="dis-table width-100">
@@ -107,7 +119,11 @@
 	<div class="banner container">
 		<div class="slick-home">
 			<div>
-				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
+				@if(url()->current()==url('chuyen-de/dai-bao-quy-dau'))
+					<a href="{{ MyAPI::getUrlPostID(424) }}">
+				@else
+					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
+				@endif
 					@yield('banner')
 				</a>
 			</div>
@@ -128,7 +144,7 @@
 		</div>
 		@yield('toolbar')	
 	</footer>
-	
+	@include('popup.mypopup0')
 	<script language="javascript" src="http://swt.phongkham193.com/JS/LsJS.aspx?siteid=MFI63108226&float=1&lng=en"></script>
 	<img src="{{ asset('public/images/mobile/shake.gif') }}" alt="" style="position: fixed; top: 15%;right: 0px;z-index: 999;width:55px;">
 </body>

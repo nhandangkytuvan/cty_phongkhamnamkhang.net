@@ -12,7 +12,7 @@
 @section('content')
 	<main>
 		<div class="row1">
-			<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
+			<a href="{{ MyAPI::getUrlPostID(424) }}">
 				<img src="{{ asset('public/images/chuyende/catbaoquydau/catbaoquydau-1.png') }}" class="img-responsive center-block">
 			</a>
 		</div>
