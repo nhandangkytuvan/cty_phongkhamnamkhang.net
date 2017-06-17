@@ -38,7 +38,7 @@
 	<div>
 		Hiện tại có 
 		@php 
-			$web_dathen = $setting->web_dathen;
+			$web_dathen = 98;
 			$web_dathen = str_split($web_dathen);
             if(count($web_dathen)==1){
                 array_unshift($web_dathen,'0');

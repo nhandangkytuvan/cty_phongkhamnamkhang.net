@@ -233,11 +233,6 @@
 				</div>
 			</div>
 		</div>
-		<div class="footer-status text-center">
-			<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
-				<img src="{{ asset('public/images/desktop/namkhang.gif') }}" alt="">
-			</a>
-		</div>
 	</footer>
 	<script language="javascript" src="http://swt.phongkham193.com/JS/LsJS.aspx?siteid=MFI63108226&float=1&lng=en"></script>
 	<div id="popup-desktop">
