@@ -44,7 +44,7 @@ header .flex1col1:nth-child(3) .flex3col2 h2{
 	font-weight: 800;
 }
 header .flex1col1:nth-child(3) .flex3col2 h2:nth-child(3){
-	margin-top: -8px;
+	/*margin-top: -8px;*/
 }
 /**/
 menu{
