@@ -1,6 +1,7 @@
 <?php
 // web
 Route::get('/', 'Web\HomeController@show');
+Route::get('/sua-trang-chu', function(){return view('web.desktop.home2');});
 Route::get('/sitemap.xml', 'Web\HomeController@sitemap');
 Route::get('/ve-chung-toi', 'Web\HomeController@about');
 Route::get('/dia-chi-phong-kham', 'Web\HomeController@address');
