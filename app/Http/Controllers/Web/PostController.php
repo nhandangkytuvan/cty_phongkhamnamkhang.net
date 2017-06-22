@@ -10,13 +10,13 @@ use BrowserDetect;
 class PostController extends Controller{
     public function show($post_alias,$post_id,Request $request){
     	$setting = Setting::first();
-        event(new VisitSumEvent($setting));
+        //event(new VisitSumEvent($setting));
     	$post = Post::find($post_id);
         if(!$post){
             return redirect('/');
         }
         // --------------
-        event(new VisitPostEvent($post));
+        //event(new VisitPostEvent($post));
         // ------------
         $data['post'] = $post;
         if(BrowserDetect::isDesktop()){

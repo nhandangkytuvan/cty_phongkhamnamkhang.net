@@ -17,7 +17,6 @@ Route::get('chuyen-de/benh-tuyen-tien-liet','Web\ChuyenDeController@benhtuyentie
 Route::get('chuyen-de/vo-sinh','Web\ChuyenDeController@vosinh');
 Route::get('chuyen-de/liet-duong','Web\ChuyenDeController@lietduong');
 Route::get('chuyen-de/tong-hop','Web\ChuyenDeController@tonghop');
-
 // Mail
 Route::post('sendmail','Web\MyMailController@sendmail');
 Route::post('sendphone','Web\MyMailController@sendphone');
