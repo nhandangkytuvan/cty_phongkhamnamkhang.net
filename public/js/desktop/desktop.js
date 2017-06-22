@@ -62,7 +62,12 @@ $(document).ready(function() {
         myinter = setInterval( home_kythuatnamkhoa, 3000);
     });
     //
-    $(".popup-desktop_close").click(function(event) {
+    window.setInterval(function(){
+        $("#popup-desktop >.content-popup>.linktv >.table1 tr td:nth-child(2) a").toggleClass('active');
+        $("#popup-desktop >.content-popup>.nhapsodienthoai button").toggleClass('active');
+    }, 1000);
+    //
+    $(".popup_desktop_close").click(function(event) {
         //$('#popup-desktop').css('display', 'none');
         $('#popup-desktop').removeClass('active');
         setTimeout(showchat, 20000);

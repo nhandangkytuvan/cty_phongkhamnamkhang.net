@@ -111,16 +111,19 @@ div.row7 .line1{font-size: 24px;padding-bottom: 10px;border-bottom: 2px solid #f
 div.row7 .line1 span:nth-child(1){display: inline-block;vertical-align: middle;width: 46px;height: 39px;background-color: #fff;text-align: center;line-height: 39px;}
 div.row7 .line1 span:nth-child(2){font-weight: bold;color: #fff;}
 div.row7 .line1 span:nth-child(4){color: #fba100;}
-div.row7 .line2{margin-top: 45px;}
-div.row7 .line2 table{border-spacing: 16px;margin:0px auto;}
-div.row7 .line2 table td:nth-child(1){width: 372px;}
-div.row7 .line2 table td:nth-child(n+2){width: 172px;}
-div.row7 .line2 input{height: 42px;width: 100%;border:2px solid #afd3e1;border-radius: 3px;color: #0075a5;padding-left: 20px;outline: none;background-color: #a2c6d5;}
-div.row7 .line2 select{height: 42px;width: 100%;border:2px solid #afd3e1;border-radius: 3px;color: #0075a5;padding-left: 20px;outline: none;background-color: #a2c6d5;}
-div.row7 .line2 textarea{height: 102px;color: #0075a5;background-color: #a2c6d5;border:2px solid #afd3e1;border-radius: 3px;width: 100%;padding-left: 20px;padding-top: 10px;}
-div.row7 .line2 button{width: 106px;height: 38px;background-color: #fff;color: #0075a5;font-size: 20px;border:none;outline: none;border-radius: 3px;margin-top: 30px;cursor: pointer;}
-div.row7 .line2 button:hover{background-color: #d05b6e;color: #fff;}
-
+div.row7 .line2{margin-top: 20px;background-image: url('../../images/desktop2/chuyende-50.png');background-repeat: no-repeat;height: 322px;}
+div.row7 .name{text-align: center;color: #2a2a2a;font-size: 30px;padding-top: 35px;text-transform: uppercase;}
+div.row7 .img{margin-top: 20px;}
+div.row7 .des{margin-top: 25px;}
+div.row7 .note{text-align: center;color: #ee6225;font-size: 18px;text-transform: uppercase;margin-top: 25px;}
+div.row7 .sendmail{text-align: center;margin-top: 25px;}
+div.row7 .sendmail input{width: 402px;height: 38px;outline: none;border:1px solid #fff;background-color: #dedddd;color: #0075a5;padding-left: 10px;}
+div.row7 .sendmail button{outline: none;border:1px solid #fff;background-color: #ee6225;color: #fff;width: 185px;text-align: center;height: 38px;}
+div.row7 .lists{margin-top: 25px;text-align: center;}
+div.row7 .lists i{color: #794033;}
+div.row7 .lists a{margin-left: 10px;}
+div.row7 .lists a:nth-child(1){margin-left: 35px;}
+div.row7 .sendmail button:hover{background-color: #34809b;cursor: pointer;}
 
 /*effect*/
 div.row6 .line2 .flex3 .flex3col2 h5 a:hover{text-decoration: underline;}

@@ -235,12 +235,6 @@
 		</div>
 	</footer>
 	<script language="javascript" src="http://swt.phongkham193.com/JS/LsJS.aspx?siteid=MFI63108226&float=1&lng=en"></script>
-	<div id="popup-desktop">
-		<div class="pos-relative">
-			<a class="dis-inline-block pos-absolute popup-desktop_close"></a>
-			<a class="dis-inline-block pos-absolute tuvan1" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"></a>
-			<a class="dis-inline-block pos-absolute tuvan2" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"></a>
-		</div>
-	</div>
+	@include('popup.desktopPopup1')
 </body>
 </html>

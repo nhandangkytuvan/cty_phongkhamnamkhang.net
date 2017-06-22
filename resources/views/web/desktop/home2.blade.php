@@ -584,68 +584,47 @@
 		</div>
 		<div class="row7">
 			<div class="container">
-				<div class="line1">
-					<span><img src="{{ asset('public/images/desktop2/home-29.png') }}" alt=""></span>
-					<span>CỔNG ĐẶT HẸN TRỰC TUYẾN</span>
-					<span>/</span>
-					<span>ONLINE APPOINTMENT</span>
-				</div>
 				<div class="line2">
-					<form action="{{ url('sendmail') }}" method="post" id="formMailSend">
-						{{ csrf_field() }}
-						<table>
-							<tr>
-								<td><input name="ho_va_ten" type="text" required placeholder="Xin mời nhập họ tên"></td>
-								<td>
-									<select name="gioi_tinh">
-										<option value="">Giới tính</option>
-										<option value="Nam">Nam</option>
-										<option value="Nữ">Nữ</option>
-									</select>
-								</td>
-								<td>
-									<input type="text" name="tuoi" placeholder="Tuổi">
-								</td>
-							</tr>
-							<tr>
-								<td><input type="text" required name="phone" placeholder="Xin mời nhập số điện thoại"></td>
-								<td colspan="2" rowspan="2">
-									<textarea name="mieutabenh" placeholder="Xin mời nhập triệu trứng"></textarea>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<input type="date" placeholder="Ngày đến khám" name="thoigian">
-								</td>
-							</tr>
-							<tr>
-								<td colspan="3">
-									<div class="text-center">
-										<button class="text-uppercase" type="submit">Gửi</button>
-									</div>
-								</td>
-							</tr>
-						</table>
-					</form>
-					<script>
-						$(document).ready(function() 
-						{
-							$('#formMailSend').ajaxForm(
+					<div class="name">Tư vấn nhanh qua đường dây nóng (miễn phí)</div>
+					<div class="img">
+						<img src="{{ asset('public/images/desktop2/chuyende-49.png') }}" alt="" class="center-block">
+					</div>
+					<div class="des text-center">
+						Mời bạn nhập số điện thoại vào ô trống dưới đây, bác sĩ của chúng tôi sẽ đích thân liên hệ với bạn qua số điện thoại này, giải đáp các thắc mắc của bạn.
+					</div>
+					<div class="note">
+						Lưu ý: Bác sĩ gọi lại, nghe điện miễn phí, bạn cứ yên tâm!
+					</div>
+					<div class="sendmail">
+						<form action="{{ url('sendmail') }}" method="post" id="formMailSend">
+							{{ csrf_field() }}
+							<input type="number" required name="phone" placeholder="Mời nhập số điện thoại của bạn">
+							<button type="submit">Trò chuyện ngay</button>
+						</form>
+						<script>
+							$(document).ready(function() 
 							{
-								beforeSubmit:function(){
-									$("#myloadding").show();
-								},
-								success:function(){
-					                alert("Cảm ơn bạn đã đăng ký!");
-					                $("#myloadding").hide(); 
-					                $('#formMailSend').resetForm();
-								}
+								$('#formMailSend').ajaxForm(
+								{
+									beforeSubmit:function(){
+										$("#myloadding").show();
+									},
+									success:function(){
+						                alert("Cảm ơn bạn đã đăng ký!");
+						                $("#myloadding").hide(); 
+						                $('#formMailSend').resetForm();
+									}
+								});
 							});
-						});
-					</script>
+						</script>
+					</div>
+					<div class="lists">
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-circle-o"></i> Trò chuyện tại nhà cùng bác sĩ</a>
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-circle-o"></i> Tư vấn từ xa, tiết kiệm thời gian công sức</a>
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-circle-o"></i> Nghe điện miễn phí, xin hãy yên tâm</a>
+					</div>
 				</div>
 			</div>
 		</div>
 	</main>
-	<div id="myloadding"><div id="mytext">Xin chờ chút...</div></div>
 @endsection('content')
