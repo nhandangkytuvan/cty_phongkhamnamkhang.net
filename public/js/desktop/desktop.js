@@ -22,14 +22,14 @@ $(document).ready(function() {
         
     });
 
-	$('#popup-desktop').popup({
-        blur:false,
-        transition: 'all 0.3s',
-        scrolllock: false,
-        background: false,
-        backgroundactive:false,
-        onclose: function() {setTimeout(showchat, 20000);}
-    });
+	// $('#popup-desktop').popup({
+ //        blur:false,
+ //        transition: 'all 0.3s',
+ //        scrolllock: false,
+ //        background: false,
+ //        backgroundactive:false,
+ //        onclose: function() {setTimeout(showchat, 20000);}
+ //    });
     var d = new Date();
     var gio = d.getHours();
     var phut = d.getMinutes();
@@ -61,6 +61,12 @@ $(document).ready(function() {
         $(this).siblings('div').fadeIn();
         myinter = setInterval( home_kythuatnamkhoa, 3000);
     });
+    //
+    $(".popup-desktop_close").click(function(event) {
+        //$('#popup-desktop').css('display', 'none');
+        $('#popup-desktop').removeClass('active');
+        setTimeout(showchat, 20000);
+    });
 });
 //
 function open_tuvan(){
@@ -68,7 +74,8 @@ function open_tuvan(){
 }
 //
 function showchat() {
-    $('#popup-desktop').popup('show');
+    //$('#popup-desktop').popup('show');
+    $('#popup-desktop').addClass('active');
 }
 //
 // kythuat nam khoa slide
