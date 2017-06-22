@@ -199,25 +199,25 @@
 				<div class="line2">
 					<div class="flex flex1 justify-content-between">
 						<div class="flex1col1">
-							<div class="img">
+							<div class="img hvr-rotate">
 								<img src="{{ asset('public/images/desktop2/home-13.png') }}" alt="" class="center-block">
 							</div>
 							<h3 class="text-center text-uppercase">Quầy lễ tân</h3>
 						</div>
 						<div class="flex1col1">
-							<div class="img">
+							<div class="img hvr-rotate">
 								<img src="{{ asset('public/images/desktop2/home-14.png') }}" alt="" class="center-block">
 							</div>
 							<h3 class="text-center text-uppercase">Phòng khám bệnh</h3>
 						</div>
 						<div class="flex1col1">
-							<div class="img">
+							<div class="img hvr-rotate">
 								<img src="{{ asset('public/images/desktop2/home-15.png') }}" alt="" class="center-block">
 							</div>
 							<h3 class="text-center text-uppercase">Phòng truyền</h3>
 						</div>
 						<div class="flex1col1">
-							<div class="img">
+							<div class="img hvr-rotate">
 								<img src="{{ asset('public/images/desktop2/home-16.png') }}" alt="" class="center-block">
 							</div>
 							<h3 class="text-center text-uppercase">Phòng thủ thuật</h3>
