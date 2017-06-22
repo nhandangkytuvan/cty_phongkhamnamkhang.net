@@ -25,3 +25,8 @@
 	right: 58px;
     top: 209px;
 }
+
+#popup-desktop{position: fixed;left: calc(50% - 235px);top: calc(50% - 125px);width:469px;height: 255px;transition: all .8s ease-out 0s;transform: scale(0, 0);}
+#popup-desktop.active {transform: scale(1, 1); }
+
+

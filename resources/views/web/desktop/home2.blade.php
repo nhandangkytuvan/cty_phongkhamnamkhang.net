@@ -37,15 +37,15 @@
 							<div class="table-cell cell2">
 								<table class="width-100">
 									<tr>
-										<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Viêm tuyến tiền liệt</a></td>
+										<td class="text-left"><a href="{{ MyAPI::getUrlTermID(3) }}"><i class="fa fa-circle"></i> Viêm tuyến tiền liệt</a></td>
 									</tr>
 									<tr>
-										<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Phì đại tuyến tiền liệt</a></td>
+										<td class="text-left"><a href="{{ MyAPI::getUrlTermID(6) }}"><i class="fa fa-circle"></i> Phì đại tuyến tiền liệt</a></td>
 									</tr>
 									<tr>
-										<td class="text-left"><a href="#"><i class="fa fa-circle"></i> U nang tuyến tiền liệt</a></td>
+										<td class="text-left"><a href="{{ MyAPI::getUrlTermID(4) }}"><i class="fa fa-circle"></i> U nang tuyến tiền liệt</a></td>
 									</tr>
-										<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Tăng sinh tuyến tiền liệt</a></td>
+										<td class="text-left"><a href="{{ MyAPI::getUrlTermID(5) }}"><i class="fa fa-circle"></i> Tăng sinh tuyến tiền liệt</a></td>
 									</tr>
 								</table>
 							</div>
@@ -59,15 +59,15 @@
 							<div class="table-cell cell2">
 								<table class="width-100">
 									<tr>
-										<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Liệt dương</a></td>
+										<td class="text-left"><a href="{{ MyAPI::getUrlTermID(8) }}"><i class="fa fa-circle"></i> Liệt dương</a></td>
 									</tr>
 									<tr>
-										<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Rối loạn cương dương</a></td>
+										<td class="text-left"><a href="{{ MyAPI::getUrlTermID(9) }}"><i class="fa fa-circle"></i> Rối loạn cương dương</a></td>
 									</tr>
 									<tr>
-										<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Xuất tinh sớm</a></td>
+										<td class="text-left"><a href="{{ MyAPI::getUrlTermID(10) }}"><i class="fa fa-circle"></i> Xuất tinh sớm</a></td>
 									</tr>
-										<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Yếu sinh lý</a></td>
+										<td class="text-left"><a href="{{ MyAPI::getUrlTermID(35) }}"><i class="fa fa-circle"></i> Yếu sinh lý</a></td>
 									</tr>
 								</table>
 							</div>
@@ -81,15 +81,15 @@
 							<div class="table-cell cell2">
 								<table class="width-100">
 									<tr>
-										<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Dài bao quy đầu</a></td>
+										<td class="text-left"><a href="{{ MyAPI::getUrlTermID(13) }}"><i class="fa fa-circle"></i> Dài bao quy đầu</a></td>
 									</tr>
 									<tr>
-										<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Kéo dài dương vật</a></td>
+										<td class="text-left"><a href="{{ MyAPI::getUrlTermID(14) }}"><i class="fa fa-circle"></i> Kéo dài dương vật</a></td>
 									</tr>
 									<tr>
-										<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Thủ thuật hẹp bao quy đầu</a></td>
+										<td class="text-left"><a href="{{ MyAPI::getUrlTermID(15) }}"><i class="fa fa-circle"></i> Thủ thuật hẹp bao quy đầu</a></td>
 									</tr>
-										<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Tăng kích thước dương vật</a></td>
+										<td class="text-left"><a href="{{ MyAPI::getUrlTermID(16) }}"><i class="fa fa-circle"></i> Tăng kích thước dương vật</a></td>
 									</tr>
 								</table>
 							</div>
@@ -103,15 +103,15 @@
 							<div class="table-cell cell2">
 								<table class="width-100">
 									<tr>
-										<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Viêm quy đầu</a></td>
+										<td class="text-left"><a href="{{ MyAPI::getUrlTermID(18) }}"><i class="fa fa-circle"></i> Viêm quy đầu</a></td>
 									</tr>
 									<tr>
-										<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Viêm bàng quang</a></td>
+										<td class="text-left"><a href="{{ MyAPI::getUrlTermID(19) }}"><i class="fa fa-circle"></i> Viêm bàng quang</a></td>
 									</tr>
 									<tr>
-										<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Viêm niệu đạo</a></td>
+										<td class="text-left"><a href="{{ MyAPI::getUrlTermID(20) }}"><i class="fa fa-circle"></i> Viêm niệu đạo</a></td>
 									</tr>
-										<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Viêm tinh hoàn</a></td>
+										<td class="text-left"><a href="{{ MyAPI::getUrlTermID(21) }}"><i class="fa fa-circle"></i> Viêm tinh hoàn</a></td>
 									</tr>
 								</table>
 							</div>
@@ -125,15 +125,15 @@
 							<div class="table-cell cell2">
 								<table class="width-100">
 									<tr>
-										<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Tinh trùng ít</a></td>
+										<td class="text-left"><a href="{{ MyAPI::getUrlTermID(23) }}"><i class="fa fa-circle"></i> Tinh trùng ít</a></td>
 									</tr>
 									<tr>
-										<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Xuất tinh ra máu</a></td>
+										<td class="text-left"><a href="{{ MyAPI::getUrlTermID(24) }}"><i class="fa fa-circle"></i> Xuất tinh ra máu</a></td>
 									</tr>
 									<tr>
-										<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Vô tinh</a></td>
+										<td class="text-left"><a href="{{ MyAPI::getUrlTermID(25) }}"><i class="fa fa-circle"></i> Vô tinh</a></td>
 									</tr>
-										<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Tinh trùng yếu</a></td>
+										<td class="text-left"><a href="{{ MyAPI::getUrlTermID(26) }}"><i class="fa fa-circle"></i> Tinh trùng yếu</a></td>
 									</tr>
 								</table>
 							</div>
@@ -147,15 +147,15 @@
 							<div class="table-cell cell2">
 								<table class="width-100">
 									<tr>
-										<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Sùi mào gà</a></td>
+										<td class="text-left"><a href="{{ MyAPI::getUrlTermID(28) }}"><i class="fa fa-circle"></i> Sùi mào gà</a></td>
 									</tr>
 									<tr>
-										<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Giang mai</a></td>
+										<td class="text-left"><a href="{{ MyAPI::getUrlTermID(29) }}"><i class="fa fa-circle"></i> Giang mai</a></td>
 									</tr>
 									<tr>
-										<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Bệnh lậu</a></td>
+										<td class="text-left"><a href="{{ MyAPI::getUrlTermID(30) }}"><i class="fa fa-circle"></i> Bệnh lậu</a></td>
 									</tr>
-										<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Mụn rộp sinh dục</a></td>
+										<td class="text-left"><a href="{{ MyAPI::getUrlTermID(31) }}"><i class="fa fa-circle"></i> Mụn rộp sinh dục</a></td>
 									</tr>
 								</table>
 							</div>
@@ -177,7 +177,7 @@
 							Phòng khám Nam Khang Hà Nội là cơ sở y tế chuyên điều trị nam khoa hiếm có ở khu vực Hà Nội, phòng khám đạt tiêu chuẩn y tế JCI quốc tế, hội tụ đội ngũ chuyên gia cao cấp trong và ngoài nước, dịch vụ chất lượng cao, môi trường khám chữa bệnh ấm cúng đạt chất lượng 5 sao, vượt qua mô hình truyền thống của ngành y tế Hà Nội, mở ra thời đại mới về khám điều trị bệnh nam khoa đỉnh cao tại Hà Nội, kết hợp với dịch vụ đặc biệt chuyên khoa, chuyên bệnh, chuyên trị, xây dựng thương hiệu chuyên nghiệp về nam khoa trên toàn quốc.
 						</div>
 						<div class="line3 text-center">
-							<a href="#" class="dis-inline-block text-center">Xem chi tiết</a>
+							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block text-center hvr-float-shadow">Xem chi tiết</a>
 						</div>
 					</div>
 					<div class="flex1col2">
@@ -591,45 +591,61 @@
 					<span>ONLINE APPOINTMENT</span>
 				</div>
 				<div class="line2">
-					<table>
-						<tr>
-							<td><input type="text" placeholder="Xin mời nhập họ tên"></td>
-							<td>
-								<select name="">
-									<option value="">Giới tính</option>
-									<option value="">Nam</option>
-									<option value="">Nữ</option>
-								</select>
-							</td>
-							<td>
-								<select name="">
-									<option value="">Tuổi</option>
-								</select>
-							</td>
-						</tr>
-						<tr>
-							<td><input type="text" placeholder="Xin mời nhập số điện thoại"></td>
-							<td colspan="2" rowspan="2">
-								<textarea name="" placeholder="Xin mời nhập triệu trứng"></textarea>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<select name="">
-									<option value="">Ngày đến khám</option>
-								</select>
-							</td>
-						</tr>
-						<tr>
-							<td colspan="3">
-								<div class="text-center">
-									<button class="text-uppercase" type="submit">Gửi</button>
-								</div>
-							</td>
-						</tr>
-					</table>
+					<form action="{{ url('sendmail') }}" method="post" id="formMailSend">
+						{{ csrf_field() }}
+						<table>
+							<tr>
+								<td><input name="ho_va_ten" type="text" required placeholder="Xin mời nhập họ tên"></td>
+								<td>
+									<select name="gioi_tinh">
+										<option value="">Giới tính</option>
+										<option value="Nam">Nam</option>
+										<option value="Nữ">Nữ</option>
+									</select>
+								</td>
+								<td>
+									<input type="text" name="tuoi" placeholder="Tuổi">
+								</td>
+							</tr>
+							<tr>
+								<td><input type="text" required name="phone" placeholder="Xin mời nhập số điện thoại"></td>
+								<td colspan="2" rowspan="2">
+									<textarea name="mieutabenh" placeholder="Xin mời nhập triệu trứng"></textarea>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="date" placeholder="Ngày đến khám" name="thoigian">
+								</td>
+							</tr>
+							<tr>
+								<td colspan="3">
+									<div class="text-center">
+										<button class="text-uppercase" type="submit">Gửi</button>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</form>
+					<script>
+						$(document).ready(function() 
+						{
+							$('#formMailSend').ajaxForm(
+							{
+								beforeSubmit:function(){
+									$("#myloadding").show();
+								},
+								success:function(){
+					                alert("Cảm ơn bạn đã đăng ký!");
+					                $("#myloadding").hide(); 
+					                $('#formMailSend').resetForm();
+								}
+							});
+						});
+					</script>
 				</div>
 			</div>
 		</div>
 	</main>
+	<div id="myloadding"><div id="mytext">Xin chờ chút...</div></div>
 @endsection('content')

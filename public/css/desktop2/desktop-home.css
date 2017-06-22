@@ -23,7 +23,7 @@ div.row2 .flex1col1 .line1{font-size: 24px;text-transform: uppercase;}
 div.row2 .flex1col1 .line1 span:nth-child(1){color: #007eb1;}
 div.row2 .flex1col1 .line1 span:nth-child(3){color: #fba100;}
 div.row2 .flex1col1 .line2{margin-top: 35px;color: #373737;line-height: 18px;}
-div.row2 .flex1col1 .line3{margin-top: 35px;}
+div.row2 .flex1col1 .line3{margin-top: 40px;}
 div.row2 .flex1col1 .line3 a{height: 40px;width: 190px;background-color: #a75009;color: #fff;line-height: 40px;border-radius: 5px;}
 /**/
 div.row3{background-image: url('../../images/desktop2/home-11.png');background-repeat: no-repeat;margin-top: 20px;height: 413px;padding-top: 30px;}
@@ -125,8 +125,8 @@ div.row7 .line2 button:hover{background-color: #d05b6e;color: #fff;}
 /*effect*/
 div.row6 .line2 .flex3 .flex3col2 h5 a:hover{text-decoration: underline;}
 
-
-
+#myloadding {position: fixed; display: none; width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0,0,0,0.6); z-index: 100003; cursor: pointer; }
+#myloadding #mytext{position: absolute; top: 50%; left: 50%; font-size: 50px; color: white; transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); font-size: 15px; }
 
 
 

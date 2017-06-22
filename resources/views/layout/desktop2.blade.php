@@ -36,6 +36,7 @@
 	<link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop2/desktop-footer.css') }}">
 	@yield('css')
 	<script type="text/javascript" src="{{ asset('public/js/global/jquery-1.12.3.min.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('public/js/global/jquery.form.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/jquery.popupoverlay.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/jquery-scrolltofixed-min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/slick/slick.js') }}"></script>
@@ -65,8 +66,8 @@
 						<tr>
 							<td><img src="{{ asset('public/images/desktop2/home-1.png') }}" alt=""></td>
 							<td>
-								<h1><a href="#">PHÒNG KHÁM CHUYÊN KHOA NAM KHANG</a></h1>
-								<address><a href="#">SỐ 193C1 BÀ TRIỆU - HAI BÀ TRƯNG - HÀ NỘI</a></address>
+								<h1><a href="{{ url('/') }}">PHÒNG KHÁM CHUYÊN KHOA NAM KHANG</a></h1>
+								<address><a href="{{ url('dia-chi-phong-kham') }}">SỐ 193C1 BÀ TRIỆU - HAI BÀ TRƯNG - HÀ NỘI</a></address>
 							</td>
 						</tr>
 					</table>
@@ -89,22 +90,22 @@
     <menu>
 		<div class="container">
 			<div class="dis-table width-100">
-				<a href="#" class="table-cell">
+				<a href="{{ url('/') }}" class="table-cell">
 					<i></i> Trang chủ
 				</a>
-				<a href="#" class="hvr-back-pulse table-cell">
+				<a href="{{ MyAPI::getUrlTermID(32) }}" class="hvr-back-pulse table-cell">
 					Kĩ thuật điều trị
 				</a>
-				<a href="#" class="hvr-back-pulse table-cell">
+				<a href="{{ MyAPI::getUrlTermID(33) }}" class="hvr-back-pulse table-cell">
 					Thiết bị tiên tiến
 				</a>
-				<a href="#" class="hvr-back-pulse table-cell">
+				<a href="{{ MyAPI::getUrlTermID(34) }}" class="hvr-back-pulse table-cell">
 					Bệnh án điển hình
 				</a>
-				<a href="#" class="hvr-back-pulse table-cell">
+				<a href="{{ url('dia-chi-phong-kham') }}" class="hvr-back-pulse table-cell">
 					Địa chỉ phòng khám
 				</a>
-				<a href="#" class="hvr-back-pulse table-cell">
+				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="hvr-back-pulse table-cell">
 					Đặt hẹn trực tuyến
 				</a>
 			</div>
@@ -116,11 +117,11 @@
 		<div class="line2">
 			<div class="name text-center text-uppercase">PHÒNG KHÁM CHUYÊN KHOA NAM KHANG</div>
 			<div class="lists text-center">
-				<a href="#" class="dis-inline-block text-center">Kỹ thuật điều trị</a>
-				<a href="#" class="dis-inline-block text-center">Thiết bị tiên tiến</a>
-				<a href="#" class="dis-inline-block text-center">Bệnh án điển hình</a>
-				<a href="#" class="dis-inline-block text-center">Địa chỉ phòng khám</a>
-				<a href="#" class="dis-inline-block text-center">Đặt hẹn trực tuyến</a>
+				<a href="{{ MyAPI::getUrlTermID(32) }}" class="dis-inline-block text-center">Kỹ thuật điều trị</a>
+				<a href="{{ MyAPI::getUrlTermID(33) }}" class="dis-inline-block text-center">Thiết bị tiên tiến</a>
+				<a href="{{ MyAPI::getUrlTermID(34) }}" class="dis-inline-block text-center">Bệnh án điển hình</a>
+				<a href="{{ url('dia-chi-phong-kham') }}" class="dis-inline-block text-center">Địa chỉ phòng khám</a>
+				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block text-center">Đặt hẹn trực tuyến</a>
 			</div>
 			<div class="table container">
 				<table class="width-100">
