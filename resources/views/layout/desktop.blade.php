@@ -94,7 +94,7 @@
 					<div class="flex3col2 flex justify-content-center align-items-center">
 						<div>
 							<h5 class="text-uppercase">Đường dây nóng khẩn cấp</h5>
-							<h2 class="text-center"><a href="tel:043-9656999">043 - 9656999</a></h2>
+							<h2 class="text-center"><a href="tel:0243-9656999">0243 - 9656999</a></h2>
 							<h2 class="text-center"><a href="tel:1800 - 6181">1800 - 6181</a></h2>
 						</div>
 					</div>
@@ -226,7 +226,7 @@
 					<p>( 8:00 -20:00) bao gồm cả ngày lễ tết </p>
 					<p>Điện thoại liên hệ :</p>
 					<p><a href="tel:1800 - 6181">1800 - 6181</a></p>
-					<p><a href="tel:043-9656999">043-9656999</a></p>
+					<p><a href="tel:0243-9656999">0243-9656999</a></p>
 				</div>
 				<div class="flex1col3">
 					<h4 class="text-center text-uppercase">Phòng khám của nam giới</h4>

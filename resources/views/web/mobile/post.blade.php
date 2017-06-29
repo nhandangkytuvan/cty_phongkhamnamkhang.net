@@ -135,7 +135,7 @@
 					<span>Nhắc nhở: </span>
 					Nếu muốn chữa khỏi bệnh, trước tiên bệnh nhân cần có lòng tin rằng bệnh của mình có thể hồi phục. Để hiệu quả chữa trị được tốt, người bệnh hãy tích cực phối hợp và nghiêm ngặt tuân theo yêu cầu của bác sỹ điều trị thì bệnh sẽ được hồi phục nhanh chóng. Bệnh nhân khi thấy có vấn đề bất thường thì cần phải đến bệnh viện thăm khám và chữa trị kịp thời. Bệnh không thể tự khỏi khi bạn kéo dài thời gian, không kịp thời chữa trị sẽ làm cho bệnh phát triển nặng thêm. Vì vậy, bạn hãy kịp thời đi khám, kiểm tra, điều trị sớm mới là tốt.
 				</p>
-				<h4>Số điện thoại tư vấn : <a href="tel:18006181">1800-6181</a> - <a href="tel:043-9656999">043-9656999</a></h4>
+				<h4>Số điện thoại tư vấn : <a href="tel:18006181">1800-6181</a> - <a href="tel:0243-9656999">0243-9656999</a></h4>
 			</div>
 		</div>
 		<div class="posts-lienquan">
