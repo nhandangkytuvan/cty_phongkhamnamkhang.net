@@ -301,7 +301,7 @@
 					</td>
 					<td>
 						<div class="row">
-							<div class="name text-uppercase col-sm-4">NGUYỄN THỊ A</div>
+							<div class="name text-uppercase col-sm-4">NGUYỄN THỊ ÁNH</div>
 							<div class="col-sm-4 star">
 								<i class="fa fa-star"></i>
 								<i class="fa fa-star"></i>
@@ -324,7 +324,7 @@
 					</td>
 					<td>
 						<div class="row">
-							<div class="name text-uppercase col-sm-4">NGUYỄN VĂN B</div>
+							<div class="name text-uppercase col-sm-4">NGUYỄN VĂN BÌNH</div>
 							<div class="col-sm-4 star">
 								<i class="fa fa-star"></i>
 								<i class="fa fa-star"></i>
@@ -347,7 +347,7 @@
 					</td>
 					<td>
 						<div class="row">
-							<div class="name text-uppercase col-sm-4">NGUYỄN THI B</div>
+							<div class="name text-uppercase col-sm-4">ĐỖ HUYỀN TRÂM</div>
 							<div class="col-sm-4 star">
 								<i class="fa fa-star"></i>
 								<i class="fa fa-star"></i>
@@ -370,7 +370,7 @@
 					</td>
 					<td>
 						<div class="row">
-							<div class="name text-uppercase col-sm-4">NGUYỄN VĂN C</div>
+							<div class="name text-uppercase col-sm-4">CAO VĂN THANH</div>
 							<div class="col-sm-4 star">
 								<i class="fa fa-star"></i>
 								<i class="fa fa-star"></i>
