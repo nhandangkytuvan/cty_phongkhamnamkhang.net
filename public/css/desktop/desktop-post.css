@@ -1,5 +1,5 @@
 main.term.post .post-footer .order1 p{
-    line-height: 20px;
+    line-height: 24px;
     margin-top: 20px;
     padding-right: 15px;
 }
@@ -187,5 +187,5 @@ main.term.post .post-detail ul li,main.term.post .post-detail ol li{
 }
 main.term.post .post-detail p{
     margin-bottom: 10px;
-    line-height: 20px;
+    line-height: 24px;
 }
