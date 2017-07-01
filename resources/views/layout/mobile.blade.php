@@ -56,7 +56,7 @@
 <body>
 	<div id="my-header">
 		<div class="container">
-			<a href="{{ MyAPI::getUrlPostID(424) }}">
+			<a href="tel:18006181">
 				<img src="{{ asset('public/images/chuyende/mobile/daibaoquydau/gif.gif') }}" alt="" class="img-responsive center-block">
 			</a>
 		</div>
