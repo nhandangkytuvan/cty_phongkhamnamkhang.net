@@ -41,7 +41,7 @@
 	<script type="text/javascript" src="{{ asset('public/js/global/slick/slick.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/shake.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/mobile/mobile.js') }}"></script>
-	<!-- <script type="text/javascript" src="{{ asset('public/js/chuyende/swt_div.js') }}"></script> -->
+	<script type="text/javascript" src="{{ asset('public/js/chuyende/swt_div.js') }}"></script>
 	@yield('js')
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -134,13 +134,13 @@
 	@yield('content')	
 	<footer>
 		<div class="container">
-			<p>Điện thoại tư vấn đặt hẹn: <a href="tel:18006181">1800 6181</a> - <a href="tel:0439.656.999">0439.656.999</a></p>
+			<p>Điện thoại tư vấn đặt hẹn: <a href="tel:18006181">1800 6181</a> - <a href="tel:02439.656.999">02439.656.999</a></p>
 			<p>Thời gian mở cửa: <a href="tel:18006181">8:00 - 20:00</a></p>
 			<p>Địa chỉ phòng khám: <a href="tel:18006181">193C1 BÀ TRIỆU – HAI BÀ TRƯNG – HÀ NỘI</a></p>
 		</div>
 		@yield('toolbar')	
 	</footer>
-	
+	@include('popup.mypopup0')
 	<script language="javascript" src="http://swt.phongkham193.com/JS/LsJS.aspx?siteid=MFI63108226&float=1&lng=en"></script>
 	<img src="{{ asset('public/images/mobile/shake.gif') }}" alt="" style="position: fixed; top: 15%;right: 0px;z-index: 999;width:55px;">
 </body>

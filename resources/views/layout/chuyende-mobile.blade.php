@@ -120,7 +120,7 @@
 		<div class="slick-home">
 			<div>
 				@if(url()->current()==url('chuyen-de/dai-bao-quy-dau'))
-					<a href="{{ MyAPI::getUrlPostID(424) }}">
+					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
 				@else
 					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
 				@endif
@@ -138,7 +138,7 @@
 	@yield('content')	
 	<footer>
 		<div class="container">
-			<p>Điện thoại tư vấn đặt hẹn: <a href="tel:18006181">1800 6181</a> - <a href="tel:0439.656.999">0439.656.999</a></p>
+			<p>Điện thoại tư vấn đặt hẹn: <a href="tel:18006181">1800 6181</a> - <a href="tel:02439.656.999">02439.656.999</a></p>
 			<p>Thời gian mở cửa: <a href="tel:18006181">8:00 - 20:00</a></p>
 			<p>Địa chỉ phòng khám: <a href="tel:18006181">193C1 BÀ TRIỆU – HAI BÀ TRƯNG – HÀ NỘI</a></p>
 		</div>
