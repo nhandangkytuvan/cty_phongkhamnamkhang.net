@@ -36,39 +36,40 @@
 				Tinh hoàn đau nhức, cẩn thận viêm tinh hoàn, người mắc bệnh viêm tinh hoàn cần chú ý những triệu chứng sau:
 			</div>
 			<div class="row myrow1">
-				<div class="col-xs-6 col-sm-3 text-center">
+				<div class="col-xs-4 col-sm-3 text-center">
 					<div class="circle-text text-uppercase"><div>Sốt</div></div>
 					<div class="des text-center">Sốt, ớn lạnh</div>
 				</div>
-				<div class="col-xs-6 col-sm-3 text-center">
+				<div class="col-xs-4 col-sm-3 text-center">
 					<div class="circle-text text-uppercase"><div>ĐAU</div></div>
-					<div class="des text-center">Tinh hoàn đau nhức</div>
+					<div class="des text-center">Tinh hoàn<br>đau nhức</div>
 				</div>
-				<div class="col-xs-6 col-sm-3 text-center">
+				<div class="col-xs-4 col-sm-3 text-center">
 					<div class="circle-text text-uppercase"><div>SƯNG</div></div>
-					<div class="des text-center">Sưng bìu tinh hoàn</div>
+					<div class="des text-center">Sưng bìu<br>tinh hoàn</div>
 				</div>
-				<div class="col-xs-6 col-sm-3 text-center">
-					<div class="circle-text text-uppercase"><div>NHỨC</div></div>
-					<div class="des text-center">Tinh hoàn đau<br>khi chịu áp lực</div>
-				</div>
-			</div>
-			<div class="row myrow1">
-				<div class="col-xs-6 col-sm-3 text-center">
+				<div class="col-xs-4 col-sm-3 text-center">
 					<div class="circle-text text-uppercase"><div>TRƯỚNG</div></div>
-					<div class="des text-center">Tinh hoàn sưng trướng</div>
+					<div class="des text-center">Tinh hoàn<br>sưng trướng</div>
 				</div>
-				<div class="col-xs-6 col-sm-3 text-center">
+				<div class="col-xs-4 col-sm-3 text-center">
 					<div class="circle-text text-uppercase"><div>DỊCH</div></div>
 					<div class="des text-center">Tràn dịch<br>màng tinh hoàn</div>
 				</div>
-				<div class="col-xs-6 col-sm-3 text-center">
+				<div class="col-xs-4 col-sm-3 text-center">
+					<div class="circle-text text-uppercase"><div>NHỨC</div></div>
+					<div class="des text-center">Tinh hoàn đau<br>khi chịu áp lực</div>
+				</div>
+				<div class="col-xs-4 col-sm-3 text-center">
 					<div class="circle-text text-uppercase"><div>ĐỎ</div></div>
 					<div class="des text-center">Bìu tinh hoàn<br>sưng đỏ</div>
 				</div>
-				<div class="col-xs-6 col-sm-3 text-center">
+				<div class="col-xs-4 col-sm-3 text-center">
 					<div class="circle-text text-uppercase"><div>TO</div></div>
 					<div class="des text-center">Hạch bạch<br>huyết sưng to</div>
+				</div>
+				<div class="col-xs-4 col-sm-3 text-center">
+					
 				</div>
 			</div>
 			<div class="global2 text-center">
@@ -196,16 +197,16 @@
 				<table>
 					<tr>
 						<td class="cell1">
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
+							<a href="tel:18006181">
 								<img src="{{ asset('public/images/chuyende/mobile/tinhhoan/tinhhoan-9.png') }}" alt="" class="center-block img-responsive">
 							</a>
 							<div class="text-center text-uppercase"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Hỏi trực tuyến</a></div>
 						</td>
 						<td class="cell2">
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
+							<a href="tel:18006181">
 								<img src="{{ asset('public/images/chuyende/mobile/tinhhoan/tel2.gif') }}" alt="" class="center-block img-responsive">
 							</a>
-							<div class="text-center text-uppercase"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Gọi ngay</a></div>
+							<div class="text-center text-uppercase"><a href="tel:18006181">Gọi ngay</a></div>
 						</td>
 					</tr>
 				</table>
@@ -229,7 +230,7 @@
 						<p class="el2">Giữ lâu, sao chép số Zalo</p>
 						<p class="el3">
 							<img src="{{ asset('public/images/chuyende/mobile/tinhhoan/tinhhoan-11.png') }}" alt="">
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">0963889057</a>
+							<a href="tel:0963889057">0963889057</a>
 						</p>
 					</div>
 				</div>
