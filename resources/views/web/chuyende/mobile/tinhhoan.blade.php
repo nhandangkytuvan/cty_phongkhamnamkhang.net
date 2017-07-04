@@ -33,7 +33,8 @@
 				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="link dis-inline-block text-center">Lười đọc >> Click hỏi trực tiếp</a>
 			</div>
 			<div class="text1 text-justify">
-				Tinh hoàn đau nhức, cẩn thận viêm tinh hoàn, người mắc bệnh viêm tinh hoàn cần chú ý những triệu chứng sau:
+				Tinh hoàn đau nhức? Cẩn thận mắc bệnh viêm tinh hoàn.
+				Người mắc bệnh viêm tinh hoàn cần chú ý những triệu chứng sau:
 			</div>
 			<div class="row myrow1">
 				<div class="col-xs-4 col-sm-3 text-center">
@@ -49,16 +50,16 @@
 					<div class="des text-center">Sưng bìu<br>tinh hoàn</div>
 				</div>
 				<div class="col-xs-4 col-sm-3 text-center">
+					<div class="circle-text text-uppercase"><div>NHỨC</div></div>
+					<div class="des text-center">Tinh hoàn đau<br>khi chịu áp lực</div>
+				</div>
+				<div class="col-xs-4 col-sm-3 text-center">
 					<div class="circle-text text-uppercase"><div>TRƯỚNG</div></div>
 					<div class="des text-center">Tinh hoàn<br>sưng trướng</div>
 				</div>
 				<div class="col-xs-4 col-sm-3 text-center">
 					<div class="circle-text text-uppercase"><div>DỊCH</div></div>
 					<div class="des text-center">Tràn dịch<br>màng tinh hoàn</div>
-				</div>
-				<div class="col-xs-4 col-sm-3 text-center">
-					<div class="circle-text text-uppercase"><div>NHỨC</div></div>
-					<div class="des text-center">Tinh hoàn đau<br>khi chịu áp lực</div>
 				</div>
 				<div class="col-xs-4 col-sm-3 text-center">
 					<div class="circle-text text-uppercase"><div>ĐỎ</div></div>
@@ -124,7 +125,7 @@
 				Do không điều trị triệt để viêm tinh hoàn cấp tính mà tạo thành, cũng có thể do nấm, xoắn khuẩn, nhiễm ký sinh trùng gây nên.
 			</div>
 			<div class="global2 text-center">
-				<p>Phương pháp chữa viêm tinh hoàn cấp tính hiệu quả nhanh</p>
+				<p>Phương pháp chữa viêm tinh hoàn mãn tính hiệu quả nhanh</p>
 				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block text-center text-uppercase">
 					Click tư vấn trực tuyến
 					<img src="{{ asset('public/images/chuyende/mobile/tinhhoan/tinhhoan-3.png') }}" alt="">
@@ -149,7 +150,7 @@
 				</div>
 			</div>
 			<div class="global2 text-center">
-				<p>Viêm tinh hoàn làm thế nào để điều trị nhanh hồi phục?</p>
+				<p>Làm thế nào để điều trị viêm tinh hoàn hồi phục nhanh?</p>
 				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block text-center text-uppercase">
 					Miễn phí toàn bộ cước thoại, thuận tiện hơn
 					<img src="{{ asset('public/images/chuyende/mobile/tinhhoan/tinhhoan-3.png') }}" alt="">
