@@ -97,6 +97,9 @@
 			<div class="line1">
 				<img src="{{ asset('public/images/chuyende/mobile/tinhhoan/tinhhoan-4.png') }}" alt="" class="center-block img-responsive">
 			</div>
+			<div class="des">
+				Đã có <span>2287</span> trường hợp điều trị thông qua đặt hẹn trực tuyến, và trong ngày đã có những cải thiện rõ ràng về triệu chứng.
+			</div>
 			<div class="line2">
 				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/images/chuyende/mobile/tinhhoan/tinhhoan-5.png') }}" alt="" class="center-block img-responsive"></a>
 			</div>

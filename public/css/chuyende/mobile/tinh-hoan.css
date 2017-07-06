@@ -30,6 +30,8 @@ div.row2{margin-top: 30px;}
 .global1{margin:0px -15px;text-transform: uppercase;text-align: center;background-color: #068b62;color: #fff;font-weight: bold;padding:10px;font-size: 16px;line-height: 20px;}
 div.row2 .line1{margin-top: 20px;}
 div.row2 .line2{margin-top: 20px;}
+div.row2 .des{padding:10px;border:1px solid #cccccc;margin-top: 10px;}
+div.row2 .des span{color: red;}
 /**/
 div.row3{margin-top: 30px;}
 div.row3 .text1{margin-top: 10px;}
