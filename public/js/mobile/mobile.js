@@ -12,8 +12,7 @@ $(document).ready(function() {
     var gio = d.getHours();
     var phut = d.getMinutes();
     if((7<gio&&gio<22)||(gio==22&&phut<=30)||(gio==7&&phut>=30)){
-        //setTimeout(showchat, 15000);
-        setTimeout(showchat, 1000);
+        setTimeout(showchat, 15000);
         //setTimeout(showchat2,20000);
     }
     // 
