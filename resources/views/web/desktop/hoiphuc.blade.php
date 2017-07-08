@@ -3,7 +3,7 @@
 	<title>{{ $data['term']->term_name }} - {{ $setting->web_name }}</title>
 @endsection('title')
 @section('keyword')
-	@include('seo.seo_term',['data'=>$data])
+	@include('seo.seo_term')
 @endsection('keyword')
 @section('css')
 <link rel="stylesheet" type="text/css" href="{{ asset('public/css/global/imagehover/css/imagehover.css') }}">

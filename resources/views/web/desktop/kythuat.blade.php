@@ -3,7 +3,7 @@
 	<title>{{ $data['term']->term_name }} - {{ $setting->web_name }}</title>
 @endsection('title')
 @section('keyword')
-	@include('seo.seo_term',['data'=>$data])
+	@include('seo.seo_term')
 @endsection('keyword')
 @section('css')
 <link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-pagination.css') }}">
@@ -90,10 +90,7 @@
 				</div>
 			</div>
 			<div class="posts">
-				@php 
-					$posts = $data['term']->post()->paginate(7);
-				@endphp
-				@foreach($posts as $post)
+				@foreach($data['post_terms'] as $post)
 				<div class="post">
 					<div class="clearfix">
 						<div class="pull-left">
@@ -108,7 +105,7 @@
 				@endforeach
 			</div>
 			<div class="my_pagination">
-				{{ $posts->links() }}
+				{{ $data['post_terms']->links() }}
 			</div>
 		</div>
 		<div class="flex0col2">

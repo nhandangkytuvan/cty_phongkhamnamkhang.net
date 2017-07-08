@@ -56,11 +56,7 @@
 					</div>
 					<div class="width-100">
 						<ul>
-							@php 
-								$stt = 0;
-								$posts = $data['term']->post()->orderBy('id','desc')->limit(5)->get();
-							@endphp
-							@foreach($posts as $post)
+							@foreach($data['post_views'] as $stt => $post)
 							@php $stt++ @endphp
 							<li>
 								<h5>
@@ -87,8 +83,7 @@
 				</div>
 			</div>
 			<div class="posts">
-				@php $posts = $data['term']->post()->paginate(7); @endphp
-				@foreach($posts as $post)
+				@foreach($data['post_terms'] as $post)
 				<div class="post">
 					<div class="clearfix">
 						<div class="pull-left">
@@ -103,7 +98,7 @@
 				@endforeach
 			</div>
 			<div class="my_pagination">
-				{{ $posts->links() }}
+				{{ $data['post_terms']->links() }}
 			</div>
 		</div>
 		<div class="flex0col2">
