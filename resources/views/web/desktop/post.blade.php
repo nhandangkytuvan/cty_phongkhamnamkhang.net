@@ -3,7 +3,7 @@
 	<title>{{ $data['post']->post_name }} - {{ $setting->web_name }}</title>
 @endsection('title')
 @section('keyword')
-	@include('seo.seo_post',['data'=>$data])
+	@include('seo.seo_post')
 @endsection('keyword')
 @section('css')
 <link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-sidebar.css') }}">
@@ -20,10 +20,7 @@
 			<div class="clearfix">
 				<div class="pull-left">
 					<a href="{{ url('/') }}"><i class="fa fa-home"></i> Trang chủ ></a>
-					@php 
-						$term = $data['post']->term;
-					@endphp
-					<a href="{{ MyAPI::getUrlTermObj($term) }}">{{ $term->term_name }}</a>
+					<a href="{{ MyAPI::getUrlTermObj($data['term']) }}">{{ $data['term']->term_name }}</a>
 				</div>
 				<div class="pull-right">
 					<form action="{{ url('/search') }}">
@@ -53,13 +50,11 @@
 					</p>
 					<h4>Số điện thoại tư vấn : <a href="tel:18006181">18006181</a> - <a href="tel:0243-9656999">0243-9656999</a></h4>
 					<ul>
-						@php $post_pre = $term->post()->where('id','<',$data['post']->id)->orderBy('id','desc')->first(); @endphp
-						@if($post_pre)
-						<li>Bài trước : <a href="{{ MyAPI::getUrlPostObj($post_pre) }}">{{ $post_pre->post_name }}</a></li>
+						@if($data['post_pre'])
+						<li>Bài trước : <a href="{{ MyAPI::getUrlPostObj($data['post_pre']) }}">{{ $data['post_pre']->post_name }}</a></li>
 						@endif
-						@php $post_next = $term->post()->where('id','>',$data['post']->id)->orderBy('id','asc')->first(); @endphp
-						@if($post_next)
-						<li>Bài sau : <a href="{{ MyAPI::getUrlPostObj($post_next) }}">{{ $post_next->post_name }}</a></li>
+						@if($data['post_next'])
+						<li>Bài sau : <a href="{{ MyAPI::getUrlPostObj($data['post_next']) }}">{{ $data['post_next']->post_name }}</a></li>
 						@endif
 					</ul>
 				</div>
@@ -118,14 +113,10 @@
 				</div>
 			</div>
 			<div class="post-related">
-				@php  
-					$term = $data['post']->term;
-					$posts = $term->post()->where('id','<>',$data['post']->id)->limit(6)->get();
-				@endphp
 				<div class="flex justify-content-between flex2">
 					<div class="flex2col1">
 						<ul>
-							@foreach($posts as $key => $post)
+							@foreach($data['post_lienquans'] as $key => $post)
 							<li>
 								<h5>
 									<i class="fa fa-circle" aria-hidden="true"></i>
@@ -133,7 +124,7 @@
 								</h5>
 							</li>
 							@php 
-								unset($posts[$key]);
+								unset($data['post_lienquans'][$key]);
 								if($key==2) break;
 							@endphp
 							@endforeach
@@ -141,14 +132,14 @@
 					</div>
 					<div class="flex2col1">
 						<ul>
-							@foreach($posts as $key => $post)
+							@foreach($data['post_lienquans'] as $key => $post)
 							<li>
 								<h5>
 									<i class="fa fa-circle" aria-hidden="true"></i>
 									<a href="{{ MyAPI::getUrlPostObj($post) }}">{{ $post->post_name }}</a>
 								</h5>
 							</li>
-							@php unset($posts[$key]) @endphp
+							@php unset($data['post_lienquans'][$key]) @endphp
 							@endforeach
 						</ul>
 					</div>
