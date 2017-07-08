@@ -49,10 +49,10 @@
                                     <option {{ $data['post']->term_id == $term->id ? 'selected' : '' }} value="{{ $term->id }}">{{ $term->term_name }}</option>
                                     @foreach($data['terms'] as $key2=> $term2)
                                         @if($term2->term_id == $term->id)
-                                            <option {{ $data['post']->term_id == $term2->id ? 'selected' : '' }} value="{{ $term2->id }}">--{{ $term2->term_name }}</option>
+                                            <option {{ $data['post']->term_id == $term2->id ? 'selected' : '' }} value="{{ $term2->id }}">|--{{ $term2->term_name }}</option>
                                             @foreach($data['terms'] as $key3=> $term3)
                                                 @if($term3->term_id == $term2->id)
-                                                    <option {{ $data['post']->term_id == $term3->id ? 'selected' : '' }} value="{{ $term2->id }}">----{{ $term2->term_name }}</option>
+                                                    <option {{ $data['post']->term_id == $term3->id ? 'selected' : '' }} value="{{ $term2->id }}">|----{{ $term2->term_name }}</option>
                                                     @php unset($data['terms'][$key3]) @endphp
                                                 @endif
                                             @endforeach
@@ -108,17 +108,10 @@
                             image_advtab: true,
                             filemanager_crossdomain: true,
                             external_filemanager_path:"{{ asset('filemanager').'/' }}",
-                            external_plugins: { "filemanager" : "{{ asset('public/js/global/tinymce/js/tinymce/plugins/responsivefilemanager/plugin.min.js') }}"},
+                            external_plugins: { "filemanager" : "{{ asset('filemanager/plugin.min.js') }}"},
                             content_css: [
                                 '{{ asset("public/font/codepen.min.css") }}'
                             ],
-                            relative_urls: false,
-                            file_browser_callback: function(field_name, url, type, win) {
-                                // trigger file upload form
-                                if (type == 'image') $('#formUpload input').click();
-                            },
-                            //inline: true,
-                            //fixed_toolbar_container: '#mytoolbar',
                         });
                     });
                 </script>
