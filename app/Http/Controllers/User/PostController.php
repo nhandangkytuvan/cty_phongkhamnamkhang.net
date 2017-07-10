@@ -51,7 +51,7 @@ class PostController extends Controller{
                 Session::flash('error','Bài viết không phải của bạn.');
                 return back();
             }
-            $this->validate($request,Post::$rules,Post::$messages);
+            $this->validate($request,Post::rulesEdit($post_id),Post::$messages);
             $post->post_alias = str_slug($request->input('post_name'),'-');
             foreach ($post->fillable as $key => $value) {
                 if($request->has($value)){
