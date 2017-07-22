@@ -355,6 +355,7 @@
 			</table>
 		</div>
 		<div class="row5 padlr15">
+			<p class="text-center" style="font-size: 18px;margin:15px auto;color: #000;font-weight: bold;">Sùi mào gà dẫn gây nên những nguy hại nghiêm trọng</p>
 			<div class="row grild1">
 				<div class="col-xs-6 col-sm-3">
 					<div class="circle-text bg1"><div>Đặc điểm<br>lây nhiễm mạnh</div></div>
@@ -436,7 +437,7 @@
 						<img src="{{ asset('public/images/chuyende/mobile/suimaogatonghop/27.png') }}" alt="">	
 					</div>
 					<div class="mota">
-						Liệu pháp quang động lực IRA thông qua virus bệnh xây dựng nên “Tường phòng thủ”, bài trừ virus bệnh trong cơ thể ra bên ngoài, hồi phục các tổ chức bị tổn thương và đẩy mạng sự sinh sôi của các tổ chức khác, khiến cho sùi mào gà tự động rút lui… <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">[Tư vấn chi tiết]</a>
+						Liệu pháp quang động lực IRA thông qua virus bệnh xây dựng nên “Tường phòng thủ”, bài trừ virus bệnh trong cơ thể ra bên ngoài, hồi phục các tổ chức bị tổn thương và đẩy mạnh sự sinh sôi của các tổ chức khác, khiến cho sùi mào gà tự động rút lui… <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">[Tư vấn chi tiết]</a>
 					</div>
 				</div>
 			</div>
