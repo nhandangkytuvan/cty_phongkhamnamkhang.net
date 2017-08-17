@@ -219,7 +219,7 @@
 				</div>
 			</div>
 			<div class="line3 text-center text-uppercase">
-				Liệu pháp can thiệp tuyến tiền liệt <span>VS</span> các liệu pháp khác
+				Liệu pháp can thiệp tuyến tiền liệt <span>VÀ</span> các liệu pháp khác
 			</div>
 			<div class="line4">
 				<table class="width-100">

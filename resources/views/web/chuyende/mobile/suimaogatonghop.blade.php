@@ -550,22 +550,29 @@
 			</div>
 			<div class="border">
 				<div class="clearfix">
-					<div class="pull-left">
+					<div class="">
 						<table>
 							<tr>
 								<td><img src="{{ asset('public/images/chuyende/mobile/suimaogatonghop/37.png') }}" alt=""></td>
 								<td>
 									<p class="number"><span>48</span> người đang gọi, khám bệnh nhanh một bước</p>
-									<p class="phone"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">1800 - 6181</a></p>	
 								</td>
 							</tr>
 						</table>
 					</div>
-					<div class="pull-right">
-						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="pos-relative">
-							Click gọi miễn phí
-							<img src="{{ asset('public/images/chuyende/mobile/suimaogatonghop/38.png') }}" alt="" class="pos-absolute">
-						</a>
+					<div class="myfooter">
+						<table>
+							<tr>
+								<td><p class="phone">1800 - 6181</p></td>
+								<td>
+									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="pos-relative">
+										Click gọi miễn phí
+										<img src="{{ asset('public/images/chuyende/mobile/suimaogatonghop/38.png') }}" alt="" class="pos-absolute">
+									</a>
+								</td>
+							</tr>
+						</table>
+					
 					</div>
 				</div>
 			</div>
@@ -759,7 +766,7 @@
 								Miễn xếp hàng<br>
 								Ưu tiên thăm khám
 							</p>
-							<a href="" class="dis-table width-100">
+							<a href="tel:18006181" class="dis-table width-100">
 								<span class="table-cell"><i class="fa fa-phone"></i></span>
 								<span class="table-cell">Gọi điện thoại đặt hẹn trước</span>
 							</a>
