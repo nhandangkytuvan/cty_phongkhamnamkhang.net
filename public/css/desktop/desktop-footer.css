@@ -5,6 +5,7 @@ footer{
 	position: relative;
 	width: 100%;
 	background-color: #39bfd3;
+	
 }
 footer >div:first-child{
 	height: 250px;
@@ -52,3 +53,24 @@ footer div.bg-status{
 footer div.footer-status{
 	height: 146px;
 }
+footer div.toolbar2{position: absolute;bottom: 0px;z-index: 1;width: 100%;}
+footer div.toolbar2 .bg{background-image: url('imghome/home-33.png');background-repeat: no-repeat;height: 123px;width: 1200px;}
+footer div.toolbar2 .bg{padding-left: 136px;margin-left: 16%}
+footer div.toolbar2 .bg table{border-spacing: 0px;}
+footer div.toolbar2 .bg td.td1{padding-top: 80px;padding-left: 0px;}
+footer div.toolbar2 .bg td.td2{padding-top: 75px;padding-left: 10px;color: #fff;}
+footer div.toolbar2 .bg td.td2 input{border:none;width: 100%;text-align: center;height: 20px;margin-top: 3px;color: #333;border-radius: 1px;}
+footer div.toolbar2 .bg td.td2 input:focus{outline: none;}
+footer div.toolbar2 .bg td.td3 button{width: 35px;height: 35px;border-radius: 3px;color: #5e3c19;background-image: linear-gradient(#fff,#cdd5e5);outline: none;border:none;}
+footer div.toolbar2 .bg td.td3 button:hover{cursor: pointer;background-color: #519a04;color: #fff;background-image: none;}
+footer div.toolbar2 .bg td.td3{padding-left: 10px;padding-top: 80px;}
+footer div.toolbar2 .bg td.td4{padding-top: 80px;padding-left: 20px;color: #fff;}
+footer div.toolbar2 .bg td.td4 span{font-size: 20px;font-weight: bold;}
+footer div.toolbar2 .bg td.td5{padding-top: 50px;padding-left: 20px;}
+footer div.toolbar2 .bg td.td5 a{display: block;color: #5e3c19;padding:5px;border-radius: 5px;width: 64px;background-image: linear-gradient(#fff,#f1f0af);text-align: center;border:1px solid #fff;}
+footer div.toolbar2 .bg td.td6{padding-top: 50px;padding-left: 20px;}
+footer div.toolbar2 .bg td.td6 a{display: block;color: #5e3c19;padding:5px;border-radius: 5px;width: 64px;background-image: linear-gradient(#fff,#fdc17a);text-align: center;border:1px solid #fff;}
+footer div.toolbar2 .bg td.td7{padding-top: 36px;padding-left: 20px;}
+footer div.toolbar2 .bg td.td7 a{display: block;color: #fff;padding:15px 10px;border-radius: 5px;background-image: linear-gradient(to right,#7fe11e,#519a04);text-align: left;border:1px solid #fff;}
+footer div.toolbar2 .bg td.td7 a i{font-size: 40px;padding-right: 10px;}
+footer div.toolbar2 .bg td a:hover{text-decoration: underline;}

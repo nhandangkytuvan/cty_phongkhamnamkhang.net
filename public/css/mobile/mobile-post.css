@@ -20,3 +20,7 @@ div.post .post-footer span,div.post .post-footer a{
 	color: red;
 	font-weight: bold;
 }
+div.post .post-detail img{vertical-align: middle;margin-bottom: 0px!important;}
+div.post .post-detail h3{ text-transform: uppercase;font-size: 14px;border-bottom: 1px dashed #04909b!important;color: #04909b!important;padding-bottom: 8px; }
+div.post .post-detail h3 span{color: #04909b!important; font-size: 14px;}
+div.post .post-detail h3 strong{color: #04909b!important; font-size: 14px;}

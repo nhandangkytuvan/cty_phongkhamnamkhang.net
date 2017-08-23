@@ -101,3 +101,4 @@ function home_kythuatnamkhoa(){
         $(".row6 .flex2col1").first().addClass('active');
     }
 }
+$('.toolbar2').scrollToFixed( { bottom: 0 } );

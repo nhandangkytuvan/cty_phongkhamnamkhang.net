@@ -12,7 +12,7 @@ class HomeController extends Controller{
 		if(BrowserDetect::isDesktop()){
 			return view('web.desktop.home2');
 		}else{
-			return view('web.mobile.home');
+			return view('web.mobile.home1');
 		}
 	}
 	public function about(Request $request){

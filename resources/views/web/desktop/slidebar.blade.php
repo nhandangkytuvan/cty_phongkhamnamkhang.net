@@ -5,19 +5,19 @@
 <div class="row2">
 	<div class="flex flex2 justify-content-between">
 		<div class="flex1col1">
-			<h5 class="text-center"><a href=""><i class="bg bg1"></i></a></h5>
+			<h5 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="bg bg1"></i></a></h5>
 			<h5 class="text-center">
 				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn<br>trực tuyến</a>
 			</h5>
 		</div>
 		<div class="flex1col1">
-			<h5 class="text-center"><a href=""><i class="bg bg2"></i></a></h5>
+			<h5 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="bg bg2"></i></a></h5>
 			<h5 class="text-center">
 				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Bác sĩ<br>giải đáp</a>
 			</h5>
 		</div>
 		<div class="flex1col1">
-			<h5 class="text-center"><a href=""><i class="bg bg3"></i></a></h5>
+			<h5 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="bg bg3"></i></a></h5>
 			<h5 class="text-center">
 				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Hẹn khám<br>qua mạng</a>
 			</h5>

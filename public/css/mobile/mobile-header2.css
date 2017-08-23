@@ -1,0 +1,37 @@
+header .container{padding:20px 0px 0px 0px;background-color: #e1e1e1;}
+header .logo{}
+header .name{margin-top: 15px;font-weight: bold;color: #1475c4;font-size: 14px;padding:0px 8px;}
+header .address{margin-top: 5px;color: #eb2b41;padding:0px 8px;font-size: 13px;}
+header menu{margin-top: 5px;height: 45px;background-color: #1475c4;padding-left: 15px;}
+header menu button{background-color: #ffde00;border:none;color: #fff;height: 45px;padding:0px 8px;}
+header menu button i.fa{font-size: 25px;}
+header menu .size1{font-size: 9px;top:2px;right: 118px;color: #ffde00}
+header menu .size2{font-size: 20px;top:12px;right: 40px;font-weight: bold;color: #ffde00;}
+header menu .size3{font-size: 9px;top:34px;right: 15px;color: #fff;}
+/**/
+
+menu .search{background-color: #1475c4;padding:15px 5px;}
+menu .search .flex1col1{padding:1px;}
+menu .search .table-cell input{height: 30px;line-height: 30px;border:none;outline: none;background-color: #fff;padding-left: 5px;padding-right: 5px;border-top-left-radius:5px; border-bottom-left-radius:5px; width: 100%;} 
+menu .search .table-cell button{outline: none;height: 30px;line-height: 30px;background-color: #008dff;color: #fff;text-align: center;overflow-y: hidden;border:1px solid #fff;margin-left: -4px;border-top-right-radius:5px; border-bottom-right-radius:5px; padding:0px 8px;vertical-align: -1px;width: 100%;}
+menu .search .table-cell a{display: block;height: 30px;line-height: 30px;border-radius: 10px;text-align: center;color: red;box-shadow: 2px 2px black;font-weight: normal;background-color: #fff;padding:0px 8px;overflow-y: hidden;}
+/**/
+.leftBody{width: 280px;background-color: #fffcfc;height: 100%;top:0px;left: -280px;z-index: 9999999999999999999999999999999999;}
+.leftBody ul{list-style: none;}
+.leftBody ul li.home2{background-color: #52af61;}
+.leftBody ul li i.fa.fa-home{font-size: 40px;color: #fff;}
+.leftBody ul li:nth-child(n+2){padding:8px;border-bottom: 1px solid #b3b3b3;}
+.leftBody ul li:nth-child(n+2) div.name{color: #1475c4;text-transform: uppercase;font-weight: bold;}
+.leftBody ul li:nth-child(n+2) div.des{color: #4a4a4a;font-size: 12px;margin-top: 3px;}
+.leftBody ul li table{border-spacing: 0px;width: 100%;}
+.leftBody ul li table td:nth-child(1){width: 60px;}
+.leftBody ul li table i{display: inline-block;width: 50px;height: 50px;background-position: 0px 0px;background-image: url('../../images/mobile/icon-1.png');}
+.leftBody ul li table i.bg2{background-position: -208px 0px;}
+.leftBody ul li table i.bg3{background-position: -408px 0px;}
+.leftBody ul li table i.bg4{background-position: 0px -55px;}
+.leftBody ul li table i.bg5{background-position: -208px -55px;}
+.leftBody ul li table i.bg6{background-position: -408px -55px;}
+body{left: 0px;transition: left 0.5s;}
+body.active{left: 280px;}
+
+#my-header,footer .footer-toolbar{left:auto!important;}

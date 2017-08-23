@@ -94,8 +94,8 @@
 					<div class="flex3col2 flex justify-content-center align-items-center">
 						<div>
 							<h5 class="text-uppercase">Đường dây nóng khẩn cấp</h5>
-							<h2 class="text-center"><a href="tel:0243-9656999">0243 - 9656999</a></h2>
-							<h2 class="text-center"><a href="tel:1800 - 6181">1800 - 6181</a></h2>
+							<h2><a href="tel:1800 - 6181">1800 - 6181 (Miễn phí)</a></h2>
+							<h2><a href="tel:0243-9656999">0243 - 9656 999</a></h2>
 						</div>
 					</div>
 				</div>

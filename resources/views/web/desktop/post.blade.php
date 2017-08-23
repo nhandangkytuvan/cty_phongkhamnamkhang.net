@@ -37,7 +37,7 @@
 <main class="container term post">
 	<div class="flex flex0 justify-content-between">
 		<div class="flex0col1">
-			<h1 class="text-uppercase"><i></i> {{ $data['post']->post_name }}</h1>
+			<h1 class="text-uppercase text-center"><i></i> {{ $data['post']->post_name }}  <i></i></h1>
 			<div class="post-description">
 			</div>
 			<div class="post-detail">

@@ -75,8 +75,8 @@ main.term .flex0col1{
 }
 main.term .flex0col1 h1{
 	color: #04909b;
-	font-size: 18px;
-	font-weight: normal;
+	font-size: 19px;
+	font-weight: bold;
 }
 main.term .flex0col1 h1 i{
 	display: inline-block;
