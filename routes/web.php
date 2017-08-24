@@ -19,6 +19,7 @@ Route::get('chuyen-de/liet-duong','Web\ChuyenDeController@lietduong');
 Route::get('chuyen-de/tong-hop','Web\ChuyenDeController@tonghop');
 Route::get('chuyen-de/tinh-hoan','Web\ChuyenDeController@tinhhoan');
 Route::get('chuyen-de/sui-mao-ga-tong-hop','Web\ChuyenDeController@suimaogatonghop');
+Route::get('chuyen-de/viem-bao-quy-dau','Web\ChuyenDeController@viembaoquydau');
 // Mail
 Route::post('sendmail','Web\MyMailController@sendmail');
 Route::post('sendphone','Web\MyMailController@sendphone');
@@ -69,3 +70,6 @@ Route::group(['middleware' => ['check-user']], function () {
 Route::any('db_pluck','Web\TestController@db_pluck');
 Route::any('setRandomName','Web\TestController@setRandomName');
 Route::any('resetVisit','Web\TestController@resetVisit');
+
+// 
+Route::get('my/popupzalo',function(){return view('popup.popupZalo');});
